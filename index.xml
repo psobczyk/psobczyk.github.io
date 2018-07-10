@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Szychta w danych</title>
+    <link>/</link>
+    <description>Recent content on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Days off worldwide</title>
+      <link>/draft/days-off-worldwide/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/draft/days-off-worldwide/</guid>
+      <description>Getting the data  </description>
+    </item>
+    
+    <item>
+      <title>Shapefiles in R using sf package</title>
+      <link>/post/shapefiles-in-r/</link>
+      <pubDate>Thu, 05 Jul 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/post/shapefiles-in-r/</guid>
+      <description>The following is based on a workshop I prepared for the whyR conference. Handling shapefiles is one of the awesome things that R enables us to do. You don’t need to learn any specialized tools like ArcGIS or QGIS. All you need is R.
+ We will leave theory for some later posts and concentrate on a practical aspect for now. Our goal is to be able to create maps. To do that, we need to know the boundaries of areas i.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>Papers Bayesian dimensionality reduction with PCA using penalized semi-integrated likelihood, Piotr Sobczyk, Malgorzata Bogdan, Julie Josse, on arxiv.  Controlling the rate of GWAS false discoveries, Damian Brzyski, Christine B. Peterson, Piotr Sobczyk, Emmanuel J. Candes, Malgorzata Bogdan, Chiara Sabatti, on bioarxiv, accepted to GENETICS.  Methods for comparing multiple digital PCR experiments, Michal Burdukiewicz, Stefan Rödiger, Piotr Sobczyk, Mario Menschikowski, Peter Schierack, Paweł Mackiewicz, Biomolecular Detection and Quantification, 2016;  Prediction of amyloidogenicity based on the n-gram analysis Michal Burdukiewicz, Piotr Sobczyk, Stefan Rödiger, Anna Duda-Madej, Paweł Mackiewicz and Malgorzata Kotulska; accepted to German Conference on Bioinformatics 2016 Proceedings</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Statistician and R enthusiast. Working as data analyst at OLX Group in Berlin. Finishing PhD in Mathematics at Wroclaw University of Technology.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>E-mail: pjsobczyk@gmail.com
+Twitter: @szychtawdanych</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Shapefiles in R using sf package</title>
+	<meta name="description" content="The following is based on a workshop I prepared for whyR conference. Handling shapefiles is one of the awesome things that R enables us to do. You don&#39;t need to learn any specialized tools like qGIS or arcGIS. All you need is R.">
+	<meta name="generator" content="Hugo 0.42.2" />
+	<meta property="og:title" content="Shapefiles in R using sf package" />
+<meta property="og:description" content="The following is based on a workshop I prepared for whyR conference. Handling shapefiles is one of the awesome things that R enables us to do. You don&#39;t need to learn any specialized tools like qGIS or arcGIS. All you need is R." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/shapefiles-in-r/" />
+
+
+
+<meta property="article:published_time" content="2018-07-05T21:13:14-05:00"/>
+
+<meta property="article:modified_time" content="2018-07-05T21:13:14-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	<link rel="shortcut icon" href="/favicon.ico">
+	
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-121778161-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body body-right-sidebar">
+	<div class="container container-outer">
+		<header class="header">
+			<div class="container container-inner">
+				<div class="logo" role="banner">
+					<a class="logo__link" href="/" title="Szychta w danych" rel="home">
+						<div class="logo__title">Szychta w danych</div>
+						<div class="logo__tagline">Blog on R and statistics</div>
+					</a>
+				</div>
+			</div>
+			
+<nav class="menu">
+	<ul class="menu__list">
+		<li class="menu__item"><a class="menu__link" href="/about/">ABOUT ME</a></li>
+		<li class="menu__item"><a class="menu__link" href="/contact/">CONTACT</a></li>
+		<li class="menu__item"><a class="menu__link" href="/projects/">PROJECTS</a></li>
+	</ul>
+</nav>
+
+		</header>
+		<div class="wrapper clearfix">
+
+<main class="main content">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Shapefiles in R using sf package</h1><div class="post__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-07-05T21:13:14">July 05, 2018</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/r" rel="category">R</a>, <a class="meta-categories__link" href="/categories/wroclaw" rel="category">Wroclaw</a></span>
+</span></div>
+		</header>
+		<figure class="post__thumbnail">
+			<img src="/img/population_wroclaw.png" alt="Shapefiles in R using sf package">
+		</figure><div class="post__content clearfix">
+			<p>The following is based on a <a href="https://github.com/psobczyk/whyR_2018_workshop">workshop</a> I prepared for the <a href="www.whyr.pl">whyR conference</a>. Handling shapefiles is one of the awesome things that R enables us to do. You don’t need to learn any specialized tools like ArcGIS or QGIS. All you need is R.</p>
+<!--more-->
+<p>We will leave theory for some later posts and concentrate on a practical aspect for now. Our goal is to be able to create maps. To do that, we need to know the boundaries of areas i.e. countries, provinces or districts. That kind of data is usually stored in a special type of file, shapefile. This is clearly and oversimplification, but, as it is useful, lets stick to it for a moment.</p>
+<p>There are a number of <strong>R</strong> packages to handle shapefiles. Most important are <em>rgdal</em>, <em>sp</em>; however we will focus on a relatively new addition - <a href="https://edzer.github.io/UseR2017/"><em>sf</em></a> package that follows <strong>tidy data</strong> philosophy. Please look into the tutorial linked to get more info on how <a href="https://edzer.github.io/UseR2017/"><em>sf</em></a> package works and learn a bit more about spatial data.</p>
+<p>In our example we will use data on districts in <a href="http://geoportal.wroclaw.pl/zasoby/">Wroclaw</a>. As mentioned before, data is in <strong>.shp</strong> file. Let’s read it into R and check what kind of object is it.</p>
+<pre class="r"><code>districts_wroclaw &lt;- sf::read_sf(&#39;../../static/data/districts_wroclaw/districts_wroclaw.shp&#39;, 
+                                 options = &quot;ENCODING=UTF-8&quot;)
+class(districts_wroclaw)</code></pre>
+<pre><code>## [1] &quot;sf&quot;         &quot;tbl_df&quot;     &quot;tbl&quot;        &quot;data.frame&quot;</code></pre>
+<pre class="r"><code>head(districts_wroclaw)</code></pre>
+<pre><code>## Simple feature collection with 6 features and 9 fields
+## geometry type:  POLYGON
+## dimension:      XY
+## bbox:           xmin: 16.89252 ymin: 51.04515 xmax: 17.10723 ymax: 51.16599
+## epsg (SRID):    4326
+## proj4string:    +proj=longlat +datum=WGS84 +no_defs
+## # A tibble: 6 x 10
+##   OBJECTI NROSIED NAZWAOS  DATA   SHAPE_A SHAPE_L old_dst dstrct_  inhbtnt
+##   &lt;chr&gt;     &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;    &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt;
+## 1 340          21 KrzykiP… 2016/… 5254965    9995 Krzyki  Krzyki-…  14.0  
+## 2 341          24 GądówPo… 2016/… 3134569    7589 Fabryc… Gądów-P…  26.2  
+## 3 348          42 Sołtyso… 2016/… 4547041    9004 Psie P… Sołtyso…   2.90 
+## 4 349          18 Bieńkow… 2016/… 1433161    4760 Krzyki  Bieńkow…   0.500
+## 5 351          32 Żerniki  2016/… 3908726    9133 Fabryc… Żerniki    3.40 
+## 6 352          29 Muchobó… 2016/… 6879545   13228 Fabryc… Muchobó…   8.30 
+## # ... with 1 more variable: geometry &lt;POLYGON [°]&gt;</code></pre>
+<p>Interesting! Apart from being special <strong>sf</strong> object, it is also a regular data.frame. Thanks to that, one can use packages like <strong>dplyr</strong> and <strong>tidyr</strong> directly with spatial data. This might not sounds that exciting, but it is a huge improvement compared to what was available in R year ago.</p>
+<p>It is always nice, to be able to use old toolbox with new data. Luckily for us, plotting can be done using <em>ggplot</em>. Just make sure you use the new version from Github, and you can enjoy new <em>geom_sf</em>!</p>
+<pre class="r"><code>devtools::install_github(&#39;tidyverse/ggplot2&#39;)</code></pre>
+<p>Then everything becomes super easy.</p>
+<pre class="r"><code>ggplot() + 
+  geom_sf(data = districts_wroclaw, aes(fill = inhbtnt), color=&#39;white&#39;) + 
+  scale_fill_gradient(low = &quot;white&quot;, high = &quot;red&quot;)</code></pre>
+<p><img src="/post/2018-07-04-shapefiles-in-r_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>Fill of districts represent number of inhabitants.</p>
+<div id="some-useful-functions-from-sf" class="section level4">
+<h4>Some useful functions from <em>sf</em></h4>
+<p>How to show distribution of spatial data? The following is based on a <a href="https://tarakc02.github.io/dot-density/">nice web tutorial</a>.
+let’s say that our goal is to visualize the difference between where younger and older people live. We could calculate median and create choropleth, but that way we loose a significant amount of information.</p>
+<p>We will use data from <a href="http://www.codgik.gov.pl/index.php/darmowe-dane.html">polish office for cartography</a>.</p>
+<pre class="r"><code>wroclaw_demo &lt;- sf::read_sf(&#39;../../static/data/dem-rejurb-rejstat-shp/REJURB_20171231.shp&#39;)</code></pre>
+<p>We don’t know where exactly each person lives and drawing 600K points makes no sense. Therefore, for each region, we shall draw randomly a number of points proportional to the number of inhabitants.</p>
+<p>First, we preprocesss data to get number of inhabitants younger and older 44 (which is as close to median as we can get)</p>
+<pre class="r"><code>wroclaw_demo_splited &lt;- wroclaw_demo %&gt;%
+  mutate(below_44 = W0_2 +W3_6 +W7_12+ W13_15+ W16_18+ W19_24+ W25_34+ W35_44,
+         above_44 = SUMA - below_44) %&gt;%
+  gather(group, value, below_44, above_44) %&gt;%
+  split(.$group)</code></pre>
+<p>To generate points we need one more packages. Original <a href="https://tarakc02.github.io/dot-density/">code</a> used <em>purr</em> imap, but it can be substituted by lapply. Result is somewhat more cumbersome, but in case you don’t know purrr, you can limit number of new things for the day.</p>
+<pre class="r"><code>install.packages(c(&#39;lwgeom&#39;))</code></pre>
+<pre class="r"><code>generate_samples &lt;- function(data) 
+  suppressMessages(st_sample(data, size = round(data$value / 100)))
+
+points &lt;- lapply(wroclaw_demo_splited, generate_samples)
+points &lt;- lapply(names(points), function(name){
+  st_sf(data_frame(age = rep(name, length(points[[name]]))),
+                      geometry = points[[name]])
+})
+points &lt;- do.call(rbind, points)</code></pre>
+<p>Once points are generated everything becomes easy.</p>
+<p><img src="/post/2018-07-04-shapefiles-in-r_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>More posts on how to create maps, including interactive, are coming! You can visit <a href="https://github.com/psobczyk/whyR_2018_workshop">my workshop</a> materials as well.</p>
+</div>
+
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16"><path d="M16 9.5c0 .373-.24.74-.5 1l-5 5c-.275.26-.634.5-1 .5-.373 0-.74-.24-1-.5L1 8a2.853 2.853 0 0 1-.7-1C.113 6.55 0 5.973 0 5.6V1.4C0 1.034.134.669.401.401.67.134 1.034 0 1.4 0h4.2c.373 0 .95.113 1.4.3.45.187.732.432 1 .7l7.5 7.502c.26.274.5.632.5.998zM3.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/whyr/" rel="tag">whyR</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/ggplot/" rel="tag">ggplot</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/osm/" rel="tag">osm</a></li>
+	</ul>
+</div>
+	</article>
+	
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Piotr Sobczyk avatar" src="/Users/piotr/GitHub/blogdown-source/config_files/avatar.jpg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Piotr Sobczyk</span>
+	</div>
+	<div class="authorbox__description">
+		Data scientist
+	</div>
+</div>
+	
+	
+<section class="comments">
+	<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "szychta" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+</main>
+
+<aside class="sidebar">
+	
+<div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="/" />
+	</form>
+</div>
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/shapefiles-in-r/">Shapefiles in R using sf package</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/r">R</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/wroclaw">Wroclaw</a></li>
+		</ul>
+	</div>
+</div>
+	
+	
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/ggplot" title="Ggplot">Ggplot</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/osm" title="Osm">Osm</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vacations" title="Vacations">Vacations</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whyr" title="Whyr">Whyr</a>
+	</div>
+</div>
+</aside>
+	</div>
+		<footer class="footer">
+			<div class="container container-inner">
+				<div class="footer__copyright">&copy; 2018 Szychta w danych. <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span></div>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script></body>
+</html>

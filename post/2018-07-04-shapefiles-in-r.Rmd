@@ -1,0 +1,16 @@
+---
+title: Shapefiles in R
+author: ~
+date: '2018-07-04'
+slug: shapefiles-in-r
+categories: []
+tags: ['whyR', 'ggplot', 'osm']
+thumbnail: "img/szychta_logo_duze-768x768.png"
+---
+
+The following is based on a workshop I prepared for [whyR conference](www.whyr.pl).
+
+<!--more-->
+
+The following is based on a workshop I prepared for [whyR conference](www.whyr.pl).
+The following is based on a workshop I prepared for [whyR conference](www.whyr.pl).

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Szychta w danych</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Days off worldwide</title>
+      <link>/draft/days-off-worldwide/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/draft/days-off-worldwide/</guid>
+      <description>Getting the data  </description>
+    </item>
+    
+    <item>
+      <title>Shapefiles in R using sf package</title>
+      <link>/post/shapefiles-in-r/</link>
+      <pubDate>Thu, 05 Jul 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/post/shapefiles-in-r/</guid>
+      <description>The following is based on a workshop I prepared for the whyR conference. Handling shapefiles is one of the awesome things that R enables us to do. You don’t need to learn any specialized tools like ArcGIS or QGIS. All you need is R.
+ We will leave theory for some later posts and concentrate on a practical aspect for now. Our goal is to be able to create maps. To do that, we need to know the boundaries of areas i.</description>
+    </item>
+    
+  </channel>
+</rss>

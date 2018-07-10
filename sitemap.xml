@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/draft/days-off-worldwide/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/shapefiles-in-r/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2018-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/draft/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ggplot/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/osm/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vacations/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/whyr/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/wroclaw/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
