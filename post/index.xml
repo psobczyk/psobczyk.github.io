@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jul 2018 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quantile summary using dplyr</title>
+      <link>/post/quantile-summary-using-dplyr/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/quantile-summary-using-dplyr/</guid>
+      <description>Say you want to compute quantile summary for multiple variables.
+require(dplyr) require(tidyr) require(broom) As an example let us use mtcars dataset.
+glimpse(mtcars) ## Observations: 32 ## Variables: 11 ## $ mpg &amp;lt;dbl&amp;gt; 21.0, 21.0, 22.8, 21.4, 18.7, 18.1, 14.3, 24.4, 22.8, 19.... ## $ cyl &amp;lt;dbl&amp;gt; 6, 6, 4, 6, 8, 6, 8, 4, 4, 6, 6, 8, 8, 8, 8, 8, 8, 4, 4, ... ## $ disp &amp;lt;dbl&amp;gt; 160.</description>
+    </item>
     
     <item>
       <title>Shapefiles in R using sf package</title>

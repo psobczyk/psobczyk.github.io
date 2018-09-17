@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/quantile-summary-using-dplyr/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/draft/days-off-worldwide/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
   </url>
@@ -33,6 +38,12 @@
   </url>
   
   <url>
+    <loc>/tags/dplyr/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/draft/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -52,25 +63,31 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/quantiles/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
