@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Quantile summary using dplyr</title>
+	<meta name="description" content="Computing quantile summary for multiple variables using tidyverse syntax">
+	<meta name="generator" content="Hugo 0.42.2" />
+	<meta property="og:title" content="Quantile summary using dplyr" />
+<meta property="og:description" content="Computing quantile summary for multiple variables using tidyverse syntax" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/quantile-summary-using-dplyr/" />
+
+
+
+<meta property="article:published_time" content="2018-07-25T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2018-07-25T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+	
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	<link rel="shortcut icon" href="/favicon.ico">
+	
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-121778161-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body body-right-sidebar">
+	<div class="container container-outer">
+		<header class="header">
+			<div class="container container-inner">
+				<div class="logo" role="banner">
+					<a class="logo__link" href="/" title="Szychta w danych" rel="home">
+						<div class="logo__title">Szychta w danych</div>
+						<div class="logo__tagline">Blog on R and statistics</div>
+					</a>
+				</div>
+			</div>
+			
+<nav class="menu">
+	<ul class="menu__list">
+		<li class="menu__item"><a class="menu__link" href="/about/">ABOUT ME</a></li>
+		<li class="menu__item"><a class="menu__link" href="/contact/">CONTACT</a></li>
+		<li class="menu__item"><a class="menu__link" href="/projects/">PROJECTS</a></li>
+	</ul>
+</nav>
+
+		</header>
+		<div class="wrapper clearfix">
+
+<main class="main content">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Quantile summary using dplyr</h1><div class="post__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-07-25T00:00:00">July 25, 2018</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/r" rel="category">R</a></span>
+</span></div>
+		</header><div class="post__content clearfix">
+			<p>Say you want to compute quantile summary for multiple variables.</p>
+<pre class="r"><code>require(dplyr)
+require(tidyr)
+require(broom)</code></pre>
+<p>As an example let us use <strong>mtcars</strong> dataset.</p>
+<pre class="r"><code>glimpse(mtcars)</code></pre>
+<pre><code>## Observations: 32
+## Variables: 11
+## $ mpg  &lt;dbl&gt; 21.0, 21.0, 22.8, 21.4, 18.7, 18.1, 14.3, 24.4, 22.8, 19....
+## $ cyl  &lt;dbl&gt; 6, 6, 4, 6, 8, 6, 8, 4, 4, 6, 6, 8, 8, 8, 8, 8, 8, 4, 4, ...
+## $ disp &lt;dbl&gt; 160.0, 160.0, 108.0, 258.0, 360.0, 225.0, 360.0, 146.7, 1...
+## $ hp   &lt;dbl&gt; 110, 110, 93, 110, 175, 105, 245, 62, 95, 123, 123, 180, ...
+## $ drat &lt;dbl&gt; 3.90, 3.90, 3.85, 3.08, 3.15, 2.76, 3.21, 3.69, 3.92, 3.9...
+## $ wt   &lt;dbl&gt; 2.620, 2.875, 2.320, 3.215, 3.440, 3.460, 3.570, 3.190, 3...
+## $ qsec &lt;dbl&gt; 16.46, 17.02, 18.61, 19.44, 17.02, 20.22, 15.84, 20.00, 2...
+## $ vs   &lt;dbl&gt; 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, ...
+## $ am   &lt;dbl&gt; 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, ...
+## $ gear &lt;dbl&gt; 4, 4, 4, 3, 3, 3, 3, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 4, 4, ...
+## $ carb &lt;dbl&gt; 4, 4, 1, 1, 2, 1, 4, 2, 2, 4, 4, 3, 3, 3, 4, 4, 4, 1, 2, ...</code></pre>
+<p>We might be interested in some specific quantiles.</p>
+<pre class="r"><code>p &lt;- c(0.5,0.75,0.95)</code></pre>
+<p>How to do this using tidyverse syntax and pipelines?</p>
+<pre class="r"><code>mtcars %&gt;%
+  gather(variable, value, mpg:carb) %&gt;%
+  group_by(variable) %&gt;%
+  do(tidy(t(quantile(.$value, p))) ) %&gt;%
+  gather(quantile, value, -variable) %&gt;%
+  spread(variable, value)</code></pre>
+<pre><code>## # A tibble: 3 x 12
+##   quantile    am  carb   cyl  disp  drat  gear    hp   mpg  qsec    vs
+##   &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1 X50.      0     2.00  6.00   196  3.70  4.00   123  19.2  17.7  0   
+## 2 X75.      1.00  4.00  8.00   326  3.92  4.00   180  22.8  18.9  1.00
+## 3 X95.      1.00  4.90  8.00   449  4.31  5.00   254  31.3  20.1  1.00
+## # ... with 1 more variable: wt &lt;dbl&gt;</code></pre>
+
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16"><path d="M16 9.5c0 .373-.24.74-.5 1l-5 5c-.275.26-.634.5-1 .5-.373 0-.74-.24-1-.5L1 8a2.853 2.853 0 0 1-.7-1C.113 6.55 0 5.973 0 5.6V1.4C0 1.034.134.669.401.401.67.134 1.034 0 1.4 0h4.2c.373 0 .95.113 1.4.3.45.187.732.432 1 .7l7.5 7.502c.26.274.5.632.5.998zM3.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/dplyr/" rel="tag">dplyr</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/quantiles/" rel="tag">quantiles</a></li>
+	</ul>
+</div>
+	</article>
+	
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Piotr Sobczyk avatar" src="/Users/piotr/GitHub/blogdown-source/config_files/avatar.jpg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Piotr Sobczyk</span>
+	</div>
+	<div class="authorbox__description">
+		Data scientist
+	</div>
+</div>
+	
+<nav class="post-nav row clearfix">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/post/shapefiles-in-r/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Shapefiles in R using sf package</p></a>
+	</div>
+</nav>
+	
+<section class="comments">
+	<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "szychta" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+</main>
+
+<aside class="sidebar">
+	
+<div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="/" />
+	</form>
+</div>
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/quantile-summary-using-dplyr/">Quantile summary using dplyr</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/shapefiles-in-r/">Shapefiles in R using sf package</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/r">R</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/wroclaw">Wroclaw</a></li>
+		</ul>
+	</div>
+</div>
+	
+	
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/dplyr" title="Dplyr">Dplyr</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ggplot" title="Ggplot">Ggplot</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/osm" title="Osm">Osm</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/quantiles" title="Quantiles">Quantiles</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vacations" title="Vacations">Vacations</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/whyr" title="Whyr">Whyr</a>
+	</div>
+</div>
+</aside>
+	</div>
+		<footer class="footer">
+			<div class="container container-inner">
+				<div class="footer__copyright">&copy; 2018 Szychta w danych. <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span></div>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script></body>
+</html>
