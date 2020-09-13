@@ -129,9 +129,9 @@ if (!doNotTrack) {
 <p>W <a href="https://szychtawdanych.wordpress.com/2015/02/19/jak-wyglada-komunikacja-miejska-we-wroclawiu/">poprzednim wpisie</a> pokazałem jak wygląda natężenie kursów mpk, ale nie napisałem zbyt dużo o kodzie eRowym. Tym razem oprócz nowych rysunków, animacji, pokażę dokładniej jak można je uzyskać w R.</p>
 <p>Zobaczmy zatem jak wygląda natężenie kursów tramwajowych i autobusowych w dni robocze.
 Oto pierwsza grafika:</p>
-<p><a href="https://szychtawdanych.files.wordpress.com/2015/02/animacja_mpk2.gif"><img src="https://szychtawdanych.files.wordpress.com/2015/02/animacja_mpk2.gif?w=300" alt="animacja_mpk2"></a></p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/animacja_mpk2.gif" alt="animacja_mpk2"></p>
 <p>Być może jest to kwestia złego doboru kolorów i skali przezroczystości, ale ten wykres wydaje mi się mało czytelny. Użycie jasnego koloru dla rejonów o wyższej intensywności, które było naturalnym wyborem dla wykresów z poprzedniego wpisu, w połączeniu z animacją, daje mi mylne intuicje. Być może jest to kwestia indywidualna, ale dla mnie każda zmiana koloru na ciemniejszy przykuwa uwagę. Wobec tego mimo, że kursów ubywa, ja mam wrażenie jakby trend był odwrotny. Spróbujemy temu zaradzić za pomocą nowego rysunku</p>
-<p><a href="https://szychtawdanych.files.wordpress.com/2015/02/animacja_mpk4.gif"><img src="https://szychtawdanych.files.wordpress.com/2015/02/animacja_mpk4.gif?w=300" alt="animacja_mpk4"></a></p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/animacja_mpk4.gif" alt="animacja_mpk4"></p>
 <p>Wydaje mi się, że jest on dużo bardziej przejrzysty od poprzedniego. Bardzo klarownie widać na nim zarówno rozjeżdżanie się tramwajów z i do zajezdni, jak i istotną redukcję liczby kursów w środku dnia. Ciekawy jest też rozkład kursowania autobusów nocnych, pokrywają one, mniej więcej jednostajnie, cały obszar miasta.</p>
 <p>A teraz czas na pokazanie bebechów.</p>
 <p><strong>Wczytywanie i przetwarzanie danych</strong></p>
@@ -144,75 +144,72 @@ inner_join(przystanki, by = c(&quot;slupek&quot; = &quot;id&quot;)) -&gt; rozkla
 </code></pre>
 <p>Zwracam uwagę na możliwość wykonywania operacji łączenia dwóch ramek danych, w taki sam sposób, jak robi się to z tabelami w SQLu.
 Interesuje nas podział na linie tramwajowe i autobusowe</p>
-<pre><code>tramwaje = factor(c('0L', '0P', '1', '10', '11', '14', '15', '17', '2', '20', '23', '24', '3', '31', '32', '33', '4', '5', '6', '7', '8', '9'),
-levels = levels(rozklady_przystanki$linia))
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">tramwaje <span style="color:#f92672">=</span> <span style="color:#a6e22e">factor</span>(<span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#39;0L&#39;</span>, <span style="color:#e6db74">&#39;0P&#39;</span>, <span style="color:#e6db74">&#39;1&#39;</span>, <span style="color:#e6db74">&#39;10&#39;</span>, <span style="color:#e6db74">&#39;11&#39;</span>, <span style="color:#e6db74">&#39;14&#39;</span>, <span style="color:#e6db74">&#39;15&#39;</span>, <span style="color:#e6db74">&#39;17&#39;</span>, <span style="color:#e6db74">&#39;2&#39;</span>, <span style="color:#e6db74">&#39;20&#39;</span>, <span style="color:#e6db74">&#39;23&#39;</span>, <span style="color:#e6db74">&#39;24&#39;</span>, <span style="color:#e6db74">&#39;3&#39;</span>, <span style="color:#e6db74">&#39;31&#39;</span>, <span style="color:#e6db74">&#39;32&#39;</span>, <span style="color:#e6db74">&#39;33&#39;</span>, <span style="color:#e6db74">&#39;4&#39;</span>, <span style="color:#e6db74">&#39;5&#39;</span>, <span style="color:#e6db74">&#39;6&#39;</span>, <span style="color:#e6db74">&#39;7&#39;</span>, <span style="color:#e6db74">&#39;8&#39;</span>, <span style="color:#e6db74">&#39;9&#39;</span>),
+levels <span style="color:#f92672">=</span> <span style="color:#a6e22e">levels</span>(rozklady_przystanki<span style="color:#f92672">$</span>linia))
 
-rozklady_przystanki %&gt;%
-filter(dzien==&quot;roboczy&quot;,
-linia %in% tramwaje) %&gt;%
-mutate(typ = &quot;tramwaj&quot;) %&gt;%
-select(slupek, lon, lat, typ, godzina) %&gt;%
-bind_rows(rozklady_przystanki %&gt;%
-filter(dzien==&quot;roboczy&quot;,
-! linia %in% tramwaje) %&gt;%
-mutate(typ = &quot;autobus&quot;) %&gt;%
-select(slupek, lon, lat, typ, godzina)) -&gt; rozklady_dzien_roboczy
-</code></pre>
-<p><strong>Tworzenie pierwszej animacji</strong></p>
+rozklady_przystanki <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">filter</span>(dzien<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;roboczy&#34;</span>,
+linia <span style="color:#f92672">%in%</span> tramwaje) <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">mutate</span>(typ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tramwaj&#34;</span>) <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">select</span>(slupek, lon, lat, typ, godzina) <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">bind_rows</span>(rozklady_przystanki <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">filter</span>(dzien<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;roboczy&#34;</span>,
+<span style="color:#f92672">!</span> linia <span style="color:#f92672">%in%</span> tramwaje) <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">mutate</span>(typ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;autobus&#34;</span>) <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">select</span>(slupek, lon, lat, typ, godzina)) <span style="color:#f92672">-&gt;</span> rozklady_dzien_roboczy
+</code></pre></div><p><strong>Tworzenie pierwszej animacji</strong></p>
 <p>Animacje w R tworzę za pomocą pakietu <a href="http://cran.r-project.org/web/packages/animation/index.html">animation</a>.</p>
-<pre><code>require(animation)
-wroclaw = get_map(&quot;wrocław&quot;, color=&quot;bw&quot;, zoom = 12)
-WroclawMap = ggmap(wroclaw, extent = &quot;device&quot;, legend = &quot;bottom&quot;)
-godziny = 0:23
-plot_mpk = function(){
-for(i in 1:length(godziny)){
-tytul = paste(&quot;Natężenie ruchu komunikacji miejskiej we Wrocławiunmiędzy godzinami&quot;,
-paste(godziny[[i]], &quot;a&quot;, godziny[[i]]+1, collapse=&quot;,&quot;))
-p = WroclawMap + stat_density2d(
-aes(x = lon, y = lat, fill = ..level.., alpha =..level..),
-size = 30, bins=20,
-data = rozklady_dzien_roboczy %&gt;%
-filter(godzina %in% godziny[[i]]),
-geom = &quot;polygon&quot;) +
-scale_alpha(range = c(.05, .3), guide = FALSE) +
-scale_fill_gradient(&quot;Natężenienkomunikacjinmiejskiej&quot;, guide = &quot;colourbar&quot;,
-limits=c(0, 800)) +
-guides(fill = guide_colorbar(barwidth = 15, barheight = 1)) +
-facet_grid(. ~typ) +
-ggtitle(tytul) +
-theme(plot.title=element_text(size=20, face=&quot;bold&quot;, colour=&quot;steelblue&quot;))
-print(p)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">require</span>(animation)
+wroclaw <span style="color:#f92672">=</span> <span style="color:#a6e22e">get_map</span>(<span style="color:#e6db74">&#34;wrocław&#34;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bw&#34;</span>, zoom <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span>)
+WroclawMap <span style="color:#f92672">=</span> <span style="color:#a6e22e">ggmap</span>(wroclaw, extent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;device&#34;</span>, legend <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;bottom&#34;</span>)
+godziny <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">:</span><span style="color:#ae81ff">23</span>
+plot_mpk <span style="color:#f92672">=</span> <span style="color:#a6e22e">function</span>(){
+<span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#a6e22e">length</span>(godziny)){
+tytul <span style="color:#f92672">=</span> <span style="color:#a6e22e">paste</span>(<span style="color:#e6db74">&#34;Natężenie ruchu komunikacji miejskiej we Wrocławiunmiędzy godzinami&#34;</span>,
+<span style="color:#a6e22e">paste</span>(godziny[[i]], <span style="color:#e6db74">&#34;a&#34;</span>, godziny[[i]]<span style="color:#ae81ff">+1</span>, collapse<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;,&#34;</span>))
+p <span style="color:#f92672">=</span> WroclawMap <span style="color:#f92672">+</span> <span style="color:#a6e22e">stat_density2d</span>(
+<span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> lon, y <span style="color:#f92672">=</span> lat, fill <span style="color:#f92672">=</span> ..level.., alpha <span style="color:#f92672">=</span>..level..),
+size <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>, bins<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>,
+data <span style="color:#f92672">=</span> rozklady_dzien_roboczy <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">filter</span>(godzina <span style="color:#f92672">%in%</span> godziny[[i]]),
+geom <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;polygon&#34;</span>) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">scale_alpha</span>(range <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">.05</span>, <span style="color:#ae81ff">.3</span>), guide <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">scale_fill_gradient</span>(<span style="color:#e6db74">&#34;Natężenienkomunikacjinmiejskiej&#34;</span>, guide <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;colourbar&#34;</span>,
+limits<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">800</span>)) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">guides</span>(fill <span style="color:#f92672">=</span> <span style="color:#a6e22e">guide_colorbar</span>(barwidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>, barheight <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>)) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">facet_grid</span>(. <span style="color:#f92672">~</span>typ) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">ggtitle</span>(tytul) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">theme</span>(plot.title<span style="color:#f92672">=</span><span style="color:#a6e22e">element_text</span>(size<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>, face<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bold&#34;</span>, colour<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;steelblue&#34;</span>))
+<span style="color:#a6e22e">print</span>(p)
 }
 }
-oopt = ani.options(interval = 2, nmax = length(godziny), ani.width = 1100, ani.height = 700)
-saveGIF(plot_mpk(), movie.name = &quot;nazwa_pliku.gif&quot;)
-</code></pre>
-<p>Tworzenie drugiej animacji</p>
-<pre><code>WroclawMap = ggmap(wroclaw, extent = &quot;device&quot;, legend = &quot;bottomright&quot;)
-godziny = 0:23
-plot_mpk = function(){
-for(i in 1:length(godziny)){
-tytul = paste(&quot;Natężenie ruchu na przystankach komunikacji miejskiej we Wrocławiunmiędzy godzinami&quot;,
-paste(godziny[[i]], &quot;a&quot;, godziny[[i]]+1, collapse=&quot;,&quot;))
-p = WroclawMap +
-geom_point(aes(x = lon, y = lat, color = typ, size = count, alpha =.4),
-data = rozklady_dzien_roboczy %&gt;%
-filter(godzina %in% godziny[[i]]) %&gt;%
-group_by(slupek, lon, lat, typ) %&gt;%
-summarise(count = n()) %&gt;%
-select(lon, lat, typ, count)) +
-scale_alpha(guide = FALSE) +
-scale_color_discrete(&quot;Rodzaj przystanku&quot;) +
-scale_size_area(&quot;Liczba połączeń na dobę&quot;, max_size = 15, limits=c(0, 100)) +
-ggtitle(tytul) +
-theme(plot.title=element_text(size=20, face=&quot;bold&quot;, colour=&quot;steelblue&quot;))
-print(p)
+oopt <span style="color:#f92672">=</span> <span style="color:#a6e22e">ani.options</span>(interval <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>, nmax <span style="color:#f92672">=</span> <span style="color:#a6e22e">length</span>(godziny), ani.width <span style="color:#f92672">=</span> <span style="color:#ae81ff">1100</span>, ani.height <span style="color:#f92672">=</span> <span style="color:#ae81ff">700</span>)
+<span style="color:#a6e22e">saveGIF</span>(<span style="color:#a6e22e">plot_mpk</span>(), movie.name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nazwa_pliku.gif&#34;</span>)
+</code></pre></div><p>Tworzenie drugiej animacji</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">WroclawMap <span style="color:#f92672">=</span> <span style="color:#a6e22e">ggmap</span>(wroclaw, extent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;device&#34;</span>, legend <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;bottomright&#34;</span>)
+godziny <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">:</span><span style="color:#ae81ff">23</span>
+plot_mpk <span style="color:#f92672">=</span> <span style="color:#a6e22e">function</span>(){
+<span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#a6e22e">length</span>(godziny)){
+tytul <span style="color:#f92672">=</span> <span style="color:#a6e22e">paste</span>(<span style="color:#e6db74">&#34;Natężenie ruchu na przystankach komunikacji miejskiej we Wrocławiunmiędzy godzinami&#34;</span>,
+<span style="color:#a6e22e">paste</span>(godziny[[i]], <span style="color:#e6db74">&#34;a&#34;</span>, godziny[[i]]<span style="color:#ae81ff">+1</span>, collapse<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;,&#34;</span>))
+p <span style="color:#f92672">=</span> WroclawMap <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">geom_point</span>(<span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> lon, y <span style="color:#f92672">=</span> lat, color <span style="color:#f92672">=</span> typ, size <span style="color:#f92672">=</span> count, alpha <span style="color:#f92672">=</span><span style="color:#ae81ff">.4</span>),
+data <span style="color:#f92672">=</span> rozklady_dzien_roboczy <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">filter</span>(godzina <span style="color:#f92672">%in%</span> godziny[[i]]) <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">group_by</span>(slupek, lon, lat, typ) <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">summarise</span>(count <span style="color:#f92672">=</span> <span style="color:#a6e22e">n</span>()) <span style="color:#f92672">%&gt;%</span>
+<span style="color:#a6e22e">select</span>(lon, lat, typ, count)) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">scale_alpha</span>(guide <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">scale_color_discrete</span>(<span style="color:#e6db74">&#34;Rodzaj przystanku&#34;</span>) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">scale_size_area</span>(<span style="color:#e6db74">&#34;Liczba połączeń na dobę&#34;</span>, max_size <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>, limits<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">100</span>)) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">ggtitle</span>(tytul) <span style="color:#f92672">+</span>
+<span style="color:#a6e22e">theme</span>(plot.title<span style="color:#f92672">=</span><span style="color:#a6e22e">element_text</span>(size<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>, face<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bold&#34;</span>, colour<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;steelblue&#34;</span>))
+<span style="color:#a6e22e">print</span>(p)
 }
 }
-oopt = ani.options(interval = 2, nmax = length(godziny), ani.width = 1000, ani.height = 1000)
-saveGIF(plot_mpk(), movie.name = &quot;nazwa_pliku.gif&quot;)
-</code></pre>
-
+oopt <span style="color:#f92672">=</span> <span style="color:#a6e22e">ani.options</span>(interval <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>, nmax <span style="color:#f92672">=</span> <span style="color:#a6e22e">length</span>(godziny), ani.width <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>, ani.height <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>)
+<span style="color:#a6e22e">saveGIF</span>(<span style="color:#a6e22e">plot_mpk</span>(), movie.name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nazwa_pliku.gif&#34;</span>)
+</code></pre></div>
 		</div>
 		<footer class="post__footer">
 			

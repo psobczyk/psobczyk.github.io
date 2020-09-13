@@ -19,7 +19,7 @@
       <guid>/post/wykresy-unplugged/</guid>
       <description>Już jest! Jakiś czas temu czytelnicy Szychty tłumnie zgłosili się do czytania wersji roboczej, a teraz książeczka jest wydana, dostępna i czeka na chętnych ;) Zawiera ćwiczenia i szczyptę teorii dotyczącej wizualizacji danych. Kto nie boi się wyzwań, kredek i miłego wieczoru (lub kilku) niech się długo nie zastanawia.
 Statystyczna odpowiedź na styczniowy splin
-Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyrysowania. Przedstawiamy 8 typów wykresów wraz z elementami teorii dotyczącej technik wizualizacji.</description>
+Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyrysowania. Przedstawiamy 8 typów wykresów wraz z elementami teorii dotyczącej technik wizualizacji.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyr
       <pubDate>Mon, 10 Sep 2018 08:10:19 +0000</pubDate>
       
       <guid>/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
-      <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
+      <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
 Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;rdquo;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
     </item>
     
@@ -39,7 +39,7 @@ Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przed
       
       <guid>/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</guid>
       <description>Które regiony Polski są najsilniejsze? Zależy pod jakim względem. Może jeśli chodzi o wkład w PKB? A może przez liczbę ludności? Dzisiaj nie tylko o tym, kto jest najważniejszy, ale także o tym jak tego typu dane można przedstawić.
-próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorficznymi, w których powierzchnia obszaru jest proporcjonalna do zmiennej jaką chcemy zwizualizować. Ostatnio zrobiliśmy taką transformację dla województw w Polsce. Czas włączyć zoom i sprawdzić jak wygląda taka mapa na poziomie podregionów.</description>
+próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorficznymi, w których powierzchnia obszaru jest proporcjonalna do zmiennej jaką chcemy zwizualizować. Ostatnio zrobiliśmy taką transformację dla województw w Polsce. Czas włączyć zoom i sprawdzić jak wygląda taka mapa na poziomie podregionów.</description>
     </item>
     
     <item>
@@ -57,8 +57,7 @@ próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorf
       <pubDate>Wed, 11 May 2016 18:42:07 +0000</pubDate>
       
       <guid>/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</guid>
-      <description>Lie factor, czyli współczynnika kłamstwa, jest miarą zaproponowana przez Edwarda Tuftego do opisu niezgodności wielkości przedstawionej na grafice, do rzeczywistej liczby wynikającej z danych. Udało mi się upolować bardzo ciekawy przykład pochodzący z twitta Michała Szczerby, posła na Sejm, któremu udało się na jednej grafice umieścić dwa rysunki o różnych współczynnikach kłamstwa.
-Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idealnie 1.5:1. A jak to wygląda na rysunku? Wysokość zmierzyłem za pomocą GIMPa.</description>
+      <description>Lie factor, czyli współczynnika kłamstwa, jest miarą zaproponowana przez Edwarda Tuftego do opisu niezgodności wielkości przedstawionej na grafice, do rzeczywistej liczby wynikającej z danych. Udało mi się upolować bardzo ciekawy przykład pochodzący z twitta Michała Szczerby, posła na Sejm, któremu udało się na jednej grafice umieścić dwa rysunki o różnych współczynnikach kłamstwa.Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idealnie 1.5:1. A jak to wygląda na rysunku? Wysokość zmierzyłem za pomocą GIMPa.</description>
     </item>
     
     <item>
@@ -68,7 +67,7 @@ Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idea
       
       <guid>/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
       <description>Czasem strach jaki odczuwamy przed terroryzmem, zwłaszcza w Polsce, może wydawać się przesadzony. Jest jednak na świecie wiele miejsc, gdzie terroryzm jest niestety codziennością. W dzisiejszym wpisie prezentuję interaktywną mapę światowego terroryzmu.
-Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwaga, docelowy plik jest dosyć duży (około 15MB), a w miarę przybliżania wybranego regionu świata, dodatkowo ściągana jest mapa z serwisu open street map. Łączny przesył danych, może więc trochę kosztować :)</description>
+Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwaga, docelowy plik jest dosyć duży (około 15MB), a w miarę przybliżania wybranego regionu świata, dodatkowo ściągana jest mapa z serwisu open street map. Łączny przesył danych, może więc trochę kosztować :)[</description>
     </item>
     
     <item>
@@ -117,7 +116,7 @@ Bardziej ogólne rozwiązania opiera się na wczytaniu całego pliku i ręcznego
       <pubDate>Wed, 14 Oct 2015 05:16:39 +0000</pubDate>
       
       <guid>/post/elektrownie-w-polsce/</guid>
-      <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
+      <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
 Istniejące elektrownie są zlokalizowane głównie w południowej części Polski. Na Górnym Śląsku występuje bardzo duże zagęszczenie elektrowni, co jest zapewne związane z przemysłem ciężkim, który był w przeszłości (jest nadal?</description>
     </item>
     
@@ -155,7 +154,7 @@ Istniejące elektrownie są zlokalizowane głównie w południowej części Pols
       <pubDate>Thu, 27 Aug 2015 16:11:22 +0000</pubDate>
       
       <guid>/post/suburbanizacja-po-wroclawsku-i-przedszkola/</guid>
-      <description>We Wrocławiu ma miejsce proces suburbanizacji, opuszczania przez mieszkańców centrum miasta, lub w ogóle jego granic, na rzecz nowych osiedli budowanych na obrzeżach. Zjawisko ponoć niekorzystne, a na pewno nieuniknione. Czy nadążamy za tym procesem? Czy zapewniamy nowo zamieszkałym terenom transport, edukację, możliwość rozrywki, tereny zielone? W kilku najbliższych wpisach będę się zajmował tym zagadnieniem, oczywiście w oparciu o dane. Zaczniemy od potrzeb najmłodszych Wrocławian czyli dostępności przedszkoli. Informację o przedszkolach pobrałem zestrony miasta Wrocławia, mapę Wrocławia z serwisu geostatystycznego GUS, a dane demograficzne z serwisu Systemu Informacji Przestrzennej.</description>
+      <description>We Wrocławiu ma miejsce proces suburbanizacji, opuszczania przez mieszkańców centrum miasta, lub w ogóle jego granic, na rzecz nowych osiedli budowanych na obrzeżach. Zjawisko ponoć niekorzystne, a na pewno nieuniknione. Czy nadążamy za tym procesem? Czy zapewniamy nowo zamieszkałym terenom transport, edukację, możliwość rozrywki, tereny zielone? W kilku najbliższych wpisach będę się zajmował tym zagadnieniem, oczywiście w oparciu o dane. Zaczniemy od potrzeb najmłodszych Wrocławian czyli dostępności przedszkoli. Informację o przedszkolach pobrałem zestrony miasta Wrocławia, mapę Wrocławia z serwisu geostatystycznego GUS, a dane demograficzne z serwisu Systemu Informacji Przestrzennej.</description>
     </item>
     
     <item>
@@ -185,7 +184,6 @@ Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdyc
       <guid>/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
       <description>Naprawdę chciałbym napisać o czymś innym, ale polityka i wybory zbyt mocno panoszą się teraz w mojej głowie, żeby móc przygotować cokolwiek innego.
 Podzielę, się kilkoma obrazkami, stworzonymi w R przy użyciu pakietu ggplot2. Są to złośliwe mapy i nie mniej złośliwe wykresy, tłumaczące poparcie jakie uzyskali obaj kandydaci w poszczególnych gminach.
-
 Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosów. Wydaje mi się, że często i niesprawiedliwie, podaje się jako przyczynę podział na lepiej rozwiniętą Polskę zachodnią i zacofaną ścianę wschodnią.</description>
     </item>
     

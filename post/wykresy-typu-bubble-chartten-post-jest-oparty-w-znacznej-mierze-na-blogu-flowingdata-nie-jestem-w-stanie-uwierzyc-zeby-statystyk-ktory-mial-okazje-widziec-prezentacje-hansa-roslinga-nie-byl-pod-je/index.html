@@ -130,10 +130,9 @@ if (!doNotTrack) {
 			<p>Ten post jest oparty w znacznej mierze na blogu <a href="http://flowingdata.com/2010/11/23/how-to-make-bubble-charts/">flowingdata.</a></p>
 <p>Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje <a href="http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen">Hansa Roslinga</a>, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.<!-- raw HTML omitted --></p>
 <p>Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu <strong>car</strong> dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.</p>
-<pre><code>library(car)
-data(UN)
-</code></pre>
-<p>Dane dotyczące populacji krajów wziąłem ze strony gapmindera. Kod wyświetlam ze wszystkimi brzydkimi szczegółami licząc, że mogą się one okazać dla kogoś pouczające</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(car)
+<span style="color:#a6e22e">data</span>(UN)
+</code></pre></div><p>Dane dotyczące populacji krajów wziąłem ze strony gapmindera. Kod wyświetlam ze wszystkimi brzydkimi szczegółami licząc, że mogą się one okazać dla kogoś pouczające</p>
 <pre><code>dane.gap header=T, stringsAsFactors=T)
 
 wspolnePop wspolneUN countrySize names(countrySize)
@@ -167,7 +166,7 @@ names(cSize)[wybrane], cex=1.2, pos=1)
 </li>
 </ul>
 <p>Without further ado:</p>
-<p><a href="http://szychtawdanych.files.wordpress.com/2014/10/tlo_wykres.jpg"><img src="http://szychtawdanych.files.wordpress.com/2014/10/tlo_wykres.jpg?w=300" alt="tlo_wykres"></a></p>
+<p><img src="http://szychtawdanych.files.wordpress.com/2014/10/tlo_wykres.jpg" alt="tlo_wykres"></p>
 <p>Warto dodać, że w łatwy sposób można robić podobne wykresy z dodatkową animacją. Narzędziem do tego służącym jest pakiet <a href="http://cran.r-project.org/web/packages/googleVis/vignettes/googleVis_examples.html">googleVis</a>. Jest to naprawdę potężne narzędzie do wizualizacji danych, którego mam nadzieję się nauczyć i o nim w przyszłości opowiedzieć.</p>
 
 		</div>

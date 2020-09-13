@@ -71,7 +71,7 @@ Rozgrzewka - dane Sejmowe Dane dostępne są na stronie PKW. Stopniując napięc
     </item>
     
     <item>
-      <title>Automatyzacja winietek lub czemu na Szychcie nic się nie dzieje</title>
+      <title>Automatyzacja winietek lub czemu na Szychcie nic się nie dzieje</title>
       <link>/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</link>
       <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
       
@@ -148,7 +148,7 @@ Zacznijmy od tego, że koszty obsługi długu wcale nie są największe dla kraj
       <guid>/post/wykresy-unplugged/</guid>
       <description>Już jest! Jakiś czas temu czytelnicy Szychty tłumnie zgłosili się do czytania wersji roboczej, a teraz książeczka jest wydana, dostępna i czeka na chętnych ;) Zawiera ćwiczenia i szczyptę teorii dotyczącej wizualizacji danych. Kto nie boi się wyzwań, kredek i miłego wieczoru (lub kilku) niech się długo nie zastanawia.
 Statystyczna odpowiedź na styczniowy splin
-Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyrysowania. Przedstawiamy 8 typów wykresów wraz z elementami teorii dotyczącej technik wizualizacji.</description>
+Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyrysowania. Przedstawiamy 8 typów wykresów wraz z elementami teorii dotyczącej technik wizualizacji.</description>
     </item>
     
     <item>
@@ -167,7 +167,7 @@ Na początku kilka faktów o naszym zbiorze danych. Nazwiska są znacznie bardzi
       <pubDate>Mon, 10 Sep 2018 08:10:19 +0000</pubDate>
       
       <guid>/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
-      <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
+      <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
 Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;rdquo;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
     </item>
     
@@ -177,7 +177,7 @@ Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przed
       <pubDate>Thu, 16 Aug 2018 08:54:47 +0000</pubDate>
       
       <guid>/post/nowa-ordynacja-w-wyborach-do-parlamentu-europejskiego-lub/</guid>
-      <description>Przez Parlament przeszła nowelizacja ordynacji wyborczej w wyborach do Parlamentu Europejskiego. W skrócie sprawia ona, że małym partiom trudniej zdobyć mandat, a wybory przestają być proporcjonalne. Została ona skrytykowana przez wiele środowisk, w tym rzecz jasna małe partie polityczne. Zerknijmy w dane i zobaczmy o co tyle hałasu.
+      <description>Przez Parlament przeszła nowelizacja ordynacji wyborczej w wyborach do Parlamentu Europejskiego. W skrócie sprawia ona, że małym partiom trudniej zdobyć mandat, a wybory przestają być proporcjonalne. Została ona skrytykowana przez wiele środowisk, w tym rzecz jasna małe partie polityczne. Zerknijmy w dane i zobaczmy o co tyle hałasu.
 W styczniu tego roku CBOS opublikował sondaż poparcia dla partii politycznych w województwach. W oparciu o ten dane policzymy na ile mandatów mogą liczyć poszczególne partie.</description>
     </item>
     
@@ -187,7 +187,7 @@ W styczniu tego roku CBOS opublikował sondaż poparcia dla partii politycznych 
       <pubDate>Tue, 31 Jul 2018 07:46:18 +0000</pubDate>
       
       <guid>/post/czy-500-przestalo-dzialac-lub-o-dzieciach-i-dzietnosci/</guid>
-      <description>W Polsce w pierwszym półroczu 2018 urodziło się mniej dzieci niż w tym samym okresie rok wcześniej. Czy to porażka programu 500+ czy zwykła statystyka? Czego możemy się spodziewać w najbliższych latach?Na temat dzietności Szychta pisała już kilkukrotnie. Najpierw o tym czego można się spodziewać po 500+ i jak drogi jest to program. Potem na temat współczynnika dzietności kobiet i jak może się on zmienić do roku 2030-tego, a także tego jak zmieniła się w Polscestruktura urodzeń (pierwsze lub kolejne dziecko).</description>
+      <description>W Polsce w pierwszym półroczu 2018 urodziło się mniej dzieci niż w tym samym okresie rok wcześniej. Czy to porażka programu 500+ czy zwykła statystyka? Czego możemy się spodziewać w najbliższych latach?Na temat dzietności Szychta pisała już kilkukrotnie. Najpierw o tym czego można się spodziewać po 500+ i jak drogi jest to program. Potem na temat współczynnika dzietności kobiet i jak może się on zmienić do roku 2030-tego, a także tego jak zmieniła się w Polscestruktura urodzeń (pierwsze lub kolejne dziecko).</description>
     </item>
     
     <item>
@@ -240,7 +240,7 @@ glimpse(mtcars) ## Observations: 32 ## Variables: 11 ## $ mpg &amp;lt;dbl&amp;gt
       
       <guid>/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</guid>
       <description>Które regiony Polski są najsilniejsze? Zależy pod jakim względem. Może jeśli chodzi o wkład w PKB? A może przez liczbę ludności? Dzisiaj nie tylko o tym, kto jest najważniejszy, ale także o tym jak tego typu dane można przedstawić.
-próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorficznymi, w których powierzchnia obszaru jest proporcjonalna do zmiennej jaką chcemy zwizualizować. Ostatnio zrobiliśmy taką transformację dla województw w Polsce. Czas włączyć zoom i sprawdzić jak wygląda taka mapa na poziomie podregionów.</description>
+próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorficznymi, w których powierzchnia obszaru jest proporcjonalna do zmiennej jaką chcemy zwizualizować. Ostatnio zrobiliśmy taką transformację dla województw w Polsce. Czas włączyć zoom i sprawdzić jak wygląda taka mapa na poziomie podregionów.</description>
     </item>
     
     <item>
@@ -258,10 +258,8 @@ próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorf
       <pubDate>Wed, 07 Mar 2018 08:47:51 +0000</pubDate>
       
       <guid>/post/jakie-imiona-nadaje-sie-w-polsce/</guid>
-      <description>Jakie imiona są najczęściej nadawane dzieciom? Które tracą na popularności, a dominacji których możemy się spodziewać w perspektywie kilku lat? Rok temu analizowaliśmy dane dotyczące imion nadawanych dzieciom w Polsce w roku 2016. Czas na rok 2017. Zacznijmy od zestawienie najpopularniejszych imion w poszczególnych województwach.
-
+      <description>Jakie imiona są najczęściej nadawane dzieciom? Które tracą na popularności, a dominacji których możemy się spodziewać w perspektywie kilku lat? Rok temu analizowaliśmy dane dotyczące imion nadawanych dzieciom w Polsce w roku 2016. Czas na rok 2017. Zacznijmy od zestawienie najpopularniejszych imion w poszczególnych województwach.
 Jak ma się to do roku 2016?
-
 Zmiany wśród najczęściej nadawanych imion są nieduże, ale zestawienie zmian popularności najczęściej nadawanych imion pokazuje, że mamy małą ,,demokratyzację&amp;rdquo; - dominacja najczęściej nadawanych imion nieco się zmniejszyła.</description>
     </item>
     
@@ -281,8 +279,7 @@ Na początku spojrzyjmy na oryginalny ranking, czyli to, do ilu krajów można w
       <pubDate>Fri, 16 Feb 2018 08:51:40 +0000</pubDate>
       
       <guid>/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</guid>
-      <description>Igrzyska, Igrzyska i (za chwilę) po Igrzyskach. Który kraj jest rekordzistą wszech czasów w liczbie zdobytych medali? Które narody należą do potęg w zimowych sportach? Jak zmieniało się to w czasie? I oczywiście, jak wypadają reprezentanci Polski?Zacznijmy od zestawienia łącznej liczby medali zdobytych przez poszczególne kraje na przestrzeni lat. Ze względu na przejrzystość wykresu bierzemy pod uwagę jedynie kraje, które zdobyły łącznie powyżej 100 medali.
-
+      <description>Igrzyska, Igrzyska i (za chwilę) po Igrzyskach. Który kraj jest rekordzistą wszech czasów w liczbie zdobytych medali? Które narody należą do potęg w zimowych sportach? Jak zmieniało się to w czasie? I oczywiście, jak wypadają reprezentanci Polski?Zacznijmy od zestawienia łącznej liczby medali zdobytych przez poszczególne kraje na przestrzeni lat. Ze względu na przejrzystość wykresu bierzemy pod uwagę jedynie kraje, które zdobyły łącznie powyżej 100 medali.
 Niemcy dominują, ale warto zauważyć, że do 1988 najsilniejszą reprezentacją był Związek Radziecki.</description>
     </item>
     
@@ -293,7 +290,7 @@ Niemcy dominują, ale warto zauważyć, że do 1988 najsilniejszą reprezentacj�
       
       <guid>/post/czyje-byly-obozy-koncentracyjne-lub-o-madrosci-plynacej-z-google/</guid>
       <description>Czy historii można nauczyć się z internetowych trendów? Sprawdźmy jak ma się rzecz z gorącym tematem ostatnich tygodni, czyli obozami koncentracyjnymi z II Wojny Światowej? Czyje były? Nazistowskie, niemieckie, polskie a może żydowskie? Jakich fraz wyszukują internauci na całym świecie korzystający z wyszukiwarki Google?
-Informacja o tym co jest wyszukiwane w google jest zapamiętywana, a następnie udostępniana w formie statystyk i właśnie te dane przeanalizujemy. No dobrze, nie potrzeba google żeby wiedzieć, że obozy budowała Trzecia Rzesza, a więc naziści będący u władzy w Niemczech.</description>
+Informacja o tym co jest wyszukiwane w google jest zapamiętywana, a następnie udostępniana w formie statystyk i właśnie te dane przeanalizujemy. No dobrze, nie potrzeba google żeby wiedzieć, że obozy budowała Trzecia Rzesza, a więc naziści będący u władzy w Niemczech.</description>
     </item>
     
     <item>
@@ -302,7 +299,7 @@ Informacja o tym co jest wyszukiwane w google jest zapamiętywana, a następnie 
       <pubDate>Wed, 17 Jan 2018 07:29:01 +0000</pubDate>
       
       <guid>/post/miasta-partnerskie-lub-mala-rzecz-o-zwiazku-geografii-z-polityke/</guid>
-      <description>Wiele mówi się na temat kontrastu między Polską wschodnią i zachodnią. Ich mieszkańcy różnią się od siebie choćby poziomem zarobków czy preferencjami politycznymi. Czy mają także odmienne spojrzenie geopolityczne? Czy Polskę zachodnią istotnie silniej przyciągają Niemcy, a wschodnią Rosja? Spróbujemy odpowiedzieć na to pytanie patrząc na skalę kontaktów oficjalnych między miastami, a konkretnie podpisane umowy partnerskie.Zacznijmy od definicji. Według wikipedii termin miasta partnerskie lub bliźniacze oznacza formę partnerstwa w celu wymiany kulturalnej i gospodarczej.</description>
+      <description>Wiele mówi się na temat kontrastu między Polską wschodnią i zachodnią. Ich mieszkańcy różnią się od siebie choćby poziomem zarobków czy preferencjami politycznymi. Czy mają także odmienne spojrzenie geopolityczne? Czy Polskę zachodnią istotnie silniej przyciągają Niemcy, a wschodnią Rosja? Spróbujemy odpowiedzieć na to pytanie patrząc na skalę kontaktów oficjalnych między miastami, a konkretnie podpisane umowy partnerskie.Zacznijmy od definicji. Według wikipedii termin miasta partnerskie lub bliźniacze oznacza formę partnerstwa w celu wymiany kulturalnej i gospodarczej.</description>
     </item>
     
     <item>
@@ -322,9 +319,8 @@ Dane zostały ściągnięte z serwisu otodom, co oznacza, że nie są to dane tr
       
       <guid>/post/czy-polska-dogoni-zachod-lub-uluda-konwergencji/</guid>
       <description>Tym czy Polska zbliża się do krajów zachodnich zajmowaliśmy się już na blogu wcześniej. W tym wpisie sprawdzimy, na podstawie nowych danych, ile lat zajmie Polsce dogonienie krajów zachodnich. Dodatkowo przyjrzymy się sensowności przyjętej metodyki oraz będziemy cieszyć oko ładnymi mapami i wykresami.
-
 Jak widać na powyższej mapie te różnice się nieco zmniejszyły. Sprawdźmy jak wyglądał tak mierzony dystans w poszczególnych latach.
-Widać pewną zbieżność, ale jest ona bardzo powolna.</description>
+Widać pewną zbieżność, ale jest ona bardzo powolna. Linie są właściwie poziome.</description>
     </item>
     
     <item>
@@ -392,7 +388,7 @@ Zacznijmy od pewnego eksperymentu. Na mapie poniżej zaznaczono systemy metra, a
       <pubDate>Mon, 10 Jul 2017 17:02:03 +0000</pubDate>
       
       <guid>/post/czy-bogaci-sa-coraz-bogatsi-ktore-regiony-polski-najszybciej-sie-rozwijaja/</guid>
-      <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze, czy też dystans między nimi się zwiększa? Aktualizujemy wpis sprzed półtora roku o dane z roku 2015. W dodatku dokładamy ładniejsze wizualizacje, żywszy język i głębsze wnioski.Naszym punktem startowym są wynagrodzenia w poszczególnych powiatach w roku 2002. Nawet w najbogatszych powiatach jest to mniej niż 3500 złotych brutto. Bogate są Górny Śląsk, okolice Warszawy i kilka powiatów, w których znajdowały się kopalnie (Zgorzelec, Łęczna, Bełchatów).</description>
+      <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze, czy też dystans między nimi się zwiększa? Aktualizujemy wpis sprzed półtora roku o dane z roku 2015. W dodatku dokładamy ładniejsze wizualizacje, żywszy język i głębsze wnioski.Naszym punktem startowym są wynagrodzenia w poszczególnych powiatach w roku 2002. Nawet w najbogatszych powiatach jest to mniej niż 3500 złotych brutto. Bogate są Górny Śląsk, okolice Warszawy i kilka powiatów, w których znajdowały się kopalnie (Zgorzelec, Łęczna, Bełchatów).</description>
     </item>
     
     <item>
@@ -415,12 +411,12 @@ Jak wiadomo, jednym z wątków jest historia miłosna Tadeusza i Zosi, która pr
     </item>
     
     <item>
-      <title>Dzietność nastolatek lub różnice kulturowe w Polsce raz jeszcze</title>
+      <title>Dzietność nastolatek lub różnice kulturowe w Polsce raz jeszcze</title>
       <link>/post/dzietnosc-nastolatek-lub-roznice-kulturowe-w-polsce-raz-jeszcze/</link>
       <pubDate>Sat, 24 Jun 2017 14:36:27 +0000</pubDate>
       
       <guid>/post/dzietnosc-nastolatek-lub-roznice-kulturowe-w-polsce-raz-jeszcze/</guid>
-      <description>W których regionach Polski dzietność jest największa? A gdzie w Polsce najczęściej ,,dzieci rodzą dzieci&amp;rdquo;? Na podstawie danych GUS przekonamy się jak powszechne jest to zjawisko i czy obecnie nastolatki rzadziej rodzą dzieci niż 15 lat temu. Ten wpis jest kontynuacją dwóch wcześniejszych dotyczących zmian w wieku, w którym kobiety w Polsce rodzą dzieci i struktury urodzeń. Na początku zróbmy zestawienie liczby dzieci urodzonych przez kobiety w wieku 20 - 49 lat, która zwiększyła się nieco od roku 2002.</description>
+      <description>W których regionach Polski dzietność jest największa? A gdzie w Polsce najczęściej ,,dzieci rodzą dzieci&amp;rdquo;? Na podstawie danych GUS przekonamy się jak powszechne jest to zjawisko i czy obecnie nastolatki rzadziej rodzą dzieci niż 15 lat temu. Ten wpis jest kontynuacją dwóch wcześniejszych dotyczących zmian w wieku, w którym kobiety w Polsce rodzą dzieci i struktury urodzeń. Na początku zróbmy zestawienie liczby dzieci urodzonych przez kobiety w wieku 20 - 49 lat, która zwiększyła się nieco od roku 2002.</description>
     </item>
     
     <item>
@@ -429,7 +425,7 @@ Jak wiadomo, jednym z wątków jest historia miłosna Tadeusza i Zosi, która pr
       <pubDate>Sun, 18 Jun 2017 10:38:39 +0000</pubDate>
       
       <guid>/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</guid>
-      <description>Wczoraj odbył się we Wrocławiu5 nocny półmaraton. Dostarczył on wszystkim uczestnikom, jak to zwykle bywa, mnóstwo cierpień i radości :) Podobnie jak dwa lata temu przeanalizujmy wyniki jakie uzyskali zawodnicy.Na początku kilka faktów. Dwa lata temu w biegu udział wzięło 7 tysięcy osób, w tym już niemal 10 tysięcy!!! Ten wzrost nie pozostał bez wpływu na przeciętne tempo, jakie uzyskali zawodnicy, które było w tym roku nieco niższe.
+      <description>Wczoraj odbył się we Wrocławiu5 nocny półmaraton. Dostarczył on wszystkim uczestnikom, jak to zwykle bywa, mnóstwo cierpień i radości :) Podobnie jak dwa lata temu przeanalizujmy wyniki jakie uzyskali zawodnicy.Na początku kilka faktów. Dwa lata temu w biegu udział wzięło 7 tysięcy osób, w tym już niemal 10 tysięcy!!! Ten wzrost nie pozostał bez wpływu na przeciętne tempo, jakie uzyskali zawodnicy, które było w tym roku nieco niższe.
 Dane zwizualizowałem tak samo jak poprzednio.</description>
     </item>
     
@@ -439,7 +435,7 @@ Dane zwizualizowałem tak samo jak poprzednio.</description>
       <pubDate>Thu, 01 Jun 2017 07:25:15 +0000</pubDate>
       
       <guid>/post/wsiasc-do-samolotu-byle-jakiego-polaczenia-lotnicze-w-polsce/</guid>
-      <description>Jakiś czas temu analizowaliśmy jak duży procent połączeń lotniczych w Polsce koncentruje się na Warszawie i jak zmieniało się to od początku lat 90-tych. Dzisiaj przyglądniemy się temu, jak wyglądają siatki połączeń największych lotnisk. Jakie kraje i miasta są najbardziej popularne? Czemu Wrocław ma mało połączeń ze Skandynawią, a idea budowy Centralnego Portu Lotniczego jest wątpliwa? Dane pochodzą z eurostatu, który, o dziwo, prowadzi rejestr liczby pasażerów i lotów dla wszystkich krajów członkowskich UE.</description>
+      <description>Jakiś czas temu analizowaliśmy jak duży procent połączeń lotniczych w Polsce koncentruje się na Warszawie i jak zmieniało się to od początku lat 90-tych. Dzisiaj przyglądniemy się temu, jak wyglądają siatki połączeń największych lotnisk. Jakie kraje i miasta są najbardziej popularne? Czemu Wrocław ma mało połączeń ze Skandynawią, a idea budowy Centralnego Portu Lotniczego jest wątpliwa? Dane pochodzą z eurostatu, który, o dziwo, prowadzi rejestr liczby pasażerów i lotów dla wszystkich krajów członkowskich UE.</description>
     </item>
     
     <item>
@@ -457,7 +453,7 @@ Dane zwizualizowałem tak samo jak poprzednio.</description>
       <pubDate>Mon, 01 May 2017 16:36:57 +0000</pubDate>
       
       <guid>/post/skad-wyjezdzamy-dokad-jedziemy-migracje-wewnatrz-polski/</guid>
-      <description>Kontynuując temat migracji, przyjrzymy się bliżej samej Polsce, a konkretnie przepływami ludzi pomiędzy województwami. Czy skala migracji zwiększyła się czy zmniejszyła od roku 1995? Które województwa szczególnie przyciągają nowych mieszkańców? Na początek - migracje z lotu ptaka. Zaznaczone są jedynie dodatnie przepływy ludności netto, czyli strzałka łączy dwa województwa jeśli z województwa A do województwa B przeprowadziło się więcej osób niż z B do A. Kierunek strzałki opisany jest przez kolor.</description>
+      <description>Kontynuując temat migracji, przyjrzymy się bliżej samej Polsce, a konkretnie przepływami ludzi pomiędzy województwami. Czy skala migracji zwiększyła się czy zmniejszyła od roku 1995? Które województwa szczególnie przyciągają nowych mieszkańców? Na początek - migracje z lotu ptaka. Zaznaczone są jedynie dodatnie przepływy ludności netto, czyli strzałka łączy dwa województwa jeśli z województwa A do województwa B przeprowadziło się więcej osób niż z B do A. Kierunek strzałki opisany jest przez kolor.</description>
     </item>
     
     <item>
@@ -466,10 +462,8 @@ Dane zwizualizowałem tak samo jak poprzednio.</description>
       <pubDate>Mon, 24 Apr 2017 12:21:13 +0000</pubDate>
       
       <guid>/post/tozsamosc-czy-statystyka-o-imionach-nadawanych-w-polsce/</guid>
-      <description>Jakie imiona dla dzieci wybierają rodzice w Polsce? Czy widać różnice pomiędzy poszczególnymi województwami? Jak bardzo imiona są powtarzalne? Czy ta ,,powtarzalność&amp;rdquo; dotyczy bardziej imion chłopców czy dziewczynek? Zbadajmy imiona nadane dzieciom w roku 2016. Zacznijmy od ogółu, czyli chmury słów. Im większe jest dane imię, tym częściej jest ono nadawane.
-
+      <description>Jakie imiona dla dzieci wybierają rodzice w Polsce? Czy widać różnice pomiędzy poszczególnymi województwami? Jak bardzo imiona są powtarzalne? Czy ta ,,powtarzalność&amp;rdquo; dotyczy bardziej imion chłopców czy dziewczynek? Zbadajmy imiona nadane dzieciom w roku 2016. Zacznijmy od ogółu, czyli chmury słów. Im większe jest dane imię, tym częściej jest ono nadawane.
 Podobne zestawienie dla imion żeńskich:
-
 Zastanowiło mnie czy jest jakaś różnica pomiędzy tym jak często (nie)standardowe imiona dawane są chłopcom i dziewczynkom.</description>
     </item>
     
@@ -480,7 +474,6 @@ Zastanowiło mnie czy jest jakaś różnica pomiędzy tym jak często (nie)stand
       
       <guid>/post/dwa-slowa-i-trzy-wykresy-o-globalnych-migracjach/</guid>
       <description>Które kraje przyciągają najwięcej imigrantów? Z jakich państw najwięcej mieszkańców wyjeżdża? Z polskiej perspektywy migracje to praca zarobkowa na zachodzie, imigranci z Ukrainy i uchodźcy z Syrii. Zjawisko jest jednak rzecz jasna znacznie szersze i spróbujemy przybliżyć je za pomocą danych.Zacznijmy od mapy, która daje nam informację o skali zjawiska i głównych kierunkach migracji.
-
 Przede wszystkim, według ONZ, migrantów jest prawie 250 milionów. czyli mniej więcej 3% populacji ziemi. Największe ruchy ludności mają miejsce wewnątrz Azji.</description>
     </item>
     
@@ -510,7 +503,7 @@ Jeśli chodzi o siłę fizyczną to nie będę wchodzić w dłuższe rozważania
       <pubDate>Sun, 05 Mar 2017 16:27:19 +0000</pubDate>
       
       <guid>/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</guid>
-      <description>Kilka dni temu pojawił się w Polsce temat nierówności zarobków ze względu na płeć, a właściwie nieco egzotycznego wytłumaczenia tego faktu. Pozostaje oczywiście pytanie o to, czy i jak państwa powinny aktywnie działać na rzecz zmniejszenia tychże nierówności. Dzisiaj w Szychcie prześledzimy jak duże jest to zjawisko, jak różnią się pod tym względem kraje europejskie i czy dysproporcje maleją czy stają się coraz większe.Dane pochodzą z eurostatu (tabela earn_gr_gpgr2). Zawierają one procentową różnicę w przeciętnych zarobkach za godzinę pracy mężczyzn i kobiet.</description>
+      <description>Kilka dni temu pojawił się w Polsce temat nierówności zarobków ze względu na płeć, a właściwie nieco egzotycznego wytłumaczenia tego faktu. Pozostaje oczywiście pytanie o to, czy i jak państwa powinny aktywnie działać na rzecz zmniejszenia tychże nierówności. Dzisiaj w Szychcie prześledzimy jak duże jest to zjawisko, jak różnią się pod tym względem kraje europejskie i czy dysproporcje maleją czy stają się coraz większe.Dane pochodzą z eurostatu (tabela earn_gr_gpgr2). Zawierają one procentową różnicę w przeciętnych zarobkach za godzinę pracy mężczyzn i kobiet.</description>
     </item>
     
     <item>
@@ -529,9 +522,8 @@ Jeśli chodzi o siłę fizyczną to nie będę wchodzić w dłuższe rozważania
       
       <guid>/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</guid>
       <description>Raz na jakiś czas słychać w Polsce (i nie tylko) hasła o zaostrzeniu prawa, zero tolerancji dla przestępców itp. Czy rzeczywiście karanie więzieniem jest skuteczne? Czy wpływa pozytywnie na bezpieczeństwo?
-
 Trzy wnioski:
-  W Polsce mamy bardzo mało morderstw, ale liczba osadzonych w więzieniach jest zdecydowanie powyżej średniej. Inne warte uwagi obserwacje odstające to USA, Japonia - bardzo mało morderstw i mało więźniów, Singapur - bardzo bezpieczny kraj z dużą liczbą więźniów, Honduras - aż 85 morderstw i tylko 200 osadzonych na 100 tys.</description>
+  W Polsce mamy bardzo mało morderstw, ale liczba osadzonych w więzieniach jest zdecydowanie powyżej średniej. Inne warte uwagi obserwacje odstające to USA, Japonia - bardzo mało morderstw i mało więźniów, Singapur - bardzo bezpieczny kraj z dużą liczbą więźniów, Honduras - aż 85 morderstw i tylko 200 osadzonych na 100 tys.</description>
     </item>
     
     <item>
@@ -551,7 +543,7 @@ Towarzystwo Upiększania Miasta Wrocławia napisało na fb o tym jak bardzo Wroc
       
       <guid>/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</guid>
       <description>W Polsce występuje największa w Europie dysproporcja zarobków biednych i bogatych. Czy można to tłumaczyć dziedzictwem komunizmu i szybkiej transformacji systemowej? Jak radzą sobie pozostałe kraje w Europie Wschodniej? Jak zmieniła się dysproporcja od roku 2006?
-Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnienie? Z pewnością prowadzi ona do wzrastania nierówności i napięć społecznych. Bardziej widoczny jest podział na tych co mają, i na tych co nie mają. To z kolei daje szansę dojścia do władzy populistom, którzy winą za trudności obarczą jakąś konkretną grupę społeczną, etniczną itp.</description>
+Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnienie? Z pewnością prowadzi ona do wzrastania nierówności i napięć społecznych. Bardziej widoczny jest podział na tych co mają, i na tych co nie mają. To z kolei daje szansę dojścia do władzy populistom, którzy winą za trudności obarczą jakąś konkretną grupę społeczną, etniczną itp.</description>
     </item>
     
     <item>
@@ -560,7 +552,7 @@ Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnie
       <pubDate>Fri, 16 Dec 2016 11:15:34 +0000</pubDate>
       
       <guid>/post/czy-czeka-nas-ideologiczna-wojna-o-roznicach-w-pogladach-polakow/</guid>
-      <description>Zbliżają się święta, a wraz z nimi rodzinne rozmowy na wszelkie tematy. Nie zabraknie też pewnie i czytelnikom Szychty politycznych kłótni i podniesionego w związku z tym ciśnienia. Czy różnice w poglądach między Polakami są coraz większe czy coraz mniejsze? Spróbujemy odpowiedzieć na to pytanie, badając to jak bardzo różnią się między sobą wyborcy poszczególnych partii politycznych.Naszą analizę oprzemy o dane Diagnozy Społecznej. W tym celu wykorzystamy pakiet Diagnoza Przemysława Biecka.</description>
+      <description>Zbliżają się święta, a wraz z nimi rodzinne rozmowy na wszelkie tematy. Nie zabraknie też pewnie i czytelnikom Szychty politycznych kłótni i podniesionego w związku z tym ciśnienia. Czy różnice w poglądach między Polakami są coraz większe czy coraz mniejsze? Spróbujemy odpowiedzieć na to pytanie, badając to jak bardzo różnią się między sobą wyborcy poszczególnych partii politycznych.Naszą analizę oprzemy o dane Diagnozy Społecznej. W tym celu wykorzystamy pakiet Diagnoza Przemysława Biecka.</description>
     </item>
     
     <item>
@@ -570,7 +562,7 @@ Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnie
       
       <guid>/post/gdzie-zyje-sie-dobrze-czyli-o-sile-nabywczej-w-poszczegolnych-wojewodztwach/</guid>
       <description>Jak zmieniła się zamożność Polaków w ostatnich 10 latach? Które województwa najszybciej się rozwijają, a które zostają w tyle? Czy siła nabywcza ujednolica się, czy też ulega rozwarstwieniu?
-Często porównuje się zamożność przez PKB na jednego mieszkańca lub przeciętne wynagrodzenie, ale w tym wpisie interesują nas nie tyle pensje, ale to ile można za nie kupić. Innymi słowy chcemy zbadać jaka jest siła nabywcza w poszczególnych województwach. Punktem odniesienia będzie uśredniona siła nabywcza dla całej Polski z roku 2006.</description>
+Często porównuje się zamożność przez PKB na jednego mieszkańca lub przeciętne wynagrodzenie, ale w tym wpisie interesują nas nie tyle pensje, ale to ile można za nie kupić. Innymi słowy chcemy zbadać jaka jest siła nabywcza w poszczególnych województwach. Punktem odniesienia będzie uśredniona siła nabywcza dla całej Polski z roku 2006.</description>
     </item>
     
     <item>
@@ -589,7 +581,7 @@ Poniższy wykres należy rozumieć w następujący sposób. Każda z 5 osi opisu
       <pubDate>Wed, 19 Oct 2016 05:38:46 +0000</pubDate>
       
       <guid>/post/silne-kobiety-slabi-mezczyzni-o-liczbie-samobojstw-w-europie/</guid>
-      <description>Ci, którym wydaje się, że mężczyźni z Polski mają ,,twardą psychikę&amp;rdquo;, czeka niemiłe zaskoczenie. Dzisiaj analizujemy to, jak często Europejczycy decydują się odebrać sobie życie, oraz o ile częściej robią to mężczyźni niż kobiety.Zacznijmy od liczby samobójstw, którą rzecz jasna należy odnieść do liczby mieszkańców. Niechlubnym liderem w tym rankingu jest Litwa, gdzie co roku jedna na 3000 osób odbiera sobie życie. Polska wypada w tym zestawieniu przeciętnie. Najrzadziej samobójstwa zdarzają się w krajach południowych (kultura, klimat?</description>
+      <description>Ci, którym wydaje się, że mężczyźni z Polski mają ,,twardą psychikę&amp;rdquo;, czeka niemiłe zaskoczenie. Dzisiaj analizujemy to, jak często Europejczycy decydują się odebrać sobie życie, oraz o ile częściej robią to mężczyźni niż kobiety.Zacznijmy od liczby samobójstw, którą rzecz jasna należy odnieść do liczby mieszkańców. Niechlubnym liderem w tym rankingu jest Litwa, gdzie co roku jedna na 3000 osób odbiera sobie życie. Polska wypada w tym zestawieniu przeciętnie. Najrzadziej samobójstwa zdarzają się w krajach południowych (kultura, klimat?</description>
     </item>
     
     <item>
@@ -598,7 +590,7 @@ Poniższy wykres należy rozumieć w następujący sposób. Każda z 5 osi opisu
       <pubDate>Mon, 03 Oct 2016 15:01:31 +0000</pubDate>
       
       <guid>/post/wspolczynnik-dzietnosci-lub-rewolucja-kulturowa-na-jednym-wykresie/</guid>
-      <description>W Polsce, w ciągu kilkudziesięciu lat, nie tylko znacznie spadła liczba urodzeń, ale także zwiększa się wiek kobiet, które rodzą dzieci. Zmienia się także dzietność rodzin - więcej na ten temat w we wpisie o strukturze urodzeń. Dzisiaj zobaczymy ogromną kulturową zmianę, która objawia się w zmianie wieku, w którym kobiety decydują się na posiadanie dzieci. Co ciekawe, zmianę tę widać na przestrzeni zaledwie kilkunastu lat, od 2002 do 2015 roku.</description>
+      <description>W Polsce, w ciągu kilkudziesięciu lat, nie tylko znacznie spadła liczba urodzeń, ale także zwiększa się wiek kobiet, które rodzą dzieci. Zmienia się także dzietność rodzin - więcej na ten temat w we wpisie o strukturze urodzeń. Dzisiaj zobaczymy ogromną kulturową zmianę, która objawia się w zmianie wieku, w którym kobiety decydują się na posiadanie dzieci. Co ciekawe, zmianę tę widać na przestrzeni zaledwie kilkunastu lat, od 2002 do 2015 roku.</description>
     </item>
     
     <item>
@@ -607,7 +599,7 @@ Poniższy wykres należy rozumieć w następujący sposób. Każda z 5 osi opisu
       <pubDate>Tue, 27 Sep 2016 11:04:26 +0000</pubDate>
       
       <guid>/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</guid>
-      <description>Świat jest pełen nierówności - to stwierdzenie to banał, choć niestety prawdziwy. Zawsze tak było i zawsze będzie, ale skala nierówności jest zmienna. I choć najważniejszy pozostaje wymiar ludzki, czyli cierpienie jednostki, to warto też zobaczyć jak zmienia się świat w skali makro. Jak wyglądał pod tym względem 100 lat temu? Czy nierówności się pogłębiają, czy też są coraz mniejsze? Na początku zobaczmy wykres bogactwa w roku 2013. Na osi X mamy ludność.</description>
+      <description>Świat jest pełen nierówności - to stwierdzenie to banał, choć niestety prawdziwy. Zawsze tak było i zawsze będzie, ale skala nierówności jest zmienna. I choć najważniejszy pozostaje wymiar ludzki, czyli cierpienie jednostki, to warto też zobaczyć jak zmienia się świat w skali makro. Jak wyglądał pod tym względem 100 lat temu? Czy nierówności się pogłębiają, czy też są coraz mniejsze? Na początku zobaczmy wykres bogactwa w roku 2013. Na osi X mamy ludność.</description>
     </item>
     
     <item>
@@ -616,8 +608,7 @@ Poniższy wykres należy rozumieć w następujący sposób. Każda z 5 osi opisu
       <pubDate>Mon, 19 Sep 2016 15:14:51 +0000</pubDate>
       
       <guid>/post/kto-nas-bedzie-leczyc-czyli-o-tym-ilu-lekarzy-brakuje-w-polsce/</guid>
-      <description>W Polsce brakuje lekarzy. Tego problemu nie da się szybko rozwiązać, choćby dlatego, że same studia zabierają wiele lat, nie wspominając nawet o specjalizacjach. Do tego dochodzi emigracja lekarzy zagranicę, która pogarsza sytuację. Czy w pozostałych krajach europejskich jest więcej czy mniej lekarzy niż w Polsce? Czy kształcimy wystarczająco dużo studentów medycyny? Czy, nawet gdyby lekarze nie emigrowali, mamy szansę dobić do europejskiej normy?
-Skoro już wiemy, że lekarzy jest sporo mniej niż w pozostałych krajach (i bynajmniej nie jest to jedynie wynikiem zamożności) to zobaczmy czy kształcimy wystarczająco dużo nowych lekarzy.</description>
+      <description>W Polsce brakuje lekarzy. Tego problemu nie da się szybko rozwiązać, choćby dlatego, że same studia zabierają wiele lat, nie wspominając nawet o specjalizacjach. Do tego dochodzi emigracja lekarzy zagranicę, która pogarsza sytuację. Czy w pozostałych krajach europejskich jest więcej czy mniej lekarzy niż w Polsce? Czy kształcimy wystarczająco dużo studentów medycyny? Czy, nawet gdyby lekarze nie emigrowali, mamy szansę dobić do europejskiej normy?Skoro już wiemy, że lekarzy jest sporo mniej niż w pozostałych krajach (i bynajmniej nie jest to jedynie wynikiem zamożności) to zobaczmy czy kształcimy wystarczająco dużo nowych lekarzy.</description>
     </item>
     
     <item>
@@ -627,7 +618,7 @@ Skoro już wiemy, że lekarzy jest sporo mniej niż w pozostałych krajach (i by
       
       <guid>/post/gdzie-mieszkaja-polacy-zmiany-w-rozmieszczeniu-ludnosci/</guid>
       <description>Jak zmieniło się zaludnienie Polski od roku 1995? Na ile zaludnienie jest równomierne na obszarze całego kraju? Czy w miastach koncentruje się ludność młoda czy starsza? I jak to wszystko wiąże się z rozwojem i ,,rozlewniem się&amp;rdquo; miast.Na początek zobaczmy mapę, która pokazuje na jak małym obszarze mieszka 20% mieszkańców Polski z najwiekszych gmin
-Nie jest łatwo wyciągać z powyższej mapy wniosków, ponieważ ludzki mózg nie radzi sobie zbyt dobrze z zadaniem szacowania proporcji pól.</description>
+Nie jest łatwo wyciągać z powyższej mapy wniosków, ponieważ ludzki mózg nie radzi sobie zbyt dobrze z zadaniem szacowania proporcji pól.</description>
     </item>
     
     <item>
@@ -636,7 +627,7 @@ Nie jest łatwo wyciągać z powyższej mapy wniosków, ponieważ ludzki mózg n
       <pubDate>Tue, 06 Sep 2016 17:16:05 +0000</pubDate>
       
       <guid>/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</guid>
-      <description>Jakie są różnice w aktywności, zarobkach i perspektywach zawodowych kobiet i mężczyzn? Czy Polska jest krajem, który zapewnia równe szanse bez względu na płeć? W których krajach kobietom najtrudniej jest się przebić?Sprawdźmy najpierw jak duża jest różnica pomiędzy procentem mężczyzn aktywnych zawodowo a procentem kobiet, które są aktywne zawodowo
+      <description>Jakie są różnice w aktywności, zarobkach i perspektywach zawodowych kobiet i mężczyzn? Czy Polska jest krajem, który zapewnia równe szanse bez względu na płeć? W których krajach kobietom najtrudniej jest się przebić?Sprawdźmy najpierw jak duża jest różnica pomiędzy procentem mężczyzn aktywnych zawodowo a procentem kobiet, które są aktywne zawodowo
 Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła. Zajmijmy się teraz znanym zjawiskiem gender gap, czyli różnicy w zarobkach.</description>
     </item>
     
@@ -646,8 +637,7 @@ Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła
       <pubDate>Mon, 29 Aug 2016 13:19:38 +0000</pubDate>
       
       <guid>/post/skad-uciekaja-studenci-lub-o-jakosci-uczelni/</guid>
-      <description>W Polsce dość szybko spada liczba osób w wieku 20-24 lat, a co za tym idzie maleje liczba studentów. Jak zwykle zmiana ta nie jest równomierna w całej Polsce. Czy da się ją powiązać z jakością uczelni? Jak mobilni są młodzi Polacy, jeśli chodzi o szukanie dobrej edukacji?
-Widoczna na mapie zależność świadczy pozytywnie o mobilności studentów. Nie wybierają jakichkolwiek studiów ,,byle blisko&amp;rdquo;, ale wyruszają po lepszą edukację. Widać to także po rosnącej liczbie wyjazdów na studia zagranicę.</description>
+      <description>W Polsce dość szybko spada liczba osób w wieku 20-24 lat, a co za tym idzie maleje liczba studentów. Jak zwykle zmiana ta nie jest równomierna w całej Polsce. Czy da się ją powiązać z jakością uczelni? Jak mobilni są młodzi Polacy, jeśli chodzi o szukanie dobrej edukacji?Widoczna na mapie zależność świadczy pozytywnie o mobilności studentów. Nie wybierają jakichkolwiek studiów ,,byle blisko&amp;rdquo;, ale wyruszają po lepszą edukację. Widać to także po rosnącej liczbie wyjazdów na studia zagranicę.</description>
     </item>
     
     <item>
@@ -656,7 +646,7 @@ Widoczna na mapie zależność świadczy pozytywnie o mobilności studentów. Ni
       <pubDate>Mon, 22 Aug 2016 15:14:36 +0000</pubDate>
       
       <guid>/post/olimpijskie-sukcesy-jak-wypadlismy-na-igrzyskach-w-rio/</guid>
-      <description>Zakończyły się właśnie Igrzyska Olimpijskie w Rio de Janeiro. Warto się cieszyć się z każdego sukcesu polskich, i nie tylko, sportowców, ale spróbujmy ocenić występ polskich olimpijczyków i porównać uzyskane przez nich wyniki do tych z poprzednich olimpiad.Jak porównać poziom występów Polaków na przestrzeni lat? Nie jest to łatwe. Z jednej strony liczba konkurencji się zwiększyła, czyli jest więcej medali do zdobycia. Z drugiej liczba ekip i sportowców również rośnie. Zależność jest mniej więcej liniowa - co nie powinno być zaskoczeniem</description>
+      <description>Zakończyły się właśnie Igrzyska Olimpijskie w Rio de Janeiro. Warto się cieszyć się z każdego sukcesu polskich, i nie tylko, sportowców, ale spróbujmy ocenić występ polskich olimpijczyków i porównać uzyskane przez nich wyniki do tych z poprzednich olimpiad.Jak porównać poziom występów Polaków na przestrzeni lat? Nie jest to łatwe. Z jednej strony liczba konkurencji się zwiększyła, czyli jest więcej medali do zdobycia. Z drugiej liczba ekip i sportowców również rośnie. Zależność jest mniej więcej liniowa - co nie powinno być zaskoczeniem</description>
     </item>
     
     <item>
@@ -665,7 +655,7 @@ Widoczna na mapie zależność świadczy pozytywnie o mobilności studentów. Ni
       <pubDate>Tue, 16 Aug 2016 16:22:39 +0000</pubDate>
       
       <guid>/post/zelazna-kurtyna-26-lat-pozniej-o-roznicach-w-oczekiwanej-dlugosci-zycia/</guid>
-      <description>W poprzednim wpisie rozważaliśmy to, ile lat w rozwoju gospodarczym dzieli Polskę od pozostałych krajów europejskich. Jak słusznie zauważyła część czytelników, nie jest to jedyny wskaźnik, który świadczy o rozwoju gospodarczym. W dzisiejszym wpisie sprawdzimy, czy pod względem oczekiwanej długości życia Polsce udaje się skuteczniej gonić najbardziej rozwinięte kraje Europy. Oczekiwana długość życia w Polsce w roku 2015 wyniosła 76 lat i 8 miesięcy. W roku 1989 było to 71 lat i 1 miesiąc.</description>
+      <description>W poprzednim wpisie rozważaliśmy to, ile lat w rozwoju gospodarczym dzieli Polskę od pozostałych krajów europejskich. Jak słusznie zauważyła część czytelników, nie jest to jedyny wskaźnik, który świadczy o rozwoju gospodarczym. W dzisiejszym wpisie sprawdzimy, czy pod względem oczekiwanej długości życia Polsce udaje się skuteczniej gonić najbardziej rozwinięte kraje Europy. Oczekiwana długość życia w Polsce w roku 2015 wyniosła 76 lat i 8 miesięcy. W roku 1989 było to 71 lat i 1 miesiąc.</description>
     </item>
     
     <item>
@@ -674,7 +664,7 @@ Widoczna na mapie zależność świadczy pozytywnie o mobilności studentów. Ni
       <pubDate>Wed, 10 Aug 2016 12:34:03 +0000</pubDate>
       
       <guid>/post/kiedy-polska-bedzie-bogata-o-dystansie-w-rozwoju-gospodarczym-jaki-dzieli-nas-od-zachodniej-europy/</guid>
-      <description>Czy Polska kiedykolwiek dogoni w rozwoju gospodarczym Niemcy? A może chociaż Czechy? Ile lat dzieli nasze gospodarki? Czy po roku 1989 udało się nadgonić nieco dystans do krajów zachodnich?Jednym z podstawowych tematów sporu pomiędzy ekonomicznymi liberałami, a tymi którzy mówią o potrzebie sterowania gospodarką jest to, czy różnice w rozwoju gospodarczym maleją czy narastają. Dotyczy to zarówno nierówności w rozwoju regionów czy państw, jak i rozwarstwienia społecznego. W wielkim skrócie, według liberałów nierówności powinny z czasem maleć, ponieważ osoby najbardziej przedsiębiorcze wydają zarobione pieniądze, dzięki czemu napędzają gospodarkę i bogactwo ,,spływa&amp;rdquo; w ten sposób na resztę społeczeństwa.</description>
+      <description>Czy Polska kiedykolwiek dogoni w rozwoju gospodarczym Niemcy? A może chociaż Czechy? Ile lat dzieli nasze gospodarki? Czy po roku 1989 udało się nadgonić nieco dystans do krajów zachodnich?Jednym z podstawowych tematów sporu pomiędzy ekonomicznymi liberałami, a tymi którzy mówią o potrzebie sterowania gospodarką jest to, czy różnice w rozwoju gospodarczym maleją czy narastają. Dotyczy to zarówno nierówności w rozwoju regionów czy państw, jak i rozwarstwienia społecznego. W wielkim skrócie, według liberałów nierówności powinny z czasem maleć, ponieważ osoby najbardziej przedsiębiorcze wydają zarobione pieniądze, dzięki czemu napędzają gospodarkę i bogactwo ,,spływa&amp;rdquo; w ten sposób na resztę społeczeństwa.</description>
     </item>
     
     <item>
@@ -683,7 +673,7 @@ Widoczna na mapie zależność świadczy pozytywnie o mobilności studentów. Ni
       <pubDate>Tue, 02 Aug 2016 16:13:10 +0000</pubDate>
       
       <guid>/post/polska-dwoch-predkosci-perspektywy-demograficzne-aglomeracji-do-roku-2050/</guid>
-      <description>Jednym z elementów świadczących o sile miasta jest jego rozwój demograficzny. Miejsca prężne gospodarczo i przyjazne do życia przyciągają nowych mieszkańców. Z kolei brak perspektyw jest jedną z przyczyn emigracji. Ogólny spadek ludności Polski w ciągu następnych 35 lat odbije się także na największych miastach. Ale nie wszystkie regiony dotknie on w równym stopniu. Które aglomeracje wyjdą z tego starcia zwycięsko? Nie ma wątpliwości, że do roku 2050 liczba mieszkańców Polski znacznie zmaleje (szacunkowo do 32-34 milionów).</description>
+      <description>Jednym z elementów świadczących o sile miasta jest jego rozwój demograficzny. Miejsca prężne gospodarczo i przyjazne do życia przyciągają nowych mieszkańców. Z kolei brak perspektyw jest jedną z przyczyn emigracji. Ogólny spadek ludności Polski w ciągu następnych 35 lat odbije się także na największych miastach. Ale nie wszystkie regiony dotknie on w równym stopniu. Które aglomeracje wyjdą z tego starcia zwycięsko? Nie ma wątpliwości, że do roku 2050 liczba mieszkańców Polski znacznie zmaleje (szacunkowo do 32-34 milionów).</description>
     </item>
     
     <item>
@@ -692,7 +682,7 @@ Widoczna na mapie zależność świadczy pozytywnie o mobilności studentów. Ni
       <pubDate>Mon, 18 Jul 2016 13:36:47 +0000</pubDate>
       
       <guid>/post/w-poszukiwaniu-swiezego-powietrza-pyly-pm-w-europie/</guid>
-      <description>W Szychcie można często przeczytać o porównaniach krajów pod względem rozwoju ekonomicznego. Ale jakość życia to nie tylko PKB per capita. Dzisiaj zbadamy to, jak dobrym powietrzem mogą się cieszyć Polacy w porównaniu do mieszkańców innych krajów europejskich.Na mapie można przeglądać średnioroczne stężenie pyłów PM (od ang. Particulate Matter) o średnicy do 2.5 μm lub do 10 μm. Oba typy pyłów są na tyle małe, że przechodzą przez nasze nosy. PM 10 wnikają do płuc, ale nie są dalej transportowane, natomiast PM 2.</description>
+      <description>W Szychcie można często przeczytać o porównaniach krajów pod względem rozwoju ekonomicznego. Ale jakość życia to nie tylko PKB per capita. Dzisiaj zbadamy to, jak dobrym powietrzem mogą się cieszyć Polacy w porównaniu do mieszkańców innych krajów europejskich.Na mapie można przeglądać średnioroczne stężenie pyłów PM (od ang. Particulate Matter) o średnicy do 2.5 μm lub do 10 μm. Oba typy pyłów są na tyle małe, że przechodzą przez nasze nosy. PM 10 wnikają do płuc, ale nie są dalej transportowane, natomiast PM 2.</description>
     </item>
     
     <item>
@@ -739,7 +729,7 @@ Co na tej mapie widać? Po pierwsze podział na lepsze i gorsze dzielnice. Wśr�
       <pubDate>Mon, 13 Jun 2016 12:56:33 +0000</pubDate>
       
       <guid>/post/czytelnictwo-gazet/</guid>
-      <description>Słychać nieraz głosy na temat dramatycznie spadającego czytelnictwa gazet w Polsce. Szychta sprawdza jak zmieniała się sprzedaż ogólnopolskich gazet codziennych na przestrzeni ostatnich 20 lat. Czy możemy mówić o kryzysie? Jeśli tak to które gazety dotyka on najmocniej?
+      <description>Słychać nieraz głosy na temat dramatycznie spadającego czytelnictwa gazet w Polsce. Szychta sprawdza jak zmieniała się sprzedaż ogólnopolskich gazet codziennych na przestrzeni ostatnich 20 lat. Czy możemy mówić o kryzysie? Jeśli tak to które gazety dotyka on najmocniej?
 Na początku lat 90-tych najczęściej kupowaną gazetą była Gazeta Wyborcza. Jej nakład był mniej więcej stały aż do roku 2007. W międzyczasie na rynek wszedł Fakt, który od czasu kiedy zaczął być wydawany w 2003 roku jest najchętniej czytaną gazetą.</description>
     </item>
     
@@ -749,8 +739,8 @@ Na początku lat 90-tych najczęściej kupowaną gazetą była Gazeta Wyborcza. 
       <pubDate>Mon, 06 Jun 2016 14:19:37 +0000</pubDate>
       
       <guid>/post/praca-szuka-czlowieka-czyli-o-bezrobociu-i-migracjach/</guid>
-      <description>Czy praca jest towarem? Zobaczmy co na ten temat da się powiedzieć na podstawie danych. W szczególności czy w skali makro działa prawo popytu i podaży? Innymi słowy, czy można zaobserwować w Polsce zależność pomiędzy bezrobociem (popytem na pracę) a migracjami (podażą pracy)?
-Dane musimy analizować na poziomie województw. Kiedy bierzemy pod uwagę powiaty, to zaczynają odgrywać rolę dodatkowe czynniki, typu rozlewania się dużych miast na sąsiednie tereny. W tego typu powiatach duża migracja wielkomiejskich ,,kolonizatorów&amp;rdquo; może się łączyć z biedą i bezrobociem.</description>
+      <description>Czy praca jest towarem? Zobaczmy co na ten temat da się powiedzieć na podstawie danych. W szczególności czy w skali makro działa prawo popytu i podaży? Innymi słowy, czy można zaobserwować w Polsce zależność pomiędzy bezrobociem (popytem na pracę) a migracjami (podażą pracy)?
+Dane musimy analizować na poziomie województw. Kiedy bierzemy pod uwagę powiaty, to zaczynają odgrywać rolę dodatkowe czynniki, typu rozlewania się dużych miast na sąsiednie tereny. W tego typu powiatach duża migracja wielkomiejskich ,,kolonizatorów&amp;rdquo; może się łączyć z biedą i bezrobociem.</description>
     </item>
     
     <item>
@@ -759,7 +749,7 @@ Dane musimy analizować na poziomie województw. Kiedy bierzemy pod uwagę powia
       <pubDate>Tue, 31 May 2016 14:05:14 +0000</pubDate>
       
       <guid>/post/pusto-jak-we-wschodnich-niemczech-czyli-prognoza-demograficzna-dla-europy/</guid>
-      <description>W poprzednich wpisach było trochę o ekonomii, między innymi o tym jak w różnych regionach w Polsce wzrasta PKB, jak ma się wzrost płac w Polsce do innych krajów. Moja intuicja jest taka, że długofalowego rozwoju gospodarczego nie sposób połączyć z zapaścią demograficzną. To znaczy regiony, które odniosą sukces nie będą sie szybko wyludniać. I w drugą stronę, bieda napędza emigrację i wyludnianie. Jak będzie wyglądać Europa za 35 lat? Gdzie przybędzie mieszkańców?</description>
+      <description>W poprzednich wpisach było trochę o ekonomii, między innymi o tym jak w różnych regionach w Polsce wzrasta PKB, jak ma się wzrost płac w Polsce do innych krajów. Moja intuicja jest taka, że długofalowego rozwoju gospodarczego nie sposób połączyć z zapaścią demograficzną. To znaczy regiony, które odniosą sukces nie będą sie szybko wyludniać. I w drugą stronę, bieda napędza emigrację i wyludnianie. Jak będzie wyglądać Europa za 35 lat? Gdzie przybędzie mieszkańców?</description>
     </item>
     
     <item>
@@ -768,8 +758,8 @@ Dane musimy analizować na poziomie województw. Kiedy bierzemy pod uwagę powia
       <pubDate>Wed, 25 May 2016 09:11:52 +0000</pubDate>
       
       <guid>/post/demograficzna-bomba-czyli-jak-bedzie-wygladac-polska-za-35-lat/</guid>
-      <description>Słychać czasem w mediach, że polskie społeczeństwo szybko się starzeje i czeka nas demograficzna apokalipsa. Czy rzeczywiście jest tak źle? Kiedy odczujemy pierwsze efekty tych zmian? Na wstępie zaznaczę, że będę się trochę mądrzyć. Próbuję używać common sense, ale rzecz jasna można, szczególnie będąc ekspertem, wysnuć z tych danych inne wnioski.
-Już za kilka lat zacznie się szybko kurczyć ludność wieku produkcyjnym. Wynika to z tego, że na emerytury przejdą liczne roczniki z lat 50-tych.</description>
+      <description>Słychać czasem w mediach, że polskie społeczeństwo szybko się starzeje i czeka nas demograficzna apokalipsa. Czy rzeczywiście jest tak źle? Kiedy odczujemy pierwsze efekty tych zmian? Na wstępie zaznaczę, że będę się trochę mądrzyć. Próbuję używać common sense, ale rzecz jasna można, szczególnie będąc ekspertem, wysnuć z tych danych inne wnioski.
+Już za kilka lat zacznie się szybko kurczyć ludność wieku produkcyjnym. Wynika to z tego, że na emerytury przejdą liczne roczniki z lat 50-tych.</description>
     </item>
     
     <item>
@@ -778,7 +768,7 @@ Już za kilka lat zacznie się szybko kurczyć ludność wieku produkcyjnym. Wy
       <pubDate>Tue, 17 May 2016 17:33:32 +0000</pubDate>
       
       <guid>/post/polegli-pod-monte-cassino-lub-polak-niekatolik/</guid>
-      <description>Dzisiaj rocznica bitwy o Monte Cassino, więc wpis będzie mały ,,charakter rocznicowy&amp;rdquo; :) Poniższa analiza oparta jest o stronę z informacjami o grobach polskich żołnierzy z II Wojny Światowej we Włoszczech. Jak wiadomo II Korpus złożony był z Polaków wywiezionych na Syberię przez bolszewików. Jakich wyznań byli Polacy, którzy zginęli pod Monte Cassino? Czy broni się w tych danych stereotyp polaka-katolika?Monte Cassino to jedna z najważniejszych bitew w jakich uczestniczyli Polacy po roku 1939.</description>
+      <description>Dzisiaj rocznica bitwy o Monte Cassino, więc wpis będzie mały ,,charakter rocznicowy&amp;rdquo; :) Poniższa analiza oparta jest o stronę z informacjami o grobach polskich żołnierzy z II Wojny Światowej we Włoszczech. Jak wiadomo II Korpus złożony był z Polaków wywiezionych na Syberię przez bolszewików. Jakich wyznań byli Polacy, którzy zginęli pod Monte Cassino? Czy broni się w tych danych stereotyp polaka-katolika?Monte Cassino to jedna z najważniejszych bitew w jakich uczestniczyli Polacy po roku 1939.</description>
     </item>
     
     <item>
@@ -787,8 +777,7 @@ Już za kilka lat zacznie się szybko kurczyć ludność wieku produkcyjnym. Wy
       <pubDate>Wed, 11 May 2016 18:42:07 +0000</pubDate>
       
       <guid>/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</guid>
-      <description>Lie factor, czyli współczynnika kłamstwa, jest miarą zaproponowana przez Edwarda Tuftego do opisu niezgodności wielkości przedstawionej na grafice, do rzeczywistej liczby wynikającej z danych. Udało mi się upolować bardzo ciekawy przykład pochodzący z twitta Michała Szczerby, posła na Sejm, któremu udało się na jednej grafice umieścić dwa rysunki o różnych współczynnikach kłamstwa.
-Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idealnie 1.5:1. A jak to wygląda na rysunku? Wysokość zmierzyłem za pomocą GIMPa.</description>
+      <description>Lie factor, czyli współczynnika kłamstwa, jest miarą zaproponowana przez Edwarda Tuftego do opisu niezgodności wielkości przedstawionej na grafice, do rzeczywistej liczby wynikającej z danych. Udało mi się upolować bardzo ciekawy przykład pochodzący z twitta Michała Szczerby, posła na Sejm, któremu udało się na jednej grafice umieścić dwa rysunki o różnych współczynnikach kłamstwa.Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idealnie 1.5:1. A jak to wygląda na rysunku? Wysokość zmierzyłem za pomocą GIMPa.</description>
     </item>
     
     <item>
@@ -797,7 +786,7 @@ Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idea
       <pubDate>Wed, 11 May 2016 14:41:16 +0000</pubDate>
       
       <guid>/post/tanio-kupic-drogo-sprzedac-czyli-dwa-slowa-o-polskim-handlu-zagranicznym/</guid>
-      <description>W ostatnim wpisie zastanawiałem się nad możliwą przyczyną tego, że płace w Polsce rosną wolniej niż PKB (oba liczone w dolarach bez parytetu siły nabywczej). Przy okazji zainteresowało mnie, że dużo od Polski mniejsze Czechy mają niemal taką samą wymianę handlową. Czy można jednak powiedzieć, że handel zagraniczny rośnie w Polsce zbyt, cokolwiek by to nie miało znaczyć, wolno? Wzrost polskiej wymiany handlowej po roku 1989 jest znacznie wyższy niż dynamika światowego handlu.</description>
+      <description>W ostatnim wpisie zastanawiałem się nad możliwą przyczyną tego, że płace w Polsce rosną wolniej niż PKB (oba liczone w dolarach bez parytetu siły nabywczej). Przy okazji zainteresowało mnie, że dużo od Polski mniejsze Czechy mają niemal taką samą wymianę handlową. Czy można jednak powiedzieć, że handel zagraniczny rośnie w Polsce zbyt, cokolwiek by to nie miało znaczyć, wolno? Wzrost polskiej wymiany handlowej po roku 1989 jest znacznie wyższy niż dynamika światowego handlu.</description>
     </item>
     
     <item>
@@ -816,7 +805,7 @@ Nie mam pełnych danych na temat wynagrodzenia, ale porównamy wynagrodzenie za 
       <pubDate>Thu, 28 Apr 2016 17:42:31 +0000</pubDate>
       
       <guid>/post/dane-prawie-dostepne/</guid>
-      <description>Szychta w Danych działa dzięki dostępności bezpłatnych danych w internecie, w dużej mierze pochodzących od różnego typu urzędów. Dlatego bardzo interesują mnie konsultacje, jakie przeprowadza Ministerstwo Cyfryzacji, w formie ankiety, dotyczące tego, jak powinny być udostępniane dane publiczne. Zachęcając do jej wypełnienia, podzielę się kilkoma wrażeniami z korzystanie z serwisu Dane Publiczne.
+      <description>Szychta w Danych działa dzięki dostępności bezpłatnych danych w internecie, w dużej mierze pochodzących od różnego typu urzędów. Dlatego bardzo interesują mnie konsultacje, jakie przeprowadza Ministerstwo Cyfryzacji, w formie ankiety, dotyczące tego, jak powinny być udostępniane dane publiczne. Zachęcając do jej wypełnienia, podzielę się kilkoma wrażeniami z korzystanie z serwisu Dane Publiczne.
 Zacznijmy od rzeczy pozytywnych. Strona jest porządnie zrobiona, łatwo się po niej poruszać. Dane pochodzą z wielu różnych ministerstw i agencji rządowych.</description>
     </item>
     
@@ -826,7 +815,7 @@ Zacznijmy od rzeczy pozytywnych. Strona jest porządnie zrobiona, łatwo się po
       <pubDate>Tue, 26 Apr 2016 14:03:23 +0000</pubDate>
       
       <guid>/post/granica-mozliwosci-lub-o-rozwoju-polskich-metropolii/</guid>
-      <description>W Polsce ma miejsce proces szybkiego rozwoju największych miast i miejscowości leżących w ich bezpośrednim sąsiedztwie. Duży sukces potrafi niestety generować duże problemy, i nie każde z miast potrafi sobie z nimi równie dobrze poradzić. W dzisiejszym wpisie skupimy się na tym, czy przyrost liczby mieszkańców i rozbudowa osiedli mieszkaniowych jest bilansowana zwiększonymi nakładami na transport publiczny.Zacznijmy od analizy infografiki, która wprowadzi nas w ten problem. W których powiatach liczba mieszkańców najszybciej wzrasta, a które najszybciej zwiększają swoje wydatki na transport publiczny?</description>
+      <description>W Polsce ma miejsce proces szybkiego rozwoju największych miast i miejscowości leżących w ich bezpośrednim sąsiedztwie. Duży sukces potrafi niestety generować duże problemy, i nie każde z miast potrafi sobie z nimi równie dobrze poradzić. W dzisiejszym wpisie skupimy się na tym, czy przyrost liczby mieszkańców i rozbudowa osiedli mieszkaniowych jest bilansowana zwiększonymi nakładami na transport publiczny.Zacznijmy od analizy infografiki, która wprowadzi nas w ten problem. W których powiatach liczba mieszkańców najszybciej wzrasta, a które najszybciej zwiększają swoje wydatki na transport publiczny?</description>
     </item>
     
     <item>
@@ -835,7 +824,7 @@ Zacznijmy od rzeczy pozytywnych. Strona jest porządnie zrobiona, łatwo się po
       <pubDate>Thu, 21 Apr 2016 14:47:22 +0000</pubDate>
       
       <guid>/post/ile-dzieci-mogloby-sie-rodzic-w-polsce-lub-o-braku-rodzin-wielodzietnych/</guid>
-      <description>Sporo mówi się o tym, że w Polsce mamy problem demograficzny. Rodzi się za mało dzieci, a za kilkadziesiąt lat czekają nas bardzo duże problemy finansowe, związane z koniecznością wypłaty dużej liczby emerytur przez małą liczbę pracujących. Zobaczmy jak bardzo zmieniła się struktura polskich rodzin w przeciągu 35 lat i czy gdyby rodzin wielodzietnych było więcej to problem demograficzny zostałby zażegnany?Jednym z problemów na jaki się wskazuje jest to, że kobiety nie decydują się na drugie i kolejne dzieci.</description>
+      <description>Sporo mówi się o tym, że w Polsce mamy problem demograficzny. Rodzi się za mało dzieci, a za kilkadziesiąt lat czekają nas bardzo duże problemy finansowe, związane z koniecznością wypłaty dużej liczby emerytur przez małą liczbę pracujących. Zobaczmy jak bardzo zmieniła się struktura polskich rodzin w przeciągu 35 lat i czy gdyby rodzin wielodzietnych było więcej to problem demograficzny zostałby zażegnany?Jednym z problemów na jaki się wskazuje jest to, że kobiety nie decydują się na drugie i kolejne dzieci.</description>
     </item>
     
     <item>
@@ -844,7 +833,7 @@ Zacznijmy od rzeczy pozytywnych. Strona jest porządnie zrobiona, łatwo się po
       <pubDate>Mon, 18 Apr 2016 13:33:15 +0000</pubDate>
       
       <guid>/post/o-nieomylnosci-papieza-i-bernim-sandersie/</guid>
-      <description>Wbrew tytułowi, dzisiejszy wpis nie będzie dotyczył teologii, tylko ekonomii, a konkretnie (nie)równej dystrybucji dóbr. Pretekstem jest artykuł w Washington Post na temat wizyty Berniego Sandersa, kandydata w prawyborach prezydenckich Partii Demokratycznej, u papieża Franciszka. To co łączy tych dwóch panów, to krytyka liberalnego kapitalizmu, za to, że nie udało mu się doprowadzić do zniwelowania nierówności społecznych i gospodarczych na świecie. Czy rzeczywiście tak jest?
+      <description>Wbrew tytułowi, dzisiejszy wpis nie będzie dotyczył teologii, tylko ekonomii, a konkretnie (nie)równej dystrybucji dóbr. Pretekstem jest artykuł w Washington Post na temat wizyty Berniego Sandersa, kandydata w prawyborach prezydenckich Partii Demokratycznej, u papieża Franciszka. To co łączy tych dwóch panów, to krytyka liberalnego kapitalizmu, za to, że nie udało mu się doprowadzić do zniwelowania nierówności społecznych i gospodarczych na świecie. Czy rzeczywiście tak jest?
 Co ma na swoją obronę kapitalizm?</description>
     </item>
     
@@ -865,7 +854,7 @@ Pierwsze pytanie jest następujące: czy liczba kursów jakie wykonuje komunikac
       
       <guid>/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
       <description>Czasem strach jaki odczuwamy przed terroryzmem, zwłaszcza w Polsce, może wydawać się przesadzony. Jest jednak na świecie wiele miejsc, gdzie terroryzm jest niestety codziennością. W dzisiejszym wpisie prezentuję interaktywną mapę światowego terroryzmu.
-Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwaga, docelowy plik jest dosyć duży (około 15MB), a w miarę przybliżania wybranego regionu świata, dodatkowo ściągana jest mapa z serwisu open street map. Łączny przesył danych, może więc trochę kosztować :)</description>
+Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwaga, docelowy plik jest dosyć duży (około 15MB), a w miarę przybliżania wybranego regionu świata, dodatkowo ściągana jest mapa z serwisu open street map. Łączny przesył danych, może więc trochę kosztować :)[</description>
     </item>
     
     <item>
@@ -874,7 +863,7 @@ Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwa
       <pubDate>Wed, 30 Mar 2016 13:22:47 +0000</pubDate>
       
       <guid>/post/kaj-bana-na-slasku-czy-o-komunikacji-w-gop/</guid>
-      <description>Wszystko co chcielibyście wiedzieć o GOP, ale nie mieliście danych :) W dzisiejszym wpisie przybliżę temat funkcjonowania, unikalnego w skali Polski, systemu komunikacji zbiorowej na Górnym Śląsku. Nigdzie indziej nie mamy tak wielu miast leżących tak blisko siebie i mających wspólny transport publiczny. Ile centrów, popularnych wśród mieszkańców, znajduje się na Górnym Śląsku? Do których miast/dzielnic nikt nie chce jeździć i dlaczego?
+      <description>Wszystko co chcielibyście wiedzieć o GOP, ale nie mieliście danych :) W dzisiejszym wpisie przybliżę temat funkcjonowania, unikalnego w skali Polski, systemu komunikacji zbiorowej na Górnym Śląsku. Nigdzie indziej nie mamy tak wielu miast leżących tak blisko siebie i mających wspólny transport publiczny. Ile centrów, popularnych wśród mieszkańców, znajduje się na Górnym Śląsku? Do których miast/dzielnic nikt nie chce jeździć i dlaczego?
 Na jakich trasach przemieszczają się mieszkańcy GOP? Poniższy wykres to zestawienie wszystkich wyszukiwanych połączeń.</description>
     </item>
     
@@ -884,7 +873,7 @@ Na jakich trasach przemieszczają się mieszkańcy GOP? Poniższy wykres to zest
       <pubDate>Tue, 22 Mar 2016 15:30:21 +0000</pubDate>
       
       <guid>/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</guid>
-      <description>W jakich krajach i regionach przeprowadzanych jest najwięcej zamachów terrorystycznych? Czy jest uzasadnionym, żeby mówić o tym, że Europa Zachodnia jest szczególnie atakowana, czy też mamy do czynienia z globalną eskalacją terroryzmu?Mam wrażenie, że czasem zapominamy iż terroryzm nie jest zjawiskiem nowym. Od dawna wywiera on znaczący wpływ na kształtowanie rzeczywistości politycznej. Wystarczy przypomnieć, że jedna z największych humanitarnych tragedii w historii Europy, I Wojna Światowa, rozpoczęła się od zamachu terrorystycznego w Sarajewie.</description>
+      <description>W jakich krajach i regionach przeprowadzanych jest najwięcej zamachów terrorystycznych? Czy jest uzasadnionym, żeby mówić o tym, że Europa Zachodnia jest szczególnie atakowana, czy też mamy do czynienia z globalną eskalacją terroryzmu?Mam wrażenie, że czasem zapominamy iż terroryzm nie jest zjawiskiem nowym. Od dawna wywiera on znaczący wpływ na kształtowanie rzeczywistości politycznej. Wystarczy przypomnieć, że jedna z największych humanitarnych tragedii w historii Europy, I Wojna Światowa, rozpoczęła się od zamachu terrorystycznego w Sarajewie.</description>
     </item>
     
     <item>
@@ -893,7 +882,7 @@ Na jakich trasach przemieszczają się mieszkańcy GOP? Poniższy wykres to zest
       <pubDate>Wed, 16 Mar 2016 20:41:59 +0000</pubDate>
       
       <guid>/post/drogi-rowerowe/</guid>
-      <description>Na stronie fejsbukowej MojaPolis pojawiło się zestawienie miast w Polsce pod względem długości tras rowerowych. Zestawienie dotyczy wartości bezwzględnych, a my spojrzymy na te dane w odniesieniu do powierzchni gmin.
+      <description>Na stronie fejsbukowej MojaPolis pojawiło się zestawienie miast w Polsce pod względem długości tras rowerowych. Zestawienie dotyczy wartości bezwzględnych, a my spojrzymy na te dane w odniesieniu do powierzchni gmin.
 W więcej niż połowie gmin w Polsce nie ma żadnych dróg rowerowych. Dotyczy to zwłaszcza Polski wschodniej. Duża gęstość ścieżek rowerowych związana jest nie tylko z dużymi miastami. Część z nich można zidentyfikować jako regiony turstyczne, np. Góry Sowie na Dolnym Śląsku.</description>
     </item>
     
@@ -915,7 +904,7 @@ _Data.frame _ nazwy, to brzydki hak, służący do łączenia danych. Jego przyd
       <pubDate>Mon, 29 Feb 2016 17:38:59 +0000</pubDate>
       
       <guid>/post/czy-bogaci-sa-coraz-bogatsi-czyli-o-roznicach-w-rozwoju-regionow-w-polsce/</guid>
-      <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze czy też dystans między nimi się zwiększa?
+      <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze czy też dystans między nimi się zwiększa?
 Na początek zobaczmy jak wygląda średnie wynagrodzenie brutto w podziale na województwa. Gołym okiem widać ogromne dysproporcje pomiędzy Warszawą, a resztą Polski. Różnica w wynagrodzeniach pomiędzy Mazowszem a Górnym Śląskiem jest większa niż między Górnym Śląskiem a najbiedniejszymi Warmią i Mazurami.
 Ale może Warszawa jest goniona przez resztę Polski? Jak zmieniły się zarobki w ciągu ostatnich 12 lat?</description>
     </item>
@@ -1041,7 +1030,7 @@ Następnie już łatwo wygenerować jest wykres w ggplot [github file = &amp;ldq
       <pubDate>Wed, 14 Oct 2015 05:16:39 +0000</pubDate>
       
       <guid>/post/elektrownie-w-polsce/</guid>
-      <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
+      <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
 Istniejące elektrownie są zlokalizowane głównie w południowej części Polski. Na Górnym Śląsku występuje bardzo duże zagęszczenie elektrowni, co jest zapewne związane z przemysłem ciężkim, który był w przeszłości (jest nadal?</description>
     </item>
     
@@ -1098,7 +1087,7 @@ Dane, z których korzystam, pochodzą ze strony agendy ONZ zajmującej się ucho
       <pubDate>Thu, 27 Aug 2015 16:11:22 +0000</pubDate>
       
       <guid>/post/suburbanizacja-po-wroclawsku-i-przedszkola/</guid>
-      <description>We Wrocławiu ma miejsce proces suburbanizacji, opuszczania przez mieszkańców centrum miasta, lub w ogóle jego granic, na rzecz nowych osiedli budowanych na obrzeżach. Zjawisko ponoć niekorzystne, a na pewno nieuniknione. Czy nadążamy za tym procesem? Czy zapewniamy nowo zamieszkałym terenom transport, edukację, możliwość rozrywki, tereny zielone? W kilku najbliższych wpisach będę się zajmował tym zagadnieniem, oczywiście w oparciu o dane. Zaczniemy od potrzeb najmłodszych Wrocławian czyli dostępności przedszkoli. Informację o przedszkolach pobrałem zestrony miasta Wrocławia, mapę Wrocławia z serwisu geostatystycznego GUS, a dane demograficzne z serwisu Systemu Informacji Przestrzennej.</description>
+      <description>We Wrocławiu ma miejsce proces suburbanizacji, opuszczania przez mieszkańców centrum miasta, lub w ogóle jego granic, na rzecz nowych osiedli budowanych na obrzeżach. Zjawisko ponoć niekorzystne, a na pewno nieuniknione. Czy nadążamy za tym procesem? Czy zapewniamy nowo zamieszkałym terenom transport, edukację, możliwość rozrywki, tereny zielone? W kilku najbliższych wpisach będę się zajmował tym zagadnieniem, oczywiście w oparciu o dane. Zaczniemy od potrzeb najmłodszych Wrocławian czyli dostępności przedszkoli. Informację o przedszkolach pobrałem zestrony miasta Wrocławia, mapę Wrocławia z serwisu geostatystycznego GUS, a dane demograficzne z serwisu Systemu Informacji Przestrzennej.</description>
     </item>
     
     <item>
@@ -1128,7 +1117,6 @@ Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdyc
       <guid>/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
       <description>Naprawdę chciałbym napisać o czymś innym, ale polityka i wybory zbyt mocno panoszą się teraz w mojej głowie, żeby móc przygotować cokolwiek innego.
 Podzielę, się kilkoma obrazkami, stworzonymi w R przy użyciu pakietu ggplot2. Są to złośliwe mapy i nie mniej złośliwe wykresy, tłumaczące poparcie jakie uzyskali obaj kandydaci w poszczególnych gminach.
-
 Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosów. Wydaje mi się, że często i niesprawiedliwie, podaje się jako przyczynę podział na lepiej rozwiniętą Polskę zachodnią i zacofaną ścianę wschodnią.</description>
     </item>
     
@@ -1208,7 +1196,7 @@ W ostatnich wyborach PSL zdobyło 22.68% poparcia. Według badania IPSOS przepro
       
       <guid>/post/programowanie-w-r-z-wykorzystaniem-emacsa/</guid>
       <description>Widząc ogromną liczbę artykułów na blogach dotyczących RStudio, mam wrażenie, że dominuje ono w dziedzinie IDE dla R. Z tego co wiem, to konkurencji w środowiskach ,,do wyklikania&amp;rdquo; nie ma bardzo dużej. Sam zresztą uwielbiam z niego korzystać. Szybko i wygodnie można wykonać większość prac, z jakimi można się spotkać w analizie danych. Nie oznacza to, że nie da się pracować inaczej. Jedną z takich możliwości daje emacs.
-   Emacs jest uniwersalny.</description>
+  Emacs jest uniwersalny.</description>
     </item>
     
     <item>
@@ -1227,7 +1215,7 @@ Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć pre
       <pubDate>Wed, 03 Sep 2014 16:56:09 +0000</pubDate>
       
       <guid>/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</guid>
-      <description>Podczas wakacji miałem okazję odświeżyć sobie przygody Pana Samochodzika. W tomie ,,Tajemnica Tajemnic&amp;rdquo; Pan Samochodzik trafia na połówkę blaszki, na której jednej stronie znajduje się połówka kwadratu magicznego.14 4 7 9 11 5 2 16 Przez kwadrat magiczny rozumiem, w przypadku kwadratu 4x4, kwadrat podzielony na 16 małych kwadratów, w które wpisane są liczby od 1 do 16, w taki sposób aby suma każdego wiersza i każdej kolumny była taka sama.</description>
+      <description>Podczas wakacji miałem okazję odświeżyć sobie przygody Pana Samochodzika. W tomie ,,Tajemnica Tajemnic&amp;rdquo; Pan Samochodzik trafia na połówkę blaszki, na której jednej stronie znajduje się połówka kwadratu magicznego.14 4 7 9 11 5 2 16 Przez kwadrat magiczny rozumiem, w przypadku kwadratu 4x4, kwadrat podzielony na 16 małych kwadratów, w które wpisane są liczby od 1 do 16, w taki sposób aby suma każdego wiersza i każdej kolumny była taka sama.</description>
     </item>
     
     <item>

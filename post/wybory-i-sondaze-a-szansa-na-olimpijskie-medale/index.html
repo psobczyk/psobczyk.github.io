@@ -20,7 +20,7 @@ W ostatnich wyborach PSL zdobyło 22.68% poparcia. Według badania IPSOS przepro
 W ostatnich wyborach PSL zdobyło 22.68% poparcia. Według badania IPSOS przeprowadzonego dla TVP, TVN i Polsatu poparcie dla PSL wyniosło równo 17%, próba była wielkości 800. Zastanówmy się jak prawdopodobna jest taka różnica. Zakładamy, że zarówno wybory jak i sondaż zostały prawidłowo przeprowadzone.">
 <meta itemprop="datePublished" content="2014-11-24T09:36:00+00:00" />
 <meta itemprop="dateModified" content="2014-11-24T09:36:00+00:00" />
-<meta itemprop="wordCount" content="582">
+<meta itemprop="wordCount" content="579">
 
 
 
@@ -133,17 +133,15 @@ if (!doNotTrack) {
 <p>Liczba oddanych głosów na partię ma rozkład dwumianowy (liczba sukcesów w schemacie Bernoulliego). Ponieważ próba jest duża, to możemy przybliżyć tę wartość rozkładem normalnym o wartości oczekiwanej równej n<em>p = 189.44 i wariancji n</em>p*(1-p) = 144.58. Wynik z sondażu to 0.17*800 = 136. Oznaczmy zmierzoną w sondażu liczbę głosów przez X.
 P(X &lt; 136) = 4.4e-06 = 0.0000044. Czy to dużo czy mało? Szanse takiego zdarzenia są jak 1 do 200000 (dwustu tysięcy). To prawdopodobieństwo jest tak duże jak to, że losowo wybrany Polak, powtórzę wybrany losowo z całej populacji Polski, okaże się medalistą igrzysk olimpijskich. Wydaje mi się, że jest to mała liczba.
 Dla porównania, w wyborach w roku 2010 wynik PSL również został niedoszacowany w badaniach exit pools. Wtedy różnica wynosiła 3.3%, przy rzeczywistym poparciu 16.3%. Szanse takie zdarzenia są jak 1 do 200.</p>
-<p>Jaki z tego wniosek? Bynajmniej nie taki, że wybory są sfałszowane. Po prostu próba z sondażu nie jest reprezentatywna dla całej populacji. Występuje systematyczny błąd, który zaniża poparcie dla PSL-u. Oczywiście może być to spowodowane tym, że IPSOS nie uwzględnił, które głosy ,,mają większą szansę na bycie nieważnymi&rdquo;. Ale przyczyna może leżeć także po stronie firmy IPSOS - próba może być źle dobrana, np. możemy mieć nadreprezentację jakiejś grupy społecznej. Firmie IPSOS trzeba przy tym oddać, że w wyborach do parlamentu europejskiego dostała <a href="http://www.ipsos.pl/poll">bardzo dokładne oszacowania poparcia</a>. Nie wystarczy mieć wątpliwości, żeby powiedzieć, że wybory są nieuczciwe - trzeba to pokazać! Wiele trudno wyjaśnialnych zjawisk i korelacji może być dziełem przypadku. Ponieważ, jako ludzkość, mierzymy bardzo dużo, to raz na jakiś czas trafiamy na <a href="http://www.tylervigen.com/">,,podejrzany wynik&rdquo; </a></p>
+<p>Jaki z tego wniosek? Bynajmniej nie taki, że wybory są sfałszowane. Po prostu próba z sondażu nie jest reprezentatywna dla całej populacji. Występuje systematyczny błąd, który zaniża poparcie dla PSL-u. Oczywiście może być to spowodowane tym, że IPSOS nie uwzględnił, które głosy ,,mają większą szansę na bycie nieważnymi&rdquo;. Ale przyczyna może leżeć także po stronie firmy IPSOS - próba może być źle dobrana, np. możemy mieć nadreprezentację jakiejś grupy społecznej. Firmie IPSOS trzeba przy tym oddać, że w wyborach do parlamentu europejskiego dostała <a href="http://www.ipsos.pl/poll">bardzo dokładne oszacowania poparcia</a>. Nie wystarczy mieć wątpliwości, żeby powiedzieć, że wybory są nieuczciwe - trzeba to pokazać! Wiele trudno wyjaśnialnych zjawisk i korelacji może być dziełem przypadku. Ponieważ, jako ludzkość, mierzymy bardzo dużo, to raz na jakiś czas trafiamy na <a href="http://www.tylervigen.com/">,,podejrzany wynik&rdquo; </a></p>
 <p>I jeszce informacja dla tych co lubią tropić spiski.
 Ciekawą analizą w wyborach byłoby zbadanie czy istnieje jakaś zależność między liczbą głosów nieważnych a poparciem dla poszczególnych partii. Czy na poziomie powiatów, gmin można takie zależności zaobserwować? Czy istnieją komisje obwodowe, które mają nienaturalnie dużo głosów nieważnych w porównaniu z sąsiednimi komisjami? Niestety póki co PKW nie upubliczniła pełnych wyników. Dane z wyborów z roku 2010 można znależć <a href="http://wybory2010.pkw.gov.pl/geo/pl/000000.html">tu</a>.
 Inną ciekawą analizą jest rozkład poparcia dla partii w komisjach obwodowych. Fizycy z Imperial College w Lodynie napisali nawet na ten temat <a href="http://arxiv.org/abs/1205.0741">pracę naukową</a>. W skrócie - mając bardzo wiele komisji oczekujemy, że wyniki będą miały pewną ,,regularność&rdquo;. Tymczasem w wyborach w Rosji można zaobserwować, że jedna Partia nadspodziewanie często zdobywa okrągłe wyniki 75%, 80%, 85%&hellip;</p>
 <p>Kod:</p>
-<p>[code lang=text]
-p n mu sigma #wartość z sondaży
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">p n mu sigma #wartość z sondaży
 sondaz #dystrybuanta dla rozkładu normalnego
 pnorm(sondaz, mu, sigma)
-[/code]</p>
-<p>Uwagi:</p>
+</code></pre></div><p>Uwagi:</p>
 <ol>
 <li>
 <p>Wielkości próby w badaniu IPSOS znalazłem w internecie - nie potrafię w tej chwili podać źródła</p>

@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Automatyzacja winietek lub czemu na Szychcie nic się nie dzieje</title>
+      <title>Automatyzacja winietek lub czemu na Szychcie nic się nie dzieje</title>
       <link>/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</link>
       <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
       
@@ -118,7 +118,7 @@ Następnie już łatwo wygenerować jest wykres w ggplot [github file = &amp;ldq
       <pubDate>Wed, 14 Oct 2015 05:16:39 +0000</pubDate>
       
       <guid>/post/elektrownie-w-polsce/</guid>
-      <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
+      <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
 Istniejące elektrownie są zlokalizowane głównie w południowej części Polski. Na Górnym Śląsku występuje bardzo duże zagęszczenie elektrowni, co jest zapewne związane z przemysłem ciężkim, który był w przeszłości (jest nadal?</description>
     </item>
     
@@ -177,7 +177,7 @@ Poniżej zamieszczam swój plik .emacs. W kolejnych postach postaram się wyjaś
       
       <guid>/post/programowanie-w-r-z-wykorzystaniem-emacsa/</guid>
       <description>Widząc ogromną liczbę artykułów na blogach dotyczących RStudio, mam wrażenie, że dominuje ono w dziedzinie IDE dla R. Z tego co wiem, to konkurencji w środowiskach ,,do wyklikania&amp;rdquo; nie ma bardzo dużej. Sam zresztą uwielbiam z niego korzystać. Szybko i wygodnie można wykonać większość prac, z jakimi można się spotkać w analizie danych. Nie oznacza to, że nie da się pracować inaczej. Jedną z takich możliwości daje emacs.
-   Emacs jest uniwersalny.</description>
+  Emacs jest uniwersalny.</description>
     </item>
     
   </channel>

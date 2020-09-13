@@ -142,16 +142,14 @@ if (!doNotTrack) {
 <p>Wykorzystamy w tym celu pakiet XML. Ściągniemy <a href="http://www.boxofficemojo.com/alltime/world/">listę najbardziej kasowych filmów wszechczasów</a>.</p>
 <p>[github file = &ldquo;/psobczyk/szychtawdanych/blob/master/filmy/analiza_actors_directors.R&rdquo; start_line = &ldquo;2&rdquo; end_line = &ldquo;10&rdquo;]</p>
 <p>Bardziej ogólne rozwiązania opiera się na wczytaniu całego pliku i ręcznego wybrania interesującego nas fragmentu korzystając z XML-owych tagów.</p>
-<pre><code>doc.html = htmlTreeParse('http://www.boxofficemojo.com/alltime/', useInternal = TRUE)
-doc.text = unlist(xpathApply(doc.html, &quot;//*/table&quot;, xmlValue))
-</code></pre>
-<p><strong>Podłączenie do API</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">doc.html <span style="color:#f92672">=</span> <span style="color:#a6e22e">htmlTreeParse</span>(<span style="color:#e6db74">&#39;http://www.boxofficemojo.com/alltime/&#39;</span>, useInternal <span style="color:#f92672">=</span> <span style="color:#66d9ef">TRUE</span>)
+doc.text <span style="color:#f92672">=</span> <span style="color:#a6e22e">unlist</span>(<span style="color:#a6e22e">xpathApply</span>(doc.html, <span style="color:#e6db74">&#34;//*/table&#34;</span>, xmlValue))
+</code></pre></div><p><strong>Podłączenie do API</strong></p>
 <p><a href="http://szychtawdanych.pl/?p=621">W poprzednim wpisie Szychty</a> interesowało mnie nie tyle jakie filmy są najbardziej kasowe, takich zestawień jest tak dużo, że nie sposób z nimi konkurować, ale bardziej jacy aktorzy i reżyserzy stoją za ich sukcesami. Jak jednak zebrać informację o 630 filmach? Trzeba mieć albo bardzo dużo czasu, albo posłużyć się odpowiednim API (Application Programming Interface). Ja posłużyłem się bazą <a href="http://www.omdbapi.com/">The Open Movie Database</a>.</p>
 <p>Jak się podłączyć do API? Trzeba najpierw skonstruować odpowiednie zapytanie czyli URL. Składnia, która nas interesuje jest opisana na stronie OMDb. Następnie po prostu wczytujemy tę stronę. Dla filmu Rocky wygląda to następująco</p>
-<pre><code>queryURL &lt;- 'http://www.omdbapi.com/?t=Rocky&amp;y;=1976&amp;plot;=short&amp;r;=json'
-rd &lt;- readLines(queryURL, warn=&quot;F&quot;) 
-</code></pre>
-<p>Dane dla wszystkich filmów wczytujemy w prostej pętli</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">queryURL <span style="color:#f92672">&lt;-</span> <span style="color:#e6db74">&#39;http://www.omdbapi.com/?t=Rocky&amp;y;=1976&amp;plot;=short&amp;r;=json&#39;</span>
+rd <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">readLines</span>(queryURL, warn<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;F&#34;</span>)
+</code></pre></div><p>Dane dla wszystkich filmów wczytujemy w prostej pętli</p>
 <p>[github file = &ldquo;/psobczyk/szychtawdanych/blob/master/filmy/analiza_actors_directors.R&rdquo; start_line = &ldquo;42&rdquo; end_line = &ldquo;64&rdquo;]</p>
 <p>Et voilà! Wystarczy teraz nasze dane lekko przetworzyć, pogrupować i umieścić na wykresie.</p>
 <p><strong>Przetworzenie danych</strong></p>

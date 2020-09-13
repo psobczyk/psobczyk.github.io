@@ -126,22 +126,21 @@ if (!doNotTrack) {
 <div class="content post__content clearfix">
 			<p>Dzisiejszy wpis szczególnie przypadnie do gustu wszystkim miłośnikom tramwajów i niestandardowych wykresów w R. Nietrudno zatem odgadnąć, że autor należy do obu tych grup. Odpowiemy sobie na pytania gdzie w Polsce są a gdzie zostały zlikwidowane sieci tramwajowe? Jakie miasto może się pochwalić najdłuższą długość torowisk? Jak mocno obecność tramwajów determinowana jest przebiegiem granicy zaboru pruskiego oraz jak zrobić w R efektowne wykresy gdzie zamiast punktu mamy obrazek.<!-- raw HTML omitted --></p>
 <p>Na początek punkt wyjścia czyli zwykły wykres. Kolor punktu odpowiada dacie likwidacji sieci, na zielono mamy sieci, które w dalszym ciągu działają. Widać kilka systemów, które zostało zlikwidowanych z powodu wytyczenia nowych granic, które podzieliły miasta doprowadzając do likwidacji linii tramwajowych. Przykładem są leżące nad Odrą Zgorzelec i Słubice oraz Cieszyn, który przed I Wojną Światową był austro-węgierski.</p>
-<p>Wielkość punktu odpowiada długości torowisk. Jak widać najdłuższą sieć tramwajową w Polsce posiada Łódź. Tramwaje dojeżdżają tam do pobliskich miejscowości jak Pabianice czy Zgierz. <a href="http://szychtawdanych.pl/wp-content/uploads/2015/12/systemy_tramwajowe-1.jpg"><img src="http://szychtawdanych.pl/wp-content/uploads/2015/12/systemy_tramwajowe-1-853x1024.jpg" alt="systemy_tramwajowe"></a></p>
+<p>Wielkość punktu odpowiada długości torowisk. Jak widać najdłuższą sieć tramwajową w Polsce posiada Łódź. Tramwaje dojeżdżają tam do pobliskich miejscowości jak Pabianice czy Zgierz.</p>
+<p><img src="/old_wp/2015/12/systemy_tramwajowe-1.jpg" alt="systemy_tramwajowe"></p>
 <p>Granicę zaborów widać, ale uwzględniwszy wielkość sieci, nie jest ona tak uderzająca jak można by się spodziewać. Na mapie dodany jest Lwów - jedyne miasto z Kresów Wschodnich z tramwajami.</p>
 <p>A teraz eRowe dobroci. Czyli mapa Polski z naniesionymi obrazkami tramwajów. Wielkość rysunku odpowiada łącznej długości torowisk a kolor dacie likwidacji.</p>
-<p><a href="http://szychtawdanych.pl/wp-content/uploads/2015/12/systemy_tramwajowe_raster_image.jpg"><img src="http://szychtawdanych.pl/wp-content/uploads/2015/12/systemy_tramwajowe_raster_image-1003x1024.jpg" alt="systemy_tramwajowe_raster_image"></a> Dane pobrałem z <a href="https://pl.wikipedia.org/wiki/Tramwaje_w_Polsce">wikipedii. </a>Know-how na temat tego jak importować i przetwarzać obrazy png w R pochodzi <a href="https://ryouready.wordpress.com/2014/09/12/using-colorized-png-pictograms-in-r-base-plots/">stąd</a>.</p>
+<p><img src="/old_wp/2015/12/systemy_tramwajowe_raster_image.jpg" alt="systemy_tramwajowe_raster_image"> Dane pobrałem z <a href="https://pl.wikipedia.org/wiki/Tramwaje_w_Polsce">wikipedii. </a>Know-how na temat tego jak importować i przetwarzać obrazy png w R pochodzi <a href="https://ryouready.wordpress.com/2014/09/12/using-colorized-png-pictograms-in-r-base-plots/">stąd</a>.</p>
 <p>Teraz kilka słów na temat tego jak takie cudo wyprodukować w R.</p>
 <p>Najpierw trzeba wczytać i przerobić <a href="https://www.google.pl/url?sa=i&amp;rct=j&amp;q=&amp;esrc=s&amp;source=images&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwiy7K-E-YPKAhWhJXIKHdECC9cQjRwIBw&amp;url=http%3A%2F%2Fpl.tramwaj.wikia.com%2Fwiki%2FPlik%3ABKV_villamos.svg.png&amp;bvm=bv.110151844,d.bGQ&amp;psig=AFQjCNEk4XR-DevpPz6rRu4qLX0sg5haeQ&amp;ust=1451568498827906">rysunek tramwaju.</a></p>
-<pre><code>library(png)
-library(ggplot2)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(png)
+<span style="color:#a6e22e">library</span>(ggplot2)
 
 img
-</code></pre>
-<p>Następnie rysujemy, ręcznie ustawiam kolor. Oczywiście można by też stosować ciągłą skalę koloru. W takim wypadku, na każdy ,,punkt&rdquo; należałoby osobno nałożyć funkcję img_to_colorramp.</p>
-<pre><code>library(ggmap)
-polskaMapa 
-</code></pre>
-
+</code></pre></div><p>Następnie rysujemy, ręcznie ustawiam kolor. Oczywiście można by też stosować ciągłą skalę koloru. W takim wypadku, na każdy ,,punkt&rdquo; należałoby osobno nałożyć funkcję img_to_colorramp.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">library</span>(ggmap)
+polskaMapa
+</code></pre></div>
 		</div>
 		<footer class="post__footer">
 			

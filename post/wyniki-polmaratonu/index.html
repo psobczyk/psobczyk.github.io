@@ -20,7 +20,7 @@ Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdyc
 Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi.">
 <meta itemprop="datePublished" content="2015-06-21T19:57:31+00:00" />
 <meta itemprop="dateModified" content="2015-06-21T19:57:31+00:00" />
-<meta itemprop="wordCount" content="208">
+<meta itemprop="wordCount" content="209">
 
 
 
@@ -129,19 +129,20 @@ if (!doNotTrack) {
 <div class="content post__content clearfix">
 			<p>W ostatnią sobotę odbył się we Wrocławiu<a href="http://pol.wroclawmaraton.pl/"> nocny półmaraton</a>. Dostarczył on, oprócz dobrej zabawy, niemałego zbioru danych zawierającego międzyczasy blisko 7000 uczestników.</p>
 <!-- raw HTML omitted -->
-<p>Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi. Wartości w punktach to średnie tempo w jakim zawodnik przebiegł poprzedni fragment. Dodatkowo zaznaczyłem 5 i 95 kwantyl oraz medianę i mój wynik :)<a href="https://szychtawdanych.files.wordpress.com/2015/06/polmaraton_full_tempo1.jpg"><img src="https://szychtawdanych.files.wordpress.com/2015/06/polmaraton_full_tempo1.jpg?w=300" alt="polmaraton_full_tempo"></a>Jeśli ktoś ma jakiś inny pomysł na wizualizację to zachęcam do dzielenia się!</p>
+<p>Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi. Wartości w punktach to średnie tempo w jakim zawodnik przebiegł poprzedni fragment. Dodatkowo zaznaczyłem 5 i 95 kwantyl oraz medianę i mój wynik :)</p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/06/polmaraton_full_tempo1.jpg" alt="polmaraton_full_tempo"></p>
+<p>Jeśli ktoś ma jakiś inny pomysł na wizualizację to zachęcam do dzielenia się!</p>
 <p>Dane pobrałem ze strony półmaratonu, ich przystosowanie do R nie wymagało dużo pracy - chętnie się nimi podzielę jeśli ktoś jest chętny.</p>
 <p>Na koniec kod w eRze. W data.frame dane znajdują się informacje o tempie dla wszystkich zawodników. Aby linie zawodników były widoczne są one mocno przeroczyste - alpha=0.02.
 W daneKwantyle są kwantyle i mój wynik.</p>
-<pre><code>p &lt;- ggplot(dane,aes(x=dystans,y=tempo))
-p &lt;- p + geom_line(aes(group=osoba),colour=&quot;#431600&quot;,alpha=0.02)
-p &lt;- p + scale_y_continuous(labels=c(t(gsub(&quot; &quot;, &quot;:&quot;, outer(3:11, c(&quot;00&quot;, &quot;30&quot;), paste)))),
-                            breaks=seq(180, 690, 30))
-p &lt;- p + ylab(&quot;tempo (min/km)&quot;)
-p &lt;- p + geom_line(data=daneKwantyle, aes(group=osoba,colour=osoba),alpha=1)
-p &lt;- p + scale_color_discrete(&quot;&quot;, labels=c(paste(&quot;kwantyl&quot;, c(0.05, 0.5, 0.95)),&quot;PS&quot;))
-</code></pre>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">p <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">ggplot</span>(dane,<span style="color:#a6e22e">aes</span>(x<span style="color:#f92672">=</span>dystans,y<span style="color:#f92672">=</span>tempo))
+p <span style="color:#f92672">&lt;-</span> p <span style="color:#f92672">+</span> <span style="color:#a6e22e">geom_line</span>(<span style="color:#a6e22e">aes</span>(group<span style="color:#f92672">=</span>osoba),colour<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;#431600&#34;</span>,alpha<span style="color:#f92672">=</span><span style="color:#ae81ff">0.02</span>)
+p <span style="color:#f92672">&lt;-</span> p <span style="color:#f92672">+</span> <span style="color:#a6e22e">scale_y_continuous</span>(labels<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">t</span>(<span style="color:#a6e22e">gsub</span>(<span style="color:#e6db74">&#34; &#34;</span>, <span style="color:#e6db74">&#34;:&#34;</span>, <span style="color:#a6e22e">outer</span>(<span style="color:#ae81ff">3</span><span style="color:#f92672">:</span><span style="color:#ae81ff">11</span>, <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;00&#34;</span>, <span style="color:#e6db74">&#34;30&#34;</span>), paste)))),
+                            breaks<span style="color:#f92672">=</span><span style="color:#a6e22e">seq</span>(<span style="color:#ae81ff">180</span>, <span style="color:#ae81ff">690</span>, <span style="color:#ae81ff">30</span>))
+p <span style="color:#f92672">&lt;-</span> p <span style="color:#f92672">+</span> <span style="color:#a6e22e">ylab</span>(<span style="color:#e6db74">&#34;tempo (min/km)&#34;</span>)
+p <span style="color:#f92672">&lt;-</span> p <span style="color:#f92672">+</span> <span style="color:#a6e22e">geom_line</span>(data<span style="color:#f92672">=</span>daneKwantyle, <span style="color:#a6e22e">aes</span>(group<span style="color:#f92672">=</span>osoba,colour<span style="color:#f92672">=</span>osoba),alpha<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+p <span style="color:#f92672">&lt;-</span> p <span style="color:#f92672">+</span> <span style="color:#a6e22e">scale_color_discrete</span>(<span style="color:#e6db74">&#34;&#34;</span>, labels<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#a6e22e">paste</span>(<span style="color:#e6db74">&#34;kwantyl&#34;</span>, <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0.05</span>, <span style="color:#ae81ff">0.5</span>, <span style="color:#ae81ff">0.95</span>)),<span style="color:#e6db74">&#34;PS&#34;</span>))
+</code></pre></div>
 		</div>
 		<footer class="post__footer">
 			

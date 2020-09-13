@@ -76,7 +76,7 @@ Zacznijmy od tego, że koszty obsługi długu wcale nie są największe dla kraj
       <pubDate>Mon, 10 Sep 2018 08:10:19 +0000</pubDate>
       
       <guid>/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
-      <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
+      <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
 Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;rdquo;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
     </item>
     
@@ -87,7 +87,7 @@ Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przed
       
       <guid>/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</guid>
       <description>Które regiony Polski są najsilniejsze? Zależy pod jakim względem. Może jeśli chodzi o wkład w PKB? A może przez liczbę ludności? Dzisiaj nie tylko o tym, kto jest najważniejszy, ale także o tym jak tego typu dane można przedstawić.
-próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorficznymi, w których powierzchnia obszaru jest proporcjonalna do zmiennej jaką chcemy zwizualizować. Ostatnio zrobiliśmy taką transformację dla województw w Polsce. Czas włączyć zoom i sprawdzić jak wygląda taka mapa na poziomie podregionów.</description>
+próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorficznymi, w których powierzchnia obszaru jest proporcjonalna do zmiennej jaką chcemy zwizualizować. Ostatnio zrobiliśmy taką transformację dla województw w Polsce. Czas włączyć zoom i sprawdzić jak wygląda taka mapa na poziomie podregionów.</description>
     </item>
     
     <item>
@@ -106,9 +106,8 @@ próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorf
       
       <guid>/post/czy-polska-dogoni-zachod-lub-uluda-konwergencji/</guid>
       <description>Tym czy Polska zbliża się do krajów zachodnich zajmowaliśmy się już na blogu wcześniej. W tym wpisie sprawdzimy, na podstawie nowych danych, ile lat zajmie Polsce dogonienie krajów zachodnich. Dodatkowo przyjrzymy się sensowności przyjętej metodyki oraz będziemy cieszyć oko ładnymi mapami i wykresami.
-
 Jak widać na powyższej mapie te różnice się nieco zmniejszyły. Sprawdźmy jak wyglądał tak mierzony dystans w poszczególnych latach.
-Widać pewną zbieżność, ale jest ona bardzo powolna.</description>
+Widać pewną zbieżność, ale jest ona bardzo powolna. Linie są właściwie poziome.</description>
     </item>
     
     <item>
@@ -147,7 +146,7 @@ Okazuje się jednak, że sprawa ta nie jest tak jednoznaczna. Kraje Europy wscho
       <pubDate>Sun, 05 Mar 2017 16:27:19 +0000</pubDate>
       
       <guid>/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</guid>
-      <description>Kilka dni temu pojawił się w Polsce temat nierówności zarobków ze względu na płeć, a właściwie nieco egzotycznego wytłumaczenia tego faktu. Pozostaje oczywiście pytanie o to, czy i jak państwa powinny aktywnie działać na rzecz zmniejszenia tychże nierówności. Dzisiaj w Szychcie prześledzimy jak duże jest to zjawisko, jak różnią się pod tym względem kraje europejskie i czy dysproporcje maleją czy stają się coraz większe.Dane pochodzą z eurostatu (tabela earn_gr_gpgr2). Zawierają one procentową różnicę w przeciętnych zarobkach za godzinę pracy mężczyzn i kobiet.</description>
+      <description>Kilka dni temu pojawił się w Polsce temat nierówności zarobków ze względu na płeć, a właściwie nieco egzotycznego wytłumaczenia tego faktu. Pozostaje oczywiście pytanie o to, czy i jak państwa powinny aktywnie działać na rzecz zmniejszenia tychże nierówności. Dzisiaj w Szychcie prześledzimy jak duże jest to zjawisko, jak różnią się pod tym względem kraje europejskie i czy dysproporcje maleją czy stają się coraz większe.Dane pochodzą z eurostatu (tabela earn_gr_gpgr2). Zawierają one procentową różnicę w przeciętnych zarobkach za godzinę pracy mężczyzn i kobiet.</description>
     </item>
     
     <item>
@@ -157,9 +156,8 @@ Okazuje się jednak, że sprawa ta nie jest tak jednoznaczna. Kraje Europy wscho
       
       <guid>/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</guid>
       <description>Raz na jakiś czas słychać w Polsce (i nie tylko) hasła o zaostrzeniu prawa, zero tolerancji dla przestępców itp. Czy rzeczywiście karanie więzieniem jest skuteczne? Czy wpływa pozytywnie na bezpieczeństwo?
-
 Trzy wnioski:
-  W Polsce mamy bardzo mało morderstw, ale liczba osadzonych w więzieniach jest zdecydowanie powyżej średniej. Inne warte uwagi obserwacje odstające to USA, Japonia - bardzo mało morderstw i mało więźniów, Singapur - bardzo bezpieczny kraj z dużą liczbą więźniów, Honduras - aż 85 morderstw i tylko 200 osadzonych na 100 tys.</description>
+  W Polsce mamy bardzo mało morderstw, ale liczba osadzonych w więzieniach jest zdecydowanie powyżej średniej. Inne warte uwagi obserwacje odstające to USA, Japonia - bardzo mało morderstw i mało więźniów, Singapur - bardzo bezpieczny kraj z dużą liczbą więźniów, Honduras - aż 85 morderstw i tylko 200 osadzonych na 100 tys.</description>
     </item>
     
     <item>
@@ -179,7 +177,7 @@ Towarzystwo Upiększania Miasta Wrocławia napisało na fb o tym jak bardzo Wroc
       
       <guid>/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</guid>
       <description>W Polsce występuje największa w Europie dysproporcja zarobków biednych i bogatych. Czy można to tłumaczyć dziedzictwem komunizmu i szybkiej transformacji systemowej? Jak radzą sobie pozostałe kraje w Europie Wschodniej? Jak zmieniła się dysproporcja od roku 2006?
-Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnienie? Z pewnością prowadzi ona do wzrastania nierówności i napięć społecznych. Bardziej widoczny jest podział na tych co mają, i na tych co nie mają. To z kolei daje szansę dojścia do władzy populistom, którzy winą za trudności obarczą jakąś konkretną grupę społeczną, etniczną itp.</description>
+Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnienie? Z pewnością prowadzi ona do wzrastania nierówności i napięć społecznych. Bardziej widoczny jest podział na tych co mają, i na tych co nie mają. To z kolei daje szansę dojścia do władzy populistom, którzy winą za trudności obarczą jakąś konkretną grupę społeczną, etniczną itp.</description>
     </item>
     
     <item>
@@ -188,7 +186,7 @@ Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnie
       <pubDate>Tue, 27 Sep 2016 11:04:26 +0000</pubDate>
       
       <guid>/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</guid>
-      <description>Świat jest pełen nierówności - to stwierdzenie to banał, choć niestety prawdziwy. Zawsze tak było i zawsze będzie, ale skala nierówności jest zmienna. I choć najważniejszy pozostaje wymiar ludzki, czyli cierpienie jednostki, to warto też zobaczyć jak zmienia się świat w skali makro. Jak wyglądał pod tym względem 100 lat temu? Czy nierówności się pogłębiają, czy też są coraz mniejsze? Na początku zobaczmy wykres bogactwa w roku 2013. Na osi X mamy ludność.</description>
+      <description>Świat jest pełen nierówności - to stwierdzenie to banał, choć niestety prawdziwy. Zawsze tak było i zawsze będzie, ale skala nierówności jest zmienna. I choć najważniejszy pozostaje wymiar ludzki, czyli cierpienie jednostki, to warto też zobaczyć jak zmienia się świat w skali makro. Jak wyglądał pod tym względem 100 lat temu? Czy nierówności się pogłębiają, czy też są coraz mniejsze? Na początku zobaczmy wykres bogactwa w roku 2013. Na osi X mamy ludność.</description>
     </item>
     
     <item>
@@ -197,7 +195,7 @@ Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnie
       <pubDate>Tue, 06 Sep 2016 17:16:05 +0000</pubDate>
       
       <guid>/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</guid>
-      <description>Jakie są różnice w aktywności, zarobkach i perspektywach zawodowych kobiet i mężczyzn? Czy Polska jest krajem, który zapewnia równe szanse bez względu na płeć? W których krajach kobietom najtrudniej jest się przebić?Sprawdźmy najpierw jak duża jest różnica pomiędzy procentem mężczyzn aktywnych zawodowo a procentem kobiet, które są aktywne zawodowo
+      <description>Jakie są różnice w aktywności, zarobkach i perspektywach zawodowych kobiet i mężczyzn? Czy Polska jest krajem, który zapewnia równe szanse bez względu na płeć? W których krajach kobietom najtrudniej jest się przebić?Sprawdźmy najpierw jak duża jest różnica pomiędzy procentem mężczyzn aktywnych zawodowo a procentem kobiet, które są aktywne zawodowo
 Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła. Zajmijmy się teraz znanym zjawiskiem gender gap, czyli różnicy w zarobkach.</description>
     </item>
     
@@ -207,7 +205,7 @@ Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła
       <pubDate>Tue, 16 Aug 2016 16:22:39 +0000</pubDate>
       
       <guid>/post/zelazna-kurtyna-26-lat-pozniej-o-roznicach-w-oczekiwanej-dlugosci-zycia/</guid>
-      <description>W poprzednim wpisie rozważaliśmy to, ile lat w rozwoju gospodarczym dzieli Polskę od pozostałych krajów europejskich. Jak słusznie zauważyła część czytelników, nie jest to jedyny wskaźnik, który świadczy o rozwoju gospodarczym. W dzisiejszym wpisie sprawdzimy, czy pod względem oczekiwanej długości życia Polsce udaje się skuteczniej gonić najbardziej rozwinięte kraje Europy. Oczekiwana długość życia w Polsce w roku 2015 wyniosła 76 lat i 8 miesięcy. W roku 1989 było to 71 lat i 1 miesiąc.</description>
+      <description>W poprzednim wpisie rozważaliśmy to, ile lat w rozwoju gospodarczym dzieli Polskę od pozostałych krajów europejskich. Jak słusznie zauważyła część czytelników, nie jest to jedyny wskaźnik, który świadczy o rozwoju gospodarczym. W dzisiejszym wpisie sprawdzimy, czy pod względem oczekiwanej długości życia Polsce udaje się skuteczniej gonić najbardziej rozwinięte kraje Europy. Oczekiwana długość życia w Polsce w roku 2015 wyniosła 76 lat i 8 miesięcy. W roku 1989 było to 71 lat i 1 miesiąc.</description>
     </item>
     
     <item>
@@ -216,8 +214,8 @@ Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła
       <pubDate>Wed, 25 May 2016 09:11:52 +0000</pubDate>
       
       <guid>/post/demograficzna-bomba-czyli-jak-bedzie-wygladac-polska-za-35-lat/</guid>
-      <description>Słychać czasem w mediach, że polskie społeczeństwo szybko się starzeje i czeka nas demograficzna apokalipsa. Czy rzeczywiście jest tak źle? Kiedy odczujemy pierwsze efekty tych zmian? Na wstępie zaznaczę, że będę się trochę mądrzyć. Próbuję używać common sense, ale rzecz jasna można, szczególnie będąc ekspertem, wysnuć z tych danych inne wnioski.
-Już za kilka lat zacznie się szybko kurczyć ludność wieku produkcyjnym. Wynika to z tego, że na emerytury przejdą liczne roczniki z lat 50-tych.</description>
+      <description>Słychać czasem w mediach, że polskie społeczeństwo szybko się starzeje i czeka nas demograficzna apokalipsa. Czy rzeczywiście jest tak źle? Kiedy odczujemy pierwsze efekty tych zmian? Na wstępie zaznaczę, że będę się trochę mądrzyć. Próbuję używać common sense, ale rzecz jasna można, szczególnie będąc ekspertem, wysnuć z tych danych inne wnioski.
+Już za kilka lat zacznie się szybko kurczyć ludność wieku produkcyjnym. Wynika to z tego, że na emerytury przejdą liczne roczniki z lat 50-tych.</description>
     </item>
     
     <item>
@@ -226,7 +224,7 @@ Już za kilka lat zacznie się szybko kurczyć ludność wieku produkcyjnym. Wy
       <pubDate>Wed, 11 May 2016 14:41:16 +0000</pubDate>
       
       <guid>/post/tanio-kupic-drogo-sprzedac-czyli-dwa-slowa-o-polskim-handlu-zagranicznym/</guid>
-      <description>W ostatnim wpisie zastanawiałem się nad możliwą przyczyną tego, że płace w Polsce rosną wolniej niż PKB (oba liczone w dolarach bez parytetu siły nabywczej). Przy okazji zainteresowało mnie, że dużo od Polski mniejsze Czechy mają niemal taką samą wymianę handlową. Czy można jednak powiedzieć, że handel zagraniczny rośnie w Polsce zbyt, cokolwiek by to nie miało znaczyć, wolno? Wzrost polskiej wymiany handlowej po roku 1989 jest znacznie wyższy niż dynamika światowego handlu.</description>
+      <description>W ostatnim wpisie zastanawiałem się nad możliwą przyczyną tego, że płace w Polsce rosną wolniej niż PKB (oba liczone w dolarach bez parytetu siły nabywczej). Przy okazji zainteresowało mnie, że dużo od Polski mniejsze Czechy mają niemal taką samą wymianę handlową. Czy można jednak powiedzieć, że handel zagraniczny rośnie w Polsce zbyt, cokolwiek by to nie miało znaczyć, wolno? Wzrost polskiej wymiany handlowej po roku 1989 jest znacznie wyższy niż dynamika światowego handlu.</description>
     </item>
     
     <item>
@@ -245,7 +243,7 @@ Nie mam pełnych danych na temat wynagrodzenia, ale porównamy wynagrodzenie za 
       <pubDate>Mon, 18 Apr 2016 13:33:15 +0000</pubDate>
       
       <guid>/post/o-nieomylnosci-papieza-i-bernim-sandersie/</guid>
-      <description>Wbrew tytułowi, dzisiejszy wpis nie będzie dotyczył teologii, tylko ekonomii, a konkretnie (nie)równej dystrybucji dóbr. Pretekstem jest artykuł w Washington Post na temat wizyty Berniego Sandersa, kandydata w prawyborach prezydenckich Partii Demokratycznej, u papieża Franciszka. To co łączy tych dwóch panów, to krytyka liberalnego kapitalizmu, za to, że nie udało mu się doprowadzić do zniwelowania nierówności społecznych i gospodarczych na świecie. Czy rzeczywiście tak jest?
+      <description>Wbrew tytułowi, dzisiejszy wpis nie będzie dotyczył teologii, tylko ekonomii, a konkretnie (nie)równej dystrybucji dóbr. Pretekstem jest artykuł w Washington Post na temat wizyty Berniego Sandersa, kandydata w prawyborach prezydenckich Partii Demokratycznej, u papieża Franciszka. To co łączy tych dwóch panów, to krytyka liberalnego kapitalizmu, za to, że nie udało mu się doprowadzić do zniwelowania nierówności społecznych i gospodarczych na świecie. Czy rzeczywiście tak jest?
 Co ma na swoją obronę kapitalizm?</description>
     </item>
     
@@ -255,7 +253,7 @@ Co ma na swoją obronę kapitalizm?</description>
       <pubDate>Mon, 29 Feb 2016 17:38:59 +0000</pubDate>
       
       <guid>/post/czy-bogaci-sa-coraz-bogatsi-czyli-o-roznicach-w-rozwoju-regionow-w-polsce/</guid>
-      <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze czy też dystans między nimi się zwiększa?
+      <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze czy też dystans między nimi się zwiększa?
 Na początek zobaczmy jak wygląda średnie wynagrodzenie brutto w podziale na województwa. Gołym okiem widać ogromne dysproporcje pomiędzy Warszawą, a resztą Polski. Różnica w wynagrodzeniach pomiędzy Mazowszem a Górnym Śląskiem jest większa niż między Górnym Śląskiem a najbiedniejszymi Warmią i Mazurami.
 Ale może Warszawa jest goniona przez resztę Polski? Jak zmieniły się zarobki w ciągu ostatnich 12 lat?</description>
     </item>

@@ -131,14 +131,13 @@ if (!doNotTrack) {
 <!-- raw HTML omitted -->
 <p>Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.</p>
 <p>Zacznijmy od rzeczy podstawowej, czyli gdzie znajdują się przystanki</p>
-<p><a href="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw_lokalizacja.jpeg"><img src="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw_lokalizacja.jpeg?w=300" alt="przystanki_mpk_wroclaw_lokalizacja"></a></p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw_lokalizacja.jpeg" alt="przystanki_mpk_wroclaw_lokalizacja"></p>
 <p>Jak się robi takie cudo? Oczywiście w R. W tym celu korzystamy z <a href="http://www.google.pl/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=2&amp;cad=rja&amp;uact=8&amp;ved=0CC8QFjAB&amp;url=http%3A%2F%2Fjournal.r-project.org%2Farchive%2F2013-1%2Fkahle-wickham.pdf&amp;ei=YDbmVOP3H8jhaqzGgNAN&amp;usg=AFQjCNG7-2iYFI2b28oizWS9KF5kqh_oYQ&amp;bvm=bv.85970519,d.d2s">pakietu ggmap</a>.
 Pakiet ten został stworzony do wizualizacji przestrzennej. Jak każda rzecz, w której maczał palce Hadley Wickham, jest to świetnie dopracowane narzędzie. Umożliwia, między innymi, ściąganie map google maps i rysowanie na nich. Miejsce, którego mapę chcemy ściągnąć, wpisujemy w R dokładnie tak samo jak robilibyśmy to na stronie internetowej.</p>
-<pre><code>geocode(&quot;wrocław&quot;)
-pwr &lt;- &quot;politechnika wrocławska&quot;
-qmap(pwr, zoom = 14)
-</code></pre>
-<p>Narzędzie jest gotowe, potrzeba tylko danych. Współrzędne geograficzne przystanków ściągnąłem <a href="http://geoportal.wroclaw.pl/www/pliki/KomunikacjaZbiorowa/SlupkiWspolrzedne.txt">ze strony Wrocławia</a>. Poniżej zamieszczam kod dla rysunku z przystankami zamieszczonego wyżej.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#a6e22e">geocode</span>(<span style="color:#e6db74">&#34;wrocław&#34;</span>)
+pwr <span style="color:#f92672">&lt;-</span> <span style="color:#e6db74">&#34;politechnika wrocławska&#34;</span>
+<span style="color:#a6e22e">qmap</span>(pwr, zoom <span style="color:#f92672">=</span> <span style="color:#ae81ff">14</span>)
+</code></pre></div><p>Narzędzie jest gotowe, potrzeba tylko danych. Współrzędne geograficzne przystanków ściągnąłem <a href="http://geoportal.wroclaw.pl/www/pliki/KomunikacjaZbiorowa/SlupkiWspolrzedne.txt">ze strony Wrocławia</a>. Poniżej zamieszczam kod dla rysunku z przystankami zamieszczonego wyżej.</p>
 <pre><code>library(ggmap)
 przystanki dec=&quot;,&quot;, colClasses=c(&quot;numeric&quot;,&quot;numeric&quot;,&quot;numeric&quot;,&quot;factor&quot;))
 names(przystanki) levels(przystanki$type) theme_set(theme_bw(16))
@@ -148,19 +147,18 @@ wroclawMap + geom_point(aes(x = lon, y = lat, colour = type), data = przystanki)
              theme(plot.title=element_text(size=20, face=&quot;bold&quot;, colour=&quot;steelblue&quot;))
 </code></pre>
 <p>Zamiast punktów na mapie, które są dosyć nieczytelne, można narysować zagęszczenie przystanków</p>
-<p><a href="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw.jpeg"><img src="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw.jpeg?w=300" alt="przystanki_mpk_wroclaw"></a></p>
-<pre><code>WroclawMap +
-  stat_density2d(aes(x = lon, y = lat, fill = ..level.., alpha = ..level..),
-                 size = 2, bins = 8, data = przystanki, geom = &quot;polygon&quot;) +
-  scale_fill_gradient('Zasięgnkomunikacjinmiejskiej', guide = &quot;colourbar&quot;) +
-  scale_alpha(range = c(.4, .75), guide = FALSE) +
-  guides(fill = guide_colorbar(barwidth = 10, barheight = 1))
-</code></pre>
-<p>Każdy uważny czytelnik zmiarkuje zaraz, że istotne jest nie to ile mamy przystanków w pobliżu, ale jak często coś z nich odjeżdża. Żeby odpowiedzieć na to pytanie pobrałem <a href="http://www.wroclaw.pl/rozklady-jazdy">rozkłady jazdy</a>. Podobnie jak dla <a href="https://szychtawdanych.wordpress.com/2015/01/08/o-wynikach-ostatnich-wyborow/">pobrania danych wyborczych</a> używałem basha, seda i grepa.
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw.jpeg" alt="przystanki_mpk_wroclaw"></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">WroclawMap <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">stat_density2d</span>(<span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> lon, y <span style="color:#f92672">=</span> lat, fill <span style="color:#f92672">=</span> ..level.., alpha <span style="color:#f92672">=</span> ..level..),
+                 size <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>, bins <span style="color:#f92672">=</span> <span style="color:#ae81ff">8</span>, data <span style="color:#f92672">=</span> przystanki, geom <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;polygon&#34;</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">scale_fill_gradient</span>(<span style="color:#e6db74">&#39;Zasięgnkomunikacjinmiejskiej&#39;</span>, guide <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;colourbar&#34;</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">scale_alpha</span>(range <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">.4</span>, <span style="color:#ae81ff">.75</span>), guide <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>) <span style="color:#f92672">+</span>
+  <span style="color:#a6e22e">guides</span>(fill <span style="color:#f92672">=</span> <span style="color:#a6e22e">guide_colorbar</span>(barwidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>, barheight <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>))
+</code></pre></div><p>Każdy uważny czytelnik zmiarkuje zaraz, że istotne jest nie to ile mamy przystanków w pobliżu, ale jak często coś z nich odjeżdża. Żeby odpowiedzieć na to pytanie pobrałem <a href="http://www.wroclaw.pl/rozklady-jazdy">rozkłady jazdy</a>. Podobnie jak dla <a href="https://szychtawdanych.wordpress.com/2015/01/08/o-wynikach-ostatnich-wyborow/">pobrania danych wyborczych</a> używałem basha, seda i grepa.
 A oto wynik moich wysiłków. Kolor kropek odpowiada temu, czy na przystanku zatrzymują się tramwaje czy autobusy, ich wielkość - liczbie połączeń na dobę.</p>
-<p><a href="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw_natezenie.jpeg"><img src="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw_natezenie.jpeg?w=300" alt="przystanki_mpk_wroclaw_natezenie"></a></p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw_natezenie.jpeg" alt="przystanki_mpk_wroclaw_natezenie"></p>
 <p>I teraz czas na kluczowy wykres. Podobnie jak wcześniej, zamiast zaznaczać poszczególne przystanki, można narysować gęstość natężenia kursów. Im bardziej wyrazisty kolor, tym więcej połączeń. Częstość kursów rysujemy w podziale na tramwaje i autobusy.</p>
-<p><a href="https://szychtawdanych.files.wordpress.com/2015/02/natezenie_ruchu_mpk_wroclaw.png"><img src="https://szychtawdanych.files.wordpress.com/2015/02/natezenie_ruchu_mpk_wroclaw.png?w=300" alt="natezenie_ruchu_mpk_wroclaw"></a></p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/natezenie_ruchu_mpk_wroclaw.png" alt="natezenie_ruchu_mpk_wroclaw"></p>
 <p>Na powyższych rysunkach uwzględnione są wszystkie kursy w ciągu całego tygodnia, z wyłączeniem linii 435, 900, 901, 910.</p>
 <p>W następnym wpisie pokażę, za pomocą animacji, jak zmienia się liczba kursów mpk z godziny na godzinę.</p>
 <p>Jeśli ktoś ma jakiś inny pomysł na użycie tych danych, to zachęcam do dzielenia się nimi w komentarzach.</p>

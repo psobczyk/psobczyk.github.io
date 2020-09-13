@@ -112,7 +112,7 @@ Dane, z których korzystam, pochodzą ze strony agendy ONZ zajmującej się ucho
       <pubDate>Thu, 27 Aug 2015 16:11:22 +0000</pubDate>
       
       <guid>/post/suburbanizacja-po-wroclawsku-i-przedszkola/</guid>
-      <description>We Wrocławiu ma miejsce proces suburbanizacji, opuszczania przez mieszkańców centrum miasta, lub w ogóle jego granic, na rzecz nowych osiedli budowanych na obrzeżach. Zjawisko ponoć niekorzystne, a na pewno nieuniknione. Czy nadążamy za tym procesem? Czy zapewniamy nowo zamieszkałym terenom transport, edukację, możliwość rozrywki, tereny zielone? W kilku najbliższych wpisach będę się zajmował tym zagadnieniem, oczywiście w oparciu o dane. Zaczniemy od potrzeb najmłodszych Wrocławian czyli dostępności przedszkoli. Informację o przedszkolach pobrałem zestrony miasta Wrocławia, mapę Wrocławia z serwisu geostatystycznego GUS, a dane demograficzne z serwisu Systemu Informacji Przestrzennej.</description>
+      <description>We Wrocławiu ma miejsce proces suburbanizacji, opuszczania przez mieszkańców centrum miasta, lub w ogóle jego granic, na rzecz nowych osiedli budowanych na obrzeżach. Zjawisko ponoć niekorzystne, a na pewno nieuniknione. Czy nadążamy za tym procesem? Czy zapewniamy nowo zamieszkałym terenom transport, edukację, możliwość rozrywki, tereny zielone? W kilku najbliższych wpisach będę się zajmował tym zagadnieniem, oczywiście w oparciu o dane. Zaczniemy od potrzeb najmłodszych Wrocławian czyli dostępności przedszkoli. Informację o przedszkolach pobrałem zestrony miasta Wrocławia, mapę Wrocławia z serwisu geostatystycznego GUS, a dane demograficzne z serwisu Systemu Informacji Przestrzennej.</description>
     </item>
     
     <item>
@@ -142,7 +142,6 @@ Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdyc
       <guid>/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
       <description>Naprawdę chciałbym napisać o czymś innym, ale polityka i wybory zbyt mocno panoszą się teraz w mojej głowie, żeby móc przygotować cokolwiek innego.
 Podzielę, się kilkoma obrazkami, stworzonymi w R przy użyciu pakietu ggplot2. Są to złośliwe mapy i nie mniej złośliwe wykresy, tłumaczące poparcie jakie uzyskali obaj kandydaci w poszczególnych gminach.
-
 Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosów. Wydaje mi się, że często i niesprawiedliwie, podaje się jako przyczynę podział na lepiej rozwiniętą Polskę zachodnią i zacofaną ścianę wschodnią.</description>
     </item>
     
