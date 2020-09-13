@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statystyka on Szychta w danych</title>
+    <link>/categories/statystyka/</link>
+    <description>Recent content in Statystyka on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Wed, 23 Jan 2019 18:35:50 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/statystyka/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wykresy Unplugged</title>
+      <link>/post/wykresy-unplugged/</link>
+      <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
+      
+      <guid>/post/wykresy-unplugged/</guid>
+      <description>Już jest! Jakiś czas temu czytelnicy Szychty tłumnie zgłosili się do czytania wersji roboczej, a teraz książeczka jest wydana, dostępna i czeka na chętnych ;) Zawiera ćwiczenia i szczyptę teorii dotyczącej wizualizacji danych. Kto nie boi się wyzwań, kredek i miłego wieczoru (lub kilku) niech się długo nie zastanawia.
+Statystyczna odpowiedź na styczniowy splin
+Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyrysowania. Przedstawiamy 8 typów wykresów wraz z elementami teorii dotyczącej technik wizualizacji.</description>
+    </item>
+    
+    <item>
+      <title>Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu</title>
+      <link>/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</link>
+      <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>
+      
+      <guid>/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</guid>
+      <description>Jaka jest szansa, że Polska zostanie mistrzem świata? A może, że chociaż wyjdziemy z grupy? Ile razy bardziej prawdopodobne jest zwycięstwo Brazylii? Z okazji trwających mistrzostw świata mamy wysyp wszelkiej maści artykułów dotyczących przewidywania wyników za pomocą metod statystycznych. Szychta dołoży swoją małą cegiełkę dokonując przewidywań wyników mundialu.Wyniki przewidujemy metodą Monte Carlo, a więc ,,rozgrywamy&amp;rdquo; kilka tysięcy razy mistrzostwa na komputerze i patrzymy ile razy poszczególne drużyny wyszły z grupy, trafiły do ćwierćfinału i tak dalej.</description>
+    </item>
+    
+    <item>
+      <title>Czy bogaci są coraz bogatsi? Które regiony Polski najszybciej się rozwijają?</title>
+      <link>/post/czy-bogaci-sa-coraz-bogatsi-ktore-regiony-polski-najszybciej-sie-rozwijaja/</link>
+      <pubDate>Mon, 10 Jul 2017 17:02:03 +0000</pubDate>
+      
+      <guid>/post/czy-bogaci-sa-coraz-bogatsi-ktore-regiony-polski-najszybciej-sie-rozwijaja/</guid>
+      <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze, czy też dystans między nimi się zwiększa? Aktualizujemy wpis sprzed półtora roku o dane z roku 2015. W dodatku dokładamy ładniejsze wizualizacje, żywszy język i głębsze wnioski.Naszym punktem startowym są wynagrodzenia w poszczególnych powiatach w roku 2002. Nawet w najbogatszych powiatach jest to mniej niż 3500 złotych brutto. Bogate są Górny Śląsk, okolice Warszawy i kilka powiatów, w których znajdowały się kopalnie (Zgorzelec, Łęczna, Bełchatów).</description>
+    </item>
+    
+    <item>
+      <title>{litwa, ojczyzna, mój, ...} - informatyk czyta literaturę polską</title>
+      <link>/post/litwa-ojczyzna-moj-informatyk-czyta-literature-polska/</link>
+      <pubDate>Fri, 07 Jul 2017 21:18:48 +0000</pubDate>
+      
+      <guid>/post/litwa-ojczyzna-moj-informatyk-czyta-literature-polska/</guid>
+      <description>,,Pan Tadeusz&amp;rdquo; to coś więcej niż sprawdzian, na którym trzeba wiedzieć, gdzie stał zegar w dworku w Soplicowie. To także mistrzostwo języka, wartka fabuła, która na przemian podnosi na duchu, zasmuca i wzbudza niepokój. To wszystko da się ,,wyczytać&amp;rdquo; nie otwierając książki. Wystarczy komputer i kilka wizualizacji.
+Jak wiadomo, jednym z wątków jest historia miłosna Tadeusza i Zosi, która przeplata się z romansem Tadeusza i Telimeny. Zobaczmy, w których fragmentach poszczególnych ksiąg występują poszczególne postaci.</description>
+    </item>
+    
+    <item>
+      <title>Podwójny lie factor - nakłady na szkolnictwo wyższe według posła Szczerby</title>
+      <link>/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</link>
+      <pubDate>Wed, 11 May 2016 18:42:07 +0000</pubDate>
+      
+      <guid>/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</guid>
+      <description>Lie factor, czyli współczynnika kłamstwa, jest miarą zaproponowana przez Edwarda Tuftego do opisu niezgodności wielkości przedstawionej na grafice, do rzeczywistej liczby wynikającej z danych. Udało mi się upolować bardzo ciekawy przykład pochodzący z twitta Michała Szczerby, posła na Sejm, któremu udało się na jednej grafice umieścić dwa rysunki o różnych współczynnikach kłamstwa.
+Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idealnie 1.5:1. A jak to wygląda na rysunku? Wysokość zmierzyłem za pomocą GIMPa.</description>
+    </item>
+    
+    <item>
+      <title>Dane prawie dostępne</title>
+      <link>/post/dane-prawie-dostepne/</link>
+      <pubDate>Thu, 28 Apr 2016 17:42:31 +0000</pubDate>
+      
+      <guid>/post/dane-prawie-dostepne/</guid>
+      <description>Szychta w Danych działa dzięki dostępności bezpłatnych danych w internecie, w dużej mierze pochodzących od różnego typu urzędów. Dlatego bardzo interesują mnie konsultacje, jakie przeprowadza Ministerstwo Cyfryzacji, w formie ankiety, dotyczące tego, jak powinny być udostępniane dane publiczne. Zachęcając do jej wypełnienia, podzielę się kilkoma wrażeniami z korzystanie z serwisu Dane Publiczne.
+Zacznijmy od rzeczy pozytywnych. Strona jest porządnie zrobiona, łatwo się po niej poruszać. Dane pochodzą z wielu różnych ministerstw i agencji rządowych.</description>
+    </item>
+    
+    <item>
+      <title>,,Kino to najważniejsza ze sztuk&#34; - w pogoni za seksizmem w popkulturze</title>
+      <link>/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <pubDate>Mon, 08 Feb 2016 17:31:54 +0000</pubDate>
+      
+      <guid>/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <description>Czy w przemyśle filmowym kryje się seksizm i przewaga mężczyzn nad kobietami? Nawet pobieżne przejrzenie internetu przyniesie odpowiedź że zapewne tak właśnie jest. Na przykład pierwszy wynik w google daje infografikę na ten temat. W dzisiejszym wpisie przyjrzymy się najbardziej kasowym filmom w historii. Sprawdzimy którzy aktorzy i reżyserzy stoją za ich sukcesem, a także jaki jest wśród nich udział kobiet.Na stronie boxofficemojo można znaleźć dane dotyczące 630 najbardziej kasowych filmów wszechczasów.</description>
+    </item>
+    
+    <item>
+      <title>O (nie)równych szansach w polskim systemie edukacji</title>
+      <link>/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
+      <pubDate>Mon, 14 Dec 2015 15:30:33 +0000</pubDate>
+      
+      <guid>/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
+      <description>W Polsce każdy ma prawo do bezpłatnej edukacji, ale jej jakość jest bardzo nierówna. I nie chodzi jedynie o podział miasto - wieś, ale też o regiony geograficzne. W dzisiejszym wpisie zobaczymy jak kształtują się wyniki sprawdzianu po szkole podstawowej, egzaminu gimnazjalnego i matury w podziale na powiaty. Sprawdzimy też czy z czasem różnice pomiędzy nimi zacierają się czy też stają się bardziej widoczne.W dzisiejszym wpisie korzystam z pakietu ZPD stworzony przez Instytut Badań Edukacyjnych.</description>
+    </item>
+    
+    <item>
+      <title>Rozkład państwa czy rozkład prawdopodobieństwa? O ogłaszaniu i wykonywaniu wyroków Trybunału Konstytucyjnego</title>
+      <link>/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</link>
+      <pubDate>Wed, 09 Dec 2015 16:00:42 +0000</pubDate>
+      
+      <guid>/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</guid>
+      <description>Dzisiaj wpis, za który oberwie mi się z prawej i lewej strony. I w dodatku nie za to, że i jednych i drugich pojadę, ale za to, że jednym i drugim oddam troszkę honoru! Oczekiwania podkręcone, postaram się je spełnić. Wpis dotyczy orzeczeń Trybunału Konstytucyjnego. Konkretnie dwóch zagadnień. Pierwsze to czas od wydania wyroku do jego publikacji w Dzienniku Ustaw. Drugi dotyczy czasu wykonania wyroków, czyli ile zajęło poprawienie prawa od momentu stwierdzenie jego niezgodności z konstytucją.</description>
+    </item>
+    
+    <item>
+      <title>Pierwszy post czyli o czym pisać nie będę</title>
+      <link>/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
+      <pubDate>Tue, 26 Aug 2014 16:43:33 +0000</pubDate>
+      
+      <guid>/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
+      <description>I wbrew tytułowi napiszę o tym co będzie. Będą dane i będzie matematyka. W różnych proporcjach. Będą odpadki z mojego doktoratu i rzeczy, które mnie zafascynują. Będą dobre książki i artykuły. Będzie sporo ciekawych analiz rzeczy codziennych szczególnie dotyczących gospodarki. Może się też zdarzyć poważniejsza matematyka.
+Wpisy będą się pojawiać regularnie, choć stopień ich bycia interesującymi będzie bardzo zróżnicowany, za co każdego potencjalnego, innego niż ja sam, czytelnika serdecznie przepraszam.</description>
+    </item>
+    
+  </channel>
+</rss>

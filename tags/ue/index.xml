@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ue on Szychta w danych</title>
+    <link>/tags/ue/</link>
+    <description>Recent content in ue on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sun, 26 May 2019 06:55:02 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Potrzeba czy marnotrawstwo lub o liczbie parlamentarzystów</title>
+      <link>/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</link>
+      <pubDate>Sun, 26 May 2019 06:55:02 +0000</pubDate>
+      
+      <guid>/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</guid>
+      <description>Mamy kolejne wybory, tym razem europejskie. Czy ponad 700 parlamentarzystów których wybiorą Europejczycy to duża liczba? Jak ma się ona do krajowych parlamentów w Polsce i na świecie? Czy analizując dane dla wszystkich tego typu zgromadzeń można doszukać się jakichś prawidłowości?
+Na początek sprawdźmy rzecz oczywistą: im więcej ludności, tym więcej parlamentarzystów. Powody są co najmniej dwa: duże państwa mają więcej spraw, którymi chcą się zająć, oraz potrzebują większej liczby posłów, aby pojedynczy reprezentant nie przypadał na zbyt dużą liczbę ludności.</description>
+    </item>
+    
+    <item>
+      <title>W co inwestują polskie miasta? Wykorzystanie środków unijnych</title>
+      <link>/post/w-co-inwestuja-polskie-miasta-wykorzystanie-srodkow-unijnych/</link>
+      <pubDate>Tue, 21 Feb 2017 13:21:26 +0000</pubDate>
+      
+      <guid>/post/w-co-inwestuja-polskie-miasta-wykorzystanie-srodkow-unijnych/</guid>
+      <description>Zastanawia mnie czasem jak to możliwe, że miasto Wrocław nie jest w stanie wybudować nawet kilku kilometrów linii tramwajowej, twierdząc, że nie dostanie unijnego dofinansowania. Zwłaszcza kiedy słychać o gigantycznych inwestycjach w innych miastach, a zwłaszcza w Warszawie, która nie tylko dostała 3 mld na metro, ale też miliard złotych na tramwaje. Stąd wątpliwości mieszkańca prowincji, czy środki unijne są równo rozdysponowywane między miastami? Czy można zauważyć różnice w tym, w co się inwestuje?</description>
+    </item>
+    
+  </channel>
+</rss>

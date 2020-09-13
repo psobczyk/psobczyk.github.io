@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tramwaje on Szychta w danych</title>
+    <link>/tags/tramwaje/</link>
+    <description>Recent content in tramwaje on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Wed, 30 Dec 2015 16:59:32 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tramwaje/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Systemy tramwajowe w Polsce</title>
+      <link>/post/systemy-tramwajowe-w-polsce/</link>
+      <pubDate>Wed, 30 Dec 2015 16:59:32 +0000</pubDate>
+      
+      <guid>/post/systemy-tramwajowe-w-polsce/</guid>
+      <description>Dzisiejszy wpis szczególnie przypadnie do gustu wszystkim miłośnikom tramwajów i niestandardowych wykresów w R. Nietrudno zatem odgadnąć, że autor należy do obu tych grup. Odpowiemy sobie na pytania gdzie w Polsce są a gdzie zostały zlikwidowane sieci tramwajowe? Jakie miasto może się pochwalić najdłuższą długość torowisk? Jak mocno obecność tramwajów determinowana jest przebiegiem granicy zaboru pruskiego oraz jak zrobić w R efektowne wykresy gdzie zamiast punktu mamy obrazek.Na początek punkt wyjścia czyli zwykły wykres.</description>
+    </item>
+    
+  </channel>
+</rss>

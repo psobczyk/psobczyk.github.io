@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syria on Szychta w danych</title>
+    <link>/tags/syria/</link>
+    <description>Recent content in Syria on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Mon, 21 Sep 2015 16:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/syria/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dokąd uciekają syryjscy uchodżcy?</title>
+      <link>/post/gdzie-uciekaja-syryjscy-uchodzcy/</link>
+      <pubDate>Mon, 21 Sep 2015 16:00:00 +0000</pubDate>
+      
+      <guid>/post/gdzie-uciekaja-syryjscy-uchodzcy/</guid>
+      <description>Są granice tego ile można słuchać i czytać kasandrycznych wizji końca Europy zalanej hordami muzułmańskich barbarzyńców, inwokacji o nowego Jana Sobieskiego czy ujawnionych spisków krajów arabskich. W dzisiejszym wpisie zbadamy gdzie jest największa liczba syryjskich uchodźców oraz, które kraje mogą się rzeczywiście czuć ich liczbą zagrożone.
+Dane, z których korzystam, pochodzą ze strony agendy ONZ zajmującej się uchodźcami oraz z wikipedii. Są one mniej więcej aktualne - dotyczą sierpnia 2015. Liczba uchodźców, podawana przez UNHCR, to liczba osób, które wystąpiły w danym kraju o azyl.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Góra on Szychta w danych</title>
+    <link>/tags/g%C3%B3ra/</link>
+    <description>Recent content in Góra on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Feb 2020 19:49:23 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/g%C3%B3ra/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/post/2294/</link>
+      <pubDate>Mon, 03 Feb 2020 19:49:23 +0000</pubDate>
+      
+      <guid>/post/2294/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/374/</link>
+      <pubDate>Tue, 15 Sep 2015 20:57:12 +0000</pubDate>
+      
+      <guid>/post/374/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/375/</link>
+      <pubDate>Tue, 15 Sep 2015 20:57:12 +0000</pubDate>
+      
+      <guid>/post/375/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

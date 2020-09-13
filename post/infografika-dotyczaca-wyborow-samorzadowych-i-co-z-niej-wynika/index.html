@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Infografika dotycząca wyborów samorządowych i co z niej wynika - Szychta w danych</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Infografika dotycząca wyborów samorządowych i co z niej wynika" />
+<meta property="og:description" content="Dzisiaj chciałbym się podzielić czymś ładnym i ciekawym. Chodzi o infografiką dotyczącą ostatnich wyborów samorządowych. Przedstawia ona w pigułce najważniejsze informacje dotyczące poparcia dla głównych partii, frekwencji i liczby głosów nieważnych. Zgodnie z życzeniami Londyńskiej Polonii, postaram się dać więcej opisów a mniej kodów w R.
+Infografika powstała w oparciu o znaleziony na twitterze wpis z bloga. Podobieństwo jest bardzo duże, bo rzecz nie jest wcale łatwa a ja jestem dopiero na początku nauki tworzenia takich obrazów w R." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/" />
+<meta property="article:published_time" content="2015-03-31T17:29:45+00:00" />
+<meta property="article:modified_time" content="2015-03-31T17:29:45+00:00" />
+
+		<meta itemprop="name" content="Infografika dotycząca wyborów samorządowych i co z niej wynika">
+<meta itemprop="description" content="Dzisiaj chciałbym się podzielić czymś ładnym i ciekawym. Chodzi o infografiką dotyczącą ostatnich wyborów samorządowych. Przedstawia ona w pigułce najważniejsze informacje dotyczące poparcia dla głównych partii, frekwencji i liczby głosów nieważnych. Zgodnie z życzeniami Londyńskiej Polonii, postaram się dać więcej opisów a mniej kodów w R.
+Infografika powstała w oparciu o znaleziony na twitterze wpis z bloga. Podobieństwo jest bardzo duże, bo rzecz nie jest wcale łatwa a ja jestem dopiero na początku nauki tworzenia takich obrazów w R.">
+<meta itemprop="datePublished" content="2015-03-31T17:29:45+00:00" />
+<meta itemprop="dateModified" content="2015-03-31T17:29:45+00:00" />
+<meta itemprop="wordCount" content="584">
+
+
+
+<meta itemprop="keywords" content="analiza danych,infografika,Polska,wizualizacja,wybory," />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Infografika dotycząca wyborów samorządowych i co z niej wynika"/>
+<meta name="twitter:description" content="Dzisiaj chciałbym się podzielić czymś ładnym i ciekawym. Chodzi o infografiką dotyczącą ostatnich wyborów samorządowych. Przedstawia ona w pigułce najważniejsze informacje dotyczące poparcia dla głównych partii, frekwencji i liczby głosów nieważnych. Zgodnie z życzeniami Londyńskiej Polonii, postaram się dać więcej opisów a mniej kodów w R.
+Infografika powstała w oparciu o znaleziony na twitterze wpis z bloga. Podobieństwo jest bardzo duże, bo rzecz nie jest wcale łatwa a ja jestem dopiero na początku nauki tworzenia takich obrazów w R."/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-121778161-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Szychta w danych" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Szychta w danych</div>
+					<div class="logo__tagline">Blog o poznawaniu świata za pomocą danych</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/o-blogu/">
+				
+				<span class="menu__text">O blogu</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">O mnie</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/projects/">
+				
+				<span class="menu__text">Projekty</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/szkolenia-z-analizy-danych/">
+				
+				<span class="menu__text">Szkolenia z analizy danych</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Infografika dotycząca wyborów samorządowych i co z niej wynika</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Piotr Sobczyk</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2015-03-31T17:29:45Z">2015-03-31</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/polska/" rel="category">Polska</a>, <a class="meta__link" href="/categories/wybory/" rel="category">Wybory</a>
+	</span>
+</div></div>
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents"></nav>
+	</div>
+</div>
+<div class="content post__content clearfix">
+			<p>Dzisiaj chciałbym się podzielić czymś ładnym i ciekawym. Chodzi o infografiką dotyczącą ostatnich wyborów samorządowych. Przedstawia ona w pigułce najważniejsze informacje dotyczące poparcia dla głównych partii, frekwencji i liczby głosów nieważnych. Zgodnie z życzeniami Londyńskiej Polonii, postaram się dać więcej opisów a mniej kodów w R.</p>
+<!-- raw HTML omitted -->
+<p>Infografika powstała w oparciu o znaleziony na twitterze <a href="http://alstatr.blogspot.com/2015/02/r-how-to-layout-and-design-infographic.html?utm_content=bufferf87ef&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">wpis z bloga</a>. Podobieństwo jest bardzo duże, bo rzecz nie jest wcale łatwa a ja jestem dopiero na początku nauki tworzenia takich obrazów w R.</p>
+<p>I już bez zbędnych komentarzy prezentuję Wam grafikę (UWAGA! Plik jest dosyć duży i lepszym rozwiązaniem może być zapisanie go na dysku niż otwieranie w przeglądarce)
+<a href="https://szychtawdanych.files.wordpress.com/2015/03/infografika_wybory_2014.png"><img src="https://szychtawdanych.files.wordpress.com/2015/03/infografika_wybory_2014.png?w=150" alt="infografika_wybory_2014"></a></p>
+<p>Czy można coś sensownego z niej odczytać? Jak najbardziej!
+Na wstępie zauważmy rzecz oczywistą, poparcie dla partii zależy mocno od regionu. Patrząc na dolne wykresy widać, że w najmniejszym stopniu dotyczy to PiSu. Co ciekawe PO ma jeden nadspodziewanie dobry wynik, który uzyskała w powiecie Sejneńskim. Po pobieżnym przeglądzie danych i wikipedii domyślam się, że jest to zasługa mniejszości litewskiej. Mniejszość ta, stanowiąca 16% populacji powiatu, wystawiła co prawda swoją listę w wyborach do rady powiatu, ale już nie do sejmiku wojewódzkiego.
+Po drugie, istnieje zależność pomiędzy procentem głosów nieważnych a poparciem jakie otrzymały partie. Na środkowym wykresie przedstawiona jest ta zależność. Badamy ją w podziale na różne typy gmin (wiejskie, wiejsko-miejskie, miejskie, miasta na prawach powiatu). Każda kropka oznacza wynik w jednej komisji obwodowej, lokalu wyborczym. Niebieska linia została dopasowana automatycznie i opisuje trend pomiędzy głosami nieważnymi a wynikiem partii. Jasny obszar wokół linii oznacza niepewność jej wyznaczenia. Zaobserwowana zależność sugeruje, że wybory zostały źle zaplanowane, ponieważ nie oddają one w pełni preferencji obywateli i są one obciążone systematycznym błędem. Mówiąc prościej, ostatnie wybory nie zmierzyły tego jakim poparciem wśród ludzi, którzy poszli na wybory, cieszą się poszczególne partie, ale to jakie poparcie otrzymują partie od osób oddających ważny głos. Dociekliwy czytelnik zaraz się zorientuje, że tylko tę drugą rzecz można ,,zmierzyć za pomocą wyborów&rdquo;. To prawda, ale nie zawsze te dwie populacje są tak różne, jak miało to miejsce w poprzednich wyborach. Na istnienie tej różnicy wskazuje pośrednio właśnie środkowy wykres. Można również zauważyć, że poparcie dla PO i PSL mocno zależy od wielkości miejscowości (typu gminy), dla PIS ten efekt jest mniej widoczny.
+Kolejna ciekawa obserwacja, na podstawie górnych wykresów, jest taka, że głosów nieważnych oddano najwięcej w Polsce północno-zachodniej. To nie jest zgodne z opiniami, że oddawanie głosów nieważnych związane jest ze słabym wykształceniem, zacofaniem gospodarczym czy ciemnogrodztwem, które z kolei łączy się z Polską wschodnią.
+Jeśli chodzi o frekwencję, to jest ona najwyższa w Polsce centralnej, również może to być nieco zaskakujące. Jeśli chodzi o niską frekwencję na ,,ziemiach odzyskanych&rdquo; to raczej nie powinna ona dziwić. Wystarczy się przejechać po dolnośląskich miasteczkach żeby zobaczyć, że mało jest w nich dbałości o rzeczy wspólne. A przecież wybory samorządowe są także przejawem zainteresowania swoją najbliższą okolicą.
+Obszary wielkomiejskie, w odróżnieniu od wyborów parlamentarnych czy prezydenckich, w wyborach samorządowych cechują się niską frekwencją.</p>
+<p>Podsumowując, w ostatnich wyborach samorządowych system głosowania mógł wypaczyć wyniki faworyzując pierwszy komitet na liście (w tym wypadku PSL). Wskazuje na to zależność pomiędzy poparciem uzyskanym przez partie a procentem głosów nieważnych. Regiony z wysoką frekwencją i wysokim procentem głosów nieważnych mogą zaskakiwać, ponieważ nie są wcale obszarami, odpowiednio, najbogatszymi i najbiedniejszymi. Rozkład poparcia dla partii jest, rzecz jasna, bardzo nierównomierny. Wspomnijmy na końcu, co nie wynika bynajmniej z małej istotności, że to właśnie w R da się przygotować tak schludnie wyglądającą infografikę.</p>
+<p>Po świętach przedstawię część kodów potrzebnych do tworzenia tego typu grafik.</p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/analiza-danych/" rel="tag">analiza danych</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/infografika/" rel="tag">infografika</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/polska/" rel="tag">Polska</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/wizualizacja/" rel="tag">wizualizacja</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/wybory/" rel="tag">wybory</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Piotr Sobczyk avatar" src="/Users/piotr/GitHub/blogdown-source/config_files/avatar.jpg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Piotr Sobczyk</span>
+	</div>
+	<div class="authorbox__description">
+		PhD, Data scientist
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/post/wybory-prezydenckie-2015-podsumowanie-wynikow/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Wybory prezydenckie 2015 - podsumowanie wyników</p>
+		</a>
+	</div>
+</nav>
+
+<section class="comments">
+	<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "szychta" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 Piotr Sobczyk.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

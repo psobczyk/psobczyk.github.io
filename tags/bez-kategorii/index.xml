@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bez Kategorii on Szychta w danych</title>
+    <link>/tags/bez-kategorii/</link>
+    <description>Recent content in Bez Kategorii on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/bez-kategorii/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O płacy minimalnej</title>
+      <link>/post/2083/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2083/</guid>
+      <description>Zaczął się sezon wyborczy. Na stole pojawia się zatem wiele mniej lub bardziej ciekawych propozycji, które można skwantyfikować za pomocą danych. Jedną z nich jest zwiększenie płacy minimalnej do 60% średniego wynagrodzenia, co postuluje nowo utworzona partia Wiosna.
+Kilka prostych faktów - podnosimy w 2020 do 2700. Nawet gdyby pozostałe płace zostały zamrożone, to rok później mamy już 2780, bo wzrost płacy minimalnej wpłynął na wyższą średnią. W każdym kolejnym roku ,,echo&amp;rdquo; podwyżki płacy minimalnej jest coraz mniejsze.</description>
+    </item>
+    
+    <item>
+      <title>Przychody dla top 1%</title>
+      <link>/post/820/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/820/</guid>
+      <description>Na pewno ciekawa mogłaby być analiza danych zebranych przez Thomas Pikkety lub bazy The World Wealth and Income Database. W szczególności tych dotyczących dochodów jednego procenta najbogatszych, a także nierówności w bogactwie (są one znacznie większe niż te dla dochodów).</description>
+    </item>
+    
+    <item>
+      <title>Some tricks with Rcpp</title>
+      <link>/post/611/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/611/</guid>
+      <description>Rcpp is a cool R package that allows easily call C++ functions from R. It supports R classes and most of the things you might be interested in. Syntaces of R and C++ are not that different. In fact in Rcpp it becomes even more similar because of syntactic sugar that allows you call most useful R function (like random number generation or some basic vector-wise operations). Why do we use Rcpp?</description>
+    </item>
+    
+    <item>
+      <title>Straty ludności w czasie II Wojny Światowej</title>
+      <link>/post/2080/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2080/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Żale do GUSu</title>
+      <link>/post/597/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/597/</guid>
+      <description>Tutaj wyleję swoje żale. Dostęp do danych jest beznadziejny. W porównaniu z i tak nieidealnym eurostatem GUS wypada dramatycznie. To pewnie temat na jakiś osobny techniczny wpis, ale podam trzy problemy
+ wartości z raportów GUS nie pokrywają się z danymi w ich bazie występuje dużo brakujących danych, które użytkownik sam może, i niestety musi uzupełnić używając innych tabel opis zmiennych jest bardzo lakoniczny i nie daje pewności co tak naprawdę dane, które się ściąga oznaczają.</description>
+    </item>
+    
+  </channel>
+</rss>

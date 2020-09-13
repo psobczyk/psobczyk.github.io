@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>waterfall on Szychta w danych</title>
+    <link>/tags/waterfall/</link>
+    <description>Recent content in waterfall on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Mon, 18 Jan 2016 16:30:11 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/waterfall/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dentysta w każdej szkole - jak to zrobić w R</title>
+      <link>/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</link>
+      <pubDate>Mon, 18 Jan 2016 16:30:11 +0000</pubDate>
+      
+      <guid>/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</guid>
+      <description>Dzisiaj w Szychcie zamiast górniczego urobku prezentacja maszyn i technik. Jak wykonać zeszłotygodniową analizę w R? Jakich pakietów należy użyć?Kody i dane znajdują się na moim koncie na githubie. Dane nie należą do mnie.
+Na rozgrzewkę małe wyjaśnienie jak małym kosztem uszeregować województwa do boxplotu. Trik polega na ustawieniu kolejności poziomów (level) dla zmiennej typu factor.
+[github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/dentysci_w_szkolach/analiza_dentysci.R&amp;rdquo; start_line = &amp;ldquo;29&amp;rdquo; end_line = &amp;ldquo;37&amp;rdquo;]
+Następnie już łatwo wygenerować jest wykres w ggplot [github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/dentysci_w_szkolach/analiza_dentysci.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,36 +1,342 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Szychta w danych</title>
     <link>/tags/</link>
     <description>Recent content in Tags on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jul 2018 21:13:14 -0500</lastBuildDate>
+    <language>pl-pl</language>
+    <lastBuildDate>Tue, 14 Jul 2020 06:45:17 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ggplot</title>
-      <link>/tags/ggplot/</link>
-      <pubDate>Thu, 05 Jul 2018 21:13:14 -0500</pubDate>
+      <title>popis</title>
+      <link>/tags/popis/</link>
+      <pubDate>Tue, 14 Jul 2020 06:45:17 +0000</pubDate>
       
-      <guid>/tags/ggplot/</guid>
+      <guid>/tags/popis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Osm</title>
-      <link>/tags/osm/</link>
-      <pubDate>Thu, 05 Jul 2018 21:13:14 -0500</pubDate>
+      <title>wybory</title>
+      <link>/tags/wybory/</link>
+      <pubDate>Tue, 14 Jul 2020 06:45:17 +0000</pubDate>
       
-      <guid>/tags/osm/</guid>
+      <guid>/tags/wybory/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vacations</title>
+      <title>Polska</title>
+      <link>/tags/polska/</link>
+      <pubDate>Thu, 02 Jul 2020 06:46:35 +0000</pubDate>
+      
+      <guid>/tags/polska/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prezydent</title>
+      <link>/tags/prezydent/</link>
+      <pubDate>Thu, 02 Jul 2020 06:46:35 +0000</pubDate>
+      
+      <guid>/tags/prezydent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>epidemia</title>
+      <link>/tags/epidemia/</link>
+      <pubDate>Sat, 21 Mar 2020 18:25:14 +0000</pubDate>
+      
+      <guid>/tags/epidemia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>epidemiologia</title>
+      <link>/tags/epidemiologia/</link>
+      <pubDate>Sat, 21 Mar 2020 18:25:14 +0000</pubDate>
+      
+      <guid>/tags/epidemiologia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>koronawirus</title>
+      <link>/tags/koronawirus/</link>
+      <pubDate>Sat, 21 Mar 2020 18:25:14 +0000</pubDate>
+      
+      <guid>/tags/koronawirus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ekonomia</title>
+      <link>/tags/ekonomia/</link>
+      <pubDate>Sun, 01 Mar 2020 08:23:29 +0000</pubDate>
+      
+      <guid>/tags/ekonomia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nierówności społeczne</title>
+      <link>/tags/nier%C3%B3wno%C5%9Bci-spo%C5%82eczne/</link>
+      <pubDate>Sun, 01 Mar 2020 08:23:29 +0000</pubDate>
+      
+      <guid>/tags/nier%C3%B3wno%C5%9Bci-spo%C5%82eczne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bezrobocie</title>
+      <link>/tags/bezrobocie/</link>
+      <pubDate>Sat, 14 Dec 2019 19:29:46 +0000</pubDate>
+      
+      <guid>/tags/bezrobocie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poziom zatrudnienia</title>
+      <link>/tags/poziom-zatrudnienia/</link>
+      <pubDate>Sat, 14 Dec 2019 19:29:46 +0000</pubDate>
+      
+      <guid>/tags/poziom-zatrudnienia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poznań</title>
+      <link>/tags/pozna%C5%84/</link>
+      <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
+      
+      <guid>/tags/pozna%C5%84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vignette</title>
+      <link>/tags/vignette/</link>
+      <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
+      
+      <guid>/tags/vignette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wesele</title>
+      <link>/tags/wesele/</link>
+      <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
+      
+      <guid>/tags/wesele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>winietki weselne</title>
+      <link>/tags/winietki-weselne/</link>
+      <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
+      
+      <guid>/tags/winietki-weselne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Europa</title>
+      <link>/tags/europa/</link>
+      <pubDate>Tue, 18 Jun 2019 07:03:04 +0000</pubDate>
+      
+      <guid>/tags/europa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>samochody</title>
+      <link>/tags/samochody/</link>
+      <pubDate>Tue, 18 Jun 2019 07:03:04 +0000</pubDate>
+      
+      <guid>/tags/samochody/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>demokracja</title>
+      <link>/tags/demokracja/</link>
+      <pubDate>Sun, 26 May 2019 06:55:02 +0000</pubDate>
+      
+      <guid>/tags/demokracja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parlament</title>
+      <link>/tags/parlament/</link>
+      <pubDate>Sun, 26 May 2019 06:55:02 +0000</pubDate>
+      
+      <guid>/tags/parlament/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ue</title>
+      <link>/tags/ue/</link>
+      <pubDate>Sun, 26 May 2019 06:55:02 +0000</pubDate>
+      
+      <guid>/tags/ue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>handel</title>
+      <link>/tags/handel/</link>
+      <pubDate>Tue, 19 Feb 2019 07:16:11 +0000</pubDate>
+      
+      <guid>/tags/handel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wielka Brytania</title>
+      <link>/tags/wielka-brytania/</link>
+      <pubDate>Tue, 19 Feb 2019 07:16:11 +0000</pubDate>
+      
+      <guid>/tags/wielka-brytania/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dług</title>
+      <link>/tags/d%C5%82ug/</link>
+      <pubDate>Tue, 29 Jan 2019 18:35:42 +0000</pubDate>
+      
+      <guid>/tags/d%C5%82ug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>książka</title>
+      <link>/tags/ksi%C4%85%C5%BCka/</link>
+      <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
+      
+      <guid>/tags/ksi%C4%85%C5%BCka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wizualizacja</title>
+      <link>/tags/wizualizacja/</link>
+      <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
+      
+      <guid>/tags/wizualizacja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wykresyunplugged</title>
+      <link>/tags/wykresyunplugged/</link>
+      <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
+      
+      <guid>/tags/wykresyunplugged/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>demografia</title>
+      <link>/tags/demografia/</link>
+      <pubDate>Mon, 17 Sep 2018 10:47:08 +0000</pubDate>
+      
+      <guid>/tags/demografia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nazwiska</title>
+      <link>/tags/nazwiska/</link>
+      <pubDate>Mon, 17 Sep 2018 10:47:08 +0000</pubDate>
+      
+      <guid>/tags/nazwiska/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gerrmandering</title>
+      <link>/tags/gerrmandering/</link>
+      <pubDate>Thu, 16 Aug 2018 08:54:47 +0000</pubDate>
+      
+      <guid>/tags/gerrmandering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PE</title>
+      <link>/tags/pe/</link>
+      <pubDate>Thu, 16 Aug 2018 08:54:47 +0000</pubDate>
+      
+      <guid>/tags/pe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>polityka</title>
+      <link>/tags/polityka/</link>
+      <pubDate>Thu, 16 Aug 2018 08:54:47 +0000</pubDate>
+      
+      <guid>/tags/polityka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>500&#43;</title>
+      <link>/tags/500&#43;/</link>
+      <pubDate>Tue, 31 Jul 2018 07:46:18 +0000</pubDate>
+      
+      <guid>/tags/500&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dzietność</title>
+      <link>/tags/dzietno%C5%9B%C4%87/</link>
+      <pubDate>Tue, 31 Jul 2018 07:46:18 +0000</pubDate>
+      
+      <guid>/tags/dzietno%C5%9B%C4%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dplyr</title>
+      <link>/tags/dplyr/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dplyr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantiles</title>
+      <link>/tags/quantiles/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/quantiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vacations</title>
       <link>/tags/vacations/</link>
       <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
       
@@ -39,11 +345,920 @@
     </item>
     
     <item>
-      <title>Whyr</title>
+      <title>ggplot</title>
+      <link>/tags/ggplot/</link>
+      <pubDate>Thu, 05 Jul 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/ggplot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>osm</title>
+      <link>/tags/osm/</link>
+      <pubDate>Thu, 05 Jul 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/osm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>whyR</title>
       <link>/tags/whyr/</link>
       <pubDate>Thu, 05 Jul 2018 21:13:14 -0500</pubDate>
       
       <guid>/tags/whyr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monte carlo</title>
+      <link>/tags/monte-carlo/</link>
+      <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>
+      
+      <guid>/tags/monte-carlo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>piłka nożna</title>
+      <link>/tags/pi%C5%82ka-no%C5%BCna/</link>
+      <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>
+      
+      <guid>/tags/pi%C5%82ka-no%C5%BCna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sport</title>
+      <link>/tags/sport/</link>
+      <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>
+      
+      <guid>/tags/sport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statystyka</title>
+      <link>/tags/statystyka/</link>
+      <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>
+      
+      <guid>/tags/statystyka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>świat</title>
+      <link>/tags/%C5%9Bwiat/</link>
+      <pubDate>Thu, 07 Jun 2018 07:50:48 +0000</pubDate>
+      
+      <guid>/tags/%C5%9Bwiat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>święta</title>
+      <link>/tags/%C5%9Bwi%C4%99ta/</link>
+      <pubDate>Thu, 07 Jun 2018 07:50:48 +0000</pubDate>
+      
+      <guid>/tags/%C5%9Bwi%C4%99ta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pkb</title>
+      <link>/tags/pkb/</link>
+      <pubDate>Thu, 17 May 2018 06:25:22 +0000</pubDate>
+      
+      <guid>/tags/pkb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>imiona</title>
+      <link>/tags/imiona/</link>
+      <pubDate>Wed, 07 Mar 2018 08:47:51 +0000</pubDate>
+      
+      <guid>/tags/imiona/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paszport</title>
+      <link>/tags/paszport/</link>
+      <pubDate>Thu, 01 Mar 2018 08:19:27 +0000</pubDate>
+      
+      <guid>/tags/paszport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>igrzyska</title>
+      <link>/tags/igrzyska/</link>
+      <pubDate>Fri, 16 Feb 2018 08:51:40 +0000</pubDate>
+      
+      <guid>/tags/igrzyska/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>death camps</title>
+      <link>/tags/death-camps/</link>
+      <pubDate>Tue, 06 Feb 2018 07:33:25 +0000</pubDate>
+      
+      <guid>/tags/death-camps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google trends</title>
+      <link>/tags/google-trends/</link>
+      <pubDate>Tue, 06 Feb 2018 07:33:25 +0000</pubDate>
+      
+      <guid>/tags/google-trends/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wojna</title>
+      <link>/tags/wojna/</link>
+      <pubDate>Tue, 06 Feb 2018 07:33:25 +0000</pubDate>
+      
+      <guid>/tags/wojna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geografia</title>
+      <link>/tags/geografia/</link>
+      <pubDate>Wed, 17 Jan 2018 07:29:01 +0000</pubDate>
+      
+      <guid>/tags/geografia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>miasta partnerskie</title>
+      <link>/tags/miasta-partnerskie/</link>
+      <pubDate>Wed, 17 Jan 2018 07:29:01 +0000</pubDate>
+      
+      <guid>/tags/miasta-partnerskie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nieruchomości</title>
+      <link>/tags/nieruchomo%C5%9Bci/</link>
+      <pubDate>Fri, 13 Oct 2017 15:22:30 +0000</pubDate>
+      
+      <guid>/tags/nieruchomo%C5%9Bci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>otodom</title>
+      <link>/tags/otodom/</link>
+      <pubDate>Fri, 13 Oct 2017 15:22:30 +0000</pubDate>
+      
+      <guid>/tags/otodom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wrocław</title>
+      <link>/tags/wroc%C5%82aw/</link>
+      <pubDate>Fri, 13 Oct 2017 15:22:30 +0000</pubDate>
+      
+      <guid>/tags/wroc%C5%82aw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>konwergencja</title>
+      <link>/tags/konwergencja/</link>
+      <pubDate>Fri, 06 Oct 2017 10:57:17 +0000</pubDate>
+      
+      <guid>/tags/konwergencja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diagnoza społeczna</title>
+      <link>/tags/diagnoza-spo%C5%82eczna/</link>
+      <pubDate>Fri, 22 Sep 2017 11:56:41 +0000</pubDate>
+      
+      <guid>/tags/diagnoza-spo%C5%82eczna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>małżeństwa</title>
+      <link>/tags/ma%C5%82%C5%BCe%C5%84stwa/</link>
+      <pubDate>Fri, 22 Sep 2017 11:56:41 +0000</pubDate>
+      
+      <guid>/tags/ma%C5%82%C5%BCe%C5%84stwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>praca</title>
+      <link>/tags/praca/</link>
+      <pubDate>Fri, 22 Sep 2017 11:56:41 +0000</pubDate>
+      
+      <guid>/tags/praca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>klimat</title>
+      <link>/tags/klimat/</link>
+      <pubDate>Thu, 24 Aug 2017 16:21:07 +0000</pubDate>
+      
+      <guid>/tags/klimat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>otyłość</title>
+      <link>/tags/oty%C5%82o%C5%9B%C4%87/</link>
+      <pubDate>Tue, 15 Aug 2017 13:46:26 +0000</pubDate>
+      
+      <guid>/tags/oty%C5%82o%C5%9B%C4%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zdrowie</title>
+      <link>/tags/zdrowie/</link>
+      <pubDate>Tue, 15 Aug 2017 13:46:26 +0000</pubDate>
+      
+      <guid>/tags/zdrowie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>literatura</title>
+      <link>/tags/literatura/</link>
+      <pubDate>Wed, 09 Aug 2017 06:10:53 +0000</pubDate>
+      
+      <guid>/tags/literatura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>/tags/nlp/</link>
+      <pubDate>Wed, 09 Aug 2017 06:10:53 +0000</pubDate>
+      
+      <guid>/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zmiany klimatu</title>
+      <link>/tags/zmiany-klimatu/</link>
+      <pubDate>Thu, 20 Jul 2017 06:00:26 +0000</pubDate>
+      
+      <guid>/tags/zmiany-klimatu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>afryka</title>
+      <link>/tags/afryka/</link>
+      <pubDate>Tue, 18 Jul 2017 06:44:48 +0000</pubDate>
+      
+      <guid>/tags/afryka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metro</title>
+      <link>/tags/metro/</link>
+      <pubDate>Tue, 18 Jul 2017 06:44:48 +0000</pubDate>
+      
+      <guid>/tags/metro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transport</title>
+      <link>/tags/transport/</link>
+      <pubDate>Tue, 18 Jul 2017 06:44:48 +0000</pubDate>
+      
+      <guid>/tags/transport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wynagrodzenia</title>
+      <link>/tags/wynagrodzenia/</link>
+      <pubDate>Mon, 10 Jul 2017 17:02:03 +0000</pubDate>
+      
+      <guid>/tags/wynagrodzenia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>język</title>
+      <link>/tags/j%C4%99zyk/</link>
+      <pubDate>Fri, 07 Jul 2017 21:18:48 +0000</pubDate>
+      
+      <guid>/tags/j%C4%99zyk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pan tadeusz</title>
+      <link>/tags/pan-tadeusz/</link>
+      <pubDate>Fri, 07 Jul 2017 21:18:48 +0000</pubDate>
+      
+      <guid>/tags/pan-tadeusz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>francja</title>
+      <link>/tags/francja/</link>
+      <pubDate>Thu, 29 Jun 2017 11:07:32 +0000</pubDate>
+      
+      <guid>/tags/francja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grupa wyszehradzka</title>
+      <link>/tags/grupa-wyszehradzka/</link>
+      <pubDate>Thu, 29 Jun 2017 11:07:32 +0000</pubDate>
+      
+      <guid>/tags/grupa-wyszehradzka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macron</title>
+      <link>/tags/macron/</link>
+      <pubDate>Thu, 29 Jun 2017 11:07:32 +0000</pubDate>
+      
+      <guid>/tags/macron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bieganie</title>
+      <link>/tags/bieganie/</link>
+      <pubDate>Sun, 18 Jun 2017 10:38:39 +0000</pubDate>
+      
+      <guid>/tags/bieganie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maraton</title>
+      <link>/tags/maraton/</link>
+      <pubDate>Sun, 18 Jun 2017 10:38:39 +0000</pubDate>
+      
+      <guid>/tags/maraton/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lotniska</title>
+      <link>/tags/lotniska/</link>
+      <pubDate>Thu, 01 Jun 2017 07:25:15 +0000</pubDate>
+      
+      <guid>/tags/lotniska/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uczelnia</title>
+      <link>/tags/uczelnia/</link>
+      <pubDate>Thu, 25 May 2017 10:04:18 +0000</pubDate>
+      
+      <guid>/tags/uczelnia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uniwersytety</title>
+      <link>/tags/uniwersytety/</link>
+      <pubDate>Thu, 25 May 2017 10:04:18 +0000</pubDate>
+      
+      <guid>/tags/uniwersytety/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>migracje</title>
+      <link>/tags/migracje/</link>
+      <pubDate>Mon, 01 May 2017 16:36:57 +0000</pubDate>
+      
+      <guid>/tags/migracje/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>imigracja</title>
+      <link>/tags/imigracja/</link>
+      <pubDate>Mon, 17 Apr 2017 10:49:55 +0000</pubDate>
+      
+      <guid>/tags/imigracja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>energia</title>
+      <link>/tags/energia/</link>
+      <pubDate>Thu, 06 Apr 2017 17:58:41 +0000</pubDate>
+      
+      <guid>/tags/energia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gender gap</title>
+      <link>/tags/gender-gap/</link>
+      <pubDate>Sun, 05 Mar 2017 16:27:19 +0000</pubDate>
+      
+      <guid>/tags/gender-gap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aglomeracje</title>
+      <link>/tags/aglomeracje/</link>
+      <pubDate>Tue, 21 Feb 2017 13:21:26 +0000</pubDate>
+      
+      <guid>/tags/aglomeracje/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>przestępczość</title>
+      <link>/tags/przest%C4%99pczo%C5%9B%C4%87/</link>
+      <pubDate>Mon, 23 Jan 2017 19:14:04 +0000</pubDate>
+      
+      <guid>/tags/przest%C4%99pczo%C5%9B%C4%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>społeczeństwo</title>
+      <link>/tags/spo%C5%82ecze%C5%84stwo/</link>
+      <pubDate>Mon, 23 Jan 2017 19:14:04 +0000</pubDate>
+      
+      <guid>/tags/spo%C5%82ecze%C5%84stwo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>siła nabywcza</title>
+      <link>/tags/si%C5%82a-nabywcza/</link>
+      <pubDate>Fri, 09 Dec 2016 11:17:08 +0000</pubDate>
+      
+      <guid>/tags/si%C5%82a-nabywcza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text mining</title>
+      <link>/tags/text-mining/</link>
+      <pubDate>Fri, 04 Nov 2016 19:37:34 +0000</pubDate>
+      
+      <guid>/tags/text-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>/tags/twitter/</link>
+      <pubDate>Fri, 04 Nov 2016 19:37:34 +0000</pubDate>
+      
+      <guid>/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>psychologia</title>
+      <link>/tags/psychologia/</link>
+      <pubDate>Wed, 19 Oct 2016 05:38:46 +0000</pubDate>
+      
+      <guid>/tags/psychologia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>służba zdrowia</title>
+      <link>/tags/s%C5%82u%C5%BCba-zdrowia/</link>
+      <pubDate>Mon, 19 Sep 2016 15:14:51 +0000</pubDate>
+      
+      <guid>/tags/s%C5%82u%C5%BCba-zdrowia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edukacja</title>
+      <link>/tags/edukacja/</link>
+      <pubDate>Mon, 29 Aug 2016 13:19:38 +0000</pubDate>
+      
+      <guid>/tags/edukacja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oczekiwana długość życia</title>
+      <link>/tags/oczekiwana-d%C5%82ugo%C5%9B%C4%87-%C5%BCycia/</link>
+      <pubDate>Tue, 16 Aug 2016 16:22:39 +0000</pubDate>
+      
+      <guid>/tags/oczekiwana-d%C5%82ugo%C5%9B%C4%87-%C5%BCycia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jakość powietrza</title>
+      <link>/tags/jako%C5%9B%C4%87-powietrza/</link>
+      <pubDate>Mon, 18 Jul 2016 13:36:47 +0000</pubDate>
+      
+      <guid>/tags/jako%C5%9B%C4%87-powietrza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emerytury</title>
+      <link>/tags/emerytury/</link>
+      <pubDate>Mon, 11 Jul 2016 14:41:12 +0000</pubDate>
+      
+      <guid>/tags/emerytury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leaflet</title>
+      <link>/tags/leaflet/</link>
+      <pubDate>Mon, 04 Jul 2016 15:40:09 +0000</pubDate>
+      
+      <guid>/tags/leaflet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mieszkania</title>
+      <link>/tags/mieszkania/</link>
+      <pubDate>Mon, 04 Jul 2016 15:40:09 +0000</pubDate>
+      
+      <guid>/tags/mieszkania/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>suburbanizacja</title>
+      <link>/tags/suburbanizacja/</link>
+      <pubDate>Mon, 04 Jul 2016 15:40:09 +0000</pubDate>
+      
+      <guid>/tags/suburbanizacja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>szkoła</title>
+      <link>/tags/szko%C5%82a/</link>
+      <pubDate>Mon, 27 Jun 2016 15:01:36 +0000</pubDate>
+      
+      <guid>/tags/szko%C5%82a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prasa</title>
+      <link>/tags/prasa/</link>
+      <pubDate>Mon, 13 Jun 2016 12:56:33 +0000</pubDate>
+      
+      <guid>/tags/prasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>monte cassino</title>
+      <link>/tags/monte-cassino/</link>
+      <pubDate>Tue, 17 May 2016 17:33:32 +0000</pubDate>
+      
+      <guid>/tags/monte-cassino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lie factor</title>
+      <link>/tags/lie-factor/</link>
+      <pubDate>Wed, 11 May 2016 18:42:07 +0000</pubDate>
+      
+      <guid>/tags/lie-factor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>europa środkowa</title>
+      <link>/tags/europa-%C5%9Brodkowa/</link>
+      <pubDate>Wed, 11 May 2016 14:41:16 +0000</pubDate>
+      
+      <guid>/tags/europa-%C5%9Brodkowa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terroryzm</title>
+      <link>/tags/terroryzm/</link>
+      <pubDate>Tue, 05 Apr 2016 15:41:24 +0000</pubDate>
+      
+      <guid>/tags/terroryzm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zamachy</title>
+      <link>/tags/zamachy/</link>
+      <pubDate>Tue, 05 Apr 2016 15:41:24 +0000</pubDate>
+      
+      <guid>/tags/zamachy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gop</title>
+      <link>/tags/gop/</link>
+      <pubDate>Wed, 30 Mar 2016 13:22:47 +0000</pubDate>
+      
+      <guid>/tags/gop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jakdojade</title>
+      <link>/tags/jakdojade/</link>
+      <pubDate>Wed, 30 Mar 2016 13:22:47 +0000</pubDate>
+      
+      <guid>/tags/jakdojade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>katowice</title>
+      <link>/tags/katowice/</link>
+      <pubDate>Wed, 30 Mar 2016 13:22:47 +0000</pubDate>
+      
+      <guid>/tags/katowice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rower</title>
+      <link>/tags/rower/</link>
+      <pubDate>Wed, 16 Mar 2016 20:41:59 +0000</pubDate>
+      
+      <guid>/tags/rower/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>polygons</title>
+      <link>/tags/polygons/</link>
+      <pubDate>Mon, 07 Mar 2016 15:56:15 +0000</pubDate>
+      
+      <guid>/tags/polygons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analiza danych</title>
+      <link>/tags/analiza-danych/</link>
+      <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
+      
+      <guid>/tags/analiza-danych/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API</title>
+      <link>/tags/api/</link>
+      <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
+      
+      <guid>/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kino</title>
+      <link>/tags/kino/</link>
+      <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
+      
+      <guid>/tags/kino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XML</title>
+      <link>/tags/xml/</link>
+      <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
+      
+      <guid>/tags/xml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>filmy</title>
+      <link>/tags/filmy/</link>
+      <pubDate>Mon, 08 Feb 2016 17:31:54 +0000</pubDate>
+      
+      <guid>/tags/filmy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wykres</title>
+      <link>/tags/wykres/</link>
+      <pubDate>Mon, 08 Feb 2016 17:31:54 +0000</pubDate>
+      
+      <guid>/tags/wykres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sedlacek</title>
+      <link>/tags/sedlacek/</link>
+      <pubDate>Mon, 01 Feb 2016 18:25:24 +0000</pubDate>
+      
+      <guid>/tags/sedlacek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>szychta czyta</title>
+      <link>/tags/szychta-czyta/</link>
+      <pubDate>Mon, 01 Feb 2016 18:25:24 +0000</pubDate>
+      
+      <guid>/tags/szychta-czyta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>budownictwo</title>
+      <link>/tags/budownictwo/</link>
+      <pubDate>Mon, 25 Jan 2016 16:21:35 +0000</pubDate>
+      
+      <guid>/tags/budownictwo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programowanie</title>
+      <link>/tags/programowanie/</link>
+      <pubDate>Mon, 18 Jan 2016 16:30:11 +0000</pubDate>
+      
+      <guid>/tags/programowanie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>waterfall</title>
+      <link>/tags/waterfall/</link>
+      <pubDate>Mon, 18 Jan 2016 16:30:11 +0000</pubDate>
+      
+      <guid>/tags/waterfall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dolny Śląsk</title>
+      <link>/tags/dolny-%C5%9Bl%C4%85sk/</link>
+      <pubDate>Mon, 04 Jan 2016 17:00:23 +0000</pubDate>
+      
+      <guid>/tags/dolny-%C5%9Bl%C4%85sk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>infografika</title>
+      <link>/tags/infografika/</link>
+      <pubDate>Mon, 04 Jan 2016 17:00:23 +0000</pubDate>
+      
+      <guid>/tags/infografika/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ggmap</title>
+      <link>/tags/ggmap/</link>
+      <pubDate>Wed, 30 Dec 2015 16:59:32 +0000</pubDate>
+      
+      <guid>/tags/ggmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tramwaje</title>
+      <link>/tags/tramwaje/</link>
+      <pubDate>Wed, 30 Dec 2015 16:59:32 +0000</pubDate>
+      
+      <guid>/tags/tramwaje/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>konstytucja</title>
+      <link>/tags/konstytucja/</link>
+      <pubDate>Wed, 09 Dec 2015 16:00:42 +0000</pubDate>
+      
+      <guid>/tags/konstytucja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Syria</title>
+      <link>/tags/syria/</link>
+      <pubDate>Mon, 21 Sep 2015 16:00:00 +0000</pubDate>
+      
+      <guid>/tags/syria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uchodźcy</title>
+      <link>/tags/uchod%C5%BAcy/</link>
+      <pubDate>Mon, 21 Sep 2015 16:00:00 +0000</pubDate>
+      
+      <guid>/tags/uchod%C5%BAcy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>referendum</title>
+      <link>/tags/referendum/</link>
+      <pubDate>Mon, 14 Sep 2015 16:15:00 +0000</pubDate>
+      
+      <guid>/tags/referendum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>googleVis</title>
+      <link>/tags/googlevis/</link>
+      <pubDate>Tue, 25 Aug 2015 20:45:47 +0000</pubDate>
+      
+      <guid>/tags/googlevis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animacja</title>
+      <link>/tags/animacja/</link>
+      <pubDate>Sun, 22 Feb 2015 19:13:41 +0000</pubDate>
+      
+      <guid>/tags/animacja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mpk</title>
+      <link>/tags/mpk/</link>
+      <pubDate>Sun, 22 Feb 2015 19:13:41 +0000</pubDate>
+      
+      <guid>/tags/mpk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>/tags/emacs/</link>
+      <pubDate>Tue, 25 Nov 2014 21:31:40 +0000</pubDate>
+      
+      <guid>/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Tue, 25 Nov 2014 21:31:40 +0000</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sondaże</title>
+      <link>/tags/sonda%C5%BCe/</link>
+      <pubDate>Mon, 24 Nov 2014 09:36:00 +0000</pubDate>
+      
+      <guid>/tags/sonda%C5%BCe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>matematyka</title>
+      <link>/tags/matematyka/</link>
+      <pubDate>Wed, 03 Sep 2014 16:56:09 +0000</pubDate>
+      
+      <guid>/tags/matematyka/</guid>
       <description></description>
     </item>
     

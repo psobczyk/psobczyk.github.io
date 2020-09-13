@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Zabory a sprawa Polska. 100 lat później - Szychta w danych</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Zabory a sprawa Polska. 100 lat później" />
+<meta property="og:description" content="Szychta w danych wraca po przerwie na intensywną pracę naukową :) Na rozgrzewkę - analiza wyników ostatnich wyborów. Czy PO i Nowoczesna różnią się w poszczególnych regionach? Czy wyniki wyborów nadal da się wytłumaczyć granicami zaborów? Czym się różnią elektoraty partii lewicowych?Zaczniemy od analizy rywalizacji, która od 10 lat dominuje w polskiej polityce. PiS vs. PO. Oprócz standardowych i dobrze znanych podziałów, bardzo fajnie widać na wykresie efekt mniejszości narodowych. Opolszczyzna i południe województwa podlaskiego, w opozycji do sąsiednich gmin, nie głosują na partię prawicową." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/zabory-a-sprawa-polska-100-lat-pozniej/" />
+<meta property="article:published_time" content="2015-12-06T00:16:34+00:00" />
+<meta property="article:modified_time" content="2015-12-06T00:16:34+00:00" />
+
+		<meta itemprop="name" content="Zabory a sprawa Polska. 100 lat później">
+<meta itemprop="description" content="Szychta w danych wraca po przerwie na intensywną pracę naukową :) Na rozgrzewkę - analiza wyników ostatnich wyborów. Czy PO i Nowoczesna różnią się w poszczególnych regionach? Czy wyniki wyborów nadal da się wytłumaczyć granicami zaborów? Czym się różnią elektoraty partii lewicowych?Zaczniemy od analizy rywalizacji, która od 10 lat dominuje w polskiej polityce. PiS vs. PO. Oprócz standardowych i dobrze znanych podziałów, bardzo fajnie widać na wykresie efekt mniejszości narodowych. Opolszczyzna i południe województwa podlaskiego, w opozycji do sąsiednich gmin, nie głosują na partię prawicową.">
+<meta itemprop="datePublished" content="2015-12-06T00:16:34+00:00" />
+<meta itemprop="dateModified" content="2015-12-06T00:16:34+00:00" />
+<meta itemprop="wordCount" content="295">
+
+
+
+<meta itemprop="keywords" content="analiza danych,ggplot,Polska,R,wybory," />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Zabory a sprawa Polska. 100 lat później"/>
+<meta name="twitter:description" content="Szychta w danych wraca po przerwie na intensywną pracę naukową :) Na rozgrzewkę - analiza wyników ostatnich wyborów. Czy PO i Nowoczesna różnią się w poszczególnych regionach? Czy wyniki wyborów nadal da się wytłumaczyć granicami zaborów? Czym się różnią elektoraty partii lewicowych?Zaczniemy od analizy rywalizacji, która od 10 lat dominuje w polskiej polityce. PiS vs. PO. Oprócz standardowych i dobrze znanych podziałów, bardzo fajnie widać na wykresie efekt mniejszości narodowych. Opolszczyzna i południe województwa podlaskiego, w opozycji do sąsiednich gmin, nie głosują na partię prawicową."/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-121778161-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Szychta w danych" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Szychta w danych</div>
+					<div class="logo__tagline">Blog o poznawaniu świata za pomocą danych</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/o-blogu/">
+				
+				<span class="menu__text">O blogu</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">O mnie</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/projects/">
+				
+				<span class="menu__text">Projekty</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/szkolenia-z-analizy-danych/">
+				
+				<span class="menu__text">Szkolenia z analizy danych</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Zabory a sprawa Polska. 100 lat później</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Piotr Sobczyk</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2015-12-06T00:16:34Z">2015-12-06</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/polska/" rel="category">Polska</a>, <a class="meta__link" href="/categories/wybory/" rel="category">Wybory</a>
+	</span>
+</div></div>
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents"></nav>
+	</div>
+</div>
+<div class="content post__content clearfix">
+			<p>Szychta w danych wraca po przerwie na intensywną pracę naukową :) Na rozgrzewkę - analiza wyników ostatnich wyborów. Czy PO i Nowoczesna różnią się w poszczególnych regionach? Czy wyniki wyborów nadal da się wytłumaczyć granicami zaborów? Czym się różnią elektoraty partii lewicowych?<!-- raw HTML omitted --></p>
+<p>Zaczniemy od analizy rywalizacji, która od 10 lat dominuje w polskiej polityce. PiS vs. PO. Oprócz standardowych i dobrze znanych podziałów, bardzo fajnie widać na wykresie efekt mniejszości narodowych. Opolszczyzna i południe województwa podlaskiego, w opozycji do sąsiednich gmin, nie głosują na partię prawicową.</p>
+<p><a href="http://szychtawdanych.pl/wp-content/uploads/2015/12/pis_po.png"><img src="http://szychtawdanych.pl/wp-content/uploads/2015/12/pis_po-1024x1024.png" alt="pis_po"></a></p>
+<p>Niemało jest głosów, że Nowoczesna Petru to PO bis. Na poniższej mapie widać, że różnice w poparciu dla obu partii są duże. Może więc są one podobne, ale w północnej i zachodniej Polsce, gdzie PO zawsze cieszyła się największym poparciem, wyborcy nie zainteresowali się zbyt mocno partią Petru.</p>
+<p><a href="http://szychtawdanych.pl/wp-content/uploads/2015/12/po_nowoczesna.png"><img src="http://szychtawdanych.pl/wp-content/uploads/2015/12/po_nowoczesna-300x300.png" alt="po_nowoczesna"></a></p>
+<p>Ciekawa jest różnica w poparciu PiS vs procent głosów zdobytych łącznie przez PO i Nowoczesną. Lepiej niż poprzednio widać podział na metropolie i mniejsze miejscowości.</p>
+<p><a href="http://szychtawdanych.pl/wp-content/uploads/2015/12/pis_po_nowoczesna.png"><img src="http://szychtawdanych.pl/wp-content/uploads/2015/12/pis_po_nowoczesna-300x300.png" alt="pis_po_nowoczesna"></a></p>
+<p>Różnice między obiema partiami lewicowymi są bardzo jednostajne. Razem lepiej radzi sobie w miastach, ale nie tych największych. Jest kilka regionów gdzie ZLEW radzi sobie bardzo dobrze (niebieski i fioletowy kolor),  ale poza tym nie widać żadnej zależności w skali Polski. Może to oznaczać, że obie odwoływały się do tego samego elektoratu i stąd żadnej z nich nie udało się dostać do Sejmu.<a href="http://szychtawdanych.pl/wp-content/uploads/2015/12/zlew_razem.png"><img src="http://szychtawdanych.pl/wp-content/uploads/2015/12/zlew_razem-300x300.png" alt="zlew_razem"></a></p>
+<p>I na koniec, różnica między poparciem PO i PiS z nałożoną granicą (przybliżoną) zaboru pruskiego. <a href="http://szychtawdanych.pl/wp-content/uploads/2015/12/pis_po_zabory1.png"><img src="http://szychtawdanych.pl/wp-content/uploads/2015/12/pis_po_zabory1-300x300.png" alt="pis_po_zabory"></a></p>
+<p>Zależność  ,,psują&rdquo; nieco Okręg Miedziowy, Kaszuby, część Wielkopolski i kawałek Górnego Śląska. Część z tych problemów znika gdy rozważa się granice II RP. Oczywiście wyjątkami pozostają duże miasta. Daleko idący wniosek byłby następujący: ludność osiadła, mocno zakorzeniona, popiera partię prawicową natomiast ludność napływowa, czy to na Ziemie Odzyskane czy też ze wsi do dużych miast, ma poglądy bardziej liberalne. <a href="http://szychtawdanych.pl/wp-content/uploads/2015/12/pis_po_2rp.png"><img src="http://szychtawdanych.pl/wp-content/uploads/2015/12/pis_po_2rp-300x300.png" alt="pis_po_2rp"></a></p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/analiza-danych/" rel="tag">analiza danych</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/ggplot/" rel="tag">ggplot</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/polska/" rel="tag">Polska</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/r/" rel="tag">R</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/wybory/" rel="tag">wybory</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Piotr Sobczyk avatar" src="/Users/piotr/GitHub/blogdown-source/config_files/avatar.jpg" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Piotr Sobczyk</span>
+	</div>
+	<div class="authorbox__description">
+		PhD, Data scientist
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/post/elektrownie-w-polsce/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Elektrownie w Polsce</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Rozkład państwa czy rozkład prawdopodobieństwa? O ogłaszaniu i wykonywaniu wyroków Trybunału Konstytucyjnego</p>
+		</a>
+	</div>
+</nav>
+
+<section class="comments">
+	<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "szychta" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 Piotr Sobczyk.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

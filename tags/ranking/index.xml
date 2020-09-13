@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ranking on Szychta w danych</title>
+    <link>/tags/ranking/</link>
+    <description>Recent content in Ranking on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Aug 2015 11:38:39 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ranking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rankingi Uniwersytecki lub o problemie skali</title>
+      <link>/post/280/</link>
+      <pubDate>Fri, 28 Aug 2015 11:38:39 +0000</pubDate>
+      
+      <guid>/post/280/</guid>
+      <description>Raz do roku magazyn Perspektywy publikuje rankingi szkół wyższych. Od pewnego czasu, oprócz zbiorczej oceny uczelni, powstają osobne klasyfikacje dla różnych dziedzin, w tym również dla matematyki. Ponieważ wynik mojej Alma Mater, Uniwersytetu Wrocławskiego, był bardzo słaby - dopiero szóste miejsce w kraju i dwa razy mniej punktów niż UW, postanowiłem nieco się przyjrzeć temu jak ranking jest skonstruowany. Ranking opiera się na czterech kryteriach:
+ Preferencje pracodawców Ocena przez kadrę akademicką Publikacje H-index  Z naszego punktu widzenia istotne jest, że mamy do czynienia z danym już przetworzonymi.</description>
+    </item>
+    
+  </channel>
+</rss>

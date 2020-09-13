@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Szychta w danych</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sat, 14 Sep 2019 15:25:35 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatyzacja winietek lub czemu na Szychcie nic się nie dzieje</title>
+      <link>/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</link>
+      <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
+      
+      <guid>/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</guid>
+      <description>Dzisiaj problem nieduży, ale bardzo praktyczny. Jak stworzyć vignette. eRowi fanatycy będą nieco zawiedzeni, bo chodzi mi nie o dokumentację pakietu, ale o &amp;ldquo;wedding vignette&amp;rdquo;, a więc winietki ślubne. Jak nie przeklejać 100 imion i uzyskać zgodę narzeczonej na zabawę przy komputerze?
+Pierwszym punktem jest znalezienie narzeczonej (continuum już zajęte, ale można szukać alef zero). Drugim zdecydowanie się na zorganizowanie imprezy na 100 osób, bo przecież ,,to proste i nie będzie na pewno aż tak drogie jak wszyscy mówią&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Granty NCN lub o koncentracji badań naukowych</title>
+      <link>/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</link>
+      <pubDate>Thu, 25 May 2017 10:04:18 +0000</pubDate>
+      
+      <guid>/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</guid>
+      <description>Jedną z miar aktywności i jakości pracy naukowej jest zdobywanie grantów. Przyjrzyjmy się, które polskie jednostki naukowe są pod tym względem najlepsze oraz czy w czasie następuje rozproszenie, czy raczej koncentracja pieniędzy na badania naukowe.W Polsce mamy dwie główne instytucje publiczne, które zajmują się finansowaniem nauki. Pierwszym jest Narodowe Centrum Nauki (NCN), które daje pieniądze na badania podstawowe. Drugim Narodowe Centrum Badań i Rozwoju (NCBR), które daje granty na badania rozwojowe i innowacyjne z nastawieniem na ich komercjalizację.</description>
+    </item>
+    
+    <item>
+      <title>[Jak to zrobić w R] - ,,Czy bogatsi są coraz bogatsi?&#34;</title>
+      <link>/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</link>
+      <pubDate>Mon, 07 Mar 2016 15:56:15 +0000</pubDate>
+      
+      <guid>/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</guid>
+      <description>Dzisiaj krótko na temat tego, jak stworzyć rysunki z wpisu o wzroście wynagrodzeń.
+Dane pochodzą z Banku Danych Lokalnych GUS. Kontury województw pochodzą ze strony Centralnego Ośrodka Dokumentacji Geodezyjnej i Kartograficznej.
+Na początku wczytujemy kontury województw za pomocą pakietu rgdal. [github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/wynagrodzenia/analiza_wynagrodzenia.R&amp;rdquo; start_line = &amp;ldquo;10&amp;rdquo; end_line = &amp;ldquo;12&amp;rdquo;]
+_Data.frame _ nazwy, to brzydki hak, służący do łączenia danych. Jego przydatność zobaczymy później. Dalej przekształcamy, za pomocą funkcji fortify z pakietu ggplot2, dane z typu SpatialPolygons do data.</description>
+    </item>
+    
+    <item>
+      <title>[Jak to zrobić w R] - ,,W pogoni za seksizmem w popkulturze&#34;</title>
+      <link>/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
+      
+      <guid>/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <description>Kolejny wpis z serii jak to zrobić w R. Dzisiaj krótkie wprowadzenie do tego jak ściągać bezpośrednio do R tabele zawarte na stronach internetowych, jak kierować zapytania do API, jak przetwarzać otrzymane od serwera odpowiedzi i jak to wszystko połączyć w niebanalną analizę.
+Ściąganie tabel do R
+Wykorzystamy w tym celu pakiet XML. Ściągniemy listę najbardziej kasowych filmów wszechczasów.
+[github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/filmy/analiza_actors_directors.R&amp;rdquo; start_line = &amp;ldquo;2&amp;rdquo; end_line = &amp;ldquo;10&amp;rdquo;]
+Bardziej ogólne rozwiązania opiera się na wczytaniu całego pliku i ręcznego wybrania interesującego nas fragmentu korzystając z XML-owych tagów.</description>
+    </item>
+    
+    <item>
+      <title>Jak (drogo) kupić 44 tysiące dzieci czyli o programie 500&#43;</title>
+      <link>/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</link>
+      <pubDate>Wed, 10 Feb 2016 09:00:18 +0000</pubDate>
+      
+      <guid>/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</guid>
+      <description>W najbliższym czasie uchwalony zostanie rządowy program świadczeń na dzieci w wysokości 500 złotych miesięcznie. Do procesu obiecywania dołączyła cześć opozycji. Pytanie czy taki program w ogóle ma sens? Czy dokonano dogłębnej diagnozy obecnej sytuacji demograficznej Polski? Czy pomysł na wydawania pieniędzy w formie zasiłku jest efektywny? Ile będzie kosztować budżet narodzenie jednego dodatkowego dziecka w wyniku działania programu 500+?Zaczynamy od porównania. Głównym moim źródłem jest wpis na blogu BIQdata oraz raport firmy PwC, na którym tenże wpis się opiera.</description>
+    </item>
+    
+    <item>
+      <title>Dentysta w każdej szkole - jak to zrobić w R</title>
+      <link>/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</link>
+      <pubDate>Mon, 18 Jan 2016 16:30:11 +0000</pubDate>
+      
+      <guid>/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</guid>
+      <description>Dzisiaj w Szychcie zamiast górniczego urobku prezentacja maszyn i technik. Jak wykonać zeszłotygodniową analizę w R? Jakich pakietów należy użyć?Kody i dane znajdują się na moim koncie na githubie. Dane nie należą do mnie.
+Na rozgrzewkę małe wyjaśnienie jak małym kosztem uszeregować województwa do boxplotu. Trik polega na ustawieniu kolejności poziomów (level) dla zmiennej typu factor.
+[github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/dentysci_w_szkolach/analiza_dentysci.R&amp;rdquo; start_line = &amp;ldquo;29&amp;rdquo; end_line = &amp;ldquo;37&amp;rdquo;]
+Następnie już łatwo wygenerować jest wykres w ggplot [github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/dentysci_w_szkolach/analiza_dentysci.</description>
+    </item>
+    
+    <item>
+      <title>Systemy tramwajowe w Polsce</title>
+      <link>/post/systemy-tramwajowe-w-polsce/</link>
+      <pubDate>Wed, 30 Dec 2015 16:59:32 +0000</pubDate>
+      
+      <guid>/post/systemy-tramwajowe-w-polsce/</guid>
+      <description>Dzisiejszy wpis szczególnie przypadnie do gustu wszystkim miłośnikom tramwajów i niestandardowych wykresów w R. Nietrudno zatem odgadnąć, że autor należy do obu tych grup. Odpowiemy sobie na pytania gdzie w Polsce są a gdzie zostały zlikwidowane sieci tramwajowe? Jakie miasto może się pochwalić najdłuższą długość torowisk? Jak mocno obecność tramwajów determinowana jest przebiegiem granicy zaboru pruskiego oraz jak zrobić w R efektowne wykresy gdzie zamiast punktu mamy obrazek.Na początek punkt wyjścia czyli zwykły wykres.</description>
+    </item>
+    
+    <item>
+      <title>O (nie)równych szansach w polskim systemie edukacji</title>
+      <link>/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
+      <pubDate>Mon, 14 Dec 2015 15:30:33 +0000</pubDate>
+      
+      <guid>/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
+      <description>W Polsce każdy ma prawo do bezpłatnej edukacji, ale jej jakość jest bardzo nierówna. I nie chodzi jedynie o podział miasto - wieś, ale też o regiony geograficzne. W dzisiejszym wpisie zobaczymy jak kształtują się wyniki sprawdzianu po szkole podstawowej, egzaminu gimnazjalnego i matury w podziale na powiaty. Sprawdzimy też czy z czasem różnice pomiędzy nimi zacierają się czy też stają się bardziej widoczne.W dzisiejszym wpisie korzystam z pakietu ZPD stworzony przez Instytut Badań Edukacyjnych.</description>
+    </item>
+    
+    <item>
+      <title>Rozkład państwa czy rozkład prawdopodobieństwa? O ogłaszaniu i wykonywaniu wyroków Trybunału Konstytucyjnego</title>
+      <link>/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</link>
+      <pubDate>Wed, 09 Dec 2015 16:00:42 +0000</pubDate>
+      
+      <guid>/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</guid>
+      <description>Dzisiaj wpis, za który oberwie mi się z prawej i lewej strony. I w dodatku nie za to, że i jednych i drugich pojadę, ale za to, że jednym i drugim oddam troszkę honoru! Oczekiwania podkręcone, postaram się je spełnić. Wpis dotyczy orzeczeń Trybunału Konstytucyjnego. Konkretnie dwóch zagadnień. Pierwsze to czas od wydania wyroku do jego publikacji w Dzienniku Ustaw. Drugi dotyczy czasu wykonania wyroków, czyli ile zajęło poprawienie prawa od momentu stwierdzenie jego niezgodności z konstytucją.</description>
+    </item>
+    
+    <item>
+      <title>Zabory a sprawa Polska. 100 lat później</title>
+      <link>/post/zabory-a-sprawa-polska-100-lat-pozniej/</link>
+      <pubDate>Sun, 06 Dec 2015 00:16:34 +0000</pubDate>
+      
+      <guid>/post/zabory-a-sprawa-polska-100-lat-pozniej/</guid>
+      <description>Szychta w danych wraca po przerwie na intensywną pracę naukową :) Na rozgrzewkę - analiza wyników ostatnich wyborów. Czy PO i Nowoczesna różnią się w poszczególnych regionach? Czy wyniki wyborów nadal da się wytłumaczyć granicami zaborów? Czym się różnią elektoraty partii lewicowych?Zaczniemy od analizy rywalizacji, która od 10 lat dominuje w polskiej polityce. PiS vs. PO. Oprócz standardowych i dobrze znanych podziałów, bardzo fajnie widać na wykresie efekt mniejszości narodowych. Opolszczyzna i południe województwa podlaskiego, w opozycji do sąsiednich gmin, nie głosują na partię prawicową.</description>
+    </item>
+    
+    <item>
+      <title>Elektrownie w Polsce</title>
+      <link>/post/elektrownie-w-polsce/</link>
+      <pubDate>Wed, 14 Oct 2015 05:16:39 +0000</pubDate>
+      
+      <guid>/post/elektrownie-w-polsce/</guid>
+      <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
+Istniejące elektrownie są zlokalizowane głównie w południowej części Polski. Na Górnym Śląsku występuje bardzo duże zagęszczenie elektrowni, co jest zapewne związane z przemysłem ciężkim, który był w przeszłości (jest nadal?</description>
+    </item>
+    
+    <item>
+      <title>Wydatki na obronność</title>
+      <link>/post/wydatki-na-obronnosc/</link>
+      <pubDate>Tue, 25 Aug 2015 20:45:47 +0000</pubDate>
+      
+      <guid>/post/wydatki-na-obronnosc/</guid>
+      <description>Winston ChurchillW czasach gdy Churchill spisywał swoje aryciekawe wspomnienia, wojskami zarządzały Ministerstwa Wojny. Kosmetyczną zmianę w nazewnictwie zawdzięczamy Zimnej Wojnie, podczas której wydatki wojenne przeobraziły się w wydatki obronne. To one są tematem dzisiejszego, pierwszego po wakacjach, wpisu. Kiedy konflikt na Ukrainie był w fazie eskalacji, sporo czasu poświęcono w Polsce dyskusjom na temat siły armii, jakości jej wyposażenia i możliwości obronnych. Nie będąc ekspertem nie mogę się wypowiadać na te tematy, ale proponuję porównanie jak wyglądają wydatki i liczebność sił zbrojnych różnych krajów.</description>
+    </item>
+    
+    <item>
+      <title>Wyniki wrocławskiego półmaratonu 2015</title>
+      <link>/post/wyniki-polmaratonu/</link>
+      <pubDate>Sun, 21 Jun 2015 19:57:31 +0000</pubDate>
+      
+      <guid>/post/wyniki-polmaratonu/</guid>
+      <description>W ostatnią sobotę odbył się we Wrocławiunocny półmaraton. Dostarczył on, oprócz dobrej zabawy, niemałego zbioru danych zawierającego międzyczasy blisko 7000 uczestników.
+Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi.</description>
+    </item>
+    
+    <item>
+      <title>Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie</title>
+      <link>/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
+      <pubDate>Sun, 22 Feb 2015 19:13:41 +0000</pubDate>
+      
+      <guid>/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
+      <description>Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&amp;hellip; nie ma na nie miejsca.</description>
+    </item>
+    
+    <item>
+      <title>Normalność i skrajność czyli o wyborach w wydaniu mazowieckim</title>
+      <link>/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</link>
+      <pubDate>Wed, 17 Dec 2014 21:53:11 +0000</pubDate>
+      
+      <guid>/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</guid>
+      <description>Powoli przycichają dyskusje polityczne na temat ostatnich wyborów samorządowych, co oznacza, że czas najwyższy aby się zabrać na wykonanie porządniejszej analizy danych.
+Niestety szczegółowe dane, to znaczy na poziomie komisji obwodowych, dotyczące ostatnich wyborów nie są póki co udostępnione na stronie PKW. Wobec tego ściągnąłem wyniki wyborów z roku 2010. Uzyskanie tychże wyników nie jest bynajmniej zadaniem trywialnym, ale odrobinawyrażeń regularnych załatwiła sprawę. Jak dotąd mam ściągnięte i analizuję jedynie dane dla Mazowsza.</description>
+    </item>
+    
+    <item>
+      <title>Programowanie w R z wykorzystaniem emacsa cz.2</title>
+      <link>/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</link>
+      <pubDate>Tue, 25 Nov 2014 21:31:40 +0000</pubDate>
+      
+      <guid>/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</guid>
+      <description>Teraz kilka szczegółów technicznych. W Ubuntu plik konfiguracyjny nazywa się .emacs i znajduje się w katalogu domowym. Biblioteki dobrze jest umieszczać w jakimś ustalonym miejscu np. folderze .emacs.d/. Niestety nie potrafię dać żadnych wskazówek użytkownikom Windowsa oprócz tego linku.
+Poniżej zamieszczam swój plik .emacs. W kolejnych postach postaram się wyjaśnić te części, które lepiej zrozumiałem podczas swoich przygód z emacsem. Podstawą dla mojego pliku są informacje zmieszczone na blogu Jessici Hamrick.</description>
+    </item>
+    
+    <item>
+      <title>Programowanie w R z wykorzystaniem emacsa</title>
+      <link>/post/programowanie-w-r-z-wykorzystaniem-emacsa/</link>
+      <pubDate>Mon, 06 Oct 2014 19:13:16 +0000</pubDate>
+      
+      <guid>/post/programowanie-w-r-z-wykorzystaniem-emacsa/</guid>
+      <description>Widząc ogromną liczbę artykułów na blogach dotyczących RStudio, mam wrażenie, że dominuje ono w dziedzinie IDE dla R. Z tego co wiem, to konkurencji w środowiskach ,,do wyklikania&amp;rdquo; nie ma bardzo dużej. Sam zresztą uwielbiam z niego korzystać. Szybko i wygodnie można wykonać większość prac, z jakimi można się spotkać w analizie danych. Nie oznacza to, że nie da się pracować inaczej. Jedną z takich możliwości daje emacs.
+   Emacs jest uniwersalny.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statystyka on Szychta w danych</title>
+    <link>/tags/statystyka/</link>
+    <description>Recent content in statystyka on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Tue, 19 Jun 2018 06:48:38 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/statystyka/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu</title>
+      <link>/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</link>
+      <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>
+      
+      <guid>/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</guid>
+      <description>Jaka jest szansa, że Polska zostanie mistrzem świata? A może, że chociaż wyjdziemy z grupy? Ile razy bardziej prawdopodobne jest zwycięstwo Brazylii? Z okazji trwających mistrzostw świata mamy wysyp wszelkiej maści artykułów dotyczących przewidywania wyników za pomocą metod statystycznych. Szychta dołoży swoją małą cegiełkę dokonując przewidywań wyników mundialu.Wyniki przewidujemy metodą Monte Carlo, a więc ,,rozgrywamy&amp;rdquo; kilka tysięcy razy mistrzostwa na komputerze i patrzymy ile razy poszczególne drużyny wyszły z grupy, trafiły do ćwierćfinału i tak dalej.</description>
+    </item>
+    
+    <item>
+      <title>O (nie)równych szansach w polskim systemie edukacji</title>
+      <link>/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
+      <pubDate>Mon, 14 Dec 2015 15:30:33 +0000</pubDate>
+      
+      <guid>/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
+      <description>W Polsce każdy ma prawo do bezpłatnej edukacji, ale jej jakość jest bardzo nierówna. I nie chodzi jedynie o podział miasto - wieś, ale też o regiony geograficzne. W dzisiejszym wpisie zobaczymy jak kształtują się wyniki sprawdzianu po szkole podstawowej, egzaminu gimnazjalnego i matury w podziale na powiaty. Sprawdzimy też czy z czasem różnice pomiędzy nimi zacierają się czy też stają się bardziej widoczne.W dzisiejszym wpisie korzystam z pakietu ZPD stworzony przez Instytut Badań Edukacyjnych.</description>
+    </item>
+    
+    <item>
+      <title>Rozkład państwa czy rozkład prawdopodobieństwa? O ogłaszaniu i wykonywaniu wyroków Trybunału Konstytucyjnego</title>
+      <link>/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</link>
+      <pubDate>Wed, 09 Dec 2015 16:00:42 +0000</pubDate>
+      
+      <guid>/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</guid>
+      <description>Dzisiaj wpis, za który oberwie mi się z prawej i lewej strony. I w dodatku nie za to, że i jednych i drugich pojadę, ale za to, że jednym i drugim oddam troszkę honoru! Oczekiwania podkręcone, postaram się je spełnić. Wpis dotyczy orzeczeń Trybunału Konstytucyjnego. Konkretnie dwóch zagadnień. Pierwsze to czas od wydania wyroku do jego publikacji w Dzienniku Ustaw. Drugi dotyczy czasu wykonania wyroków, czyli ile zajęło poprawienie prawa od momentu stwierdzenie jego niezgodności z konstytucją.</description>
+    </item>
+    
+    <item>
+      <title>Wybory i sondaże a szansa na olimpijskie medale</title>
+      <link>/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</link>
+      <pubDate>Mon, 24 Nov 2014 09:36:00 +0000</pubDate>
+      
+      <guid>/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</guid>
+      <description>Temperatura polityczna w Polsce w ostatnim tygodniu znacznie wzrosła. Rzucane były oskarżenia o fałszerstwo wyborów, o ,,podpalanie Polski&amp;rdquo; i tym podobne określenia. Spróbujemy nieco zredukować te emocje szczyptą statystycznego rozumowania.
+W ostatnich wyborach PSL zdobyło 22.68% poparcia. Według badania IPSOS przeprowadzonego dla TVP, TVN i Polsatu poparcie dla PSL wyniosło równo 17%, próba była wielkości 800. Zastanówmy się jak prawdopodobna jest taka różnica. Zakładamy, że zarówno wybory jak i sondaż zostały prawidłowo przeprowadzone.</description>
+    </item>
+    
+    <item>
+      <title>Pierwszy post czyli o czym pisać nie będę</title>
+      <link>/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
+      <pubDate>Tue, 26 Aug 2014 16:43:33 +0000</pubDate>
+      
+      <guid>/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
+      <description>I wbrew tytułowi napiszę o tym co będzie. Będą dane i będzie matematyka. W różnych proporcjach. Będą odpadki z mojego doktoratu i rzeczy, które mnie zafascynują. Będą dobre książki i artykuły. Będzie sporo ciekawych analiz rzeczy codziennych szczególnie dotyczących gospodarki. Może się też zdarzyć poważniejsza matematyka.
+Wpisy będą się pojawiać regularnie, choć stopień ich bycia interesującymi będzie bardzo zróżnicowany, za co każdego potencjalnego, innego niż ja sam, czytelnika serdecznie przepraszam.</description>
+    </item>
+    
+  </channel>
+</rss>

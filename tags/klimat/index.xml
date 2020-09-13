@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>klimat on Szychta w danych</title>
+    <link>/tags/klimat/</link>
+    <description>Recent content in klimat on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Thu, 24 Aug 2017 16:21:07 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/klimat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Taki mamy klimat - czy rozwój państw jest determinowany przez pogodę?</title>
+      <link>/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</link>
+      <pubDate>Thu, 24 Aug 2017 16:21:07 +0000</pubDate>
+      
+      <guid>/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</guid>
+      <description>Czy jest tak, że niektórym krajom trudniej jest stać się bogatym? Oczywiście. O tego typu ograniczeniach mówi nauka nazywana geopolityką. Przy okazji polecam lekką książkę na ten temat. Czy może jednak być tak, że oprócz spławnych rzek i łańcuchów górskich, możliwości rozwoju są podyktowane przez temperaturę?
+](http://szychtawdanych.pl/wp-content/uploads/2017/08/temperatura_hdi.png)
+Wszystkie dane pochodzą z wikipedii. Widzimy zależność (niekoniecznie wynikanie!) pomiędzy rozwojem kraju, mierzony przez Human Development Index (HDI), a przeciętną roczną temperaturą. Im cieplej, tym niższy jest rozwój kraju.</description>
+    </item>
+    
+  </channel>
+</rss>
