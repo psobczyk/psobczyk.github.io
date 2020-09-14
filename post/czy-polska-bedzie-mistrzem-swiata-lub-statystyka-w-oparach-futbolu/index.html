@@ -119,9 +119,7 @@ if (!doNotTrack) {
 	</span>
 </div></div>
 		</header>
-		<figure class="post__thumbnail">
-			<img src="/old_wp/2018/06/chances_winning.png" alt="Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu">
-		</figure><div class="content post__content clearfix">
+		<div class="content post__content clearfix">
 			<p>Jaka jest szansa, że Polska zostanie mistrzem świata? A może, że chociaż wyjdziemy z grupy? Ile razy bardziej prawdopodobne jest zwycięstwo Brazylii? Z okazji trwających mistrzostw świata mamy wysyp wszelkiej maści artykułów dotyczących przewidywania wyników za pomocą metod statystycznych. Szychta dołoży swoją małą cegiełkę dokonując przewidywań wyników mundialu.<!-- raw HTML omitted --></p>
 <p>Wyniki przewidujemy metodą Monte Carlo, a więc ,,rozgrywamy&rdquo; kilka tysięcy razy mistrzostwa na komputerze i patrzymy ile razy poszczególne drużyny wyszły z grupy, trafiły do ćwierćfinału i tak dalej. Aby dokonać takiej ,,rozgrywki&rdquo; potrzebujemy ,,znać&rdquo; prawdopodobieństwa zwycięstwa w poszczególnych meczach. Prawdopodobieństwa te można estymować z danych (np. z poprzednich mistrzostw, kilka linków na ten temat na końcu wpisu), można też skorzystać z pracy innych. Posłużymy się <a href="https://www.eloratings.net/about">rankingiem Elo</a>, który każdej drużynie przypisuje jej siłę na boisku, którą następnie łatwo można przeliczyć na szanse zwycięstwa w konkretnym meczu. I tak na przykład, dla dzisiejszego meczu Polski z Senegalem, różnica ich ratingów wynosi 81, co przekłada się na  61% szanse na zwycięstwo Polski. Przynajmniej według twórców rankingu :)</p>
 <p>Jak zatem wygląda nasza symulacja? ,,Rozgrywamy&rdquo; wszystkie mecze grupowe. Następnie wybieramy drużyny z pierwszych dwóch miejsc i rozgrywamy fazę pucharową. Za każdym razem szanse zwycięstwa pochodzą z rankingu Elo. Takie rozgrywki powtarzamy kilka tysięcy razy, a otrzymane wyniki podsumowujemy.</p>

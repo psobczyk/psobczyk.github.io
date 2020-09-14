@@ -119,9 +119,7 @@ if (!doNotTrack) {
 	</span>
 </div></div>
 		</header>
-		<figure class="post__thumbnail">
-			<img src="/img/population_wroclaw.png" alt="Shapefiles in R using sf package">
-		</figure><div class="content post__content clearfix">
+		<div class="content post__content clearfix">
 			<p>We will leave theory for some later posts and concentrate on a practical aspect for now. Our goal is to be able to create maps. To do that, we need to know the boundaries of areas i.e. countries, provinces or districts. That kind of data is usually stored in a special type of file, shapefile. This is clearly and oversimplification, but, as it is useful, lets stick to it for a moment.</p>
 <p>There are a number of <strong>R</strong> packages to handle shapefiles. Most important are <em>rgdal</em>, <em>sp</em>; however we will focus on a relatively new addition - <a href="https://edzer.github.io/UseR2017/"><em>sf</em></a> package that follows <strong>tidy data</strong> philosophy. Please look into the tutorial linked to get more info on how <a href="https://edzer.github.io/UseR2017/"><em>sf</em></a> package works and learn a bit more about spatial data.</p>
 <p>In our example we will use data on districts in <a href="http://geoportal.wroclaw.pl/zasoby/">Wroclaw</a>. As mentioned before, data is in <strong>.shp</strong> file. Let’s read it into R and check what kind of object is it.</p>
