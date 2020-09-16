@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 14 Jul 2020 06:45:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>/tags/wordpress/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/wordpress/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>popis</title>

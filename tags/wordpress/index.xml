@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on Szychta w danych</title>
+    <link>/tags/wordpress/</link>
+    <description>Recent content in wordpress on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Przenoszenie bloga z Wordpressa do Hugo</title>
+      <link>/post/przenoszenie-bloga-do-hugo/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/przenoszenie-bloga-do-hugo/</guid>
+      <description>Dlaczego warto przenieść blog a z Wordpressa do Hugo, statycznego generatora stron internetowych? Szybsza strona, mocniej zintegrowana z eRowym kodem, a do tego darmowy hosting na Githubie. A jak to zrobić? W internecie znajduje się trochę tutoriali na ten temat, ale jak to zwykle bywa diabeł tkwi w szczegółach.
+Z pokaźnej liczby tutoriali dotyczących przenoszenia blogów z Wordpressa do Hugo z czystym sumienieniem mogę polecić ten. Niestety jest w nim kilka rzeczy, które mi się nie podobają i które rozwiązałem inaczej.</description>
+    </item>
+    
+  </channel>
+</rss>
