@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</loc>
-    <lastmod>2020-07-14T06:45:17+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/przenoszenie-bloga-do-hugo/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/wordpress/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</loc>
     <lastmod>2020-07-14T06:45:17+00:00</lastmod>
   </url>
   
@@ -19,21 +54,6 @@
   
   <url>
     <loc>/tags/popis/</loc>
-    <lastmod>2020-07-14T06:45:17+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-07-14T06:45:17+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-07-14T06:45:17+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-07-14T06:45:17+00:00</lastmod>
   </url>
   
@@ -144,11 +164,6 @@
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2019-09-14T15:25:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
     <lastmod>2019-09-14T15:25:35+00:00</lastmod>
   </url>
   
