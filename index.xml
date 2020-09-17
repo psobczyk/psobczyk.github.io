@@ -262,6 +262,7 @@ glimpse(mtcars) ## Observations: 32 ## Variables: 11 ## $ mpg &amp;lt;dbl&amp;gt
       <guid>/o-blogu/</guid>
       <description>Szychta w danych to blog o świecie poznawanym przez dane. Autor stara się zrozumieć choćby mały wycinek otaczającej go rzeczywistości, a następnie podzielić się nim z każdym, kto szuka rzetelnej i nietrywialnej informacji.
 Chociaż świat jest dużo ciekawszy niż wypełnione liczbami tabelki, to jednak w jego zrozumieniu pomocne okazują się analiza i wizualizacja danych.
+Bloga można wspierać finansowo na platformie Patronie.
 ZBIOR RZECZY CIEKAWYCH
 rożne Sekreta w sobie zawieraiący tudzież Informacye o przypadkach dziwnych, niezrozumiałych, z trudem pod zmysły podpadających.</description>
     </item>
