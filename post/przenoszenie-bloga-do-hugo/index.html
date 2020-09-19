@@ -20,7 +20,7 @@ Z pokaźnej liczby tutoriali dotyczących przenoszenia blogów z Wordpressa do H
 Z pokaźnej liczby tutoriali dotyczących przenoszenia blogów z Wordpressa do Hugo z czystym sumienieniem mogę polecić ten. Niestety jest w nim kilka rzeczy, które mi się nie podobają i które rozwiązałem inaczej.">
 <meta itemprop="datePublished" content="2020-09-16T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-09-16T00:00:00+00:00" />
-<meta itemprop="wordCount" content="355">
+<meta itemprop="wordCount" content="422">
 
 
 
@@ -139,6 +139,11 @@ if (!doNotTrack) {
 })
 </code></pre></div><h3 id="4-przekierowanie-strony-z-homepl-na-githuba">4. Przekierowanie strony z home.pl na Githuba</h3>
 <p>Ponieważ do tej pory korzystałem z hostingu na home.pl to musiałem przepiąć domenę szychtawdanych.pl z tamtejszego serwera na Github Pages. Tutaj wielkich niespodzianek nie ma. Trzeba korzystać z <a href="https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">dokumentacji Githubowej</a>. Warto pamiętać o tym, żeby oprócz dodania do DNS-ów rekordów A związanych z adresami IP Githuba, należy usunąć wpis A kierujący na home.pl</p>
+<h3 id="5-migracja-komentarzy">5. Migracja komentarzy</h3>
+<p>Komentarze są miarą popularności bloga. Dlatego ważne jest, aby wyeksportować z Wordpressa tak samo jak wpisy. Eksport można też zrobić w Disqusie, z którego korzystałem zamiast wbudowanego systemu Wordpressowego.
+Niestety w trakcie migracji zmieniają się ścieżki i tak np. <em><a href="http://szychtawdanych.pl/?p=1132">http://szychtawdanych.pl/?p=1132</a></em> staje się <em><a href="http://szychtawdanych.pl/post/zelazna-kurtyna-26-lat-pozniej-o-roznicach-w-oczekiwanej-dlugosci-zycia/">http://szychtawdanych.pl/post/zelazna-kurtyna-26-lat-pozniej-o-roznicach-w-oczekiwanej-dlugosci-zycia/</a></em>. Disqus wymaga <a href="https://szychta.disqus.com/admin/discussions/migrate/">dostarczenia słownika</a>, który powie, do których wpisów przypisać które komentarze.</p>
+<p>Napisałem krótki kod w R, który w tym <a href="https://gist.github.com/psobczyk/e727f418ec33fccec142af40e677e72e">pomaga</a>.</p>
+<hr>
 <p>I tyle. Jeśli macie jakieś swoje doświadczenia związane z migracją do Hugo to zachęcam do podzielenia się nimi w komentarzach.</p>
 
 		</div>
