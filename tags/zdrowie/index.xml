@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zdrowie on Szychta w danych</title>
-    <link>/tags/zdrowie/</link>
+    <link>https://psobczyk.github.io/tags/zdrowie/</link>
     <description>Recent content in zdrowie on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 15 Aug 2017 13:46:26 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/zdrowie/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 15 Aug 2017 13:46:26 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/zdrowie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grubsza sprawa. Nadwaga i otyłość w Polsce</title>
-      <link>/post/grubsza-sprawa-nadwaga-i-otylosc-w-polsce/</link>
+      <link>https://psobczyk.github.io/post/grubsza-sprawa-nadwaga-i-otylosc-w-polsce/</link>
       <pubDate>Tue, 15 Aug 2017 13:46:26 +0000</pubDate>
       
-      <guid>/post/grubsza-sprawa-nadwaga-i-otylosc-w-polsce/</guid>
+      <guid>https://psobczyk.github.io/post/grubsza-sprawa-nadwaga-i-otylosc-w-polsce/</guid>
       <description>O otyłości w Polsce mówi się wręcz jako o epidemii. Czy rzeczywiście jest to uzasadnione? Jak sprawy się mają w innych krajach? Jak bardzo nadwaga związana jest z wiekiem? I wreszcie, czy kobiety tyją tak samo jak mężczyźni?Na wstępnie uwspólnijmy dwa pojęcia. Pierwsze to nadwaga, którą definiuje się przez wartość wskaźnika BMI większą niż 25. Drugie to otyłość, która jest skrajnym przypadkiem nadwagi, i która zdefiniowana jest przez wskaźnik BMI większy niż 30.</description>
     </item>
     

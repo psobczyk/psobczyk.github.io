@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>szkoła on Szychta w danych</title>
-    <link>/tags/szko%C5%82a/</link>
+    <link>https://psobczyk.github.io/tags/szko%C5%82a/</link>
     <description>Recent content in szkoła on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 27 Jun 2016 15:01:36 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/szko%C5%82a/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 27 Jun 2016 15:01:36 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/szko%C5%82a/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interaktywna mapa szkół we Wrocławiu</title>
-      <link>/post/interaktywna-mapa-szkol-we-wroclawiu/</link>
+      <link>https://psobczyk.github.io/post/interaktywna-mapa-szkol-we-wroclawiu/</link>
       <pubDate>Mon, 27 Jun 2016 15:01:36 +0000</pubDate>
       
-      <guid>/post/interaktywna-mapa-szkol-we-wroclawiu/</guid>
+      <guid>https://psobczyk.github.io/post/interaktywna-mapa-szkol-we-wroclawiu/</guid>
       <description>Jak są rozmieszczone we Wrocławiu szkoły podstawowe? Jakie wyniki na sprawdzianie osiągają ich uczniowie? Jak mają się one do przeciętnych wyników dla Wrocławia? Słowem, must-have przed decyzjami o przeprowadzkach i kupowaniu mieszkania :)Aby uruchomić interaktywną mapę wystarczy kliknąć na poniższy obrazek.
 
 Co na tej mapie widać? Po pierwsze podział na lepsze i gorsze dzielnice. Wśród tych pierwszych mamy Biskupin i Krzyki, zaś w drugiej grupie mamy Nadodrze i Przedmieście Oławskie (Trójkąt).</description>

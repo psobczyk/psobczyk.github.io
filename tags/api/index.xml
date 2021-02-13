@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API on Szychta w danych</title>
-    <link>/tags/api/</link>
+    <link>https://psobczyk.github.io/tags/api/</link>
     <description>Recent content in API on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 16 Feb 2016 08:21:04 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/api/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 16 Feb 2016 08:21:04 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Jak to zrobić w R] - ,,W pogoni za seksizmem w popkulturze&#34;</title>
-      <link>/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <link>https://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
       <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
       
-      <guid>/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <guid>https://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
       <description>Kolejny wpis z serii jak to zrobić w R. Dzisiaj krótkie wprowadzenie do tego jak ściągać bezpośrednio do R tabele zawarte na stronach internetowych, jak kierować zapytania do API, jak przetwarzać otrzymane od serwera odpowiedzi i jak to wszystko połączyć w niebanalną analizę.
 Ściąganie tabel do R
 Wykorzystamy w tym celu pakiet XML. Ściągniemy listę najbardziej kasowych filmów wszechczasów.

@@ -2,140 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Świat on Szychta w danych</title>
-    <link>/categories/%C5%9Bwiat/</link>
+    <link>https://psobczyk.github.io/categories/%C5%9Bwiat/</link>
     <description>Recent content in Świat on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Sat, 21 Mar 2020 18:25:14 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/%C5%9Bwiat/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 21 Mar 2020 18:25:14 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/categories/%C5%9Bwiat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Koronawirus lub o tym, że mowa to tylko srebro</title>
-      <link>/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</link>
+      <link>https://psobczyk.github.io/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</link>
       <pubDate>Sat, 21 Mar 2020 18:25:14 +0000</pubDate>
       
-      <guid>/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</guid>
+      <guid>https://psobczyk.github.io/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</guid>
       <description>Cóż innego mogłoby być tematem bloga dotyczącego analizy danych jak nie oczywiście koronawirus? Odpowiadając na prośby najwierniejszych czytelników Szychty (czyli żony i taty), dzisiaj krótko o tym czemu nie pisałem nic na ten temat i o przewadze milczenia nad słowem pisanym.
 Powód pierwszy Banalny - nie znam się na epidemiologii :) Kilka kursów z równań różniczkowych (w tym modelowania deterministycznego), znajomość procesów gałązkowych czy ogólne obycie w analizie danych nie oznacza, że ktoś zna się na pandemiach.</description>
     </item>
     
     <item>
       <title>Potrzeba czy marnotrawstwo lub o liczbie parlamentarzystów</title>
-      <link>/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</link>
+      <link>https://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</link>
       <pubDate>Sun, 26 May 2019 06:55:02 +0000</pubDate>
       
-      <guid>/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</guid>
+      <guid>https://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</guid>
       <description>Mamy kolejne wybory, tym razem europejskie. Czy ponad 700 parlamentarzystów których wybiorą Europejczycy to duża liczba? Jak ma się ona do krajowych parlamentów w Polsce i na świecie? Czy analizując dane dla wszystkich tego typu zgromadzeń można doszukać się jakichś prawidłowości?
 Na początek sprawdźmy rzecz oczywistą: im więcej ludności, tym więcej parlamentarzystów. Powody są co najmniej dwa: duże państwa mają więcej spraw, którymi chcą się zająć, oraz potrzebują większej liczby posłów, aby pojedynczy reprezentant nie przypadał na zbyt dużą liczbę ludności.</description>
     </item>
     
     <item>
       <title>Koszty obsługi długu lub o tym kto bogatemu zabroni</title>
-      <link>/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</link>
+      <link>https://psobczyk.github.io/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</link>
       <pubDate>Tue, 29 Jan 2019 18:35:42 +0000</pubDate>
       
-      <guid>/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</guid>
+      <guid>https://psobczyk.github.io/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</guid>
       <description>Dług długowi nierówny. Kredyt jest innym obciążeniem dla osoby majętnej niż dla ubogiej. Także na inny procent pożycza się bogaczowi, a na inny osobie biednej. Kusi aby powiedzieć, że ta sama zasada odnosi się do krajów, ale okazuje się, że stosowanie tej analogii do pożyczek zaciąganych przez państwa jest sporym nadużyciem.
 Zacznijmy od tego, że koszty obsługi długu wcale nie są największe dla krajów najbardziej zadłużonych. Wynika to oczywiście z dużego zróżnicowania oprocentowania pożyczek jakie są zaciągane.</description>
     </item>
     
     <item>
       <title>Dług publiczny lub o tym jak przedstawiać skalowanie powierzchni</title>
-      <link>/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</link>
+      <link>https://psobczyk.github.io/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</link>
       <pubDate>Mon, 10 Sep 2018 08:10:19 +0000</pubDate>
       
-      <guid>/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
+      <guid>https://psobczyk.github.io/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
       <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
-Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;rdquo;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
+Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;quot;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
     </item>
     
     <item>
       <title>Dni wolne od pracy lub świąteczna geografia</title>
-      <link>/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</link>
+      <link>https://psobczyk.github.io/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</link>
       <pubDate>Thu, 07 Jun 2018 07:50:48 +0000</pubDate>
       
-      <guid>/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</guid>
+      <guid>https://psobczyk.github.io/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</guid>
       <description>Jakie Święta są najczęściej obchodzone na świecie? Ile dni wolnych mają mieszkańcy poszczególnych państw? Które kraje obchodzą Boże Narodzenie, a które 1 Maja? W dzisiejszej Szychcie zajmiemy się geografią odpoczynku od pracy :)
 Święta, które zostały uznane za godne bycia wolnymi od pracy mówią sporo o kraju. Wyrażają to, co mieszkańcy uważają (lub uważali) za istotne, i jest elementem tradycji danego kraju. Najpierw sprawdźmy 10 najczęściej obchodzonych świąt. Ponieważ pochodzą one z anglojęzycznej strony timeanddata.</description>
     </item>
     
     <item>
       <title>Siła paszportu lub o tym ile może zobaczyć Polak</title>
-      <link>/post/sila-paszportu-lub-o-tym-ile-moze-zobaczyc-polak/</link>
+      <link>https://psobczyk.github.io/post/sila-paszportu-lub-o-tym-ile-moze-zobaczyc-polak/</link>
       <pubDate>Thu, 01 Mar 2018 08:19:27 +0000</pubDate>
       
-      <guid>/post/sila-paszportu-lub-o-tym-ile-moze-zobaczyc-polak/</guid>
-      <description>Który kraj daje swoim obywatelom największe możliwości? Odpowiedzi jest bardzo dużo i zależą od tego jak takie możliwości się zdefiniuje. Jednym z możliwych doprecyzowań tego pytania jest ,,siła paszportu&amp;rdquo;. Najbardziej znanym rankingiem z tym związanym jest passport index, który siłę paszportu utożsamia z liczbą krajów, które można odwiedzić bez potrzeby wyrabiania wizy. Zaproponujemy kilka alternatywnych, i wydaje się, że bardziej adekwatnych i ciekawych, sposobów na porównanie siły paszportów.
+      <guid>https://psobczyk.github.io/post/sila-paszportu-lub-o-tym-ile-moze-zobaczyc-polak/</guid>
+      <description>Który kraj daje swoim obywatelom największe możliwości? Odpowiedzi jest bardzo dużo i zależą od tego jak takie możliwości się zdefiniuje. Jednym z możliwych doprecyzowań tego pytania jest ,,siła paszportu&amp;quot;. Najbardziej znanym rankingiem z tym związanym jest passport index, który siłę paszportu utożsamia z liczbą krajów, które można odwiedzić bez potrzeby wyrabiania wizy. Zaproponujemy kilka alternatywnych, i wydaje się, że bardziej adekwatnych i ciekawych, sposobów na porównanie siły paszportów.
 Na początku spojrzyjmy na oryginalny ranking, czyli to, do ilu krajów można wjechać bez posiadania wizy.</description>
     </item>
     
     <item>
       <title>Zabawy w śniegu lub o tym na ile medali możemy liczyć w Pyeongchang?</title>
-      <link>/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</link>
+      <link>https://psobczyk.github.io/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</link>
       <pubDate>Fri, 16 Feb 2018 08:51:40 +0000</pubDate>
       
-      <guid>/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</guid>
+      <guid>https://psobczyk.github.io/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</guid>
       <description>Igrzyska, Igrzyska i (za chwilę) po Igrzyskach. Który kraj jest rekordzistą wszech czasów w liczbie zdobytych medali? Które narody należą do potęg w zimowych sportach? Jak zmieniało się to w czasie? I oczywiście, jak wypadają reprezentanci Polski?Zacznijmy od zestawienia łącznej liczby medali zdobytych przez poszczególne kraje na przestrzeni lat. Ze względu na przejrzystość wykresu bierzemy pod uwagę jedynie kraje, które zdobyły łącznie powyżej 100 medali.
 Niemcy dominują, ale warto zauważyć, że do 1988 najsilniejszą reprezentacją był Związek Radziecki.</description>
     </item>
     
     <item>
       <title>Czyje były obozy koncentracyjne lub o mądrości płynącej z Google</title>
-      <link>/post/czyje-byly-obozy-koncentracyjne-lub-o-madrosci-plynacej-z-google/</link>
+      <link>https://psobczyk.github.io/post/czyje-byly-obozy-koncentracyjne-lub-o-madrosci-plynacej-z-google/</link>
       <pubDate>Tue, 06 Feb 2018 07:33:25 +0000</pubDate>
       
-      <guid>/post/czyje-byly-obozy-koncentracyjne-lub-o-madrosci-plynacej-z-google/</guid>
+      <guid>https://psobczyk.github.io/post/czyje-byly-obozy-koncentracyjne-lub-o-madrosci-plynacej-z-google/</guid>
       <description>Czy historii można nauczyć się z internetowych trendów? Sprawdźmy jak ma się rzecz z gorącym tematem ostatnich tygodni, czyli obozami koncentracyjnymi z II Wojny Światowej? Czyje były? Nazistowskie, niemieckie, polskie a może żydowskie? Jakich fraz wyszukują internauci na całym świecie korzystający z wyszukiwarki Google?
 Informacja o tym co jest wyszukiwane w google jest zapamiętywana, a następnie udostępniana w formie statystyk i właśnie te dane przeanalizujemy. No dobrze, nie potrzeba google żeby wiedzieć, że obozy budowała Trzecia Rzesza, a więc naziści będący u władzy w Niemczech.</description>
     </item>
     
     <item>
       <title>Systemy metra lub o tym gdzie leży Afryka</title>
-      <link>/post/systemy-metra-lub-o-tym-gdzie-lezy-afryka/</link>
+      <link>https://psobczyk.github.io/post/systemy-metra-lub-o-tym-gdzie-lezy-afryka/</link>
       <pubDate>Tue, 18 Jul 2017 06:44:48 +0000</pubDate>
       
-      <guid>/post/systemy-metra-lub-o-tym-gdzie-lezy-afryka/</guid>
+      <guid>https://psobczyk.github.io/post/systemy-metra-lub-o-tym-gdzie-lezy-afryka/</guid>
       <description>Metro jest bodajże najbardziej kosztownym środkiem transportu i jego posiadanie świadczy o wadze i zamożności miasta. W mniejszych miejscowościach nie ma po prostu potrzeby, żeby jednocześnie wiele osób przemieszczało się szybko na duże odległości. Z tego powodu występowanie metra jest pewnego rodzaju miernikiem rozwoju gospodarczego, a informacja o tym gdzie leżą te miasta może nam powiedzieć sporo o światowej gospodarce.
 Zacznijmy od pewnego eksperymentu. Na mapie poniżej zaznaczono systemy metra, ale bez konturów krajów czy kontynentów.</description>
     </item>
     
     <item>
       <title>Dwa słowa i trzy wykresy o globalnych migracjach</title>
-      <link>/post/dwa-slowa-i-trzy-wykresy-o-globalnych-migracjach/</link>
+      <link>https://psobczyk.github.io/post/dwa-slowa-i-trzy-wykresy-o-globalnych-migracjach/</link>
       <pubDate>Mon, 17 Apr 2017 10:49:55 +0000</pubDate>
       
-      <guid>/post/dwa-slowa-i-trzy-wykresy-o-globalnych-migracjach/</guid>
+      <guid>https://psobczyk.github.io/post/dwa-slowa-i-trzy-wykresy-o-globalnych-migracjach/</guid>
       <description>Które kraje przyciągają najwięcej imigrantów? Z jakich państw najwięcej mieszkańców wyjeżdża? Z polskiej perspektywy migracje to praca zarobkowa na zachodzie, imigranci z Ukrainy i uchodźcy z Syrii. Zjawisko jest jednak rzecz jasna znacznie szersze i spróbujemy przybliżyć je za pomocą danych.Zacznijmy od mapy, która daje nam informację o skali zjawiska i głównych kierunkach migracji.
 Przede wszystkim, według ONZ, migrantów jest prawie 250 milionów. czyli mniej więcej 3% populacji ziemi. Największe ruchy ludności mają miejsce wewnątrz Azji.</description>
     </item>
     
     <item>
       <title>Czy Polska jest eko? Gdzie w Europie zużywa się najwięcej paliw kopalnych?</title>
-      <link>/post/czy-polska-jest-eko-gdzie-w-europie-zuzywa-sie-najwiecej-paliw-kopalnych/</link>
+      <link>https://psobczyk.github.io/post/czy-polska-jest-eko-gdzie-w-europie-zuzywa-sie-najwiecej-paliw-kopalnych/</link>
       <pubDate>Thu, 06 Apr 2017 17:58:41 +0000</pubDate>
       
-      <guid>/post/czy-polska-jest-eko-gdzie-w-europie-zuzywa-sie-najwiecej-paliw-kopalnych/</guid>
+      <guid>https://psobczyk.github.io/post/czy-polska-jest-eko-gdzie-w-europie-zuzywa-sie-najwiecej-paliw-kopalnych/</guid>
       <description>Jaki procent zużywanej energii elektrycznej czerpią poszczególne kraje z paliw kopalnych? Czy więcej energii zużywają kraje biedne czy bogate? I wreszcie czy, ze względów ekologicznych, Islandia powinna być zakazana? :)Na całym świecie próbuje się odchodzić od zużywania paliw kopalnych na rzecz odnawialnych źródeł energii. Mówiąc eufemistycznie, Polska nie jest liderem tych zmian. Wszystkie poniższe wykresy zawierają dane z roku 2013.
 Okazuje się jednak, że sprawa ta nie jest tak jednoznaczna. Kraje Europy wschodniej zużywają znacznie mniej energii niż kraje zachodnie.</description>
     </item>
     
     <item>
       <title>Gender pay gap lub w jakich gałęziach gospodarki kobiety zarabiają mniej?</title>
-      <link>/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</link>
+      <link>https://psobczyk.github.io/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</link>
       <pubDate>Sun, 05 Mar 2017 16:27:19 +0000</pubDate>
       
-      <guid>/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</guid>
+      <guid>https://psobczyk.github.io/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</guid>
       <description>Kilka dni temu pojawił się w Polsce temat nierówności zarobków ze względu na płeć, a właściwie nieco egzotycznego wytłumaczenia tego faktu. Pozostaje oczywiście pytanie o to, czy i jak państwa powinny aktywnie działać na rzecz zmniejszenia tychże nierówności. Dzisiaj w Szychcie prześledzimy jak duże jest to zjawisko, jak różnią się pod tym względem kraje europejskie i czy dysproporcje maleją czy stają się coraz większe.Dane pochodzą z eurostatu (tabela earn_gr_gpgr2). Zawierają one procentową różnicę w przeciętnych zarobkach za godzinę pracy mężczyzn i kobiet.</description>
     </item>
     
     <item>
       <title>Srogo nie znaczy skutecznie. O więźniach i morderstwach</title>
-      <link>/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</link>
+      <link>https://psobczyk.github.io/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</link>
       <pubDate>Mon, 23 Jan 2017 19:14:04 +0000</pubDate>
       
-      <guid>/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</guid>
+      <guid>https://psobczyk.github.io/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</guid>
       <description>Raz na jakiś czas słychać w Polsce (i nie tylko) hasła o zaostrzeniu prawa, zero tolerancji dla przestępców itp. Czy rzeczywiście karanie więzieniem jest skuteczne? Czy wpływa pozytywnie na bezpieczeństwo?
 Trzy wnioski:
   W Polsce mamy bardzo mało morderstw, ale liczba osadzonych w więzieniach jest zdecydowanie powyżej średniej. Inne warte uwagi obserwacje odstające to USA, Japonia - bardzo mało morderstw i mało więźniów, Singapur - bardzo bezpieczny kraj z dużą liczbą więźniów, Honduras - aż 85 morderstw i tylko 200 osadzonych na 100 tys.</description>
@@ -143,150 +139,150 @@ Trzy wnioski:
     
     <item>
       <title>Jak daleko jest od bogacza do biedaka? O dysproporcji zarobków w Europie</title>
-      <link>/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</link>
+      <link>https://psobczyk.github.io/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</link>
       <pubDate>Thu, 22 Dec 2016 15:39:30 +0000</pubDate>
       
-      <guid>/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</guid>
+      <guid>https://psobczyk.github.io/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</guid>
       <description>W Polsce występuje największa w Europie dysproporcja zarobków biednych i bogatych. Czy można to tłumaczyć dziedzictwem komunizmu i szybkiej transformacji systemowej? Jak radzą sobie pozostałe kraje w Europie Wschodniej? Jak zmieniła się dysproporcja od roku 2006?
 Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnienie? Z pewnością prowadzi ona do wzrastania nierówności i napięć społecznych. Bardziej widoczny jest podział na tych co mają, i na tych co nie mają. To z kolei daje szansę dojścia do władzy populistom, którzy winą za trudności obarczą jakąś konkretną grupę społeczną, etniczną itp.</description>
     </item>
     
     <item>
       <title>Silne kobiety, słabi mężczyźni? O liczbie samobójstw w Europie</title>
-      <link>/post/silne-kobiety-slabi-mezczyzni-o-liczbie-samobojstw-w-europie/</link>
+      <link>https://psobczyk.github.io/post/silne-kobiety-slabi-mezczyzni-o-liczbie-samobojstw-w-europie/</link>
       <pubDate>Wed, 19 Oct 2016 05:38:46 +0000</pubDate>
       
-      <guid>/post/silne-kobiety-slabi-mezczyzni-o-liczbie-samobojstw-w-europie/</guid>
-      <description>Ci, którym wydaje się, że mężczyźni z Polski mają ,,twardą psychikę&amp;rdquo;, czeka niemiłe zaskoczenie. Dzisiaj analizujemy to, jak często Europejczycy decydują się odebrać sobie życie, oraz o ile częściej robią to mężczyźni niż kobiety.Zacznijmy od liczby samobójstw, którą rzecz jasna należy odnieść do liczby mieszkańców. Niechlubnym liderem w tym rankingu jest Litwa, gdzie co roku jedna na 3000 osób odbiera sobie życie. Polska wypada w tym zestawieniu przeciętnie. Najrzadziej samobójstwa zdarzają się w krajach południowych (kultura, klimat?</description>
+      <guid>https://psobczyk.github.io/post/silne-kobiety-slabi-mezczyzni-o-liczbie-samobojstw-w-europie/</guid>
+      <description>Ci, którym wydaje się, że mężczyźni z Polski mają ,,twardą psychikę&amp;quot;, czeka niemiłe zaskoczenie. Dzisiaj analizujemy to, jak często Europejczycy decydują się odebrać sobie życie, oraz o ile częściej robią to mężczyźni niż kobiety.Zacznijmy od liczby samobójstw, którą rzecz jasna należy odnieść do liczby mieszkańców. Niechlubnym liderem w tym rankingu jest Litwa, gdzie co roku jedna na 3000 osób odbiera sobie życie. Polska wypada w tym zestawieniu przeciętnie. Najrzadziej samobójstwa zdarzają się w krajach południowych (kultura, klimat?</description>
     </item>
     
     <item>
       <title>Świat rosnącej równości, czyli o tym jak Azja goni świat zachodni</title>
-      <link>/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</link>
+      <link>https://psobczyk.github.io/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</link>
       <pubDate>Tue, 27 Sep 2016 11:04:26 +0000</pubDate>
       
-      <guid>/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</guid>
+      <guid>https://psobczyk.github.io/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</guid>
       <description>Świat jest pełen nierówności - to stwierdzenie to banał, choć niestety prawdziwy. Zawsze tak było i zawsze będzie, ale skala nierówności jest zmienna. I choć najważniejszy pozostaje wymiar ludzki, czyli cierpienie jednostki, to warto też zobaczyć jak zmienia się świat w skali makro. Jak wyglądał pod tym względem 100 lat temu? Czy nierówności się pogłębiają, czy też są coraz mniejsze? Na początku zobaczmy wykres bogactwa w roku 2013. Na osi X mamy ludność.</description>
     </item>
     
     <item>
       <title>Równi i równiejsi. Kobiety na rynku pracy</title>
-      <link>/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</link>
+      <link>https://psobczyk.github.io/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</link>
       <pubDate>Tue, 06 Sep 2016 17:16:05 +0000</pubDate>
       
-      <guid>/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</guid>
+      <guid>https://psobczyk.github.io/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</guid>
       <description>Jakie są różnice w aktywności, zarobkach i perspektywach zawodowych kobiet i mężczyzn? Czy Polska jest krajem, który zapewnia równe szanse bez względu na płeć? W których krajach kobietom najtrudniej jest się przebić?Sprawdźmy najpierw jak duża jest różnica pomiędzy procentem mężczyzn aktywnych zawodowo a procentem kobiet, które są aktywne zawodowo
 Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła. Zajmijmy się teraz znanym zjawiskiem gender gap, czyli różnicy w zarobkach.</description>
     </item>
     
     <item>
       <title>Kiedy Polska będzie bogata? O dystansie w rozwoju gospodarczym jaki dzieli nas od zachodniej Europy</title>
-      <link>/post/kiedy-polska-bedzie-bogata-o-dystansie-w-rozwoju-gospodarczym-jaki-dzieli-nas-od-zachodniej-europy/</link>
+      <link>https://psobczyk.github.io/post/kiedy-polska-bedzie-bogata-o-dystansie-w-rozwoju-gospodarczym-jaki-dzieli-nas-od-zachodniej-europy/</link>
       <pubDate>Wed, 10 Aug 2016 12:34:03 +0000</pubDate>
       
-      <guid>/post/kiedy-polska-bedzie-bogata-o-dystansie-w-rozwoju-gospodarczym-jaki-dzieli-nas-od-zachodniej-europy/</guid>
-      <description>Czy Polska kiedykolwiek dogoni w rozwoju gospodarczym Niemcy? A może chociaż Czechy? Ile lat dzieli nasze gospodarki? Czy po roku 1989 udało się nadgonić nieco dystans do krajów zachodnich?Jednym z podstawowych tematów sporu pomiędzy ekonomicznymi liberałami, a tymi którzy mówią o potrzebie sterowania gospodarką jest to, czy różnice w rozwoju gospodarczym maleją czy narastają. Dotyczy to zarówno nierówności w rozwoju regionów czy państw, jak i rozwarstwienia społecznego. W wielkim skrócie, według liberałów nierówności powinny z czasem maleć, ponieważ osoby najbardziej przedsiębiorcze wydają zarobione pieniądze, dzięki czemu napędzają gospodarkę i bogactwo ,,spływa&amp;rdquo; w ten sposób na resztę społeczeństwa.</description>
+      <guid>https://psobczyk.github.io/post/kiedy-polska-bedzie-bogata-o-dystansie-w-rozwoju-gospodarczym-jaki-dzieli-nas-od-zachodniej-europy/</guid>
+      <description>Czy Polska kiedykolwiek dogoni w rozwoju gospodarczym Niemcy? A może chociaż Czechy? Ile lat dzieli nasze gospodarki? Czy po roku 1989 udało się nadgonić nieco dystans do krajów zachodnich?Jednym z podstawowych tematów sporu pomiędzy ekonomicznymi liberałami, a tymi którzy mówią o potrzebie sterowania gospodarką jest to, czy różnice w rozwoju gospodarczym maleją czy narastają. Dotyczy to zarówno nierówności w rozwoju regionów czy państw, jak i rozwarstwienia społecznego. W wielkim skrócie, według liberałów nierówności powinny z czasem maleć, ponieważ osoby najbardziej przedsiębiorcze wydają zarobione pieniądze, dzięki czemu napędzają gospodarkę i bogactwo ,,spływa&amp;quot; w ten sposób na resztę społeczeństwa.</description>
     </item>
     
     <item>
       <title>W poszukiwaniu świeżego powietrza - pyły PM w Europie</title>
-      <link>/post/w-poszukiwaniu-swiezego-powietrza-pyly-pm-w-europie/</link>
+      <link>https://psobczyk.github.io/post/w-poszukiwaniu-swiezego-powietrza-pyly-pm-w-europie/</link>
       <pubDate>Mon, 18 Jul 2016 13:36:47 +0000</pubDate>
       
-      <guid>/post/w-poszukiwaniu-swiezego-powietrza-pyly-pm-w-europie/</guid>
+      <guid>https://psobczyk.github.io/post/w-poszukiwaniu-swiezego-powietrza-pyly-pm-w-europie/</guid>
       <description>W Szychcie można często przeczytać o porównaniach krajów pod względem rozwoju ekonomicznego. Ale jakość życia to nie tylko PKB per capita. Dzisiaj zbadamy to, jak dobrym powietrzem mogą się cieszyć Polacy w porównaniu do mieszkańców innych krajów europejskich.Na mapie można przeglądać średnioroczne stężenie pyłów PM (od ang. Particulate Matter) o średnicy do 2.5 μm lub do 10 μm. Oba typy pyłów są na tyle małe, że przechodzą przez nasze nosy. PM 10 wnikają do płuc, ale nie są dalej transportowane, natomiast PM 2.</description>
     </item>
     
     <item>
       <title>Pusto jak we wschodnich Niemczech czyli prognoza demograficzna dla Europy</title>
-      <link>/post/pusto-jak-we-wschodnich-niemczech-czyli-prognoza-demograficzna-dla-europy/</link>
+      <link>https://psobczyk.github.io/post/pusto-jak-we-wschodnich-niemczech-czyli-prognoza-demograficzna-dla-europy/</link>
       <pubDate>Tue, 31 May 2016 14:05:14 +0000</pubDate>
       
-      <guid>/post/pusto-jak-we-wschodnich-niemczech-czyli-prognoza-demograficzna-dla-europy/</guid>
+      <guid>https://psobczyk.github.io/post/pusto-jak-we-wschodnich-niemczech-czyli-prognoza-demograficzna-dla-europy/</guid>
       <description>W poprzednich wpisach było trochę o ekonomii, między innymi o tym jak w różnych regionach w Polsce wzrasta PKB, jak ma się wzrost płac w Polsce do innych krajów. Moja intuicja jest taka, że długofalowego rozwoju gospodarczego nie sposób połączyć z zapaścią demograficzną. To znaczy regiony, które odniosą sukces nie będą sie szybko wyludniać. I w drugą stronę, bieda napędza emigrację i wyludnianie. Jak będzie wyglądać Europa za 35 lat? Gdzie przybędzie mieszkańców?</description>
     </item>
     
     <item>
       <title>O nieomylności papieża i Bernim Sandersie</title>
-      <link>/post/o-nieomylnosci-papieza-i-bernim-sandersie/</link>
+      <link>https://psobczyk.github.io/post/o-nieomylnosci-papieza-i-bernim-sandersie/</link>
       <pubDate>Mon, 18 Apr 2016 13:33:15 +0000</pubDate>
       
-      <guid>/post/o-nieomylnosci-papieza-i-bernim-sandersie/</guid>
+      <guid>https://psobczyk.github.io/post/o-nieomylnosci-papieza-i-bernim-sandersie/</guid>
       <description>Wbrew tytułowi, dzisiejszy wpis nie będzie dotyczył teologii, tylko ekonomii, a konkretnie (nie)równej dystrybucji dóbr. Pretekstem jest artykuł w Washington Post na temat wizyty Berniego Sandersa, kandydata w prawyborach prezydenckich Partii Demokratycznej, u papieża Franciszka. To co łączy tych dwóch panów, to krytyka liberalnego kapitalizmu, za to, że nie udało mu się doprowadzić do zniwelowania nierówności społecznych i gospodarczych na świecie. Czy rzeczywiście tak jest?
 Co ma na swoją obronę kapitalizm?</description>
     </item>
     
     <item>
       <title>Tam, gdzie strach jest codziennością - mapa globalnego terroryzmu</title>
-      <link>/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
+      <link>https://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
       <pubDate>Tue, 05 Apr 2016 15:41:24 +0000</pubDate>
       
-      <guid>/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
+      <guid>https://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
       <description>Czasem strach jaki odczuwamy przed terroryzmem, zwłaszcza w Polsce, może wydawać się przesadzony. Jest jednak na świecie wiele miejsc, gdzie terroryzm jest niestety codziennością. W dzisiejszym wpisie prezentuję interaktywną mapę światowego terroryzmu.
 Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwaga, docelowy plik jest dosyć duży (około 15MB), a w miarę przybliżania wybranego regionu świata, dodatkowo ściągana jest mapa z serwisu open street map. Łączny przesył danych, może więc trochę kosztować :)[</description>
     </item>
     
     <item>
       <title>Najbardziej niebezpieczne miejsca na ziemi - terroryzm</title>
-      <link>/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</link>
+      <link>https://psobczyk.github.io/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</link>
       <pubDate>Tue, 22 Mar 2016 15:30:21 +0000</pubDate>
       
-      <guid>/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</guid>
+      <guid>https://psobczyk.github.io/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</guid>
       <description>W jakich krajach i regionach przeprowadzanych jest najwięcej zamachów terrorystycznych? Czy jest uzasadnionym, żeby mówić o tym, że Europa Zachodnia jest szczególnie atakowana, czy też mamy do czynienia z globalną eskalacją terroryzmu?Mam wrażenie, że czasem zapominamy iż terroryzm nie jest zjawiskiem nowym. Od dawna wywiera on znaczący wpływ na kształtowanie rzeczywistości politycznej. Wystarczy przypomnieć, że jedna z największych humanitarnych tragedii w historii Europy, I Wojna Światowa, rozpoczęła się od zamachu terrorystycznego w Sarajewie.</description>
     </item>
     
     <item>
       <title>Jak (drogo) kupić 44 tysiące dzieci czyli o programie 500&#43;</title>
-      <link>/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</link>
+      <link>https://psobczyk.github.io/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</link>
       <pubDate>Wed, 10 Feb 2016 09:00:18 +0000</pubDate>
       
-      <guid>/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</guid>
+      <guid>https://psobczyk.github.io/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</guid>
       <description>W najbliższym czasie uchwalony zostanie rządowy program świadczeń na dzieci w wysokości 500 złotych miesięcznie. Do procesu obiecywania dołączyła cześć opozycji. Pytanie czy taki program w ogóle ma sens? Czy dokonano dogłębnej diagnozy obecnej sytuacji demograficznej Polski? Czy pomysł na wydawania pieniędzy w formie zasiłku jest efektywny? Ile będzie kosztować budżet narodzenie jednego dodatkowego dziecka w wyniku działania programu 500+?Zaczynamy od porównania. Głównym moim źródłem jest wpis na blogu BIQdata oraz raport firmy PwC, na którym tenże wpis się opiera.</description>
     </item>
     
     <item>
       <title>,,Kino to najważniejsza ze sztuk&#34; - w pogoni za seksizmem w popkulturze</title>
-      <link>/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <link>https://psobczyk.github.io/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</link>
       <pubDate>Mon, 08 Feb 2016 17:31:54 +0000</pubDate>
       
-      <guid>/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <guid>https://psobczyk.github.io/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</guid>
       <description>Czy w przemyśle filmowym kryje się seksizm i przewaga mężczyzn nad kobietami? Nawet pobieżne przejrzenie internetu przyniesie odpowiedź że zapewne tak właśnie jest. Na przykład pierwszy wynik w google daje infografikę na ten temat. W dzisiejszym wpisie przyjrzymy się najbardziej kasowym filmom w historii. Sprawdzimy którzy aktorzy i reżyserzy stoją za ich sukcesem, a także jaki jest wśród nich udział kobiet.Na stronie boxofficemojo można znaleźć dane dotyczące 630 najbardziej kasowych filmów wszechczasów.</description>
     </item>
     
     <item>
       <title>Dokąd uciekają syryjscy uchodżcy?</title>
-      <link>/post/gdzie-uciekaja-syryjscy-uchodzcy/</link>
+      <link>https://psobczyk.github.io/post/gdzie-uciekaja-syryjscy-uchodzcy/</link>
       <pubDate>Mon, 21 Sep 2015 16:00:00 +0000</pubDate>
       
-      <guid>/post/gdzie-uciekaja-syryjscy-uchodzcy/</guid>
+      <guid>https://psobczyk.github.io/post/gdzie-uciekaja-syryjscy-uchodzcy/</guid>
       <description>Są granice tego ile można słuchać i czytać kasandrycznych wizji końca Europy zalanej hordami muzułmańskich barbarzyńców, inwokacji o nowego Jana Sobieskiego czy ujawnionych spisków krajów arabskich. W dzisiejszym wpisie zbadamy gdzie jest największa liczba syryjskich uchodźców oraz, które kraje mogą się rzeczywiście czuć ich liczbą zagrożone.
 Dane, z których korzystam, pochodzą ze strony agendy ONZ zajmującej się uchodźcami oraz z wikipedii. Są one mniej więcej aktualne - dotyczą sierpnia 2015. Liczba uchodźców, podawana przez UNHCR, to liczba osób, które wystąpiły w danym kraju o azyl.</description>
     </item>
     
     <item>
       <title>Wilkommen, bienvenido czy добре дошъл? O uchodźcach w Europie</title>
-      <link>/post/uchodzcy/</link>
+      <link>https://psobczyk.github.io/post/uchodzcy/</link>
       <pubDate>Mon, 07 Sep 2015 16:00:00 +0000</pubDate>
       
-      <guid>/post/uchodzcy/</guid>
-      <description>W ostatnim czasie tematem numer jeden w mediach są uchodźcy i imigranci z Afryki i Bliskiego Wschodu. Facebook zapełnił się różnymi grupami typu ,,Polacy przeciwko&amp;hellip;&amp;rdquo;, &amp;ldquo;Polacy przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;, &amp;ldquo;Polacy przeciwko Polakom przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;. Zobaczmy jak wygląda przyjmowanie uchodźców w Europie. Który kraj udziela najwięcej azylów uchodźcom? Jaki kraj prawie nigdy nie odmawia azylu? No i oczywiście jak na tle innych krajów wypada Polska.W roku 2014 cała Unia Europejska udzieliła azylu 160,000 osób.</description>
+      <guid>https://psobczyk.github.io/post/uchodzcy/</guid>
+      <description>W ostatnim czasie tematem numer jeden w mediach są uchodźcy i imigranci z Afryki i Bliskiego Wschodu. Facebook zapełnił się różnymi grupami typu ,,Polacy przeciwko&amp;hellip;&amp;quot;, &amp;ldquo;Polacy przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;, &amp;ldquo;Polacy przeciwko Polakom przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;. Zobaczmy jak wygląda przyjmowanie uchodźców w Europie. Który kraj udziela najwięcej azylów uchodźcom? Jaki kraj prawie nigdy nie odmawia azylu? No i oczywiście jak na tle innych krajów wypada Polska.W roku 2014 cała Unia Europejska udzieliła azylu 160,000 osób.</description>
     </item>
     
     <item>
       <title>Wydatki na obronność</title>
-      <link>/post/wydatki-na-obronnosc/</link>
+      <link>https://psobczyk.github.io/post/wydatki-na-obronnosc/</link>
       <pubDate>Tue, 25 Aug 2015 20:45:47 +0000</pubDate>
       
-      <guid>/post/wydatki-na-obronnosc/</guid>
+      <guid>https://psobczyk.github.io/post/wydatki-na-obronnosc/</guid>
       <description>Winston ChurchillW czasach gdy Churchill spisywał swoje aryciekawe wspomnienia, wojskami zarządzały Ministerstwa Wojny. Kosmetyczną zmianę w nazewnictwie zawdzięczamy Zimnej Wojnie, podczas której wydatki wojenne przeobraziły się w wydatki obronne. To one są tematem dzisiejszego, pierwszego po wakacjach, wpisu. Kiedy konflikt na Ukrainie był w fazie eskalacji, sporo czasu poświęcono w Polsce dyskusjom na temat siły armii, jakości jej wyposażenia i możliwości obronnych. Nie będąc ekspertem nie mogę się wypowiadać na te tematy, ale proponuję porównanie jak wyglądają wydatki i liczebność sił zbrojnych różnych krajów.</description>
     </item>
     
     <item>
       <title>Wykresy typu bubble-chart</title>
-      <link>/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</link>
+      <link>https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</link>
       <pubDate>Wed, 01 Oct 2014 19:50:13 +0000</pubDate>
       
-      <guid>/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</guid>
+      <guid>https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</guid>
       <description>Ten post jest oparty w znacznej mierze na blogu flowingdata.
 Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje Hansa Roslinga, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu car dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.</description>
     </item>

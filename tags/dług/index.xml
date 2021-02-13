@@ -2,33 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dług on Szychta w danych</title>
-    <link>/tags/d%C5%82ug/</link>
+    <link>https://psobczyk.github.io/tags/d%C5%82ug/</link>
     <description>Recent content in dług on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 29 Jan 2019 18:35:42 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/d%C5%82ug/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 29 Jan 2019 18:35:42 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/d%C5%82ug/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Koszty obsługi długu lub o tym kto bogatemu zabroni</title>
-      <link>/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</link>
+      <link>https://psobczyk.github.io/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</link>
       <pubDate>Tue, 29 Jan 2019 18:35:42 +0000</pubDate>
       
-      <guid>/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</guid>
+      <guid>https://psobczyk.github.io/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</guid>
       <description>Dług długowi nierówny. Kredyt jest innym obciążeniem dla osoby majętnej niż dla ubogiej. Także na inny procent pożycza się bogaczowi, a na inny osobie biednej. Kusi aby powiedzieć, że ta sama zasada odnosi się do krajów, ale okazuje się, że stosowanie tej analogii do pożyczek zaciąganych przez państwa jest sporym nadużyciem.
 Zacznijmy od tego, że koszty obsługi długu wcale nie są największe dla krajów najbardziej zadłużonych. Wynika to oczywiście z dużego zróżnicowania oprocentowania pożyczek jakie są zaciągane.</description>
     </item>
     
     <item>
       <title>Dług publiczny lub o tym jak przedstawiać skalowanie powierzchni</title>
-      <link>/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</link>
+      <link>https://psobczyk.github.io/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</link>
       <pubDate>Mon, 10 Sep 2018 08:10:19 +0000</pubDate>
       
-      <guid>/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
+      <guid>https://psobczyk.github.io/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
       <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
-Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;rdquo;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
+Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;quot;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
     </item>
     
   </channel>

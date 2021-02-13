@@ -2,32 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>emacs on Szychta w danych</title>
-    <link>/tags/emacs/</link>
+    <link>https://psobczyk.github.io/tags/emacs/</link>
     <description>Recent content in emacs on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 25 Nov 2014 21:31:40 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 25 Nov 2014 21:31:40 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programowanie w R z wykorzystaniem emacsa cz.2</title>
-      <link>/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</link>
+      <link>https://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</link>
       <pubDate>Tue, 25 Nov 2014 21:31:40 +0000</pubDate>
       
-      <guid>/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</guid>
+      <guid>https://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</guid>
       <description>Teraz kilka szczegółów technicznych. W Ubuntu plik konfiguracyjny nazywa się .emacs i znajduje się w katalogu domowym. Biblioteki dobrze jest umieszczać w jakimś ustalonym miejscu np. folderze .emacs.d/. Niestety nie potrafię dać żadnych wskazówek użytkownikom Windowsa oprócz tego linku.
 Poniżej zamieszczam swój plik .emacs. W kolejnych postach postaram się wyjaśnić te części, które lepiej zrozumiałem podczas swoich przygód z emacsem. Podstawą dla mojego pliku są informacje zmieszczone na blogu Jessici Hamrick.</description>
     </item>
     
     <item>
       <title>Programowanie w R z wykorzystaniem emacsa</title>
-      <link>/post/programowanie-w-r-z-wykorzystaniem-emacsa/</link>
+      <link>https://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa/</link>
       <pubDate>Mon, 06 Oct 2014 19:13:16 +0000</pubDate>
       
-      <guid>/post/programowanie-w-r-z-wykorzystaniem-emacsa/</guid>
-      <description>Widząc ogromną liczbę artykułów na blogach dotyczących RStudio, mam wrażenie, że dominuje ono w dziedzinie IDE dla R. Z tego co wiem, to konkurencji w środowiskach ,,do wyklikania&amp;rdquo; nie ma bardzo dużej. Sam zresztą uwielbiam z niego korzystać. Szybko i wygodnie można wykonać większość prac, z jakimi można się spotkać w analizie danych. Nie oznacza to, że nie da się pracować inaczej. Jedną z takich możliwości daje emacs.
+      <guid>https://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa/</guid>
+      <description>Widząc ogromną liczbę artykułów na blogach dotyczących RStudio, mam wrażenie, że dominuje ono w dziedzinie IDE dla R. Z tego co wiem, to konkurencji w środowiskach ,,do wyklikania&amp;quot; nie ma bardzo dużej. Sam zresztą uwielbiam z niego korzystać. Szybko i wygodnie można wykonać większość prac, z jakimi można się spotkać w analizie danych. Nie oznacza to, że nie da się pracować inaczej. Jedną z takich możliwości daje emacs.
   Emacs jest uniwersalny.</description>
     </item>
     

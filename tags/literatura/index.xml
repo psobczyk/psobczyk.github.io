@@ -2,32 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>literatura on Szychta w danych</title>
-    <link>/tags/literatura/</link>
+    <link>https://psobczyk.github.io/tags/literatura/</link>
     <description>Recent content in literatura on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Wed, 09 Aug 2017 06:10:53 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/literatura/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 09 Aug 2017 06:10:53 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/literatura/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>,,Potop&#34; - jak zwizualizować szkolną lekturę?</title>
-      <link>/post/potop-jak-zwizualizowac-szkolna-lekture/</link>
+      <link>https://psobczyk.github.io/post/potop-jak-zwizualizowac-szkolna-lekture/</link>
       <pubDate>Wed, 09 Aug 2017 06:10:53 +0000</pubDate>
       
-      <guid>/post/potop-jak-zwizualizowac-szkolna-lekture/</guid>
-      <description>Zdrada, wojna, miłość, męstwo - to cechy wielu dobrych telewizyjnych seriali. Nie inne zdarzenia zawiera w sobie ich 19. wieczny odpowiednik - ,,Potop&amp;rdquo; Henryka Sienkiewicza. Sprawdźmy jak można przełożyć polską literaturę na język wizualizacji.
-,,Potop&amp;rdquo; to zupełna klasyka polskiej literatury i to już od ponad stu lat! Kilka lat temu miał nawet miejsce narodowy dzień czytania ,,Potopu&amp;rdquo;. Są tacy, którzy zżymają się na brak w nim głębszej myśli, ale chyba mało kto zaprzeczy, że potrafi wywołać wiele emocji.</description>
+      <guid>https://psobczyk.github.io/post/potop-jak-zwizualizowac-szkolna-lekture/</guid>
+      <description>Zdrada, wojna, miłość, męstwo - to cechy wielu dobrych telewizyjnych seriali. Nie inne zdarzenia zawiera w sobie ich 19. wieczny odpowiednik - ,,Potop&amp;quot; Henryka Sienkiewicza. Sprawdźmy jak można przełożyć polską literaturę na język wizualizacji.
+,,Potop&amp;quot; to zupełna klasyka polskiej literatury i to już od ponad stu lat! Kilka lat temu miał nawet miejsce narodowy dzień czytania ,,Potopu&amp;quot;. Są tacy, którzy zżymają się na brak w nim głębszej myśli, ale chyba mało kto zaprzeczy, że potrafi wywołać wiele emocji.</description>
     </item>
     
     <item>
       <title>Pan Samochodzik i... matematyka kwadratów magicznych</title>
-      <link>/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</link>
+      <link>https://psobczyk.github.io/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</link>
       <pubDate>Wed, 03 Sep 2014 16:56:09 +0000</pubDate>
       
-      <guid>/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</guid>
-      <description>Podczas wakacji miałem okazję odświeżyć sobie przygody Pana Samochodzika. W tomie ,,Tajemnica Tajemnic&amp;rdquo; Pan Samochodzik trafia na połówkę blaszki, na której jednej stronie znajduje się połówka kwadratu magicznego.14 4 7 9 11 5 2 16 Przez kwadrat magiczny rozumiem, w przypadku kwadratu 4x4, kwadrat podzielony na 16 małych kwadratów, w które wpisane są liczby od 1 do 16, w taki sposób aby suma każdego wiersza i każdej kolumny była taka sama.</description>
+      <guid>https://psobczyk.github.io/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</guid>
+      <description>Podczas wakacji miałem okazję odświeżyć sobie przygody Pana Samochodzika. W tomie ,,Tajemnica Tajemnic&amp;quot; Pan Samochodzik trafia na połówkę blaszki, na której jednej stronie znajduje się połówka kwadratu magicznego.14 4 7 9 11 5 2 16 Przez kwadrat magiczny rozumiem, w przypadku kwadratu 4x4, kwadrat podzielony na 16 małych kwadratów, w które wpisane są liczby od 1 do 16, w taki sposób aby suma każdego wiersza i każdej kolumny była taka sama.</description>
     </item>
     
   </channel>

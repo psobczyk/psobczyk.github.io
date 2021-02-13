@@ -2,50 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sport on Szychta w danych</title>
-    <link>/tags/sport/</link>
+    <link>https://psobczyk.github.io/tags/sport/</link>
     <description>Recent content in sport on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 19 Jun 2018 06:48:38 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/sport/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 19 Jun 2018 06:48:38 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/sport/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu</title>
-      <link>/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</link>
+      <link>https://psobczyk.github.io/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</link>
       <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>
       
-      <guid>/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</guid>
-      <description>Jaka jest szansa, że Polska zostanie mistrzem świata? A może, że chociaż wyjdziemy z grupy? Ile razy bardziej prawdopodobne jest zwycięstwo Brazylii? Z okazji trwających mistrzostw świata mamy wysyp wszelkiej maści artykułów dotyczących przewidywania wyników za pomocą metod statystycznych. Szychta dołoży swoją małą cegiełkę dokonując przewidywań wyników mundialu.Wyniki przewidujemy metodą Monte Carlo, a więc ,,rozgrywamy&amp;rdquo; kilka tysięcy razy mistrzostwa na komputerze i patrzymy ile razy poszczególne drużyny wyszły z grupy, trafiły do ćwierćfinału i tak dalej.</description>
+      <guid>https://psobczyk.github.io/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</guid>
+      <description>Jaka jest szansa, że Polska zostanie mistrzem świata? A może, że chociaż wyjdziemy z grupy? Ile razy bardziej prawdopodobne jest zwycięstwo Brazylii? Z okazji trwających mistrzostw świata mamy wysyp wszelkiej maści artykułów dotyczących przewidywania wyników za pomocą metod statystycznych. Szychta dołoży swoją małą cegiełkę dokonując przewidywań wyników mundialu.Wyniki przewidujemy metodą Monte Carlo, a więc ,,rozgrywamy&amp;quot; kilka tysięcy razy mistrzostwa na komputerze i patrzymy ile razy poszczególne drużyny wyszły z grupy, trafiły do ćwierćfinału i tak dalej.</description>
     </item>
     
     <item>
       <title>Zabawy w śniegu lub o tym na ile medali możemy liczyć w Pyeongchang?</title>
-      <link>/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</link>
+      <link>https://psobczyk.github.io/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</link>
       <pubDate>Fri, 16 Feb 2018 08:51:40 +0000</pubDate>
       
-      <guid>/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</guid>
+      <guid>https://psobczyk.github.io/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</guid>
       <description>Igrzyska, Igrzyska i (za chwilę) po Igrzyskach. Który kraj jest rekordzistą wszech czasów w liczbie zdobytych medali? Które narody należą do potęg w zimowych sportach? Jak zmieniało się to w czasie? I oczywiście, jak wypadają reprezentanci Polski?Zacznijmy od zestawienia łącznej liczby medali zdobytych przez poszczególne kraje na przestrzeni lat. Ze względu na przejrzystość wykresu bierzemy pod uwagę jedynie kraje, które zdobyły łącznie powyżej 100 medali.
 Niemcy dominują, ale warto zauważyć, że do 1988 najsilniejszą reprezentacją był Związek Radziecki.</description>
     </item>
     
     <item>
       <title>Wyniki 5. PKO Nocnego Wrocław Półmaratonu</title>
-      <link>/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</link>
+      <link>https://psobczyk.github.io/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</link>
       <pubDate>Sun, 18 Jun 2017 10:38:39 +0000</pubDate>
       
-      <guid>/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</guid>
+      <guid>https://psobczyk.github.io/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</guid>
       <description>Wczoraj odbył się we Wrocławiu5 nocny półmaraton. Dostarczył on wszystkim uczestnikom, jak to zwykle bywa, mnóstwo cierpień i radości :) Podobnie jak dwa lata temu przeanalizujmy wyniki jakie uzyskali zawodnicy.Na początku kilka faktów. Dwa lata temu w biegu udział wzięło 7 tysięcy osób, w tym już niemal 10 tysięcy!!! Ten wzrost nie pozostał bez wpływu na przeciętne tempo, jakie uzyskali zawodnicy, które było w tym roku nieco niższe.
 Dane zwizualizowałem tak samo jak poprzednio.</description>
     </item>
     
     <item>
       <title>Olimpijskie sukcesy - jak wypadliśmy na igrzyskach w Rio?</title>
-      <link>/post/olimpijskie-sukcesy-jak-wypadlismy-na-igrzyskach-w-rio/</link>
+      <link>https://psobczyk.github.io/post/olimpijskie-sukcesy-jak-wypadlismy-na-igrzyskach-w-rio/</link>
       <pubDate>Mon, 22 Aug 2016 15:14:36 +0000</pubDate>
       
-      <guid>/post/olimpijskie-sukcesy-jak-wypadlismy-na-igrzyskach-w-rio/</guid>
+      <guid>https://psobczyk.github.io/post/olimpijskie-sukcesy-jak-wypadlismy-na-igrzyskach-w-rio/</guid>
       <description>Zakończyły się właśnie Igrzyska Olimpijskie w Rio de Janeiro. Warto się cieszyć się z każdego sukcesu polskich, i nie tylko, sportowców, ale spróbujmy ocenić występ polskich olimpijczyków i porównać uzyskane przez nich wyniki do tych z poprzednich olimpiad.Jak porównać poziom występów Polaków na przestrzeni lat? Nie jest to łatwe. Z jednej strony liczba konkurencji się zwiększyła, czyli jest więcej medali do zdobycia. Z drugiej liczba ekip i sportowców również rośnie. Zależność jest mniej więcej liniowa - co nie powinno być zaskoczeniem</description>
     </item>
     

@@ -2,49 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pkb on Szychta w danych</title>
-    <link>/tags/pkb/</link>
+    <link>https://psobczyk.github.io/tags/pkb/</link>
     <description>Recent content in pkb on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Thu, 17 May 2018 06:25:22 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/pkb/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 17 May 2018 06:25:22 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/pkb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Siła regionów w Polsce lub o wałkowaniu ciasta młotkiem</title>
-      <link>/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</link>
+      <link>https://psobczyk.github.io/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</link>
       <pubDate>Thu, 17 May 2018 06:25:22 +0000</pubDate>
       
-      <guid>/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</guid>
+      <guid>https://psobczyk.github.io/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</guid>
       <description>Które regiony Polski są najsilniejsze? Zależy pod jakim względem. Może jeśli chodzi o wkład w PKB? A może przez liczbę ludności? Dzisiaj nie tylko o tym, kto jest najważniejszy, ale także o tym jak tego typu dane można przedstawić.
 próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorficznymi, w których powierzchnia obszaru jest proporcjonalna do zmiennej jaką chcemy zwizualizować. Ostatnio zrobiliśmy taką transformację dla województw w Polsce. Czas włączyć zoom i sprawdzić jak wygląda taka mapa na poziomie podregionów.</description>
     </item>
     
     <item>
       <title>Co może Macron lub o przewagach Francji nad Grupą Wyszehradzką</title>
-      <link>/post/co-moze-macron-lub-o-przewagach-francji-nad-grupa-wyszehradzka/</link>
+      <link>https://psobczyk.github.io/post/co-moze-macron-lub-o-przewagach-francji-nad-grupa-wyszehradzka/</link>
       <pubDate>Thu, 29 Jun 2017 11:07:32 +0000</pubDate>
       
-      <guid>/post/co-moze-macron-lub-o-przewagach-francji-nad-grupa-wyszehradzka/</guid>
-      <description>15 lat temu prezydent Francji pouczał za pośrednictwem prasy kraje Europy Wschodniej. Obecnie, również za pomocą prasy, Emmanuel Macron próbuje robić coś podobnego, ale jednocześnie wchodzi w dialog z państwami naszego regionu. Dzisiaj na Szychcie kilka wykresów pokazujących dlaczego ,,twarda polityka&amp;rdquo; ze strony Francji może być nieskuteczna.Możliwość wywarcia wpływu na arenie międzynarodowej zależy oczywiście od stosunku sił obu stron. Spróbujemy na podstawie kilku wskaźników sprawdzić jak duża jest przewaga Francji na krajami z Grupy Wyszehradzkiej i jak zmieniła się ona od 2002 roku.</description>
+      <guid>https://psobczyk.github.io/post/co-moze-macron-lub-o-przewagach-francji-nad-grupa-wyszehradzka/</guid>
+      <description>15 lat temu prezydent Francji pouczał za pośrednictwem prasy kraje Europy Wschodniej. Obecnie, również za pomocą prasy, Emmanuel Macron próbuje robić coś podobnego, ale jednocześnie wchodzi w dialog z państwami naszego regionu. Dzisiaj na Szychcie kilka wykresów pokazujących dlaczego ,,twarda polityka&amp;quot; ze strony Francji może być nieskuteczna.Możliwość wywarcia wpływu na arenie międzynarodowej zależy oczywiście od stosunku sił obu stron. Spróbujemy na podstawie kilku wskaźników sprawdzić jak duża jest przewaga Francji na krajami z Grupy Wyszehradzkiej i jak zmieniła się ona od 2002 roku.</description>
     </item>
     
     <item>
       <title>Świat rosnącej równości, czyli o tym jak Azja goni świat zachodni</title>
-      <link>/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</link>
+      <link>https://psobczyk.github.io/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</link>
       <pubDate>Tue, 27 Sep 2016 11:04:26 +0000</pubDate>
       
-      <guid>/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</guid>
+      <guid>https://psobczyk.github.io/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</guid>
       <description>Świat jest pełen nierówności - to stwierdzenie to banał, choć niestety prawdziwy. Zawsze tak było i zawsze będzie, ale skala nierówności jest zmienna. I choć najważniejszy pozostaje wymiar ludzki, czyli cierpienie jednostki, to warto też zobaczyć jak zmienia się świat w skali makro. Jak wyglądał pod tym względem 100 lat temu? Czy nierówności się pogłębiają, czy też są coraz mniejsze? Na początku zobaczmy wykres bogactwa w roku 2013. Na osi X mamy ludność.</description>
     </item>
     
     <item>
       <title>Więcej! O wzroście płac i produktu krajowego brutto</title>
-      <link>/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</link>
+      <link>https://psobczyk.github.io/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</link>
       <pubDate>Thu, 05 May 2016 14:36:36 +0000</pubDate>
       
-      <guid>/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</guid>
+      <guid>https://psobczyk.github.io/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</guid>
       <description>Czy moglibyśmy w Polsce zarabiać o 50% więcej? W dzisiejszym wpisie zbadamy jak są ze sobą powiązane wzrost PKB na mieszkańca i wzrost wynagrodzeń. W szczególności zobaczymy czy płace w Polsce rosły równie szybko, jak wartość wytwarzanych towarów, oraz jak wyglądamy pod tym względem na tle innych krajów europejskich i świata.
 Nie mam pełnych danych na temat wynagrodzenia, ale porównamy wynagrodzenie za godzinę pracy w przemyśle (manufacturing) ze wzrostem PKB na mieszkańca.</description>
     </item>

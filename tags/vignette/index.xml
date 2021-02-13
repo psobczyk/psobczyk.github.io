@@ -2,23 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vignette on Szychta w danych</title>
-    <link>/tags/vignette/</link>
+    <link>https://psobczyk.github.io/tags/vignette/</link>
     <description>Recent content in vignette on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Sat, 14 Sep 2019 15:25:35 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/vignette/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 14 Sep 2019 15:25:35 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/vignette/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automatyzacja winietek lub czemu na Szychcie nic się nie dzieje</title>
-      <link>/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</link>
+      <link>https://psobczyk.github.io/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</link>
       <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
       
-      <guid>/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</guid>
+      <guid>https://psobczyk.github.io/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</guid>
       <description>Dzisiaj problem nieduży, ale bardzo praktyczny. Jak stworzyć vignette. eRowi fanatycy będą nieco zawiedzeni, bo chodzi mi nie o dokumentację pakietu, ale o &amp;ldquo;wedding vignette&amp;rdquo;, a więc winietki ślubne. Jak nie przeklejać 100 imion i uzyskać zgodę narzeczonej na zabawę przy komputerze?
-Pierwszym punktem jest znalezienie narzeczonej (continuum już zajęte, ale można szukać alef zero). Drugim zdecydowanie się na zorganizowanie imprezy na 100 osób, bo przecież ,,to proste i nie będzie na pewno aż tak drogie jak wszyscy mówią&amp;rdquo;.</description>
+Pierwszym punktem jest znalezienie narzeczonej (continuum już zajęte, ale można szukać alef zero). Drugim zdecydowanie się na zorganizowanie imprezy na 100 osób, bo przecież ,,to proste i nie będzie na pewno aż tak drogie jak wszyscy mówią&amp;quot;.</description>
     </item>
     
   </channel>

@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>parlament on Szychta w danych</title>
-    <link>/tags/parlament/</link>
+    <link>https://psobczyk.github.io/tags/parlament/</link>
     <description>Recent content in parlament on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Sun, 26 May 2019 06:55:02 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/parlament/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 26 May 2019 06:55:02 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/parlament/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Potrzeba czy marnotrawstwo lub o liczbie parlamentarzystów</title>
-      <link>/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</link>
+      <link>https://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</link>
       <pubDate>Sun, 26 May 2019 06:55:02 +0000</pubDate>
       
-      <guid>/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</guid>
+      <guid>https://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</guid>
       <description>Mamy kolejne wybory, tym razem europejskie. Czy ponad 700 parlamentarzystów których wybiorą Europejczycy to duża liczba? Jak ma się ona do krajowych parlamentów w Polsce i na świecie? Czy analizując dane dla wszystkich tego typu zgromadzeń można doszukać się jakichś prawidłowości?
 Na początek sprawdźmy rzecz oczywistą: im więcej ludności, tym więcej parlamentarzystów. Powody są co najmniej dwa: duże państwa mają więcej spraw, którymi chcą się zająć, oraz potrzebują większej liczby posłów, aby pojedynczy reprezentant nie przypadał na zbyt dużą liczbę ludności.</description>
     </item>

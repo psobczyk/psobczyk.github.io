@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>referendum on Szychta w danych</title>
-    <link>/tags/referendum/</link>
+    <link>https://psobczyk.github.io/tags/referendum/</link>
     <description>Recent content in referendum on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 14 Sep 2015 16:15:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/referendum/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 14 Sep 2015 16:15:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/referendum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wyniki referendum 6 września 2015</title>
-      <link>/post/wyniki-referendum-6-wrzesnia-2015/</link>
+      <link>https://psobczyk.github.io/post/wyniki-referendum-6-wrzesnia-2015/</link>
       <pubDate>Mon, 14 Sep 2015 16:15:00 +0000</pubDate>
       
-      <guid>/post/wyniki-referendum-6-wrzesnia-2015/</guid>
+      <guid>https://psobczyk.github.io/post/wyniki-referendum-6-wrzesnia-2015/</guid>
       <description>Z powodu niskiej frekwencji, ciężko sobie wyobrazić, żeby referendum z 6 września wpłynęło na jakiekolwiek zmiany w Polsce. Mimo wszystko moja ciekawość każe mi zerknąć na mapy obrazujące rozkład poparcia dla poszczególnych pytań w zależności od gminy. Zwłaszcza dlatego, że źle zadane pytania i niska frekwencja dają nadzieję na powstanie anomalii, a dla statystyka nic nie jest bardziej ciekawe niż rzeczy, które odchodzą od normy. Na początku słowa uznania dla PKW, która, podobnie jak w poprzednich wyborach, umieściła wyniki do pobrania w internecie.</description>
     </item>
     

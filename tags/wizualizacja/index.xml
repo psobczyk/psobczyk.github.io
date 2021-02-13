@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wizualizacja on Szychta w danych</title>
-    <link>/tags/wizualizacja/</link>
+    <link>https://psobczyk.github.io/tags/wizualizacja/</link>
     <description>Recent content in wizualizacja on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Wed, 23 Jan 2019 18:35:50 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/wizualizacja/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 23 Jan 2019 18:35:50 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/wizualizacja/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wykresy Unplugged</title>
-      <link>/post/wykresy-unplugged/</link>
+      <link>https://psobczyk.github.io/post/wykresy-unplugged/</link>
       <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
       
-      <guid>/post/wykresy-unplugged/</guid>
+      <guid>https://psobczyk.github.io/post/wykresy-unplugged/</guid>
       <description>Już jest! Jakiś czas temu czytelnicy Szychty tłumnie zgłosili się do czytania wersji roboczej, a teraz książeczka jest wydana, dostępna i czeka na chętnych ;) Zawiera ćwiczenia i szczyptę teorii dotyczącej wizualizacji danych. Kto nie boi się wyzwań, kredek i miłego wieczoru (lub kilku) niech się długo nie zastanawia.
 Statystyczna odpowiedź na styczniowy splin
 Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyrysowania. Przedstawiamy 8 typów wykresów wraz z elementami teorii dotyczącej technik wizualizacji.</description>
@@ -24,58 +20,58 @@ Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyry
     
     <item>
       <title>Dług publiczny lub o tym jak przedstawiać skalowanie powierzchni</title>
-      <link>/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</link>
+      <link>https://psobczyk.github.io/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</link>
       <pubDate>Mon, 10 Sep 2018 08:10:19 +0000</pubDate>
       
-      <guid>/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
+      <guid>https://psobczyk.github.io/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
       <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
-Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;rdquo;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
+Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;quot;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
     </item>
     
     <item>
       <title>Siła regionów w Polsce lub o wałkowaniu ciasta młotkiem</title>
-      <link>/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</link>
+      <link>https://psobczyk.github.io/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</link>
       <pubDate>Thu, 17 May 2018 06:25:22 +0000</pubDate>
       
-      <guid>/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</guid>
+      <guid>https://psobczyk.github.io/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</guid>
       <description>Które regiony Polski są najsilniejsze? Zależy pod jakim względem. Może jeśli chodzi o wkład w PKB? A może przez liczbę ludności? Dzisiaj nie tylko o tym, kto jest najważniejszy, ale także o tym jak tego typu dane można przedstawić.
 próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorficznymi, w których powierzchnia obszaru jest proporcjonalna do zmiennej jaką chcemy zwizualizować. Ostatnio zrobiliśmy taką transformację dla województw w Polsce. Czas włączyć zoom i sprawdzić jak wygląda taka mapa na poziomie podregionów.</description>
     </item>
     
     <item>
       <title>Anamorfoza Polski lub sen szalonego geografa</title>
-      <link>/post/kartogramy-polski-lub-sen-szalonego-geografa/</link>
+      <link>https://psobczyk.github.io/post/kartogramy-polski-lub-sen-szalonego-geografa/</link>
       <pubDate>Fri, 23 Mar 2018 07:24:09 +0000</pubDate>
       
-      <guid>/post/kartogramy-polski-lub-sen-szalonego-geografa/</guid>
+      <guid>https://psobczyk.github.io/post/kartogramy-polski-lub-sen-szalonego-geografa/</guid>
       <description>Dzisiaj na Szychcie dzień szalonej geografii. Polska jaka jest każdy widzi. A jak mogłaby wyglądać gdyby wielkość województw zależała od PKB lub liczby mieszkańców?Często na szychcie prezentujemy wykresy, na których kolor obszaru zależy od wartości zmiennej. Może to być na przykład PKB na jednego mieszkańca w każdym województwie. Ale zamiast używać rzeczywistej geografii, można przekształcić kontury tak, aby powierzchnia obszaru odpowiadała wielkości zmiennej. Dzięki temu nie będziemy zmyleni wielkością obszaru, który może być mylący.</description>
     </item>
     
     <item>
       <title>Podwójny lie factor - nakłady na szkolnictwo wyższe według posła Szczerby</title>
-      <link>/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</link>
+      <link>https://psobczyk.github.io/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</link>
       <pubDate>Wed, 11 May 2016 18:42:07 +0000</pubDate>
       
-      <guid>/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</guid>
+      <guid>https://psobczyk.github.io/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</guid>
       <description>Lie factor, czyli współczynnika kłamstwa, jest miarą zaproponowana przez Edwarda Tuftego do opisu niezgodności wielkości przedstawionej na grafice, do rzeczywistej liczby wynikającej z danych. Udało mi się upolować bardzo ciekawy przykład pochodzący z twitta Michała Szczerby, posła na Sejm, któremu udało się na jednej grafice umieścić dwa rysunki o różnych współczynnikach kłamstwa.Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idealnie 1.5:1. A jak to wygląda na rysunku? Wysokość zmierzyłem za pomocą GIMPa.</description>
     </item>
     
     <item>
       <title>Tam, gdzie strach jest codziennością - mapa globalnego terroryzmu</title>
-      <link>/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
+      <link>https://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
       <pubDate>Tue, 05 Apr 2016 15:41:24 +0000</pubDate>
       
-      <guid>/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
+      <guid>https://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
       <description>Czasem strach jaki odczuwamy przed terroryzmem, zwłaszcza w Polsce, może wydawać się przesadzony. Jest jednak na świecie wiele miejsc, gdzie terroryzm jest niestety codziennością. W dzisiejszym wpisie prezentuję interaktywną mapę światowego terroryzmu.
 Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwaga, docelowy plik jest dosyć duży (około 15MB), a w miarę przybliżania wybranego regionu świata, dodatkowo ściągana jest mapa z serwisu open street map. Łączny przesył danych, może więc trochę kosztować :)[</description>
     </item>
     
     <item>
       <title>[Jak to zrobić w R] - ,,W pogoni za seksizmem w popkulturze&#34;</title>
-      <link>/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <link>https://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
       <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
       
-      <guid>/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <guid>https://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
       <description>Kolejny wpis z serii jak to zrobić w R. Dzisiaj krótkie wprowadzenie do tego jak ściągać bezpośrednio do R tabele zawarte na stronach internetowych, jak kierować zapytania do API, jak przetwarzać otrzymane od serwera odpowiedzi i jak to wszystko połączyć w niebanalną analizę.
 Ściąganie tabel do R
 Wykorzystamy w tym celu pakiet XML. Ściągniemy listę najbardziej kasowych filmów wszechczasów.
@@ -85,103 +81,103 @@ Bardziej ogólne rozwiązania opiera się na wczytaniu całego pliku i ręcznego
     
     <item>
       <title>Jak (drogo) kupić 44 tysiące dzieci czyli o programie 500&#43;</title>
-      <link>/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</link>
+      <link>https://psobczyk.github.io/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</link>
       <pubDate>Wed, 10 Feb 2016 09:00:18 +0000</pubDate>
       
-      <guid>/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</guid>
+      <guid>https://psobczyk.github.io/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</guid>
       <description>W najbliższym czasie uchwalony zostanie rządowy program świadczeń na dzieci w wysokości 500 złotych miesięcznie. Do procesu obiecywania dołączyła cześć opozycji. Pytanie czy taki program w ogóle ma sens? Czy dokonano dogłębnej diagnozy obecnej sytuacji demograficznej Polski? Czy pomysł na wydawania pieniędzy w formie zasiłku jest efektywny? Ile będzie kosztować budżet narodzenie jednego dodatkowego dziecka w wyniku działania programu 500+?Zaczynamy od porównania. Głównym moim źródłem jest wpis na blogu BIQdata oraz raport firmy PwC, na którym tenże wpis się opiera.</description>
     </item>
     
     <item>
       <title>Systemy tramwajowe w Polsce</title>
-      <link>/post/systemy-tramwajowe-w-polsce/</link>
+      <link>https://psobczyk.github.io/post/systemy-tramwajowe-w-polsce/</link>
       <pubDate>Wed, 30 Dec 2015 16:59:32 +0000</pubDate>
       
-      <guid>/post/systemy-tramwajowe-w-polsce/</guid>
+      <guid>https://psobczyk.github.io/post/systemy-tramwajowe-w-polsce/</guid>
       <description>Dzisiejszy wpis szczególnie przypadnie do gustu wszystkim miłośnikom tramwajów i niestandardowych wykresów w R. Nietrudno zatem odgadnąć, że autor należy do obu tych grup. Odpowiemy sobie na pytania gdzie w Polsce są a gdzie zostały zlikwidowane sieci tramwajowe? Jakie miasto może się pochwalić najdłuższą długość torowisk? Jak mocno obecność tramwajów determinowana jest przebiegiem granicy zaboru pruskiego oraz jak zrobić w R efektowne wykresy gdzie zamiast punktu mamy obrazek.Na początek punkt wyjścia czyli zwykły wykres.</description>
     </item>
     
     <item>
       <title>O (nie)równych szansach w polskim systemie edukacji</title>
-      <link>/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
+      <link>https://psobczyk.github.io/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
       <pubDate>Mon, 14 Dec 2015 15:30:33 +0000</pubDate>
       
-      <guid>/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
+      <guid>https://psobczyk.github.io/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
       <description>W Polsce każdy ma prawo do bezpłatnej edukacji, ale jej jakość jest bardzo nierówna. I nie chodzi jedynie o podział miasto - wieś, ale też o regiony geograficzne. W dzisiejszym wpisie zobaczymy jak kształtują się wyniki sprawdzianu po szkole podstawowej, egzaminu gimnazjalnego i matury w podziale na powiaty. Sprawdzimy też czy z czasem różnice pomiędzy nimi zacierają się czy też stają się bardziej widoczne.W dzisiejszym wpisie korzystam z pakietu ZPD stworzony przez Instytut Badań Edukacyjnych.</description>
     </item>
     
     <item>
       <title>Elektrownie w Polsce</title>
-      <link>/post/elektrownie-w-polsce/</link>
+      <link>https://psobczyk.github.io/post/elektrownie-w-polsce/</link>
       <pubDate>Wed, 14 Oct 2015 05:16:39 +0000</pubDate>
       
-      <guid>/post/elektrownie-w-polsce/</guid>
+      <guid>https://psobczyk.github.io/post/elektrownie-w-polsce/</guid>
       <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
 Istniejące elektrownie są zlokalizowane głównie w południowej części Polski. Na Górnym Śląsku występuje bardzo duże zagęszczenie elektrowni, co jest zapewne związane z przemysłem ciężkim, który był w przeszłości (jest nadal?</description>
     </item>
     
     <item>
       <title>Zawsze dobrze, ale za Gierka najlepiej</title>
-      <link>/post/zawsze-dobrze-ale-za-gierka-najlepiej/</link>
+      <link>https://psobczyk.github.io/post/zawsze-dobrze-ale-za-gierka-najlepiej/</link>
       <pubDate>Mon, 28 Sep 2015 16:00:27 +0000</pubDate>
       
-      <guid>/post/zawsze-dobrze-ale-za-gierka-najlepiej/</guid>
+      <guid>https://psobczyk.github.io/post/zawsze-dobrze-ale-za-gierka-najlepiej/</guid>
       <description>W krajach postkomunistycznych, przynajmniej w Europie wschodniej, istnieje pewnego rodzaju nostalgia za minionymi czasami. Na zwyczajną przyczynę, którą jest fakt, że każde czasy mniej realne, niż te w których żyjemy, wydają się być lepszym miejscem do życia, nakłada się druga - zmiana systemu gospodarczego. W Polsce w ciągu ostatnich 25 lat zaszły gigantyczne pozytywne zmiany, jednak nie wszyscy czują się w takim samym stopniu ich beneficjentami (klik). Wydaje mi się, że istotnym pytanie jest to czy z czasem liczba osób widzących korzyści z transformacji roku 1989 rośnie czy maleje.</description>
     </item>
     
     <item>
       <title>Wilkommen, bienvenido czy добре дошъл? O uchodźcach w Europie</title>
-      <link>/post/uchodzcy/</link>
+      <link>https://psobczyk.github.io/post/uchodzcy/</link>
       <pubDate>Mon, 07 Sep 2015 16:00:00 +0000</pubDate>
       
-      <guid>/post/uchodzcy/</guid>
-      <description>W ostatnim czasie tematem numer jeden w mediach są uchodźcy i imigranci z Afryki i Bliskiego Wschodu. Facebook zapełnił się różnymi grupami typu ,,Polacy przeciwko&amp;hellip;&amp;rdquo;, &amp;ldquo;Polacy przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;, &amp;ldquo;Polacy przeciwko Polakom przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;. Zobaczmy jak wygląda przyjmowanie uchodźców w Europie. Który kraj udziela najwięcej azylów uchodźcom? Jaki kraj prawie nigdy nie odmawia azylu? No i oczywiście jak na tle innych krajów wypada Polska.W roku 2014 cała Unia Europejska udzieliła azylu 160,000 osób.</description>
+      <guid>https://psobczyk.github.io/post/uchodzcy/</guid>
+      <description>W ostatnim czasie tematem numer jeden w mediach są uchodźcy i imigranci z Afryki i Bliskiego Wschodu. Facebook zapełnił się różnymi grupami typu ,,Polacy przeciwko&amp;hellip;&amp;quot;, &amp;ldquo;Polacy przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;, &amp;ldquo;Polacy przeciwko Polakom przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;. Zobaczmy jak wygląda przyjmowanie uchodźców w Europie. Który kraj udziela najwięcej azylów uchodźcom? Jaki kraj prawie nigdy nie odmawia azylu? No i oczywiście jak na tle innych krajów wypada Polska.W roku 2014 cała Unia Europejska udzieliła azylu 160,000 osób.</description>
     </item>
     
     <item>
       <title>Dużo czy mało? Ile kosztuje polityk?</title>
-      <link>/post/duzo-czy-malo-ile-kosztuje-polityk/</link>
+      <link>https://psobczyk.github.io/post/duzo-czy-malo-ile-kosztuje-polityk/</link>
       <pubDate>Mon, 31 Aug 2015 16:00:00 +0000</pubDate>
       
-      <guid>/post/duzo-czy-malo-ile-kosztuje-polityk/</guid>
+      <guid>https://psobczyk.github.io/post/duzo-czy-malo-ile-kosztuje-polityk/</guid>
       <description>Polacy mają niskie mniemanie o politykach. Nie ufamy im, uważamy, że dbają tylko o swój interes i nie chcemy opłacać ich z budżetu państwa. Jednak zmiana obecnego systemu nie jest neutralna - realną groźbą jest to, że politycy staną się zakładnikami grupy najbogatszych polaków. Oczywiście jest to kwestią opinii. Porozmawiajmy o faktach.Partie w Polsce są finansowane na trzy sposoby:
   Z wykorzystania majątku jaki posiadają - odsetki od kapitału lub sprzedaż majątku</description>
     </item>
     
     <item>
       <title>Suburbanizacja po wrocławsku I - Przedszkola</title>
-      <link>/post/suburbanizacja-po-wroclawsku-i-przedszkola/</link>
+      <link>https://psobczyk.github.io/post/suburbanizacja-po-wroclawsku-i-przedszkola/</link>
       <pubDate>Thu, 27 Aug 2015 16:11:22 +0000</pubDate>
       
-      <guid>/post/suburbanizacja-po-wroclawsku-i-przedszkola/</guid>
+      <guid>https://psobczyk.github.io/post/suburbanizacja-po-wroclawsku-i-przedszkola/</guid>
       <description>We Wrocławiu ma miejsce proces suburbanizacji, opuszczania przez mieszkańców centrum miasta, lub w ogóle jego granic, na rzecz nowych osiedli budowanych na obrzeżach. Zjawisko ponoć niekorzystne, a na pewno nieuniknione. Czy nadążamy za tym procesem? Czy zapewniamy nowo zamieszkałym terenom transport, edukację, możliwość rozrywki, tereny zielone? W kilku najbliższych wpisach będę się zajmował tym zagadnieniem, oczywiście w oparciu o dane. Zaczniemy od potrzeb najmłodszych Wrocławian czyli dostępności przedszkoli. Informację o przedszkolach pobrałem zestrony miasta Wrocławia, mapę Wrocławia z serwisu geostatystycznego GUS, a dane demograficzne z serwisu Systemu Informacji Przestrzennej.</description>
     </item>
     
     <item>
       <title>Wydatki na obronność</title>
-      <link>/post/wydatki-na-obronnosc/</link>
+      <link>https://psobczyk.github.io/post/wydatki-na-obronnosc/</link>
       <pubDate>Tue, 25 Aug 2015 20:45:47 +0000</pubDate>
       
-      <guid>/post/wydatki-na-obronnosc/</guid>
+      <guid>https://psobczyk.github.io/post/wydatki-na-obronnosc/</guid>
       <description>Winston ChurchillW czasach gdy Churchill spisywał swoje aryciekawe wspomnienia, wojskami zarządzały Ministerstwa Wojny. Kosmetyczną zmianę w nazewnictwie zawdzięczamy Zimnej Wojnie, podczas której wydatki wojenne przeobraziły się w wydatki obronne. To one są tematem dzisiejszego, pierwszego po wakacjach, wpisu. Kiedy konflikt na Ukrainie był w fazie eskalacji, sporo czasu poświęcono w Polsce dyskusjom na temat siły armii, jakości jej wyposażenia i możliwości obronnych. Nie będąc ekspertem nie mogę się wypowiadać na te tematy, ale proponuję porównanie jak wyglądają wydatki i liczebność sił zbrojnych różnych krajów.</description>
     </item>
     
     <item>
       <title>Wyniki wrocławskiego półmaratonu 2015</title>
-      <link>/post/wyniki-polmaratonu/</link>
+      <link>https://psobczyk.github.io/post/wyniki-polmaratonu/</link>
       <pubDate>Sun, 21 Jun 2015 19:57:31 +0000</pubDate>
       
-      <guid>/post/wyniki-polmaratonu/</guid>
+      <guid>https://psobczyk.github.io/post/wyniki-polmaratonu/</guid>
       <description>W ostatnią sobotę odbył się we Wrocławiunocny półmaraton. Dostarczył on, oprócz dobrej zabawy, niemałego zbioru danych zawierającego międzyczasy blisko 7000 uczestników.
 Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi.</description>
     </item>
     
     <item>
       <title>Wybory prezydenckie 2015 - podsumowanie wyników</title>
-      <link>/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</link>
+      <link>https://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</link>
       <pubDate>Wed, 27 May 2015 13:32:47 +0000</pubDate>
       
-      <guid>/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
+      <guid>https://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
       <description>Naprawdę chciałbym napisać o czymś innym, ale polityka i wybory zbyt mocno panoszą się teraz w mojej głowie, żeby móc przygotować cokolwiek innego.
 Podzielę, się kilkoma obrazkami, stworzonymi w R przy użyciu pakietu ggplot2. Są to złośliwe mapy i nie mniej złośliwe wykresy, tłumaczące poparcie jakie uzyskali obaj kandydaci w poszczególnych gminach.
 Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosów. Wydaje mi się, że często i niesprawiedliwie, podaje się jako przyczynę podział na lepiej rozwiniętą Polskę zachodnią i zacofaną ścianę wschodnią.</description>
@@ -189,29 +185,29 @@ Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosó
     
     <item>
       <title>Infografika dotycząca wyborów samorządowych i co z niej wynika</title>
-      <link>/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</link>
+      <link>https://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</link>
       <pubDate>Tue, 31 Mar 2015 17:29:45 +0000</pubDate>
       
-      <guid>/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</guid>
+      <guid>https://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</guid>
       <description>Dzisiaj chciałbym się podzielić czymś ładnym i ciekawym. Chodzi o infografiką dotyczącą ostatnich wyborów samorządowych. Przedstawia ona w pigułce najważniejsze informacje dotyczące poparcia dla głównych partii, frekwencji i liczby głosów nieważnych. Zgodnie z życzeniami Londyńskiej Polonii, postaram się dać więcej opisów a mniej kodów w R.
 Infografika powstała w oparciu o znaleziony na twitterze wpis z bloga. Podobieństwo jest bardzo duże, bo rzecz nie jest wcale łatwa a ja jestem dopiero na początku nauki tworzenia takich obrazów w R.</description>
     </item>
     
     <item>
       <title>Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie</title>
-      <link>/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
+      <link>https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
       <pubDate>Sun, 22 Feb 2015 19:13:41 +0000</pubDate>
       
-      <guid>/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
+      <guid>https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
       <description>Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&amp;hellip; nie ma na nie miejsca.</description>
     </item>
     
     <item>
       <title>Jak wygląda komunikacja miejska we Wrocławiu?</title>
-      <link>/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</link>
+      <link>https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</link>
       <pubDate>Thu, 19 Feb 2015 20:06:42 +0000</pubDate>
       
-      <guid>/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</guid>
+      <guid>https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</guid>
       <description>Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.
 Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.</description>
     </item>

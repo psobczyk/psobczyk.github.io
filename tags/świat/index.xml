@@ -2,31 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>świat on Szychta w danych</title>
-    <link>/tags/%C5%9Bwiat/</link>
+    <link>https://psobczyk.github.io/tags/%C5%9Bwiat/</link>
     <description>Recent content in świat on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Thu, 07 Jun 2018 07:50:48 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/%C5%9Bwiat/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 07 Jun 2018 07:50:48 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/%C5%9Bwiat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dni wolne od pracy lub świąteczna geografia</title>
-      <link>/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</link>
+      <link>https://psobczyk.github.io/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</link>
       <pubDate>Thu, 07 Jun 2018 07:50:48 +0000</pubDate>
       
-      <guid>/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</guid>
+      <guid>https://psobczyk.github.io/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</guid>
       <description>Jakie Święta są najczęściej obchodzone na świecie? Ile dni wolnych mają mieszkańcy poszczególnych państw? Które kraje obchodzą Boże Narodzenie, a które 1 Maja? W dzisiejszej Szychcie zajmiemy się geografią odpoczynku od pracy :)
 Święta, które zostały uznane za godne bycia wolnymi od pracy mówią sporo o kraju. Wyrażają to, co mieszkańcy uważają (lub uważali) za istotne, i jest elementem tradycji danego kraju. Najpierw sprawdźmy 10 najczęściej obchodzonych świąt. Ponieważ pochodzą one z anglojęzycznej strony timeanddata.</description>
     </item>
     
     <item>
       <title>Najbardziej niebezpieczne miejsca na ziemi - terroryzm</title>
-      <link>/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</link>
+      <link>https://psobczyk.github.io/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</link>
       <pubDate>Tue, 22 Mar 2016 15:30:21 +0000</pubDate>
       
-      <guid>/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</guid>
+      <guid>https://psobczyk.github.io/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</guid>
       <description>W jakich krajach i regionach przeprowadzanych jest najwięcej zamachów terrorystycznych? Czy jest uzasadnionym, żeby mówić o tym, że Europa Zachodnia jest szczególnie atakowana, czy też mamy do czynienia z globalną eskalacją terroryzmu?Mam wrażenie, że czasem zapominamy iż terroryzm nie jest zjawiskiem nowym. Od dawna wywiera on znaczący wpływ na kształtowanie rzeczywistości politycznej. Wystarczy przypomnieć, że jedna z największych humanitarnych tragedii w historii Europy, I Wojna Światowa, rozpoczęła się od zamachu terrorystycznego w Sarajewie.</description>
     </item>
     

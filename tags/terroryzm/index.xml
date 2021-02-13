@@ -2,31 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>terroryzm on Szychta w danych</title>
-    <link>/tags/terroryzm/</link>
+    <link>https://psobczyk.github.io/tags/terroryzm/</link>
     <description>Recent content in terroryzm on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 05 Apr 2016 15:41:24 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/terroryzm/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 05 Apr 2016 15:41:24 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/terroryzm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tam, gdzie strach jest codziennością - mapa globalnego terroryzmu</title>
-      <link>/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
+      <link>https://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
       <pubDate>Tue, 05 Apr 2016 15:41:24 +0000</pubDate>
       
-      <guid>/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
+      <guid>https://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
       <description>Czasem strach jaki odczuwamy przed terroryzmem, zwłaszcza w Polsce, może wydawać się przesadzony. Jest jednak na świecie wiele miejsc, gdzie terroryzm jest niestety codziennością. W dzisiejszym wpisie prezentuję interaktywną mapę światowego terroryzmu.
 Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwaga, docelowy plik jest dosyć duży (około 15MB), a w miarę przybliżania wybranego regionu świata, dodatkowo ściągana jest mapa z serwisu open street map. Łączny przesył danych, może więc trochę kosztować :)[</description>
     </item>
     
     <item>
       <title>Najbardziej niebezpieczne miejsca na ziemi - terroryzm</title>
-      <link>/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</link>
+      <link>https://psobczyk.github.io/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</link>
       <pubDate>Tue, 22 Mar 2016 15:30:21 +0000</pubDate>
       
-      <guid>/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</guid>
+      <guid>https://psobczyk.github.io/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</guid>
       <description>W jakich krajach i regionach przeprowadzanych jest najwięcej zamachów terrorystycznych? Czy jest uzasadnionym, żeby mówić o tym, że Europa Zachodnia jest szczególnie atakowana, czy też mamy do czynienia z globalną eskalacją terroryzmu?Mam wrażenie, że czasem zapominamy iż terroryzm nie jest zjawiskiem nowym. Od dawna wywiera on znaczący wpływ na kształtowanie rzeczywistości politycznej. Wystarczy przypomnieć, że jedna z największych humanitarnych tragedii w historii Europy, I Wojna Światowa, rozpoczęła się od zamachu terrorystycznego w Sarajewie.</description>
     </item>
     

@@ -2,30 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>praca on Szychta w danych</title>
-    <link>/tags/praca/</link>
+    <link>https://psobczyk.github.io/tags/praca/</link>
     <description>Recent content in praca on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Fri, 22 Sep 2017 11:56:41 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/praca/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 22 Sep 2017 11:56:41 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/praca/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Miłość nie jest ślepa. Kto z kim się żeni?</title>
-      <link>/post/milosc-nie-jest-slepa-kto-z-kim-sie-zeni/</link>
+      <link>https://psobczyk.github.io/post/milosc-nie-jest-slepa-kto-z-kim-sie-zeni/</link>
       <pubDate>Fri, 22 Sep 2017 11:56:41 +0000</pubDate>
       
-      <guid>/post/milosc-nie-jest-slepa-kto-z-kim-sie-zeni/</guid>
+      <guid>https://psobczyk.github.io/post/milosc-nie-jest-slepa-kto-z-kim-sie-zeni/</guid>
       <description>Mówi się czasem, że miłość jest ślepa, czyli że o naszych wyborach decydują impuls i zauroczenie, a nie chłodne, racjonalne (matematyczne?) myślenie. Czy rzeczywiście takie stwierdzenie jest uzasadnione? Zweryfikujemy to na podstawie danych.Jeśli o łączeniu się ludzi w związki miałoby decydować coś więcej niż przypadek, to powinniśmy być w stanie znaleźć jakieś nietrywialne zależności pomiędzy cechami społecznymi kobiety i mężczyzny. Zacznijmy zatem od oczywistego pomysłu: czy występuje różnica w poziomie wykształcenia stron zawierających małżeństwa w Polsce?</description>
     </item>
     
     <item>
       <title>Równi i równiejsi. Kobiety na rynku pracy</title>
-      <link>/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</link>
+      <link>https://psobczyk.github.io/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</link>
       <pubDate>Tue, 06 Sep 2016 17:16:05 +0000</pubDate>
       
-      <guid>/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</guid>
+      <guid>https://psobczyk.github.io/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</guid>
       <description>Jakie są różnice w aktywności, zarobkach i perspektywach zawodowych kobiet i mężczyzn? Czy Polska jest krajem, który zapewnia równe szanse bez względu na płeć? W których krajach kobietom najtrudniej jest się przebić?Sprawdźmy najpierw jak duża jest różnica pomiędzy procentem mężczyzn aktywnych zawodowo a procentem kobiet, które są aktywne zawodowo
 Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła. Zajmijmy się teraz znanym zjawiskiem gender gap, czyli różnicy w zarobkach.</description>
     </item>

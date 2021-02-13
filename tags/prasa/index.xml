@@ -2,21 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>prasa on Szychta w danych</title>
-    <link>/tags/prasa/</link>
+    <link>https://psobczyk.github.io/tags/prasa/</link>
     <description>Recent content in prasa on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 13 Jun 2016 12:56:33 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/prasa/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 13 Jun 2016 12:56:33 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/prasa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Czy ktoś jeszcze czyta gazety?</title>
-      <link>/post/czytelnictwo-gazet/</link>
+      <link>https://psobczyk.github.io/post/czytelnictwo-gazet/</link>
       <pubDate>Mon, 13 Jun 2016 12:56:33 +0000</pubDate>
       
-      <guid>/post/czytelnictwo-gazet/</guid>
+      <guid>https://psobczyk.github.io/post/czytelnictwo-gazet/</guid>
       <description>Słychać nieraz głosy na temat dramatycznie spadającego czytelnictwa gazet w Polsce. Szychta sprawdza jak zmieniała się sprzedaż ogólnopolskich gazet codziennych na przestrzeni ostatnich 20 lat. Czy możemy mówić o kryzysie? Jeśli tak to które gazety dotyka on najmocniej?
 Na początku lat 90-tych najczęściej kupowaną gazetą była Gazeta Wyborcza. Jej nakład był mniej więcej stały aż do roku 2007. W międzyczasie na rynek wszedł Fakt, który od czasu kiedy zaczął być wydawany w 2003 roku jest najchętniej czytaną gazetą.</description>
     </item>
