@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wynagrodzenia on Szychta w danych</title>
+    <link>https://psobczyk.github.io/tags/wynagrodzenia/</link>
+    <description>Recent content in wynagrodzenia on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Mon, 10 Jul 2017 17:02:03 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/wynagrodzenia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Czy bogaci są coraz bogatsi? Które regiony Polski najszybciej się rozwijają?</title>
+      <link>https://psobczyk.github.io/post/czy-bogaci-sa-coraz-bogatsi-ktore-regiony-polski-najszybciej-sie-rozwijaja/</link>
+      <pubDate>Mon, 10 Jul 2017 17:02:03 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/czy-bogaci-sa-coraz-bogatsi-ktore-regiony-polski-najszybciej-sie-rozwijaja/</guid>
+      <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze, czy też dystans między nimi się zwiększa? Aktualizujemy wpis sprzed półtora roku o dane z roku 2015. W dodatku dokładamy ładniejsze wizualizacje, żywszy język i głębsze wnioski.
+Naszym punktem startowym są wynagrodzenia w poszczególnych powiatach w roku 2002. Nawet w najbogatszych powiatach jest to mniej niż 3500 złotych brutto. Bogate są Górny Śląsk, okolice Warszawy i kilka powiatów, w których znajdowały się kopalnie (Zgorzelec, Łęczna, Bełchatów).</description>
+    </item>
+    
+    <item>
+      <title>Równi i równiejsi. Kobiety na rynku pracy</title>
+      <link>https://psobczyk.github.io/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</link>
+      <pubDate>Tue, 06 Sep 2016 17:16:05 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</guid>
+      <description>Jakie są różnice w aktywności, zarobkach i perspektywach zawodowych kobiet i mężczyzn? Czy Polska jest krajem, który zapewnia równe szanse bez względu na płeć? W których krajach kobietom najtrudniej jest się przebić?
+Sprawdźmy najpierw jak duża jest różnica pomiędzy procentem mężczyzn aktywnych zawodowo a procentem kobiet, które są aktywne zawodowo
+Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła. Zajmijmy się teraz znanym zjawiskiem gender gap, czyli różnicy w zarobkach.</description>
+    </item>
+    
+    <item>
+      <title>Więcej! O wzroście płac i produktu krajowego brutto</title>
+      <link>https://psobczyk.github.io/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</link>
+      <pubDate>Thu, 05 May 2016 14:36:36 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</guid>
+      <description>Czy moglibyśmy w Polsce zarabiać o 50% więcej? W dzisiejszym wpisie zbadamy jak są ze sobą powiązane wzrost PKB na mieszkańca i wzrost wynagrodzeń. W szczególności zobaczymy czy płace w Polsce rosły równie szybko, jak wartość wytwarzanych towarów, oraz jak wyglądamy pod tym względem na tle innych krajów europejskich i świata.
+Nie mam pełnych danych na temat wynagrodzenia, ale porównamy wynagrodzenie za godzinę pracy w przemyśle (manufacturing) ze wzrostem PKB na mieszkańca.</description>
+    </item>
+    
+    <item>
+      <title>[Jak to zrobić w R] - ,,Czy bogatsi są coraz bogatsi?&#34;</title>
+      <link>https://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</link>
+      <pubDate>Mon, 07 Mar 2016 15:56:15 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</guid>
+      <description>Dzisiaj krótko na temat tego, jak stworzyć rysunki z wpisu o wzroście wynagrodzeń.
+Dane pochodzą z Banku Danych Lokalnych GUS. Kontury województw pochodzą ze strony Centralnego Ośrodka Dokumentacji Geodezyjnej i Kartograficznej.
+Na początku wczytujemy kontury województw za pomocą pakietu rgdal. [github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/wynagrodzenia/analiza_wynagrodzenia.R&amp;rdquo; start_line = &amp;ldquo;10&amp;rdquo; end_line = &amp;ldquo;12&amp;rdquo;]
+_Data.frame _ nazwy, to brzydki hak, służący do łączenia danych. Jego przydatność zobaczymy później. Dalej przekształcamy, za pomocą funkcji fortify z pakietu ggplot2, dane z typu SpatialPolygons do data.</description>
+    </item>
+    
+    <item>
+      <title>Czy bogaci są coraz bogatsi? Czyli o różnicach w rozwoju regionów w Polsce</title>
+      <link>https://psobczyk.github.io/post/czy-bogaci-sa-coraz-bogatsi-czyli-o-roznicach-w-rozwoju-regionow-w-polsce/</link>
+      <pubDate>Mon, 29 Feb 2016 17:38:59 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/czy-bogaci-sa-coraz-bogatsi-czyli-o-roznicach-w-rozwoju-regionow-w-polsce/</guid>
+      <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze czy też dystans między nimi się zwiększa?
+Na początek zobaczmy jak wygląda średnie wynagrodzenie brutto w podziale na województwa. Gołym okiem widać ogromne dysproporcje pomiędzy Warszawą, a resztą Polski. Różnica w wynagrodzeniach pomiędzy Mazowszem a Górnym Śląskiem jest większa niż między Górnym Śląskiem a najbiedniejszymi Warmią i Mazurami.
+Ale może Warszawa jest goniona przez resztę Polski? Jak zmieniły się zarobki w ciągu ostatnich 12 lat?</description>
+    </item>
+    
+  </channel>
+</rss>

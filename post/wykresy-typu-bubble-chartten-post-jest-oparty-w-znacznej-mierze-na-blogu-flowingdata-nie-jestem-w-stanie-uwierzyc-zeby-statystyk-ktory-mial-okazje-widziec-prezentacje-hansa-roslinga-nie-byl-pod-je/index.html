@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/psobczyk.github.io\/",
+  "author": {
+    "@type": "Person",
+    "name": "Szychta w danych",
+    
+    "image": "https://psobczyk.github.io/img/icon.png"
+    
+  },
+  "name":"Szychta w danych",
+  "description":"Ten post jest oparty w znacznej mierze na blogu flowingdata.\nNie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje Hansa Roslinga, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.\nZdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu car dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.",
+  "url":"https:\/\/psobczyk.github.io\/post\/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je\/",
+  "keywords":"[]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.109.0 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Szychta w danych">
+<meta name="keywords" content="">
+<meta name="description" content="Ten post jest oparty w znacznej mierze na blogu flowingdata.
+Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje Hansa Roslinga, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.
+Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu car dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.">
+
+
+<meta property="og:description" content="Ten post jest oparty w znacznej mierze na blogu flowingdata.
+Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje Hansa Roslinga, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.
+Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu car dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Wykresy typu bubble-chart">
+<meta name="twitter:title" content="Wykresy typu bubble-chart">
+<meta property="og:url" content="https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/">
+<meta property="twitter:url" content="https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/">
+<meta property="og:site_name" content="Szychta w danych">
+<meta property="og:description" content="Ten post jest oparty w znacznej mierze na blogu flowingdata.
+Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje Hansa Roslinga, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.
+Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu car dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.">
+<meta name="twitter:description" content="Ten post jest oparty w znacznej mierze na blogu flowingdata.
+Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje Hansa Roslinga, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.
+Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu car dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.">
+<meta property="og:locale" content="pl">
+
+  
+    <meta property="article:published_time" content="2014-10-01T19:50:13">
+  
+  
+    <meta property="article:modified_time" content="2014-10-01T19:50:13">
+  
+  
+  
+    
+      <meta property="article:section" content="R">
+    
+      <meta property="article:section" content="Świat">
+    
+  
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://psobczyk.github.io/img/icon.png">
+  <meta property="twitter:image" content="https://psobczyk.github.io/img/icon.png">
+
+
+
+
+
+
+    <title>Wykresy typu bubble-chart</title>
+
+    <link rel="icon" href="https://psobczyk.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://psobczyk.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-90780052-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://psobczyk.github.io/" aria-label="Wróć do strony głównej">Szychta w danych</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://psobczyk.github.io/#about" aria-label="Otwórz link: /#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://psobczyk.github.io/#about" aria-label="Przeczytaj więcej o autorze">
+          <img class="sidebar-profile-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+        </a>
+        <h4 class="sidebar-profile-name">Szychta w danych</h4>
+        
+          <h5 class="sidebar-profile-bio">Blog o poznawaniu świata za pomocą danych</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Strona domowa</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Kategorie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tagi</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archiwum</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu" title="O blogu">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about" title="O mnie">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects" title="Projekty">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-typewriter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/szkolenia-z-analizy-danych" title="Szkolenia">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-chalkboard-teacher" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Szkolenia</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu/" title="O blogu">
+    
+      
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about/" title="O mnie">
+    
+      
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects/" title="Projekty">
+    
+      
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/psobczyk" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/szychtawdanych" target="_blank" rel="noopener" title="Facebook">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-facebook-square" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://pl.linkedin.com/in/psobczyk" target="_blank" rel="noopener" title="Linkedin">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/szychtawdanych" target="_blank" rel="noopener" title="Twitter">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      Wykresy typu bubble-chart
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2014-10-01T19:50:13Z">
+        
+  
+  
+  
+  
+    1 Październik 2014
+  
+
+      </time>
+    
+    
+  
+  
+    <span>w</span>
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/r">R</a>, 
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/%c5%9bwiat">Świat</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <p>Ten post jest oparty w znacznej mierze na blogu <a href="http://flowingdata.com/2010/11/23/how-to-make-bubble-charts/">flowingdata.</a></p>
+<p>Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje <a href="http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen">Hansa Roslinga</a>, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.<!-- raw HTML omitted --></p>
+<p>Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu <strong>car</strong> dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(car)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">data</span>(UN)
+</span></span></code></pre></div><p>Dane dotyczące populacji krajów wziąłem ze strony gapmindera. Kod wyświetlam ze wszystkimi brzydkimi szczegółami licząc, że mogą się one okazać dla kogoś pouczające</p>
+<pre><code>dane.gap header=T, stringsAsFactors=T)
+
+wspolnePop wspolneUN countrySize names(countrySize)
+
+danePop danePop
+
+radius
+</code></pre>
+<p>Po uciążliwym przygotowaniu czeka nas rysowanie:</p>
+<pre><code>symbols(log(danePop$gdp),danePop$infant.mortality, circles=radius,
+inches=0.35, fg=&quot;white&quot;, bg=&quot;red&quot;,
+xlab=&quot;&quot;, ylab=&quot;&quot;, axes=F,
+xlim=c(3.7, log(51000)), ylim=c(0, 160))
+axis(1, at=log(c(50,500, 5000, 25000, 50000)), labels=c(50,500, 5000, 25000, 50000), tick =T,
+col=&quot;bisque4&quot;, col.ticks=&quot;bisque4&quot;, col.axis=&quot;bisque4&quot;, cex.axis=1)
+axis(2, at=c(0, 10, 50,100, 150), labels=c(0, 10, 50,100, 150),
+col=&quot;bisque4&quot;, col.ticks=&quot;bisque4&quot;, col.axis=&quot;bisque4&quot;, cex.axis=1)
+mtext(&quot;PKB [$]&quot;, side=1, line=3, col=&quot;red&quot;, cex=2)
+mtext(&quot;Śmiertelność na 1000 urodzeń żywych&quot;, side=2, line=3, col=&quot;red&quot;, cex=1.4)
+mtext(&quot;Śmiertelności niemowląt a PKB w roku 1998&quot;, side=3, line=1, col=&quot;red&quot;, cex=2.2)
+wybrane text(log(danePop$gdp)[wybrane], danePop$infant.mortality[wybrane],
+names(cSize)[wybrane], cex=1.2, pos=1)
+</code></pre>
+<p>Kilka rzeczy, które mogą niepokoić:</p>
+<ul>
+<li>
+<p>ustalone na sztywno granice osi (ale dzięki temu uzyskuje się lepszy wygląd)</p>
+</li>
+<li>
+<p>ręczne wybranie państw, których etykiety mają zostać wyświetlone (jak wyżej)</p>
+</li>
+</ul>
+<p>Without further ado:</p>
+<p><img src="http://szychtawdanych.files.wordpress.com/2014/10/tlo_wykres.jpg" alt="tlo_wykres"></p>
+<p>Warto dodać, że w łatwy sposób można robić podobne wykresy z dodatkową animacją. Narzędziem do tego służącym jest pakiet <a href="http://cran.r-project.org/web/packages/googleVis/vignettes/googleVis_examples.html">googleVis</a>. Jest to naprawdę potężne narzędzie do wizualizacji danych, którego mam nadzieję się nauczyć i o nim w przyszłości opowiedzieć.</p>
+
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa/" data-tooltip="Programowanie w R z wykorzystaniem emacsa" aria-label="NASTĘPNA: Programowanie w R z wykorzystaniem emacsa">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/" data-tooltip="Pan Samochodzik i... matematyka kwadratów magicznych" aria-label="POPRZEDNIA: Pan Samochodzik i... matematyka kwadratów magicznych">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https:\/\/psobczyk.github.io\/post\/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je\/';
+        
+          this.page.identifier = '\/post\/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je\/'
+        
+      };
+      (function() {
+        
+        
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          return;
+        }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'szychta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Szychta w danych. Wszystkie prawa zastrzeżone
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa/" data-tooltip="Programowanie w R z wykorzystaniem emacsa" aria-label="NASTĘPNA: Programowanie w R z wykorzystaniem emacsa">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/" data-tooltip="Pan Samochodzik i... matematyka kwadratów magicznych" aria-label="POPRZEDNIA: Pan Samochodzik i... matematyka kwadratów magicznych">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fwykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je%2F" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i><span>Udostępnij na Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fwykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je%2F" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>Udostępnij na Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fwykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je%2F" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i><span>Udostępnij na Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+    
+    <h4 id="about-card-name">Szychta w danych</h4>
+    
+      <div id="about-card-bio">Blog o poznawaniu świata za pomocą danych</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Piotr Sobczyk
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://psobczyk.github.io/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://psobczyk.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+

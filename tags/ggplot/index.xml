@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ggplot on Szychta w danych</title>
+    <link>https://psobczyk.github.io/tags/ggplot/</link>
+    <description>Recent content in ggplot on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Mon, 07 Mar 2016 15:56:15 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/ggplot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Jak to zrobić w R] - ,,Czy bogatsi są coraz bogatsi?&#34;</title>
+      <link>https://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</link>
+      <pubDate>Mon, 07 Mar 2016 15:56:15 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</guid>
+      <description>Dzisiaj krótko na temat tego, jak stworzyć rysunki z wpisu o wzroście wynagrodzeń.
+Dane pochodzą z Banku Danych Lokalnych GUS. Kontury województw pochodzą ze strony Centralnego Ośrodka Dokumentacji Geodezyjnej i Kartograficznej.
+Na początku wczytujemy kontury województw za pomocą pakietu rgdal. [github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/wynagrodzenia/analiza_wynagrodzenia.R&amp;rdquo; start_line = &amp;ldquo;10&amp;rdquo; end_line = &amp;ldquo;12&amp;rdquo;]
+_Data.frame _ nazwy, to brzydki hak, służący do łączenia danych. Jego przydatność zobaczymy później. Dalej przekształcamy, za pomocą funkcji fortify z pakietu ggplot2, dane z typu SpatialPolygons do data.</description>
+    </item>
+    
+    <item>
+      <title>Jak (drogo) kupić 44 tysiące dzieci czyli o programie 500&#43;</title>
+      <link>https://psobczyk.github.io/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</link>
+      <pubDate>Wed, 10 Feb 2016 09:00:18 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</guid>
+      <description>W najbliższym czasie uchwalony zostanie rządowy program świadczeń na dzieci w wysokości 500 złotych miesięcznie. Do procesu obiecywania dołączyła cześć opozycji. Pytanie czy taki program w ogóle ma sens? Czy dokonano dogłębnej diagnozy obecnej sytuacji demograficznej Polski? Czy pomysł na wydawania pieniędzy w formie zasiłku jest efektywny? Ile będzie kosztować budżet narodzenie jednego dodatkowego dziecka w wyniku działania programu 500+?
+Zaczynamy od porównania. Głównym moim źródłem jest wpis na blogu BIQdata oraz raport firmy PwC, na którym tenże wpis się opiera.</description>
+    </item>
+    
+    <item>
+      <title>Dentysta w każdej szkole - jak to zrobić w R</title>
+      <link>https://psobczyk.github.io/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</link>
+      <pubDate>Mon, 18 Jan 2016 16:30:11 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</guid>
+      <description>Dzisiaj w Szychcie zamiast górniczego urobku prezentacja maszyn i technik. Jak wykonać zeszłotygodniową analizę w R? Jakich pakietów należy użyć?
+Kody i dane znajdują się na moim koncie na githubie. Dane nie należą do mnie.
+Na rozgrzewkę małe wyjaśnienie jak małym kosztem uszeregować województwa do boxplotu. Trik polega na ustawieniu kolejności poziomów (level) dla zmiennej typu factor.
+[github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/dentysci_w_szkolach/analiza_dentysci.R&amp;rdquo; start_line = &amp;ldquo;29&amp;rdquo; end_line = &amp;ldquo;37&amp;rdquo;]
+Następnie już łatwo wygenerować jest wykres w ggplot [github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/dentysci_w_szkolach/analiza_dentysci.</description>
+    </item>
+    
+    <item>
+      <title>Polska w ruinie</title>
+      <link>https://psobczyk.github.io/post/polska-w-ruinie/</link>
+      <pubDate>Mon, 04 Jan 2016 17:00:23 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/polska-w-ruinie/</guid>
+      <description>Na dobry początek roku w Szychcie historia wielkich nieszczęść. Z czego wynika ogromna dysproporcja zniszczeń miast na terenie Polski podczas II wojny światowej? Co uratowało Małopolskę, a co pogrążyło Dolny Śląsk? I jako ciekawostka krótka opowieść o kilku niedoszłych miastach twierdzach na Śląsku.
+Na początek trochę (taniej) filozofii. Żywa i pełna emocji pamięć o wojnach zanika, ponieważ umierają ich uczestnicy. Za 10-20 lat jedynymi świadkami tego co się wydarzyło pozostaną miasta.</description>
+    </item>
+    
+    <item>
+      <title>Systemy tramwajowe w Polsce</title>
+      <link>https://psobczyk.github.io/post/systemy-tramwajowe-w-polsce/</link>
+      <pubDate>Wed, 30 Dec 2015 16:59:32 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/systemy-tramwajowe-w-polsce/</guid>
+      <description>Dzisiejszy wpis szczególnie przypadnie do gustu wszystkim miłośnikom tramwajów i niestandardowych wykresów w R. Nietrudno zatem odgadnąć, że autor należy do obu tych grup. Odpowiemy sobie na pytania gdzie w Polsce są a gdzie zostały zlikwidowane sieci tramwajowe? Jakie miasto może się pochwalić najdłuższą długość torowisk? Jak mocno obecność tramwajów determinowana jest przebiegiem granicy zaboru pruskiego oraz jak zrobić w R efektowne wykresy gdzie zamiast punktu mamy obrazek.
+Na początek punkt wyjścia czyli zwykły wykres.</description>
+    </item>
+    
+    <item>
+      <title>O (nie)równych szansach w polskim systemie edukacji</title>
+      <link>https://psobczyk.github.io/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
+      <pubDate>Mon, 14 Dec 2015 15:30:33 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
+      <description>W Polsce każdy ma prawo do bezpłatnej edukacji, ale jej jakość jest bardzo nierówna. I nie chodzi jedynie o podział miasto - wieś, ale też o regiony geograficzne. W dzisiejszym wpisie zobaczymy jak kształtują się wyniki sprawdzianu po szkole podstawowej, egzaminu gimnazjalnego i matury w podziale na powiaty. Sprawdzimy też czy z czasem różnice pomiędzy nimi zacierają się czy też stają się bardziej widoczne.
+W dzisiejszym wpisie korzystam z pakietu ZPD stworzony przez Instytut Badań Edukacyjnych.</description>
+    </item>
+    
+    <item>
+      <title>Rozkład państwa czy rozkład prawdopodobieństwa? O ogłaszaniu i wykonywaniu wyroków Trybunału Konstytucyjnego</title>
+      <link>https://psobczyk.github.io/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</link>
+      <pubDate>Wed, 09 Dec 2015 16:00:42 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</guid>
+      <description>Dzisiaj wpis, za który oberwie mi się z prawej i lewej strony. I w dodatku nie za to, że i jednych i drugich pojadę, ale za to, że jednym i drugim oddam troszkę honoru! Oczekiwania podkręcone, postaram się je spełnić. Wpis dotyczy orzeczeń Trybunału Konstytucyjnego. Konkretnie dwóch zagadnień. Pierwsze to czas od wydania wyroku do jego publikacji w Dzienniku Ustaw. Drugi dotyczy czasu wykonania wyroków, czyli ile zajęło poprawienie prawa od momentu stwierdzenie jego niezgodności z konstytucją.</description>
+    </item>
+    
+    <item>
+      <title>Zabory a sprawa Polska. 100 lat później</title>
+      <link>https://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</link>
+      <pubDate>Sun, 06 Dec 2015 00:16:34 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</guid>
+      <description>Szychta w danych wraca po przerwie na intensywną pracę naukową :) Na rozgrzewkę - analiza wyników ostatnich wyborów. Czy PO i Nowoczesna różnią się w poszczególnych regionach? Czy wyniki wyborów nadal da się wytłumaczyć granicami zaborów? Czym się różnią elektoraty partii lewicowych?
+Zaczniemy od analizy rywalizacji, która od 10 lat dominuje w polskiej polityce. PiS vs. PO. Oprócz standardowych i dobrze znanych podziałów, bardzo fajnie widać na wykresie efekt mniejszości narodowych.</description>
+    </item>
+    
+    <item>
+      <title>Elektrownie w Polsce</title>
+      <link>https://psobczyk.github.io/post/elektrownie-w-polsce/</link>
+      <pubDate>Wed, 14 Oct 2015 05:16:39 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/elektrownie-w-polsce/</guid>
+      <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.
+Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
+Istniejące elektrownie są zlokalizowane głównie w południowej części Polski. Na Górnym Śląsku występuje bardzo duże zagęszczenie elektrowni, co jest zapewne związane z przemysłem ciężkim, który był w przeszłości (jest nadal?</description>
+    </item>
+    
+    <item>
+      <title>Zawsze dobrze, ale za Gierka najlepiej</title>
+      <link>https://psobczyk.github.io/post/zawsze-dobrze-ale-za-gierka-najlepiej/</link>
+      <pubDate>Mon, 28 Sep 2015 16:00:27 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/zawsze-dobrze-ale-za-gierka-najlepiej/</guid>
+      <description>W krajach postkomunistycznych, przynajmniej w Europie wschodniej, istnieje pewnego rodzaju nostalgia za minionymi czasami. Na zwyczajną przyczynę, którą jest fakt, że każde czasy mniej realne, niż te w których żyjemy, wydają się być lepszym miejscem do życia, nakłada się druga - zmiana systemu gospodarczego. W Polsce w ciągu ostatnich 25 lat zaszły gigantyczne pozytywne zmiany, jednak nie wszyscy czują się w takim samym stopniu ich beneficjentami (klik). Wydaje mi się, że istotnym pytanie jest to czy z czasem liczba osób widzących korzyści z transformacji roku 1989 rośnie czy maleje.</description>
+    </item>
+    
+    <item>
+      <title>Dokąd uciekają syryjscy uchodżcy?</title>
+      <link>https://psobczyk.github.io/post/gdzie-uciekaja-syryjscy-uchodzcy/</link>
+      <pubDate>Mon, 21 Sep 2015 16:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/gdzie-uciekaja-syryjscy-uchodzcy/</guid>
+      <description>Są granice tego ile można słuchać i czytać kasandrycznych wizji końca Europy zalanej hordami muzułmańskich barbarzyńców, inwokacji o nowego Jana Sobieskiego czy ujawnionych spisków krajów arabskich. W dzisiejszym wpisie zbadamy gdzie jest największa liczba syryjskich uchodźców oraz, które kraje mogą się rzeczywiście czuć ich liczbą zagrożone.
+Dane, z których korzystam, pochodzą ze strony agendy ONZ zajmującej się uchodźcami oraz z wikipedii. Są one mniej więcej aktualne - dotyczą sierpnia 2015. Liczba uchodźców, podawana przez UNHCR, to liczba osób, które wystąpiły w danym kraju o azyl.</description>
+    </item>
+    
+    <item>
+      <title>Wydatki na obronność</title>
+      <link>https://psobczyk.github.io/post/wydatki-na-obronnosc/</link>
+      <pubDate>Tue, 25 Aug 2015 20:45:47 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/wydatki-na-obronnosc/</guid>
+      <description>Winston Churchill
+W czasach gdy Churchill spisywał swoje aryciekawe wspomnienia, wojskami zarządzały Ministerstwa Wojny. Kosmetyczną zmianę w nazewnictwie zawdzięczamy Zimnej Wojnie, podczas której wydatki wojenne przeobraziły się w wydatki obronne. To one są tematem dzisiejszego, pierwszego po wakacjach, wpisu. Kiedy konflikt na Ukrainie był w fazie eskalacji, sporo czasu poświęcono w Polsce dyskusjom na temat siły armii, jakości jej wyposażenia i możliwości obronnych. Nie będąc ekspertem nie mogę się wypowiadać na te tematy, ale proponuję porównanie jak wyglądają wydatki i liczebność sił zbrojnych różnych krajów.</description>
+    </item>
+    
+    <item>
+      <title>Wyniki wrocławskiego półmaratonu 2015</title>
+      <link>https://psobczyk.github.io/post/wyniki-polmaratonu/</link>
+      <pubDate>Sun, 21 Jun 2015 19:57:31 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/wyniki-polmaratonu/</guid>
+      <description>W ostatnią sobotę odbył się we Wrocławiu nocny półmaraton. Dostarczył on, oprócz dobrej zabawy, niemałego zbioru danych zawierającego międzyczasy blisko 7000 uczestników.
+Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi.</description>
+    </item>
+    
+    <item>
+      <title>Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie</title>
+      <link>https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
+      <pubDate>Sun, 22 Feb 2015 19:13:41 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
+      <description>Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&amp;hellip; nie ma na nie miejsca.</description>
+    </item>
+    
+    <item>
+      <title>Jak wygląda komunikacja miejska we Wrocławiu?</title>
+      <link>https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</link>
+      <pubDate>Thu, 19 Feb 2015 20:06:42 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</guid>
+      <description>Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.
+Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.</description>
+    </item>
+    
+  </channel>
+</rss>

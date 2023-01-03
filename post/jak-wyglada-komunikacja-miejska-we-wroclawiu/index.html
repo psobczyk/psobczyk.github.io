@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/psobczyk.github.io\/",
+  "author": {
+    "@type": "Person",
+    "name": "Szychta w danych",
+    
+    "image": "https://psobczyk.github.io/img/icon.png"
+    
+  },
+  "name":"Szychta w danych",
+  "description":"Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.\nTeraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.",
+  "url":"https:\/\/psobczyk.github.io\/post\/jak-wyglada-komunikacja-miejska-we-wroclawiu\/",
+  "keywords":"[]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.109.0 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Szychta w danych">
+<meta name="keywords" content="">
+<meta name="description" content="Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.
+Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.">
+
+
+<meta property="og:description" content="Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.
+Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Jak wygląda komunikacja miejska we Wrocławiu?">
+<meta name="twitter:title" content="Jak wygląda komunikacja miejska we Wrocławiu?">
+<meta property="og:url" content="https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/">
+<meta property="twitter:url" content="https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/">
+<meta property="og:site_name" content="Szychta w danych">
+<meta property="og:description" content="Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.
+Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.">
+<meta name="twitter:description" content="Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.
+Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.">
+<meta property="og:locale" content="pl">
+
+  
+    <meta property="article:published_time" content="2015-02-19T20:06:42">
+  
+  
+    <meta property="article:modified_time" content="2015-02-19T20:06:42">
+  
+  
+  
+    
+      <meta property="article:section" content="R">
+    
+      <meta property="article:section" content="Wrocław">
+    
+  
+  
+    
+      <meta property="article:tag" content="analiza danych">
+    
+      <meta property="article:tag" content="ggplot">
+    
+      <meta property="article:tag" content="mpk">
+    
+      <meta property="article:tag" content="wizualizacja">
+    
+      <meta property="article:tag" content="Wrocław">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://psobczyk.github.io/img/icon.png">
+  <meta property="twitter:image" content="https://psobczyk.github.io/img/icon.png">
+
+
+
+
+
+
+    <title>Jak wygląda komunikacja miejska we Wrocławiu?</title>
+
+    <link rel="icon" href="https://psobczyk.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://psobczyk.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-90780052-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://psobczyk.github.io/" aria-label="Wróć do strony głównej">Szychta w danych</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://psobczyk.github.io/#about" aria-label="Otwórz link: /#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://psobczyk.github.io/#about" aria-label="Przeczytaj więcej o autorze">
+          <img class="sidebar-profile-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+        </a>
+        <h4 class="sidebar-profile-name">Szychta w danych</h4>
+        
+          <h5 class="sidebar-profile-bio">Blog o poznawaniu świata za pomocą danych</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Strona domowa</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Kategorie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tagi</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archiwum</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu" title="O blogu">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about" title="O mnie">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects" title="Projekty">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-typewriter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/szkolenia-z-analizy-danych" title="Szkolenia">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-chalkboard-teacher" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Szkolenia</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu/" title="O blogu">
+    
+      
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about/" title="O mnie">
+    
+      
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects/" title="Projekty">
+    
+      
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/psobczyk" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/szychtawdanych" target="_blank" rel="noopener" title="Facebook">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-facebook-square" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://pl.linkedin.com/in/psobczyk" target="_blank" rel="noopener" title="Linkedin">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/szychtawdanych" target="_blank" rel="noopener" title="Twitter">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      Jak wygląda komunikacja miejska we Wrocławiu?
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2015-02-19T20:06:42Z">
+        
+  
+  
+  
+  
+    19 Luty 2015
+  
+
+      </time>
+    
+    
+  
+  
+    <span>w</span>
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/r">R</a>, 
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/wroc%c5%82aw">Wrocław</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <p>Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.</p>
+<!-- raw HTML omitted -->
+<p>Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.</p>
+<p>Zacznijmy od rzeczy podstawowej, czyli gdzie znajdują się przystanki</p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw_lokalizacja.jpeg" alt="przystanki_mpk_wroclaw_lokalizacja"></p>
+<p>Jak się robi takie cudo? Oczywiście w R. W tym celu korzystamy z <a href="http://www.google.pl/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=2&amp;cad=rja&amp;uact=8&amp;ved=0CC8QFjAB&amp;url=http%3A%2F%2Fjournal.r-project.org%2Farchive%2F2013-1%2Fkahle-wickham.pdf&amp;ei=YDbmVOP3H8jhaqzGgNAN&amp;usg=AFQjCNG7-2iYFI2b28oizWS9KF5kqh_oYQ&amp;bvm=bv.85970519,d.d2s">pakietu ggmap</a>.
+Pakiet ten został stworzony do wizualizacji przestrzennej. Jak każda rzecz, w której maczał palce Hadley Wickham, jest to świetnie dopracowane narzędzie. Umożliwia, między innymi, ściąganie map google maps i rysowanie na nich. Miejsce, którego mapę chcemy ściągnąć, wpisujemy w R dokładnie tak samo jak robilibyśmy to na stronie internetowej.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">geocode</span>(<span style="color:#e6db74">&#34;wrocław&#34;</span>)
+</span></span><span style="display:flex;"><span>pwr <span style="color:#f92672">&lt;-</span> <span style="color:#e6db74">&#34;politechnika wrocławska&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">qmap</span>(pwr, zoom <span style="color:#f92672">=</span> <span style="color:#ae81ff">14</span>)
+</span></span></code></pre></div><p>Narzędzie jest gotowe, potrzeba tylko danych. Współrzędne geograficzne przystanków ściągnąłem <a href="http://geoportal.wroclaw.pl/www/pliki/KomunikacjaZbiorowa/SlupkiWspolrzedne.txt">ze strony Wrocławia</a>. Poniżej zamieszczam kod dla rysunku z przystankami zamieszczonego wyżej.</p>
+<pre><code>library(ggmap)
+przystanki dec=&quot;,&quot;, colClasses=c(&quot;numeric&quot;,&quot;numeric&quot;,&quot;numeric&quot;,&quot;factor&quot;))
+names(przystanki) levels(przystanki$type) theme_set(theme_bw(16))
+
+wroclawMap + geom_point(aes(x = lon, y = lat, colour = type), data = przystanki) +
+             ggtitle(&quot;Lokalizacja przystanków komunikacji miejskiej we Wrocławiu&quot;) +
+             theme(plot.title=element_text(size=20, face=&quot;bold&quot;, colour=&quot;steelblue&quot;))
+</code></pre>
+<p>Zamiast punktów na mapie, które są dosyć nieczytelne, można narysować zagęszczenie przystanków</p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw.jpeg" alt="przystanki_mpk_wroclaw"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>WroclawMap <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">stat_density2d</span>(<span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> lon, y <span style="color:#f92672">=</span> lat, fill <span style="color:#f92672">=</span> ..level.., alpha <span style="color:#f92672">=</span> ..level..),
+</span></span><span style="display:flex;"><span>                 size <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>, bins <span style="color:#f92672">=</span> <span style="color:#ae81ff">8</span>, data <span style="color:#f92672">=</span> przystanki, geom <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;polygon&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">scale_fill_gradient</span>(<span style="color:#e6db74">&#39;Zasięgnkomunikacjinmiejskiej&#39;</span>, guide <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;colourbar&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">scale_alpha</span>(range <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">.4</span>, <span style="color:#ae81ff">.75</span>), guide <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">guides</span>(fill <span style="color:#f92672">=</span> <span style="color:#a6e22e">guide_colorbar</span>(barwidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>, barheight <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>))
+</span></span></code></pre></div><p>Każdy uważny czytelnik zmiarkuje zaraz, że istotne jest nie to ile mamy przystanków w pobliżu, ale jak często coś z nich odjeżdża. Żeby odpowiedzieć na to pytanie pobrałem <a href="http://www.wroclaw.pl/rozklady-jazdy">rozkłady jazdy</a>. Podobnie jak dla <a href="https://szychtawdanych.wordpress.com/2015/01/08/o-wynikach-ostatnich-wyborow/">pobrania danych wyborczych</a> używałem basha, seda i grepa.
+A oto wynik moich wysiłków. Kolor kropek odpowiada temu, czy na przystanku zatrzymują się tramwaje czy autobusy, ich wielkość - liczbie połączeń na dobę.</p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/przystanki_mpk_wroclaw_natezenie.jpeg" alt="przystanki_mpk_wroclaw_natezenie"></p>
+<p>I teraz czas na kluczowy wykres. Podobnie jak wcześniej, zamiast zaznaczać poszczególne przystanki, można narysować gęstość natężenia kursów. Im bardziej wyrazisty kolor, tym więcej połączeń. Częstość kursów rysujemy w podziale na tramwaje i autobusy.</p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/natezenie_ruchu_mpk_wroclaw.png" alt="natezenie_ruchu_mpk_wroclaw"></p>
+<p>Na powyższych rysunkach uwzględnione są wszystkie kursy w ciągu całego tygodnia, z wyłączeniem linii 435, 900, 901, 910.</p>
+<p>W następnym wpisie pokażę, za pomocą animacji, jak zmienia się liczba kursów mpk z godziny na godzinę.</p>
+<p>Jeśli ktoś ma jakiś inny pomysł na użycie tych danych, to zachęcam do dzielenia się nimi w komentarzach.</p>
+
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">OTAGOWANO JAKO</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/analiza-danych/">analiza danych</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/ggplot/">ggplot</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/mpk/">mpk</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/wizualizacja/">wizualizacja</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/wroc%C5%82aw/">Wrocław</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/" data-tooltip="Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie" aria-label="NASTĘPNA: Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/" data-tooltip="O wynikach ostatnich wyborów" aria-label="POPRZEDNIA: O wynikach ostatnich wyborów">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https:\/\/psobczyk.github.io\/post\/jak-wyglada-komunikacja-miejska-we-wroclawiu\/';
+        
+          this.page.identifier = '\/post\/jak-wyglada-komunikacja-miejska-we-wroclawiu\/'
+        
+      };
+      (function() {
+        
+        
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          return;
+        }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'szychta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Szychta w danych. Wszystkie prawa zastrzeżone
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/" data-tooltip="Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie" aria-label="NASTĘPNA: Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/" data-tooltip="O wynikach ostatnich wyborów" aria-label="POPRZEDNIA: O wynikach ostatnich wyborów">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fjak-wyglada-komunikacja-miejska-we-wroclawiu%2F" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i><span>Udostępnij na Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fjak-wyglada-komunikacja-miejska-we-wroclawiu%2F" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>Udostępnij na Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fjak-wyglada-komunikacja-miejska-we-wroclawiu%2F" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i><span>Udostępnij na Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+    
+    <h4 id="about-card-name">Szychta w danych</h4>
+    
+      <div id="about-card-bio">Blog o poznawaniu świata za pomocą danych</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Piotr Sobczyk
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://psobczyk.github.io/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://psobczyk.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+

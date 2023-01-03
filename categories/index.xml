@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Szychta w danych</title>
+    <link>https://psobczyk.github.io/categories/</link>
+    <description>Recent content in Categories on Szychta w danych</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl</language>
+    <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R</title>
+      <link>https://psobczyk.github.io/categories/r/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polska</title>
+      <link>https://psobczyk.github.io/categories/polska/</link>
+      <pubDate>Tue, 14 Jul 2020 06:45:17 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/polska/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wybory</title>
+      <link>https://psobczyk.github.io/categories/wybory/</link>
+      <pubDate>Thu, 02 Jul 2020 06:46:35 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/wybory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Świat</title>
+      <link>https://psobczyk.github.io/categories/%C5%9Bwiat/</link>
+      <pubDate>Sat, 21 Mar 2020 18:25:14 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/%C5%9Bwiat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ekonomia</title>
+      <link>https://psobczyk.github.io/categories/ekonomia/</link>
+      <pubDate>Sun, 01 Mar 2020 08:23:29 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/ekonomia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Książka</title>
+      <link>https://psobczyk.github.io/categories/ksi%C4%85%C5%BCka/</link>
+      <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/ksi%C4%85%C5%BCka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statystyka</title>
+      <link>https://psobczyk.github.io/categories/statystyka/</link>
+      <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/statystyka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wrocław</title>
+      <link>https://psobczyk.github.io/categories/wroc%C5%82aw/</link>
+      <pubDate>Fri, 13 Oct 2017 15:22:30 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/wroc%C5%82aw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matematyka</title>
+      <link>https://psobczyk.github.io/categories/matematyka/</link>
+      <pubDate>Wed, 03 Sep 2014 16:56:09 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/matematyka/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/psobczyk.github.io\/",
+  "author": {
+    "@type": "Person",
+    "name": "Szychta w danych",
+    
+    "image": "https://psobczyk.github.io/img/icon.png"
+    
+  },
+  "name":"Szychta w danych",
+  "description":"install.packages(\u0026#34;reticulate\u0026#34;, repos=\u0026#34;http:\/\/cran.us.r-project.org\u0026#34;) \u0026ldquo;Dlaczego wersje bibliotek mają znaczenie?\u0026rdquo;\nDlaczego to jest istotne?\nUse case:\nmamy dwa projekty. Jeden stworzyliśmy rok temu, drugi rozwijamy dzisiaj. Mając na komputerze jedną wersję pakietów (R lub Python) może się okazać, że stary kod przestaje nam działać na nowych pakietach. Co gorsze nie jesteśmy w stanie go uruchomić, bo nie pamiętamy jakie są wersje, które mieliśmy onegdaj zainstalowane. Mamy 3 osoby w zespole, każda z nich niezależnie rozwija ten sam kod korzystając z systemu kontroli wersji.",
+  "url":"https:\/\/psobczyk.github.io\/draft\/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami\/",
+  "keywords":"[]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.109.0 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Szychta w danych">
+<meta name="keywords" content="">
+<meta name="description" content="install.packages(&#34;reticulate&#34;, repos=&#34;http://cran.us.r-project.org&#34;) &ldquo;Dlaczego wersje bibliotek mają znaczenie?&rdquo;
+Dlaczego to jest istotne?
+Use case:
+mamy dwa projekty. Jeden stworzyliśmy rok temu, drugi rozwijamy dzisiaj. Mając na komputerze jedną wersję pakietów (R lub Python) może się okazać, że stary kod przestaje nam działać na nowych pakietach. Co gorsze nie jesteśmy w stanie go uruchomić, bo nie pamiętamy jakie są wersje, które mieliśmy onegdaj zainstalowane. Mamy 3 osoby w zespole, każda z nich niezależnie rozwija ten sam kod korzystając z systemu kontroli wersji.">
+
+
+<meta property="og:description" content="install.packages(&#34;reticulate&#34;, repos=&#34;http://cran.us.r-project.org&#34;) &ldquo;Dlaczego wersje bibliotek mają znaczenie?&rdquo;
+Dlaczego to jest istotne?
+Use case:
+mamy dwa projekty. Jeden stworzyliśmy rok temu, drugi rozwijamy dzisiaj. Mając na komputerze jedną wersję pakietów (R lub Python) może się okazać, że stary kod przestaje nam działać na nowych pakietach. Co gorsze nie jesteśmy w stanie go uruchomić, bo nie pamiętamy jakie są wersje, które mieliśmy onegdaj zainstalowane. Mamy 3 osoby w zespole, każda z nich niezależnie rozwija ten sam kod korzystając z systemu kontroli wersji.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="R vs Python. Zarządzanie zależnościami">
+<meta name="twitter:title" content="R vs Python. Zarządzanie zależnościami">
+<meta property="og:url" content="https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/">
+<meta property="twitter:url" content="https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/">
+<meta property="og:site_name" content="Szychta w danych">
+<meta property="og:description" content="install.packages(&#34;reticulate&#34;, repos=&#34;http://cran.us.r-project.org&#34;) &ldquo;Dlaczego wersje bibliotek mają znaczenie?&rdquo;
+Dlaczego to jest istotne?
+Use case:
+mamy dwa projekty. Jeden stworzyliśmy rok temu, drugi rozwijamy dzisiaj. Mając na komputerze jedną wersję pakietów (R lub Python) może się okazać, że stary kod przestaje nam działać na nowych pakietach. Co gorsze nie jesteśmy w stanie go uruchomić, bo nie pamiętamy jakie są wersje, które mieliśmy onegdaj zainstalowane. Mamy 3 osoby w zespole, każda z nich niezależnie rozwija ten sam kod korzystając z systemu kontroli wersji.">
+<meta name="twitter:description" content="install.packages(&#34;reticulate&#34;, repos=&#34;http://cran.us.r-project.org&#34;) &ldquo;Dlaczego wersje bibliotek mają znaczenie?&rdquo;
+Dlaczego to jest istotne?
+Use case:
+mamy dwa projekty. Jeden stworzyliśmy rok temu, drugi rozwijamy dzisiaj. Mając na komputerze jedną wersję pakietów (R lub Python) może się okazać, że stary kod przestaje nam działać na nowych pakietach. Co gorsze nie jesteśmy w stanie go uruchomić, bo nie pamiętamy jakie są wersje, które mieliśmy onegdaj zainstalowane. Mamy 3 osoby w zespole, każda z nich niezależnie rozwija ten sam kod korzystając z systemu kontroli wersji.">
+<meta property="og:locale" content="pl">
+
+  
+    <meta property="article:published_time" content="2023-01-03T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2023-01-03T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="R">
+    
+  
+  
+    
+      <meta property="article:tag" content="programowanie">
+    
+      <meta property="article:tag" content="python">
+    
+      <meta property="article:tag" content="R">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://psobczyk.github.io/img/icon.png">
+  <meta property="twitter:image" content="https://psobczyk.github.io/img/icon.png">
+
+
+
+
+
+
+    <title>R vs Python. Zarządzanie zależnościami</title>
+
+    <link rel="icon" href="https://psobczyk.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://psobczyk.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-90780052-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="1">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://psobczyk.github.io/" aria-label="Wróć do strony głównej">Szychta w danych</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://psobczyk.github.io/#about" aria-label="Otwórz link: /#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="1">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://psobczyk.github.io/#about" aria-label="Przeczytaj więcej o autorze">
+          <img class="sidebar-profile-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+        </a>
+        <h4 class="sidebar-profile-name">Szychta w danych</h4>
+        
+          <h5 class="sidebar-profile-bio">Blog o poznawaniu świata za pomocą danych</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Strona domowa</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Kategorie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tagi</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archiwum</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu" title="O blogu">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about" title="O mnie">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects" title="Projekty">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-typewriter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/szkolenia-z-analizy-danych" title="Szkolenia">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-chalkboard-teacher" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Szkolenia</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu/" title="O blogu">
+    
+      
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about/" title="O mnie">
+    
+      
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects/" title="Projekty">
+    
+      
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/psobczyk" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/szychtawdanych" target="_blank" rel="noopener" title="Facebook">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-facebook-square" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://pl.linkedin.com/in/psobczyk" target="_blank" rel="noopener" title="Linkedin">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/szychtawdanych" target="_blank" rel="noopener" title="Twitter">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="1"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      R vs Python. Zarządzanie zależnościami
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2023-01-03T00:00:00Z">
+        
+  
+  
+  
+  
+    3 Styczeń 2023
+  
+
+      </time>
+    
+    
+  
+  
+    <span>w</span>
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/r">R</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <pre tabindex="0"><code>install.packages(&#34;reticulate&#34;, repos=&#34;http://cran.us.r-project.org&#34;)
+</code></pre><p>&ldquo;Dlaczego wersje bibliotek mają znaczenie?&rdquo;</p>
+<p>Dlaczego to jest istotne?</p>
+<p>Use case:</p>
+<ol>
+<li>mamy dwa projekty. Jeden stworzyliśmy rok temu, drugi rozwijamy dzisiaj. Mając na komputerze jedną wersję pakietów (R lub Python) może się okazać, że stary kod przestaje nam działać na nowych pakietach. Co gorsze nie jesteśmy w stanie go uruchomić, bo nie pamiętamy jakie są wersje, które mieliśmy onegdaj zainstalowane.</li>
+<li>Mamy 3 osoby w zespole, każda z nich niezależnie rozwija ten sam kod korzystając z systemu kontroli wersji. Po spięciu w jedną całość okazuje się, że wersje zależności są ze sobą niezgodne.
+Przykład: pandas &lt; 1.0.0 pozwalał na dosyć liberalne nadpisywanie wartości w kolumnach i wierszach. Obecnie powoduje to błędy. pakiety z tidyverse są znane z tego, że nie są wstecznie kompatybilne.</li>
+<li>Napisaliśmy oprogramowanie którym chcemy podzielić się ze światem jako open-source. Skąd osoba, która miałaby z niego skorzystać ma wiedzieć jakie inne biblioteki musi mieć zainstalowane?</li>
+</ol>
+<p>Czyli:</p>
+<blockquote>
+<p>Jeżeli mamy więcej niż jeden projekt i/lub współpracujemy z co najmniej jedną osobą to kontrola nad zależnościami będzie dla nas przydatna.
+Anonimowy mieszkaniec Jeżyc</p>
+</blockquote>
+<p>Uwaga! To nie jest sztuka dla sztuki! To jest konieczność jeśli chce się pisać coś więcej niż skrypty na zaliczenie przedmiotu.</p>
+<p>Mamy dwa podstawowe problemy, które musimy rozwiązać:</p>
+<ol>
+<li>Jak skutecznie określić wymagania dotyczące bibliotek (i dzielić się nimi pomiędzy różnymi użytkownikami/komputerami)?</li>
+<li>Jak rozwiązać problem powstawania konfliktów pomiędzy zależnościami (głównie dotyczy Pythona)</li>
+</ol>
+<h2 id="dependency-management-w-pythonie">Dependency management w Pythonie</h2>
+<p>W Pythonie mamy <a href="https://modelpredict.com/python-dependency-management-tools">kilka opcji</a>, między innymi pipenv, pip + venv, poetry, conda. Na potrzeby tych zajęć skupię się na opcji pip+env - jest on prosty, choć niepozbawiony wad.</p>
+<p>Dlaczego jest tak dużo opcji? Bo zarządzanie zależnościami to zadanie łatwe do sformułowania, ale trudne do zrealizowania. Niektóre biblioteki mają sprzeczne zależności. Znajdowanie ,,najlepszego wspólnego mianownika&quot; nie jest trywialen gdy mówimy o dziesiątkach czy setkach pakietów.</p>
+<p>Są możliwe różne ,,flow&quot;.</p>
+<p>Conda, pip+venv: instalujemy kolejne biblioteki, przy konfliktach wersji zależności dostajemy o nich informacje.
+Zależności są określane w pliku <code>requirements.txt</code>. Jednak to nie koniec problemów - przecież grupa zależności dla naszych bibliotek w najnowszych wersjach może, z czasem, stać się sprzeczna.
+Każda biblioteka ma swoje zależności - mamy wiec ogromne drzewo zależności. Potrzebny jest specjalny software, który je ,,rozwiąże&quot;.</p>
+<p>Mamy dwie opcje: albo określimy dokładnie wersje naszych bibliotek, albo może się okazać, że w pewnym momencie aktualizacje spowodują, że nasze środowisko przestanie działać. Więcej info w <a href="https://kennethreitz.org/essays/2016/02/25/a-better-pip-workflow">blog poście</a>.</p>
+<p>Określenie wszystkich wersji na stałe i ich całkowite niezmienianie bardzo utrudnia to, aby software którego używamy był rozsądnie aktualny - jedna z dobrych zasad tworzenia oprogramowania.</p>
+<p>Idealnego rozwiązania nie ma, ale są sposoby jak sobie z tym radzić.</p>
+<h4 id="pipenv">pipenv</h4>
+<p>Pipfile: określenie zależności, które chcemy mieć.</p>
+<p>Pipfile.lock - określenie dokładnych wersji wszystkich zależności (deterministic build).</p>
+<p>Podobnie radzi sobie poetry.</p>
+<p>Wniosek:</p>
+<ul>
+<li>nie ma jednego jasne zwycięzcy. Każda opcja ma swoje zalety i wady. Diabeł tkwi w szczegółach.</li>
+</ul>
+<h3 id="pip--venv--pip-tools">pip + venv + pip-tools</h3>
+<p>Każdy ma prawo używać czego chce, ale przedstawię kod dla opcji, która dla mnie osobiście jest najwygodniejsza.</p>
+<ol>
+<li>Tworzymy nowe środowisko w ukrytym folderze <code>.venv</code></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3.8 -m venv .venv
+</span></span></code></pre></div><ol start="2">
+<li>Aktywujemy środowisko</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>source .venv/bin/activate
+</span></span></code></pre></div><p>Teraz komenda <code>python</code> będzie odwoływać się do pythona z naszego wirtualnego środowiska.</p>
+<ol start="3">
+<li>Instalujemy pip-toolsy</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install -U pip setuptools wheel
+</span></span></code></pre></div><ol start="4">
+<li>Określamy plik requirements.in</li>
+</ol>
+<pre tabindex="0"><code>pandas
+numpy
+sqlalchemy
+</code></pre><ol start="5">
+<li>Tworzymy requirements z dokładnymi wersjami bibliotek</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip-compile requirements.in
+</span></span></code></pre></div><ol start="6">
+<li>Instalujemy biblioteki</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install -r <span style="color:#66d9ef">$(</span>PROJECT_DIR<span style="color:#66d9ef">)</span>/requirements.txt
+</span></span></code></pre></div><p>Uwaga: w systemie kontroli wersji potrzebujemy zarówno pliku <code>requirements.in</code> jak i <code>requirements.txt</code></p>
+<h2 id="dependency-management-w-r">Dependency management w R</h2>
+<p>R, jak wiadomo, jest językiem programowania nastawionym na analizę danych. Po to został stworzony prawie 30 lat temu.</p>
+<blockquote>
+<p>„Nie można zrobić konia wyścigowego ze świni. – Nie – odparł Samuel – Ale można z niej zrobić bardzo szybą świnię.“
+John Steinbeck, Na wschód od Edenu</p>
+</blockquote>
+<p>Tworzenie oprogramowania w R jest utrudnione, bo narzedzie do tego służące są mniej rozwinięte niż w Pythonie. Wynika to także z tego, że społeczność eRowa jest bardzie skupiona na tym jak wydobyć informację z danych niż jak zbudować dobrze działający (od strony czysto inżynierskiej) system.</p>
+<p>Jeszcze kilka lat temu jedyną opcją był <a href="https://rstudio.github.io/packrat/">packrat</a>.</p>
+<blockquote>
+<p>Posługujący się wynalazkiem strzelec, zapytany o przydatność broni, miał podobno wyrazić, że kulomiot jest jak jego teściowa. Ciężki, brzydki, całkowicie bezużyteczny i nic, tylko wziąć i utopić w rzece.
+Andrzej Sapkowski, Sezon burz</p>
+</blockquote>
+<p>Ale od tego czasu sporo się zmieniło i mamy <a href="https://cran.r-project.org/web/packages/renv/vignettes/renv.html">renv</a>. Pozwala on łatwo określić zależności i się nimi dzielić za pomocą systemu kontroli wersji.</p>
+<pre tabindex="0"><code>library(renv)
+# install some packages
+renv::snapshot() # creates a lock file (similar to Pipfile.lock)
+
+# install some more
+
+renv::restore() # if sth breaks
+
+renv::snapshot() # to lock new versions
+</code></pre><p>Dostajmy plik, który wygląda mniej więcej tak:</p>
+<pre tabindex="0"><code>{
+  &#34;R&#34;: {
+    &#34;Version&#34;: &#34;4.0.5&#34;,
+    &#34;Repositories&#34;: [
+      {
+        &#34;Name&#34;: &#34;CRAN&#34;,
+        &#34;URL&#34;: &#34;https://cran.rstudio.com&#34;
+      }
+    ]
+  },
+  &#34;Packages&#34;: {
+    &#34;renv&#34;: {
+      &#34;Package&#34;: &#34;renv&#34;,
+      &#34;Version&#34;: &#34;0.13.2&#34;,
+      &#34;Source&#34;: &#34;Repository&#34;,
+      &#34;Repository&#34;: &#34;CRAN&#34;,
+      &#34;Hash&#34;: &#34;079cb1f03ff972b30401ed05623cbe92&#34;
+    },
+    &#34;rmarkdown&#34;: {
+      &#34;Package&#34;: &#34;rmarkdown&#34;,
+      &#34;Version&#34;: &#34;2.11&#34;,
+      &#34;Source&#34;: &#34;Repository&#34;,
+      &#34;Repository&#34;: &#34;CRAN&#34;,
+      &#34;Hash&#34;: &#34;320017b52d05a943981272b295750388&#34;
+    }
+  }
+}
+</code></pre><p>Kiedy otrzymujemy go od współpracownika (lub siebe z przeszłości) uruchmiany renva i przywracamy środowisko:</p>
+<pre tabindex="0"><code>renv::init()
+</code></pre><p>Dlaczego nie ma tak dużego problemu ze ,,skonfliktowanymi&quot; wersjami? Wynika to z natury tego skąd się instaluje pakiety.</p>
+<p>W R mamy kilka głównych ,,źródeł pakietów&quot; (pacjkage repository). Przede wszystkim CRAN, ale dla zasstosowań biologicznych kluczowy jest <a href="https://www.bioconductor.org/">BioConductor</a>.
+Domyślnie, kiedy wywłouje się funkcje <code>install.packages()</code>, z CRAN ściągane są najnowsze wersje pakietów. Zapewnienie, że nie ma konfliktu między pakietem a jego zależnościami leży po stronie twórcy pakietu. Jeśli z jakiegoś powodu pakietu nie da się zbudować jest on usuwany z CRANa. Dzięki temu, w teorii, nie ma konfliktów. W praktyce mogą one wystąpić na poziomie uruchomienia programu &ldquo;runtime&rdquo;.</p>
+<p>Oczywiście pakiety są nie tylko na CRANie. Część jest dostępnych (wyłącznie) na githubie czy bitbuckecie. <code>renv</code> wspiera również ich instalację korzystając z pakietu <a href="https://cran.r-project.org/web/packages/remotes/vignettes/dependencies.html">remote</a></p>
+<p>Ten pakiet jest ciekawy, potrafi ścigać wersje z githuba na moment konkretnego commita. Więc w teorii, mógłby on służyć do określenia dokładnych zależności. Ale ponieważ nie wszystkie pakiety są open sourcowe (a te, które są nieczęsto określają wygodnie wersje dostępne na githubie), to nie jest to rozwiązanie, które byłoby wystarczająco stabilne.</p>
+<p>Jednak na debugowanie ewentualnie się nada.</p>
+<p>W podejściu do zarządzania zależnościami widzimy ogromną różnicę w filozofii stojącej za R i Pythonem.</p>
+<pre tabindex="0"><code>import this
+</code></pre><blockquote>
+<p>Explicit is better than implicit.</p>
+</blockquote>
+<p>Python wymaga dokładnego określenia zależności tak, żeby nie zaskakiwały nas podczas uruchomienia programu. R idzie bardziej na żywioł, ale jednocześnie jest mocno wymagający względem osób, które chcą się dzielić kodem.</p>
+<p>Mini ciekawostka: Python czasem się wyłamuje z zasady z poematu: strong, implicit types.</p>
+<h2 id="zadanie">Zadanie</h2>
+<ol>
+<li>Stwórz repozytorium na githubie.</li>
+<li>Zainicjuj lokalnie nowy projekt w swoim ulubionym IDE.</li>
+<li>Określ zależności (kilka bibliotek, które zwykle używasz pandas, numpy, dplyr, ggplot2 etc), wygeneruj ich dokładne wersje i zrób commita.</li>
+<li>Utwórz nowy projekt klonując repozytorium innej osoby. Stwórz nowe środowisko na podstawie pliku z lockiem.</li>
+</ol>
+
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">OTAGOWANO JAKO</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/programowanie/">programowanie</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/python/">python</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/r/">R</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https:\/\/psobczyk.github.io\/draft\/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami\/';
+        
+          this.page.identifier = '\/draft\/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami\/'
+        
+      };
+      (function() {
+        
+        
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          return;
+        }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'szychta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Szychta w danych. Wszystkie prawa zastrzeżone
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="1">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpsobczyk.github.io%2Fdraft%2F2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami%2F" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i><span>Udostępnij na Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fpsobczyk.github.io%2Fdraft%2F2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami%2F" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>Udostępnij na Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpsobczyk.github.io%2Fdraft%2F2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami%2F" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i><span>Udostępnij na Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+    
+    <h4 id="about-card-name">Szychta w danych</h4>
+    
+      <div id="about-card-bio">Blog o poznawaniu świata za pomocą danych</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Piotr Sobczyk
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://psobczyk.github.io/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://psobczyk.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+

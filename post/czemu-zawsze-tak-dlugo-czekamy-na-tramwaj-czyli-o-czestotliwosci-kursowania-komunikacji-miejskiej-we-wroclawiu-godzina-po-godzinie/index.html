@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/psobczyk.github.io\/",
+  "author": {
+    "@type": "Person",
+    "name": "Szychta w danych",
+    
+    "image": "https://psobczyk.github.io/img/icon.png"
+    
+  },
+  "name":"Szychta w danych",
+  "description":"Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo\u0026hellip; nie ma na nie miejsca.",
+  "url":"https:\/\/psobczyk.github.io\/post\/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie\/",
+  "keywords":"[]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.109.0 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Szychta w danych">
+<meta name="keywords" content="">
+<meta name="description" content="Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&hellip; nie ma na nie miejsca.">
+
+
+<meta property="og:description" content="Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&hellip; nie ma na nie miejsca.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie">
+<meta name="twitter:title" content="Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie">
+<meta property="og:url" content="https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/">
+<meta property="twitter:url" content="https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/">
+<meta property="og:site_name" content="Szychta w danych">
+<meta property="og:description" content="Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&hellip; nie ma na nie miejsca.">
+<meta name="twitter:description" content="Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&hellip; nie ma na nie miejsca.">
+<meta property="og:locale" content="pl">
+
+  
+    <meta property="article:published_time" content="2015-02-22T19:13:41">
+  
+  
+    <meta property="article:modified_time" content="2015-02-22T19:13:41">
+  
+  
+  
+    
+      <meta property="article:section" content="R">
+    
+      <meta property="article:section" content="Wrocław">
+    
+  
+  
+    
+      <meta property="article:tag" content="analiza danych">
+    
+      <meta property="article:tag" content="animacja">
+    
+      <meta property="article:tag" content="ggplot">
+    
+      <meta property="article:tag" content="mpk">
+    
+      <meta property="article:tag" content="R">
+    
+      <meta property="article:tag" content="transport">
+    
+      <meta property="article:tag" content="wizualizacja">
+    
+      <meta property="article:tag" content="Wrocław">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://psobczyk.github.io/img/icon.png">
+  <meta property="twitter:image" content="https://psobczyk.github.io/img/icon.png">
+
+
+
+
+
+
+    <title>Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie</title>
+
+    <link rel="icon" href="https://psobczyk.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://psobczyk.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-90780052-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://psobczyk.github.io/" aria-label="Wróć do strony głównej">Szychta w danych</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://psobczyk.github.io/#about" aria-label="Otwórz link: /#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://psobczyk.github.io/#about" aria-label="Przeczytaj więcej o autorze">
+          <img class="sidebar-profile-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+        </a>
+        <h4 class="sidebar-profile-name">Szychta w danych</h4>
+        
+          <h5 class="sidebar-profile-bio">Blog o poznawaniu świata za pomocą danych</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Strona domowa</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Kategorie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tagi</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archiwum</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu" title="O blogu">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about" title="O mnie">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects" title="Projekty">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-typewriter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/szkolenia-z-analizy-danych" title="Szkolenia">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-chalkboard-teacher" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Szkolenia</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu/" title="O blogu">
+    
+      
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about/" title="O mnie">
+    
+      
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects/" title="Projekty">
+    
+      
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/psobczyk" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/szychtawdanych" target="_blank" rel="noopener" title="Facebook">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-facebook-square" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://pl.linkedin.com/in/psobczyk" target="_blank" rel="noopener" title="Linkedin">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/szychtawdanych" target="_blank" rel="noopener" title="Twitter">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2015-02-22T19:13:41Z">
+        
+  
+  
+  
+  
+    22 Luty 2015
+  
+
+      </time>
+    
+    
+  
+  
+    <span>w</span>
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/r">R</a>, 
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/wroc%c5%82aw">Wrocław</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <p>Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&hellip; nie ma na nie miejsca. Właściwie wszystkie linie kursują przez ścisłe centrum miasta. Zupełnie inaczej ma się sprawa z autobusami.</p>
+<!-- raw HTML omitted -->
+<p>W <a href="https://szychtawdanych.wordpress.com/2015/02/19/jak-wyglada-komunikacja-miejska-we-wroclawiu/">poprzednim wpisie</a> pokazałem jak wygląda natężenie kursów mpk, ale nie napisałem zbyt dużo o kodzie eRowym. Tym razem oprócz nowych rysunków, animacji, pokażę dokładniej jak można je uzyskać w R.</p>
+<p>Zobaczmy zatem jak wygląda natężenie kursów tramwajowych i autobusowych w dni robocze.
+Oto pierwsza grafika:</p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/animacja_mpk2.gif" alt="animacja_mpk2"></p>
+<p>Być może jest to kwestia złego doboru kolorów i skali przezroczystości, ale ten wykres wydaje mi się mało czytelny. Użycie jasnego koloru dla rejonów o wyższej intensywności, które było naturalnym wyborem dla wykresów z poprzedniego wpisu, w połączeniu z animacją, daje mi mylne intuicje. Być może jest to kwestia indywidualna, ale dla mnie każda zmiana koloru na ciemniejszy przykuwa uwagę. Wobec tego mimo, że kursów ubywa, ja mam wrażenie jakby trend był odwrotny. Spróbujemy temu zaradzić za pomocą nowego rysunku</p>
+<p><img src="https://szychtawdanych.files.wordpress.com/2015/02/animacja_mpk4.gif" alt="animacja_mpk4"></p>
+<p>Wydaje mi się, że jest on dużo bardziej przejrzysty od poprzedniego. Bardzo klarownie widać na nim zarówno rozjeżdżanie się tramwajów z i do zajezdni, jak i istotną redukcję liczby kursów w środku dnia. Ciekawy jest też rozkład kursowania autobusów nocnych, pokrywają one, mniej więcej jednostajnie, cały obszar miasta.</p>
+<p>A teraz czas na pokazanie bebechów.</p>
+<p><strong>Wczytywanie i przetwarzanie danych</strong></p>
+<p>Do przetwarzania danych używam pakietu dplyr. Dla chcących poznać tajniki tego pakietu polecam <a href="http://www.rstudio.com/resources/cheatsheets/">ściągawkę</a> ze strony RStudio.</p>
+<pre><code>przystanki dec=&quot;,&quot;, colClasses=c(&quot;numeric&quot;,&quot;numeric&quot;,&quot;numeric&quot;,&quot;factor&quot;),
+col.names = c('lon', 'lat', 'id', 'type'))
+levels(przystanki$type) %
+filter(slupek %in% przystanki$id) %&gt;%
+inner_join(przystanki, by = c(&quot;slupek&quot; = &quot;id&quot;)) -&gt; rozklady_przystanki
+</code></pre>
+<p>Zwracam uwagę na możliwość wykonywania operacji łączenia dwóch ramek danych, w taki sam sposób, jak robi się to z tabelami w SQLu.
+Interesuje nas podział na linie tramwajowe i autobusowe</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>tramwaje <span style="color:#f92672">=</span> <span style="color:#a6e22e">factor</span>(<span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#39;0L&#39;</span>, <span style="color:#e6db74">&#39;0P&#39;</span>, <span style="color:#e6db74">&#39;1&#39;</span>, <span style="color:#e6db74">&#39;10&#39;</span>, <span style="color:#e6db74">&#39;11&#39;</span>, <span style="color:#e6db74">&#39;14&#39;</span>, <span style="color:#e6db74">&#39;15&#39;</span>, <span style="color:#e6db74">&#39;17&#39;</span>, <span style="color:#e6db74">&#39;2&#39;</span>, <span style="color:#e6db74">&#39;20&#39;</span>, <span style="color:#e6db74">&#39;23&#39;</span>, <span style="color:#e6db74">&#39;24&#39;</span>, <span style="color:#e6db74">&#39;3&#39;</span>, <span style="color:#e6db74">&#39;31&#39;</span>, <span style="color:#e6db74">&#39;32&#39;</span>, <span style="color:#e6db74">&#39;33&#39;</span>, <span style="color:#e6db74">&#39;4&#39;</span>, <span style="color:#e6db74">&#39;5&#39;</span>, <span style="color:#e6db74">&#39;6&#39;</span>, <span style="color:#e6db74">&#39;7&#39;</span>, <span style="color:#e6db74">&#39;8&#39;</span>, <span style="color:#e6db74">&#39;9&#39;</span>),
+</span></span><span style="display:flex;"><span>levels <span style="color:#f92672">=</span> <span style="color:#a6e22e">levels</span>(rozklady_przystanki<span style="color:#f92672">$</span>linia))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rozklady_przystanki <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">filter</span>(dzien<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;roboczy&#34;</span>,
+</span></span><span style="display:flex;"><span>linia <span style="color:#f92672">%in%</span> tramwaje) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mutate</span>(typ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;tramwaj&#34;</span>) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">select</span>(slupek, lon, lat, typ, godzina) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">bind_rows</span>(rozklady_przystanki <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">filter</span>(dzien<span style="color:#f92672">==</span><span style="color:#e6db74">&#34;roboczy&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#f92672">!</span> linia <span style="color:#f92672">%in%</span> tramwaje) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mutate</span>(typ <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;autobus&#34;</span>) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">select</span>(slupek, lon, lat, typ, godzina)) <span style="color:#f92672">-&gt;</span> rozklady_dzien_roboczy
+</span></span></code></pre></div><p><strong>Tworzenie pierwszej animacji</strong></p>
+<p>Animacje w R tworzę za pomocą pakietu <a href="http://cran.r-project.org/web/packages/animation/index.html">animation</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">require</span>(animation)
+</span></span><span style="display:flex;"><span>wroclaw <span style="color:#f92672">=</span> <span style="color:#a6e22e">get_map</span>(<span style="color:#e6db74">&#34;wrocław&#34;</span>, color<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bw&#34;</span>, zoom <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span>)
+</span></span><span style="display:flex;"><span>WroclawMap <span style="color:#f92672">=</span> <span style="color:#a6e22e">ggmap</span>(wroclaw, extent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;device&#34;</span>, legend <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;bottom&#34;</span>)
+</span></span><span style="display:flex;"><span>godziny <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">:</span><span style="color:#ae81ff">23</span>
+</span></span><span style="display:flex;"><span>plot_mpk <span style="color:#f92672">=</span> <span style="color:#a6e22e">function</span>(){
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#a6e22e">length</span>(godziny)){
+</span></span><span style="display:flex;"><span>tytul <span style="color:#f92672">=</span> <span style="color:#a6e22e">paste</span>(<span style="color:#e6db74">&#34;Natężenie ruchu komunikacji miejskiej we Wrocławiunmiędzy godzinami&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">paste</span>(godziny[[i]], <span style="color:#e6db74">&#34;a&#34;</span>, godziny[[i]]<span style="color:#ae81ff">+1</span>, collapse<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;,&#34;</span>))
+</span></span><span style="display:flex;"><span>p <span style="color:#f92672">=</span> WroclawMap <span style="color:#f92672">+</span> <span style="color:#a6e22e">stat_density2d</span>(
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> lon, y <span style="color:#f92672">=</span> lat, fill <span style="color:#f92672">=</span> ..level.., alpha <span style="color:#f92672">=</span>..level..),
+</span></span><span style="display:flex;"><span>size <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>, bins<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>,
+</span></span><span style="display:flex;"><span>data <span style="color:#f92672">=</span> rozklady_dzien_roboczy <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">filter</span>(godzina <span style="color:#f92672">%in%</span> godziny[[i]]),
+</span></span><span style="display:flex;"><span>geom <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;polygon&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">scale_alpha</span>(range <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">.05</span>, <span style="color:#ae81ff">.3</span>), guide <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">scale_fill_gradient</span>(<span style="color:#e6db74">&#34;Natężenienkomunikacjinmiejskiej&#34;</span>, guide <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;colourbar&#34;</span>,
+</span></span><span style="display:flex;"><span>limits<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">800</span>)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">guides</span>(fill <span style="color:#f92672">=</span> <span style="color:#a6e22e">guide_colorbar</span>(barwidth <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>, barheight <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">facet_grid</span>(. <span style="color:#f92672">~</span>typ) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ggtitle</span>(tytul) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span>(plot.title<span style="color:#f92672">=</span><span style="color:#a6e22e">element_text</span>(size<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>, face<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bold&#34;</span>, colour<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;steelblue&#34;</span>))
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(p)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>oopt <span style="color:#f92672">=</span> <span style="color:#a6e22e">ani.options</span>(interval <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>, nmax <span style="color:#f92672">=</span> <span style="color:#a6e22e">length</span>(godziny), ani.width <span style="color:#f92672">=</span> <span style="color:#ae81ff">1100</span>, ani.height <span style="color:#f92672">=</span> <span style="color:#ae81ff">700</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">saveGIF</span>(<span style="color:#a6e22e">plot_mpk</span>(), movie.name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nazwa_pliku.gif&#34;</span>)
+</span></span></code></pre></div><p>Tworzenie drugiej animacji</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span>WroclawMap <span style="color:#f92672">=</span> <span style="color:#a6e22e">ggmap</span>(wroclaw, extent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;device&#34;</span>, legend <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;bottomright&#34;</span>)
+</span></span><span style="display:flex;"><span>godziny <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span><span style="color:#f92672">:</span><span style="color:#ae81ff">23</span>
+</span></span><span style="display:flex;"><span>plot_mpk <span style="color:#f92672">=</span> <span style="color:#a6e22e">function</span>(){
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">for</span>(i in <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#a6e22e">length</span>(godziny)){
+</span></span><span style="display:flex;"><span>tytul <span style="color:#f92672">=</span> <span style="color:#a6e22e">paste</span>(<span style="color:#e6db74">&#34;Natężenie ruchu na przystankach komunikacji miejskiej we Wrocławiunmiędzy godzinami&#34;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">paste</span>(godziny[[i]], <span style="color:#e6db74">&#34;a&#34;</span>, godziny[[i]]<span style="color:#ae81ff">+1</span>, collapse<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;,&#34;</span>))
+</span></span><span style="display:flex;"><span>p <span style="color:#f92672">=</span> WroclawMap <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">geom_point</span>(<span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> lon, y <span style="color:#f92672">=</span> lat, color <span style="color:#f92672">=</span> typ, size <span style="color:#f92672">=</span> count, alpha <span style="color:#f92672">=</span><span style="color:#ae81ff">.4</span>),
+</span></span><span style="display:flex;"><span>data <span style="color:#f92672">=</span> rozklady_dzien_roboczy <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">filter</span>(godzina <span style="color:#f92672">%in%</span> godziny[[i]]) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">group_by</span>(slupek, lon, lat, typ) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">summarise</span>(count <span style="color:#f92672">=</span> <span style="color:#a6e22e">n</span>()) <span style="color:#f92672">%&gt;%</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">select</span>(lon, lat, typ, count)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">scale_alpha</span>(guide <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">scale_color_discrete</span>(<span style="color:#e6db74">&#34;Rodzaj przystanku&#34;</span>) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">scale_size_area</span>(<span style="color:#e6db74">&#34;Liczba połączeń na dobę&#34;</span>, max_size <span style="color:#f92672">=</span> <span style="color:#ae81ff">15</span>, limits<span style="color:#f92672">=</span><span style="color:#a6e22e">c</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">100</span>)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ggtitle</span>(tytul) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span>(plot.title<span style="color:#f92672">=</span><span style="color:#a6e22e">element_text</span>(size<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>, face<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bold&#34;</span>, colour<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;steelblue&#34;</span>))
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(p)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>oopt <span style="color:#f92672">=</span> <span style="color:#a6e22e">ani.options</span>(interval <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>, nmax <span style="color:#f92672">=</span> <span style="color:#a6e22e">length</span>(godziny), ani.width <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>, ani.height <span style="color:#f92672">=</span> <span style="color:#ae81ff">1000</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">saveGIF</span>(<span style="color:#a6e22e">plot_mpk</span>(), movie.name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;nazwa_pliku.gif&#34;</span>)
+</span></span></code></pre></div>
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">OTAGOWANO JAKO</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/analiza-danych/">analiza danych</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/animacja/">animacja</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/ggplot/">ggplot</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/mpk/">mpk</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/r/">R</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/transport/">transport</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/wizualizacja/">wizualizacja</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/wroc%C5%82aw/">Wrocław</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/" data-tooltip="Infografika dotycząca wyborów samorządowych i co z niej wynika" aria-label="NASTĘPNA: Infografika dotycząca wyborów samorządowych i co z niej wynika">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/" data-tooltip="Jak wygląda komunikacja miejska we Wrocławiu?" aria-label="POPRZEDNIA: Jak wygląda komunikacja miejska we Wrocławiu?">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https:\/\/psobczyk.github.io\/post\/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie\/';
+        
+          this.page.identifier = '\/post\/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie\/'
+        
+      };
+      (function() {
+        
+        
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          return;
+        }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'szychta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Szychta w danych. Wszystkie prawa zastrzeżone
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/" data-tooltip="Infografika dotycząca wyborów samorządowych i co z niej wynika" aria-label="NASTĘPNA: Infografika dotycząca wyborów samorządowych i co z niej wynika">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/" data-tooltip="Jak wygląda komunikacja miejska we Wrocławiu?" aria-label="POPRZEDNIA: Jak wygląda komunikacja miejska we Wrocławiu?">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fczemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie%2F" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i><span>Udostępnij na Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fczemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie%2F" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>Udostępnij na Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fczemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie%2F" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i><span>Udostępnij na Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+    
+    <h4 id="about-card-name">Szychta w danych</h4>
+    
+      <div id="about-card-bio">Blog o poznawaniu świata za pomocą danych</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Piotr Sobczyk
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://psobczyk.github.io/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://psobczyk.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+
