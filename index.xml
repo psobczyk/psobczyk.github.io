@@ -20,6 +20,17 @@ mamy dwa projekty. Jeden stworzyliśmy rok temu, drugi rozwijamy dzisiaj. Mając
     </item>
     
     <item>
+      <title>Type hinting lub jak dawać wskazówki Pythonowemu interpretatorowi</title>
+      <link>https://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</link>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</guid>
+      <description>Uwaga, wpis techniczny!
+Kilka miesięcy temu została wypuszczona nowa wersja Pythona 3.9. Ponieważ dwa lata temu R przestał być językiem, w którym programuję ,,na co dzień&amp;quot; nowości Pythona mnie ciekawią i postanowiłem, że oprócz wykresów i analiz danych warto dzielić się także nieco bardziej technicznymi aspektami. To pierwsza odsłona nowej, technicznej twarzy Szychty :)
+Co znajdziemy w nowej wersji Pythona? Zestawień nowości jest w internecie bardzo dużo, choćby tutaj. Chciałbym się skupić na tej, która najbardziej mnie zainteresowała czyli uproszczenie typowania funkcji.</description>
+    </item>
+    
+    <item>
       <title>Przenoszenie bloga z Wordpressa do Hugo</title>
       <link>https://psobczyk.github.io/post/przenoszenie-bloga-do-hugo/</link>
       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
@@ -67,6 +78,18 @@ Powód pierwszy Banalny - nie znam się na epidemiologii :) Kilka kursów z rów
       <guid>https://psobczyk.github.io/post/biale-jest-czarne-a-czarne-jest-biale-lub-polityka-po-polsku/</guid>
       <description>Rządy lewicowe zwykle charakteryzuje dążenie do zrównywania dochodów, podczas gdy prawica, a już na pewno liberalne partie, prowadzą politykę, która powoduje wzrost nierówności. Ale nie w Polsce&amp;hellip;
 Być może czytelnicy Szychty mieli okazję czytać książkę ,,To nie jest kraj dla pracowników&amp;quot; Rafała Wosia. Jeśli nie to gorąco polecam! Wyłania się z niej smutny obraz rynku pracy w Polsce. Dla mnie zwłaszcza w kontekście istnienia osób, całych regionów i grup społecznych, spychanych na margines, wyłączonych z podziału wzrostu gospodarczego.</description>
+    </item>
+    
+    <item>
+      <title>Szkolenia z analizy danych</title>
+      <link>https://psobczyk.github.io/szkolenia-z-analizy-danych/</link>
+      <pubDate>Mon, 03 Feb 2020 19:49:23 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/szkolenia-z-analizy-danych/</guid>
+      <description>Od ponad 5 lat uczę R, statystyki i tematów związanych z machine learning. Interesuje Cię kurs dotyczący Data Science? Reprezentujesz firmę, która chce zorganizować szkolenie związane z analizą danych dla swoich pracowników? Trafiłeś we właściwe miejsce! Poniżej przedstawiam kilka możliwych wariantów.
+Podstawy R
+wczytywanie danych przetwarzania danych (pakiety dplyr, tidyr) wizualizacja danych (pakiet ggplot2) Metody wizualizacji danych
+Co oznacza, że wykres jest dobry? Czego należy unikać? pakiety ggplot2, leaflet Software development w R</description>
     </item>
     
     <item>

@@ -20,6 +20,17 @@ mamy dwa projekty. Jeden stworzyliśmy rok temu, drugi rozwijamy dzisiaj. Mając
     </item>
     
     <item>
+      <title>Type hinting lub jak dawać wskazówki Pythonowemu interpretatorowi</title>
+      <link>https://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</link>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</guid>
+      <description>Uwaga, wpis techniczny!
+Kilka miesięcy temu została wypuszczona nowa wersja Pythona 3.9. Ponieważ dwa lata temu R przestał być językiem, w którym programuję ,,na co dzień&amp;quot; nowości Pythona mnie ciekawią i postanowiłem, że oprócz wykresów i analiz danych warto dzielić się także nieco bardziej technicznymi aspektami. To pierwsza odsłona nowej, technicznej twarzy Szychty :)
+Co znajdziemy w nowej wersji Pythona? Zestawień nowości jest w internecie bardzo dużo, choćby tutaj. Chciałbym się skupić na tej, która najbardziej mnie zainteresowała czyli uproszczenie typowania funkcji.</description>
+    </item>
+    
+    <item>
       <title>Dentysta w każdej szkole - jak to zrobić w R</title>
       <link>https://psobczyk.github.io/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</link>
       <pubDate>Mon, 18 Jan 2016 16:30:11 +0000</pubDate>

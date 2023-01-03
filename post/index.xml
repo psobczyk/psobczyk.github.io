@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Type hinting lub jak dawać wskazówki Pythonowemu interpretatorowi</title>
+      <link>https://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</link>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</guid>
+      <description>Uwaga, wpis techniczny!
+Kilka miesięcy temu została wypuszczona nowa wersja Pythona 3.9. Ponieważ dwa lata temu R przestał być językiem, w którym programuję ,,na co dzień&amp;quot; nowości Pythona mnie ciekawią i postanowiłem, że oprócz wykresów i analiz danych warto dzielić się także nieco bardziej technicznymi aspektami. To pierwsza odsłona nowej, technicznej twarzy Szychty :)
+Co znajdziemy w nowej wersji Pythona? Zestawień nowości jest w internecie bardzo dużo, choćby tutaj. Chciałbym się skupić na tej, która najbardziej mnie zainteresowała czyli uproszczenie typowania funkcji.</description>
+    </item>
+    
     <item>
       <title>Przenoszenie bloga z Wordpressa do Hugo</title>
       <link>https://psobczyk.github.io/post/przenoszenie-bloga-do-hugo/</link>
