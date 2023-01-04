@@ -9,14 +9,12 @@
     <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R vs Python. Zarządzanie zależnościami</title>
-      <link>https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</link>
+      <link>https://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/draft/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</guid>
-      <description>install.packages(&amp;#34;reticulate&amp;#34;, repos=&amp;#34;http://cran.us.r-project.org&amp;#34;) &amp;ldquo;Dlaczego wersje bibliotek mają znaczenie?&amp;rdquo;
-Dlaczego to jest istotne?
-Use case:
-mamy dwa projekty. Jeden stworzyliśmy rok temu, drugi rozwijamy dzisiaj. Mając na komputerze jedną wersję pakietów (R lub Python) może się okazać, że stary kod przestaje nam działać na nowych pakietach. Co gorsze nie jesteśmy w stanie go uruchomić, bo nie pamiętamy jakie są wersje, które mieliśmy onegdaj zainstalowane. Mamy 3 osoby w zespole, każda z nich niezależnie rozwija ten sam kod korzystając z systemu kontroli wersji.</description>
+      <guid>https://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</guid>
+      <description>W ciągu najbliższych tygodni na Szychcie pojawi się seria wpisów, które mają przybliżyć tworzenie dobrej jakości kodu w kontekście przetwarzania danych. Wpisy będą techniczne, nie będzie wykresów i narracji zbudowanych na danych. Jednocześnie jest to dobra okazja do porównania dwóch języków programowania R i Pythona, z czego skorzystamy.
+Który język będzie górą? Czy filozofia, która za nimi stoi jest zbliżona? Która społeczność kładzie większy nacisk na tworzenie wysokiej jakości kodu?</description>
     </item>
     
     <item>
