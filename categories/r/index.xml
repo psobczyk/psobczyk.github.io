@@ -28,6 +28,39 @@ Pierwszym punktem jest znalezienie narzeczonej (continuum już zajęte, ale moż
     </item>
     
     <item>
+      <title>Quantile summary using dplyr</title>
+      <link>https://psobczyk.github.io/post/quantile-summary-using-dplyr/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/quantile-summary-using-dplyr/</guid>
+      <description>Say you want to compute quantile summary for multiple variables.
+require(dplyr) require(tidyr) require(broom) As an example let us use mtcars dataset.
+glimpse(mtcars) ## Observations: 32 ## Variables: 11 ## $ mpg &amp;lt;dbl&amp;gt; 21.0, 21.0, 22.8, 21.4, 18.7, 18.1, 14.3, 24.4, 22.8, 19.... ## $ cyl &amp;lt;dbl&amp;gt; 6, 6, 4, 6, 8, 6, 8, 4, 4, 6, 6, 8, 8, 8, 8, 8, 8, 4, 4, ... ## $ disp &amp;lt;dbl&amp;gt; 160.</description>
+    </item>
+    
+    <item>
+      <title>Days off worldwide</title>
+      <link>https://psobczyk.github.io/draft/days-off-worldwide/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/draft/days-off-worldwide/</guid>
+      <description> Getting the data </description>
+    </item>
+    
+    <item>
+      <title>Shapefiles in R using sf package</title>
+      <link>https://psobczyk.github.io/post/shapefiles-in-r/</link>
+      <pubDate>Thu, 05 Jul 2018 21:13:14 -0500</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/shapefiles-in-r/</guid>
+      <description>
+
+
+&lt;p&gt;The following is based on a &lt;a href=&#34;https://github.com/psobczyk/whyR_2018_workshop&#34;&gt;workshop&lt;/a&gt; I prepared for the &lt;a href=&#34;www.whyr.pl&#34;&gt;whyR conference&lt;/a&gt;. Handling shapefiles is one of the awesome things that R enables us to do. You don’t need to learn any specialized tools like ArcGIS or QGIS. All you need is R.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu</title>
       <link>https://psobczyk.github.io/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</link>
       <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>

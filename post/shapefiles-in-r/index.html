@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/psobczyk.github.io\/",
+  "author": {
+    "@type": "Person",
+    "name": "Szychta w danych",
+    
+    "image": "https://psobczyk.github.io/img/icon.png"
+    
+  },
+  "name":"Szychta w danych",
+  "description":"The following is based on a workshop I prepared for whyR conference. Handling shapefiles is one of the awesome things that R enables us to do. You don\u0027t need to learn any specialized tools like qGIS or arcGIS. All you need is R.",
+  "url":"https:\/\/psobczyk.github.io\/post\/shapefiles-in-r\/",
+  "keywords":"[]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.109.0 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Szychta w danych">
+<meta name="keywords" content="">
+<meta name="description" content="The following is based on a workshop I prepared for whyR conference. Handling shapefiles is one of the awesome things that R enables us to do. You don&#39;t need to learn any specialized tools like qGIS or arcGIS. All you need is R.">
+
+
+<meta property="og:description" content="The following is based on a workshop I prepared for whyR conference. Handling shapefiles is one of the awesome things that R enables us to do. You don&#39;t need to learn any specialized tools like qGIS or arcGIS. All you need is R.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shapefiles in R using sf package">
+<meta name="twitter:title" content="Shapefiles in R using sf package">
+<meta property="og:url" content="https://psobczyk.github.io/post/shapefiles-in-r/">
+<meta property="twitter:url" content="https://psobczyk.github.io/post/shapefiles-in-r/">
+<meta property="og:site_name" content="Szychta w danych">
+<meta property="og:description" content="The following is based on a workshop I prepared for whyR conference. Handling shapefiles is one of the awesome things that R enables us to do. You don&#39;t need to learn any specialized tools like qGIS or arcGIS. All you need is R.">
+<meta name="twitter:description" content="The following is based on a workshop I prepared for whyR conference. Handling shapefiles is one of the awesome things that R enables us to do. You don&#39;t need to learn any specialized tools like qGIS or arcGIS. All you need is R.">
+<meta property="og:locale" content="pl">
+
+  
+    <meta property="article:published_time" content="2018-07-05T21:13:14">
+  
+  
+    <meta property="article:modified_time" content="2018-07-05T21:13:14">
+  
+  
+  
+    
+      <meta property="article:section" content="R">
+    
+      <meta property="article:section" content="Wroclaw">
+    
+  
+  
+    
+      <meta property="article:tag" content="whyR">
+    
+      <meta property="article:tag" content="ggplot">
+    
+      <meta property="article:tag" content="osm">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://psobczyk.github.io/img/icon.png">
+  <meta property="twitter:image" content="https://psobczyk.github.io/img/icon.png">
+
+
+
+
+
+
+    <title>Shapefiles in R using sf package</title>
+
+    <link rel="icon" href="https://psobczyk.github.io/img/icon-32.png">
+    
+
+    
+
+    <link rel="canonical" href="https://psobczyk.github.io/post/shapefiles-in-r/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://psobczyk.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-90780052-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://psobczyk.github.io/" aria-label="Wróć do strony głównej">Szychta w danych</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://psobczyk.github.io/#about" aria-label="Otwórz link: /#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://psobczyk.github.io/#about" aria-label="Przeczytaj więcej o autorze">
+          <img class="sidebar-profile-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+        </a>
+        <h4 class="sidebar-profile-name">Szychta w danych</h4>
+        
+          <h5 class="sidebar-profile-bio">Blog o poznawaniu świata za pomocą danych</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Strona domowa</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Kategorie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tagi</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archiwum</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu" title="O blogu">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about" title="O mnie">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects" title="Projekty">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-typewriter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/szkolenia-z-analizy-danych" title="Szkolenia">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-chalkboard-teacher" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Szkolenia</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/psobczyk" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/szychtawdanych" target="_blank" rel="noopener" title="Facebook">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-facebook-square" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://pl.linkedin.com/in/psobczyk" target="_blank" rel="noopener" title="Linkedin">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/szychtawdanych" target="_blank" rel="noopener" title="Twitter">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      Shapefiles in R using sf package
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2018-07-05T21:13:14-05:00">
+        
+  
+  
+  
+  
+    5 Lipiec 2018
+  
+
+      </time>
+    
+    
+  
+  
+    <span>w</span>
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/r">R</a>, 
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/wroclaw">Wroclaw</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <p>We will leave theory for some later posts and concentrate on a practical aspect for now. Our goal is to be able to create maps. To do that, we need to know the boundaries of areas i.e. countries, provinces or districts. That kind of data is usually stored in a special type of file, shapefile. This is clearly and oversimplification, but, as it is useful, lets stick to it for a moment.</p>
+<p>There are a number of <strong>R</strong> packages to handle shapefiles. Most important are <em>rgdal</em>, <em>sp</em>; however we will focus on a relatively new addition - <a href="https://edzer.github.io/UseR2017/"><em>sf</em></a> package that follows <strong>tidy data</strong> philosophy. Please look into the tutorial linked to get more info on how <a href="https://edzer.github.io/UseR2017/"><em>sf</em></a> package works and learn a bit more about spatial data.</p>
+<p>In our example we will use data on districts in <a href="http://geoportal.wroclaw.pl/zasoby/">Wroclaw</a>. As mentioned before, data is in <strong>.shp</strong> file. Let’s read it into R and check what kind of object is it.</p>
+<pre class="r"><code>districts_wroclaw &lt;- sf::read_sf(&#39;../../static/data/districts_wroclaw/districts_wroclaw.shp&#39;, 
+                                 options = &quot;ENCODING=UTF-8&quot;)
+class(districts_wroclaw)</code></pre>
+<pre><code>## [1] &quot;sf&quot;         &quot;tbl_df&quot;     &quot;tbl&quot;        &quot;data.frame&quot;</code></pre>
+<pre class="r"><code>head(districts_wroclaw)</code></pre>
+<pre><code>## Simple feature collection with 6 features and 9 fields
+## geometry type:  POLYGON
+## dimension:      XY
+## bbox:           xmin: 16.89252 ymin: 51.04515 xmax: 17.10723 ymax: 51.16599
+## epsg (SRID):    4326
+## proj4string:    +proj=longlat +datum=WGS84 +no_defs
+## # A tibble: 6 x 10
+##   OBJECTI NROSIED NAZWAOS  DATA   SHAPE_A SHAPE_L old_dst dstrct_  inhbtnt
+##   &lt;chr&gt;     &lt;int&gt; &lt;chr&gt;    &lt;chr&gt;    &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;      &lt;dbl&gt;
+## 1 340          21 KrzykiP… 2016/… 5254965    9995 Krzyki  Krzyki-…  14.0  
+## 2 341          24 GądówPo… 2016/… 3134569    7589 Fabryc… Gądów-P…  26.2  
+## 3 348          42 Sołtyso… 2016/… 4547041    9004 Psie P… Sołtyso…   2.90 
+## 4 349          18 Bieńkow… 2016/… 1433161    4760 Krzyki  Bieńkow…   0.500
+## 5 351          32 Żerniki  2016/… 3908726    9133 Fabryc… Żerniki    3.40 
+## 6 352          29 Muchobó… 2016/… 6879545   13228 Fabryc… Muchobó…   8.30 
+## # ... with 1 more variable: geometry &lt;POLYGON [°]&gt;</code></pre>
+<p>Interesting! Apart from being special <strong>sf</strong> object, it is also a regular data.frame. Thanks to that, one can use packages like <strong>dplyr</strong> and <strong>tidyr</strong> directly with spatial data. This might not sounds that exciting, but it is a huge improvement compared to what was available in R year ago.</p>
+<p>It is always nice, to be able to use old toolbox with new data. Luckily for us, plotting can be done using <em>ggplot</em>. Just make sure you use the new version from Github, and you can enjoy new <em>geom_sf</em>!</p>
+<pre class="r"><code>devtools::install_github(&#39;tidyverse/ggplot2&#39;)</code></pre>
+<p>Then everything becomes super easy.</p>
+<pre class="r"><code>ggplot() + 
+  geom_sf(data = districts_wroclaw, aes(fill = inhbtnt), color=&#39;white&#39;) + 
+  scale_fill_gradient(low = &quot;white&quot;, high = &quot;red&quot;)</code></pre>
+<p><img src="https://psobczyk.github.io/post/2018-07-04-shapefiles-in-r_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>Fill of districts represent number of inhabitants.</p>
+<div id="some-useful-functions-from-sf" class="section level4">
+<h4>Some useful functions from <em>sf</em></h4>
+<p>How to show distribution of spatial data? The following is based on a <a href="https://tarakc02.github.io/dot-density/">nice web tutorial</a>.
+let’s say that our goal is to visualize the difference between where younger and older people live. We could calculate median and create choropleth, but that way we loose a significant amount of information.</p>
+<p>We will use data from <a href="http://www.codgik.gov.pl/index.php/darmowe-dane.html">polish office for cartography</a>.</p>
+<pre class="r"><code>wroclaw_demo &lt;- sf::read_sf(&#39;../../static/data/dem-rejurb-rejstat-shp/REJURB_20171231.shp&#39;)</code></pre>
+<p>We don’t know where exactly each person lives and drawing 600K points makes no sense. Therefore, for each region, we shall draw randomly a number of points proportional to the number of inhabitants.</p>
+<p>First, we preprocesss data to get number of inhabitants younger and older 44 (which is as close to median as we can get)</p>
+<pre class="r"><code>wroclaw_demo_splited &lt;- wroclaw_demo %&gt;%
+  mutate(below_44 = W0_2 +W3_6 +W7_12+ W13_15+ W16_18+ W19_24+ W25_34+ W35_44,
+         above_44 = SUMA - below_44) %&gt;%
+  gather(group, value, below_44, above_44) %&gt;%
+  split(.$group)</code></pre>
+<p>To generate points we need one more packages. Original <a href="https://tarakc02.github.io/dot-density/">code</a> used <em>purr</em> imap, but it can be substituted by lapply. Result is somewhat more cumbersome, but in case you don’t know purrr, you can limit number of new things for the day.</p>
+<pre class="r"><code>install.packages(c(&#39;lwgeom&#39;))</code></pre>
+<pre class="r"><code>generate_samples &lt;- function(data) 
+  suppressMessages(st_sample(data, size = round(data$value / 100)))
+
+points &lt;- lapply(wroclaw_demo_splited, generate_samples)
+points &lt;- lapply(names(points), function(name){
+  st_sf(data_frame(age = rep(name, length(points[[name]]))),
+                      geometry = points[[name]])
+})
+points &lt;- do.call(rbind, points)</code></pre>
+<p>Once points are generated everything becomes easy.</p>
+<p><img src="https://psobczyk.github.io/post/2018-07-04-shapefiles-in-r_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>More posts on how to create maps, including interactive, are coming! You can visit <a href="https://github.com/psobczyk/whyR_2018_workshop">my workshop</a> materials as well.</p>
+</div>
+
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">OTAGOWANO JAKO</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/whyr/">whyR</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/ggplot/">ggplot</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/osm/">osm</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/quantile-summary-using-dplyr/" data-tooltip="Quantile summary using dplyr" aria-label="NASTĘPNA: Quantile summary using dplyr">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/" data-tooltip="Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu" aria-label="POPRZEDNIA: Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/shapefiles-in-r/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/shapefiles-in-r/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/shapefiles-in-r/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https:\/\/psobczyk.github.io\/post\/shapefiles-in-r\/';
+        
+          this.page.identifier = '\/post\/shapefiles-in-r\/'
+        
+      };
+      (function() {
+        
+        
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          return;
+        }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'szychta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Szychta w danych. Wszystkie prawa zastrzeżone
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/quantile-summary-using-dplyr/" data-tooltip="Quantile summary using dplyr" aria-label="NASTĘPNA: Quantile summary using dplyr">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/" data-tooltip="Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu" aria-label="POPRZEDNIA: Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/shapefiles-in-r/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/shapefiles-in-r/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/shapefiles-in-r/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fshapefiles-in-r%2F" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i><span>Udostępnij na Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fshapefiles-in-r%2F" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>Udostępnij na Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2Fshapefiles-in-r%2F" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i><span>Udostępnij na Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+    
+    <h4 id="about-card-name">Szychta w danych</h4>
+    
+      <div id="about-card-bio">Blog o poznawaniu świata za pomocą danych</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Piotr Sobczyk
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://psobczyk.github.io/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://psobczyk.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+

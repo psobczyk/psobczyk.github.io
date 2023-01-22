@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"https:\/\/psobczyk.github.io\/",
+  "author": {
+    "@type": "Person",
+    "name": "Szychta w danych",
+    
+    "image": "https://psobczyk.github.io/img/icon.png"
+    
+  },
+  "name":"Szychta w danych",
+  "description":"Kontynuujemy temat tworzenia wysokiej jakości oprogramowaniu w kontekście przetwarzania danych. W tym wpisie porównamy jak R i Python radzą sobie ze wspomaganiem użytkownika w pisaniu przejrzystego, dobrego kodu. Temat jest szeroki, skupimy się na 4 zagadnieniach:\nJak powinien wyglądać szablon projektu Data Science? Dlaczego konwencje nazewnictwa mają znaczenie i czym linter? Dlaczego ważna jest ujednolicone formatowania kodu? Czym jest CI\/CD i jak wykorzystywać go do tworzenia wysokiej jakości oprogramowania? Python Zacznijmy od poezji: Zen of Python - PEP20.",
+  "url":"https:\/\/psobczyk.github.io\/post\/2023-01-07-ars-bonae-scripturae\/",
+  "keywords":"[tech]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.109.0 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Szychta w danych">
+<meta name="keywords" content="tech">
+<meta name="description" content="Kontynuujemy temat tworzenia wysokiej jakości oprogramowaniu w kontekście przetwarzania danych. W tym wpisie porównamy jak R i Python radzą sobie ze wspomaganiem użytkownika w pisaniu przejrzystego, dobrego kodu. Temat jest szeroki, skupimy się na 4 zagadnieniach:
+Jak powinien wyglądać szablon projektu Data Science? Dlaczego konwencje nazewnictwa mają znaczenie i czym linter? Dlaczego ważna jest ujednolicone formatowania kodu? Czym jest CI/CD i jak wykorzystywać go do tworzenia wysokiej jakości oprogramowania? Python Zacznijmy od poezji: Zen of Python - PEP20.">
+
+
+<meta property="og:description" content="Kontynuujemy temat tworzenia wysokiej jakości oprogramowaniu w kontekście przetwarzania danych. W tym wpisie porównamy jak R i Python radzą sobie ze wspomaganiem użytkownika w pisaniu przejrzystego, dobrego kodu. Temat jest szeroki, skupimy się na 4 zagadnieniach:
+Jak powinien wyglądać szablon projektu Data Science? Dlaczego konwencje nazewnictwa mają znaczenie i czym linter? Dlaczego ważna jest ujednolicone formatowania kodu? Czym jest CI/CD i jak wykorzystywać go do tworzenia wysokiej jakości oprogramowania? Python Zacznijmy od poezji: Zen of Python - PEP20.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ars bonae scripturae">
+<meta name="twitter:title" content="Ars bonae scripturae">
+<meta property="og:url" content="https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/">
+<meta property="twitter:url" content="https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/">
+<meta property="og:site_name" content="Szychta w danych">
+<meta property="og:description" content="Kontynuujemy temat tworzenia wysokiej jakości oprogramowaniu w kontekście przetwarzania danych. W tym wpisie porównamy jak R i Python radzą sobie ze wspomaganiem użytkownika w pisaniu przejrzystego, dobrego kodu. Temat jest szeroki, skupimy się na 4 zagadnieniach:
+Jak powinien wyglądać szablon projektu Data Science? Dlaczego konwencje nazewnictwa mają znaczenie i czym linter? Dlaczego ważna jest ujednolicone formatowania kodu? Czym jest CI/CD i jak wykorzystywać go do tworzenia wysokiej jakości oprogramowania? Python Zacznijmy od poezji: Zen of Python - PEP20.">
+<meta name="twitter:description" content="Kontynuujemy temat tworzenia wysokiej jakości oprogramowaniu w kontekście przetwarzania danych. W tym wpisie porównamy jak R i Python radzą sobie ze wspomaganiem użytkownika w pisaniu przejrzystego, dobrego kodu. Temat jest szeroki, skupimy się na 4 zagadnieniach:
+Jak powinien wyglądać szablon projektu Data Science? Dlaczego konwencje nazewnictwa mają znaczenie i czym linter? Dlaczego ważna jest ujednolicone formatowania kodu? Czym jest CI/CD i jak wykorzystywać go do tworzenia wysokiej jakości oprogramowania? Python Zacznijmy od poezji: Zen of Python - PEP20.">
+<meta property="og:locale" content="pl">
+
+  
+    <meta property="article:published_time" content="2023-01-23T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2023-01-23T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="Programowanie">
+    
+  
+  
+    
+      <meta property="article:tag" content="R">
+    
+      <meta property="article:tag" content="python">
+    
+      <meta property="article:tag" content="programowanie">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="https://psobczyk.github.io/img/icon.png">
+  <meta property="twitter:image" content="https://psobczyk.github.io/img/icon.png">
+
+
+
+
+  <meta property="og:image" content="https://psobczyk.github.io/img/robot_teaching.jpeg">
+  <meta property="twitter:image" content="https://psobczyk.github.io/img/robot_teaching.jpeg">
+
+
+  <meta property="og:image" content="https://psobczyk.github.io/img/robot_teaching.jpeg">
+  <meta property="twitter:image" content="https://psobczyk.github.io/img/robot_teaching.jpeg">
+
+
+    <title>Ars bonae scripturae</title>
+
+    <link rel="icon" href="https://psobczyk.github.io/img/icon-32.png">
+    
+
+    
+
+    <link rel="canonical" href="https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="https://psobczyk.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-90780052-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://psobczyk.github.io/" aria-label="Wróć do strony głównej">Szychta w danych</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://psobczyk.github.io/#about" aria-label="Otwórz link: /#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://psobczyk.github.io/#about" aria-label="Przeczytaj więcej o autorze">
+          <img class="sidebar-profile-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+        </a>
+        <h4 class="sidebar-profile-name">Szychta w danych</h4>
+        
+          <h5 class="sidebar-profile-bio">Blog o poznawaniu świata za pomocą danych</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Strona domowa</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Kategorie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tagi</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archiwum</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/o-blogu" title="O blogu">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/about" title="O mnie">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/projects" title="Projekty">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-typewriter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/szkolenia-z-analizy-danych" title="Szkolenia">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-chalkboard-teacher" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Szkolenia</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/psobczyk" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/szychtawdanych" target="_blank" rel="noopener" title="Facebook">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-facebook-square" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://pl.linkedin.com/in/psobczyk" target="_blank" rel="noopener" title="Linkedin">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/szychtawdanych" target="_blank" rel="noopener" title="Twitter">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://psobczyk.github.io/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+  <div class="post-header-cover
+              text-left
+              "
+       style="background-image:url('/img/robot_teaching.jpeg')"
+       data-behavior="4">
+    
+      <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      Ars bonae scripturae
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2023-01-23T00:00:00Z">
+        
+  
+  
+  
+  
+    23 Styczeń 2023
+  
+
+      </time>
+    
+    
+  
+  
+    <span>w</span>
+    
+      <a class="category-link" href="https://psobczyk.github.io/categories/programowanie">Programowanie</a>
+    
+  
+
+  </div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="4"
+        class="hasCover
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <p>Kontynuujemy temat tworzenia wysokiej jakości oprogramowaniu w kontekście przetwarzania danych.
+W tym wpisie porównamy jak R i Python radzą sobie ze wspomaganiem użytkownika w pisaniu przejrzystego, dobrego kodu.
+Temat jest szeroki, skupimy się na 4 zagadnieniach:</p>
+<ul>
+<li>Jak powinien wyglądać szablon projektu Data Science?</li>
+<li>Dlaczego konwencje nazewnictwa mają znaczenie i czym linter?</li>
+<li>Dlaczego ważna jest ujednolicone formatowania kodu?</li>
+<li>Czym jest CI/CD i jak wykorzystywać go do tworzenia wysokiej jakości oprogramowania?</li>
+</ul>
+<h2 id="python">Python</h2>
+<p>Zacznijmy od poezji: Zen of Python - <a href="https://peps.python.org/pep-0020/">PEP20</a>.</p>
+<blockquote>
+<p>Beautiful is better than ugly.<br>
+Explicit is better than implicit.<br>
+Simple is better than complex.<br>
+Complex is better than complicated.<br>
+Flat is better than nested.<br>
+Sparse is better than dense.<br>
+Readability counts.<br>
+Special cases aren&rsquo;t special enough to break the rules.<br>
+Although practicality beats purity.<br>
+Errors should never pass silently.<br>
+Unless explicitly silenced.<br>
+In the face of ambiguity, refuse the temptation to guess.<br>
+There should be one&ndash; and preferably only one &ndash;obvious way to do it.<br>
+Although that way may not be obvious at first unless you&rsquo;re Dutch.<br>
+Now is better than never.<br>
+Although never is often better than <em>right</em> now.<br>
+If the implementation is hard to explain, it&rsquo;s a bad idea.<br>
+If the implementation is easy to explain, it may be a good idea.<br>
+Namespaces are one honking great idea &ndash; let&rsquo;s do more of those!</p>
+</blockquote>
+<p>Powyższy tekst odnosi się do tego jak ,,powinno&quot; wyglądać programowanie w Pythonie.
+W skrócie: Explicit, Simple, Readable. Można go odnieść także do tego jak powinien
+wyglądać projekt i jak powinien wyglądać kod.</p>
+<p>Za eRem nie stoi podobny wiersz. Ale gdyby było inaczej to, moim zdaniem, wyglądałby mniej więcej tak:</p>
+<blockquote>
+<p>Truth is better than beautiful.<br>
+Data is complex.<br>
+So is the road to understand it.<br>
+The end justifies the means.<br>
+There are many ways to lead you there,<br>
+Pick the one you like.<br>
+Although that way may not be obvious at first unless you&rsquo;re a statistician.<br>
+Everything is a list or a vector.<br>
+So hack away until you reach your goal.<br>
+And pray that it works in two years.</p>
+</blockquote>
+<p>Dlaczego taki wiersz? Zobaczmy i porównajmy.</p>
+<h2 id="struktura-projektu---cookie-cutter">Struktura projektu - Cookie cutter</h2>
+<p>Cookie cutter to po angielsku forma do ciasteczek. Oczywiście w przypadku programowania nie mówimy o wypiekach,
+ale tej nazwy przyjęło się używać dla wzoru, według którego należy tworzyć projekty.</p>
+<!-- raw HTML omitted -->
+<p>Rzecz jasna nie ma jednego właściwego wzoru, który obowiązuje wszystkich analizujących dane. Problemy i projekty są tak niejednorodne, że
+fragmenty niezbędne w jednym są zupełnie zbyteczne w drugim. Niemniej jednak warto ujednolicać strukturę projektów z dwóch powodów.</p>
+<ol>
+<li><strong>Zachęci nas do utrzymania porządku w kodzie np. do podziału kodu na wiele małych plików.</strong></li>
+<li><strong>Osobie nieznającej kodu łatwiej będzie zrozumieć o co w nim chodzi, bo struktura będzie znajoma.</strong> Pamiętajmy, że osobą nie znającą kodu staniemy się po około dwóch latach od momentu ostatniego commita. Więc nie mówimy bynajmniej o zarządzaniu wieloosobowymi zespołami.</li>
+</ol>
+<p>Popularnym wyborem takiej ,,ciasteczkowej&quot; formy jest <a href="https://drivendata.github.io/cookiecutter-data-science/">Data Science Cookiecutter</a>.
+Nie trzeba korzystać z niego w całości, ale z mojego doświadczenie wynika, że należy mieć na względzie <a href="https://drivendata.github.io/cookiecutter-data-science/#directory-structure">sugerowaną strukturę plików</a>.</p>
+<p>Zresztą sami twórcy zachęcają do pewnej elastyczności pisząc:</p>
+<blockquote>
+<p>We&rsquo;re not talking about bikeshedding the indentation aesthetics or pedantic formatting standards — ultimately, data science code quality is about correctness and reproducibility.</p>
+</blockquote>
+<p>Projekt zawiera kilka <a href="https://drivendata.github.io/cookiecutter-data-science/#opinions">opinii</a>, z którymi bardzo polecam się zapoznać. Między innymi:</p>
+<ul>
+<li><code>raw_data</code> nie może się zmieniać. Cała analiza/proces powinien być do odtworzenia <strong>wyłącznie</strong> przy użyciu funkcji z folderu <code>src/</code>.</li>
+<li>notebooki służą tylko do eksploracji i komunikacji. Należy zadbać o ich nazwę, żeby łatwo było ustalić ich twórcę i zawartość. Kod powtarzający się w kilku notebookach należy refaktoryzować i umieścić w <code>src/</code>.</li>
+<li>jakiekolwiek hasła, tokeny czy inne niejawne informacje <strong>nie mogą się znaleźć w systemie kontroli wersji</strong>.</li>
+</ul>
+<p>Mogę powiedzieć z autopsji, że przestrzeganie tych zasad, w dłuższej perspektywie, ułatwia życie.</p>
+<h2 id="statyczna-analiza-kodu---linter">Statyczna analiza kodu - Linter</h2>
+<p>Program służący do statycznej analizy kodu (statycznej czyli przed uruchomieniem programu) nazywamy linterem.
+Nazwa pochodzi z <a href="https://en.wikipedia.org/wiki/Lint_(software)">linuxowego narzędzia</a> do analizy kodu w C.</p>
+<p>Co robi linter? Wykrywa bugi, błędy programistyczne i stylistyczne, podejrzane konstrukcje.</p>
+<pre tabindex="0"><code>Beautiful is better than ugly.
+...
+Readability counts.
+Special cases aren&#39;t special enough to break the rules.
+Although practicality beats purity.
+...
+</code></pre><p>Implementacją lintera dla języka Pythona jest <a href="https://pypi.org/project/pylint/">pylint</a>.</p>
+<p>Jest 5 rodzajów błędów jakie może nam zwrócić <em>pylint</em>:</p>
+<ul>
+<li>( C) convention, for programming standard violation</li>
+<li>( R) refactor, for bad code smell</li>
+<li>( W) warning, for python specific problems</li>
+<li>( E) error, for probable bugs in the code</li>
+<li>( F) fatal, if an error occurred which prevented pylint from doing
+further processing.</li>
+</ul>
+<p><img src="https://memy.pl/show/big/uploads/Post/426261/16731025445243.jpg" alt=""></p>
+<p>Pełna lista sprawdzeń i <a href="https://docs.pylint.org/en/1.6.0/features.html#id3">wiadomości od pylinta</a> można sprawdzić komendą <code>pylint --list-msgs</code>.
+Na potrzeby tego wpisu przyjrzyjmy się kilku wybranym.</p>
+<h3 id="sprawdzenie-stylu">Sprawdzenie stylu</h3>
+<ul>
+<li>Zgodność ze standardem <a href="https://peps.python.org/pep-0008/">PEP8</a>.</li>
+<li>Czy białe znaki będą kodowane jako <a href="https://www.youtube.com/watch?v=V7PLxL8jIl8">Taby czy Spacje?</a>.</li>
+<li>Linia ma maksymalnie 79 znaków. <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/DEC_VT100_terminal.jpg/1200px-DEC_VT100_terminal.jpg">Czemu?</a></li>
+<li>Kiedy używać pustych linii następujących po sobie?</li>
+<li>Kodowanie plików. Generalnie chcemy UTF-8.</li>
+<li>Składnia do importowania bibliotek.</li>
+<li>Spacje wokół operatorów <code>x=1+2</code> czy <code>x = 1 + 2</code>?</li>
+<li>Nazewnictwo modułów, funkcji, zmiennych. Czy mogą się zaczynać wielką literą? Jakie znaki specjalne mogą zawierać? Etc.</li>
+</ul>
+<h3 id="błędy-poprawność-kodu">Błędy, poprawność kodu</h3>
+<p>Linter jest w stanie namierzyć także konstrukcje, które wyglądają podejrzanie i mogą być źródłem bugów.</p>
+<ul>
+<li><code>duplicate-argument-name</code>. Dwa argumenty funkcji o tej samej nazwie.</li>
+<li><code>return-outside-function</code>. Keyword return znajdujący się poza funkcją.</li>
+<li><code>assert-on-tuple</code>. Asercja na krotce - zwróci True na niepustej nie patrząc na wartości.</li>
+<li><code>nonlocal-and-global</code>. Zmienne globalne i nielokalne to osobny temat. Zachęcam do <a href="https://stackabuse.com/how-to-use-global-and-nonlocal-variables-in-python/">poczytania</a>.</li>
+</ul>
+<h3 id="jak-użyć-pylinta">Jak użyć pylinta?</h3>
+<p>Na Macu i Windowsie <a href="https://pylint.org/#install">instalujemy go przez pip-a</a>.</p>
+<p><strong>Krótkie przypomnienie z poprzedniego wpisu</strong></p>
+<p>Oczywiście w jeśli tworzymy nowy projekt to przed instalacją tworzymy nowe środowisko wirtualne.
+Dodajemy pylint <em>requirements.in</em>, kompilujemy, instalujemy biblioteki.</p>
+<pre tabindex="0"><code>pip3 install -r requirements.txt
+</code></pre><p>Aby użyć pylint wykonujemy komendę:</p>
+<pre tabindex="0"><code>pylint dir/
+</code></pre><p>Sprawdzeń (linterów) jest bardzo dużo. Być może nie wszystkie są adekwatne do naszego projektu.
+Jak wyłączyć część <a href="https://stackoverflow.com/questions/4341746/how-do-i-disable-a-pylint-warning">sprawdzeń</a>?</p>
+<p>Mamy 5 opcji.</p>
+<ul>
+<li>globalnie na komputerze <code>~/pylintrc</code>. Nie jest to dobry pomysł ponieważ dotknie to każdego projektu. Nawet długo po tym jak zapomnimy, że ten plik edytowaliśmy.</li>
+<li>dla całego projektu/folderu w pliku <code>pylintrc</code>.</li>
+<li>dla całego pliku. Dodajemy np. <code># pylint: disable=C0103</code>.</li>
+<li>dla konkretnej linii. Dodajemy np. <code># pylint: disable=C0103</code>.</li>
+<li>dla większego bloku kodu. Dodajemy np.  <code># pragma pylint: disable=C0103</code>.</li>
+</ul>
+<p>Jak zawsze przyświeca nam Zen Pythona:</p>
+<pre tabindex="0"><code>Special cases aren&#39;t special enough to break the rules.
+Although practicality beats purity.
+</code></pre><p>Nie boimy się wyjątków, jeśli podążanie za regułami okazałoby się totalnie niepraktyczne.</p>
+<p><strong>Uwaga</strong></p>
+<p>Istnieje możliwość integracji
+pylinta ze środowiskiem programistycznym (IDE) tak, aby na bieżąco sprawdzał poprawność kodu.
+Więcej informacji tutaj <a href="https://pylint.pycqa.org/en/latest/user_guide/ide-integration.html">tutaj</a>.</p>
+<h2 id="kod-może-wyglądać-dowolnie-o-ile-jest-zgodny-z-blackhttpspypiorgprojectblack">Kod może wyglądać dowolnie o ile jest zgodny z <a href="https://pypi.org/project/black/">black</a>.</h2>
+<p>W naszym podążaniu za Pythonowym Zen natrafiamy na zdanie:</p>
+<p><code>Beautiful is better than ugly</code></p>
+<p>Aby nasz kod był ładny używamy narzędzia, które ,,bezkompromisowo&quot; nam kod sformatuje.
+Narzędzie to nazywa się black, a nazwa jest nawiązaniem do samochodów Forda, które mogły być produkowane w dowolnym kolorze,
+o ile był to czarny.</p>
+<!-- raw HTML omitted -->
+<h3 id="co-robi-black">Co robi black?</h3>
+<p>Formatuje kod według <a href="https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html">określonych reguł</a>, m.in.:</p>
+<ul>
+<li>spacje przy operatorach.</li>
+<li>cudzysłowy (podwójne zamiast pojedynczych).</li>
+<li>puste linie.</li>
+</ul>
+<p>Tę operację wykonuje inteligentnie i efektywnie to znaczy omija pliki z <code>.gitignore</code> oraz
+nie sprawdza plików niezmienionych od ostatniego formatowania.</p>
+<p>Aby sprawdzić poprawność formatowania używamy komendy:</p>
+<pre tabindex="0"><code>black --check src/
+</code></pre><p>Z kolei aby plik sformatować omijamy <code>--check</code></p>
+<pre tabindex="0"><code>black src/
+</code></pre><h4 id="black-dla-jupyter-notebook-ów">Black dla jupyter notebook-ów</h4>
+<p>Notebooki są zwykle siedliskiem nie tylko błędów, ale i brzydkiego kodu.
+Jednocześnie zawierają wartościowe pomysły i wobec tego czasem warto się nimi dzielić (w tym też commitować do gita).
+Dobry sposób korzystania z notebooków daje nam, jak zwykle, <a href="https://drivendata.github.io/cookiecutter-data-science/">Cookie cutter</a>.</p>
+<p>Odpowiedzią na potrzebę poprawy czytelności notebooków jest <a href="https://pypi.org/project/black-nb/">Black nb</a>.
+Jest to pakiet, który umożliwia użycie black dla wszystkich komórek w notebookach w folderze</p>
+<pre tabindex="0"><code>black-nb notebooks/
+</code></pre><p>Dodając argument <code>--check</code> możemy jedynie sprawdzić zgodność ze standardami black bez modyfikowania kodu.</p>
+<p>Może przed commitowaniem notebooka chcemy wyczyścić output wszystkich komórek? Nic prostszego! Wystarczy komenda:</p>
+<pre tabindex="0"><code>black-nb --clear-output . notebooks/
+</code></pre><p><strong>Uwaga praktyczna</strong></p>
+<p>Jak sprawić, żeby kernel był widoczny dla jupytera? Trzeba zainstalować
+w nim pakiet <code>ipykernel</code>.</p>
+<pre tabindex="0"><code>source venv/bin/activate
+# pip install ipykernel
+python -m ipykernel install --user --name=KERNEL_NAME
+</code></pre><h3 id="formatowanie-kodu-sql-owego">Formatowanie kodu sql-owego</h3>
+<p>W projektach analitycznych/data science mamy nie tylko kod w R/Pythonie, ale też dużo SQLa.
+Mówi się, że przygotowanie danych zajmuje 90% czasu a modelowanie pozostałe 10%. Oznacza to, że
+poprawne wyciągnięcie danych z bazy jest newralgicznym i koniecznym elementem.</p>
+<p>Sprawdzanie i debugowanie skryptów sql-owych jest, oględnie mówiąc, nieprzyjemne.
+Stosując się do jasno określonych zasad formatowania kodu możemy sobie nieco ułatwić to zadanie.</p>
+<p>W Pythonie użyć można do tego <a href="https://pypi.org/project/sql-formatter/">sql-formatter</a>.
+Jest to biblioteka oryginalnie stworzona w PHP, dostosowana do użycia w Pythonie.
+Dla <a href="https://marketplace.visualstudio.com/items?itemName=inferrinizzard.prettier-sql-vscode">niektórych IDE</a>
+jest ona dostępna jako plugin, co dodatkowo może ułatwić skorzystanie z niej.</p>
+<h1 id="r">R</h1>
+<p>Przeszliśmy przez kilka narzędzi pythonowych czas na sprawdzenie jak osiągnąć
+te same cele za pomocą tego, co oferuje R.</p>
+<h2 id="linter-czyli-lintrhttpsgithubcomr-liblintr">Linter czyli <a href="https://github.com/r-lib/lintr">lintr</a></h2>
+<p>Istnieje eRowy odpowiednik pylinta, który również oferuje statyczną analizę kodu.
+Zaimplementowanych jest wiele linterów, ich lista dostępna jest <a href="https://github.com/r-lib/lintr#available-linters">tutaj</a>.
+Co istotne z praktycznego punktu widzenia,
+RStudio ma specjalne wsparcie do przechodzenia przez wiadomości od lintera. Dzięki temu szybko odnajdziemy błędy w kodzie.</p>
+<p>Jak używać lintr-a?</p>
+<p>Podobnie jak w pylincie możemy sprawdzić dowolny plik lub folder.
+Dodatkowo możemy sprawdzić pakiety.
+Odpowiednikiem <code>lintrc</code> jest ukryty plik <code>.lintr</code>. W pliku README projektu jest skrypt, który pomaga w tworzeniu tego pliku.</p>
+<p><strong>Warto pamiętać</strong></p>
+<p>Pakiet to większy, spójny kod. Dobrze jest tworzyć pakiety nie tylko jako odpowiednim biblioteki w Pythonie, ale też jako <a href="https://towardsdatascience.com/put-your-data-analysis-in-an-r-package-even-if-you-dont-publish-it-64f2bb8fd791">zamknięte analizy</a>.</p>
+<h2 id="formatowanie-kodu-w-r---stylerhttpsgithubcomr-libstyler">Formatowanie kodu w R - <a href="https://github.com/r-lib/styler">styler</a></h2>
+<p>W R nie ma odpowiednika PEPów. Jeśli chodzi o formatowanie plików, to wiele firm, instytucji ma swoje rekomendacje.</p>
+<ul>
+<li>Najbardziej popularne jest <a href="https://style.tidyverse.org/">Tidyverse</a>.</li>
+<li>Swoją wersję ma też <a href="https://google.github.io/styleguide/Rguide.html">Google</a>.</li>
+<li><a href="https://www.bioconductor.org/developers/how-to/coding-style/">Bioconductor</a>.</li>
+</ul>
+<p>Styler formatuje kod według standardów tidyverse.
+Możemy go uruchomić na kilka sposobów:</p>
+<ul>
+<li>Przez addin w RStudio</li>
+<li>Poprzez eRowe funkcje <code>style_pkg()</code>, <code>style_file()</code> or <code>style_text()</code></li>
+<li>Poprzez pakiet <code>usethis</code>
+<ul>
+<li>Formatowanie plików: <code>usethis::use_tidy_style()</code>.</li>
+<li>Integracja z Githubem, przy Pull request zaczynających się od <em>/style</em> będzie automatycznie zastosowany styler. Dzięki temu zawsze przy mergowaniu do master-a będziemy mieć dobre formatowanie. <code>usethis::use_tidy_github_actions()</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="struktura-projektu">Struktura projektu</h3>
+<p>Przykładowe, wyjściowe struktury różnego typu projektów (pakiet, aplikacja shiny, prezentacja itp.) zawiera RStudio.
+Można z nich skorzystać, ale z mojego doświadczenia, lepszym pomysłem jest znowuż użycie pakietu <code>usethis</code>.</p>
+<p>Jeśli chcecie rozwijać pakiety w eRze to najszybsza i najpewniejsza droga wiedzie właśnie przez <code>usethis</code>.
+Moim zdaniem jest to lepsze rozwiązanie niż tworzenie i rozwijanie szkieletu pakietu dostępnego w RStudio.
+Oprócz tego, że można zacząć od polecenia <code>usethis::create_project</code> aby utworzyć nowy pusty projekt, warto korzystać w trakcie z innych komend. Po co nam wiedza gdzie powinny być wpisane zależności? Po prostu korzystamy z <code>usethis::use_package()</code>. Chcemy aby projekt zawierał dane wejściowe? Korzystamy z <code>usethis::use_data_raw()</code>.
+Do tego nie trzeba pamiętać dokładnie gdzie wstawiać testy, gdzie dane, a gdzie dokumentację.</p>
+<p>Poniżej jeszcze kilka przydatnych komend jako zajawka :)</p>
+<pre tabindex="0"><code>usethis::edit_git_ignore() # otwiera nam plik gitignore, jeśli go nie ma to go stworzy
+usethis::use_description() # dodaje szkielet pliku Description
+usethis::use_github_* # rodzina funkcji, które dodaje github actions (nie trzeba znać dokładnej składni)
+usethis::use_roxygen_md() # dokumentacja funkcji będzie traktowana jako markdown i tak renderowana
+usethis::use_data() # zapisuje dane w odpowiednim miejscu, tak żeby były dostępne dla funkcji w pakiecie
+</code></pre><p><a href="https://usethis.r-lib.org/">Poczytajcie</a> i korzystajcie :)</p>
+<!-- raw HTML omitted -->
+<blockquote>
+<p>usethis is a workflow package: it automates repetitive tasks that arise during project setup and development, both for R packages and non-package projects.</p>
+</blockquote>
+<h2 id="cicd">CI/CD</h2>
+<p>Wszystkie poprzednie punkty prowadzą nas do ostatniego tematu dzisiejszego wpisu czyli CI/CD.
+Jak zauważyliśmy, aby tworzyć dobry kod trzeba stawiać przed sobą wiele wymagań nie tylko dotyczących jego efektywności, ale też
+takich związanych jego wyglądem. Czy też tym jak się go czyta. W jaki sposób upewnić się, że kod w naszym projekcie będzie, na każdym etapie swojego rozwoju, na pewno zgodny z tymi wszystkimi wytycznymi?</p>
+<p>Odpowiedzią jest CI/CD. Jest to skrót od Continuous integration, continuous deployment (ciągła/nieustająca integracja, ciągłe wdrażanie).</p>
+<p>Co oznaczają te pojęcia?</p>
+<p>W Continuous integration chodzi o częste mergowanie małych zmian do głównej gałęzi projektu. Oczywiście każda taka operacja musi wiązać się z zapewnieniem
+wysokiej jakości oprogramowania. A więc automatycznego zbudowanie projektu (np paczka eRowa), weryfikacji formatowania kodu czy jego statyczne sprawdzenie. Oczywiście pojęcie jest szersze, ale w tym momencie wystarczy nam taka definicja.</p>
+<p>Continuous deployment oznacza automatyczne wypuszczenie nowych wersji oprogramowania. Czyli np. wgranie obrazu dockerowego na serwer. O tym jeszcze sobie opowiemy w kolejnych wpisach.</p>
+<p>Jest wiele narzędzie, które można wykorzytać do CI/CD. Jako przykład użyjemy dostępnego za darmo (do pewnych limitów) Github actions.</p>
+<p>Wachlarz zadań jakie można wykonać za pomocą Github actions jest bardzo szeroki:</p>
+<ul>
+<li>Można sprawdzać czy przechodzą testy, czy poprawna jest składnia, czy statyczna kontrola kodu się powiedzie.</li>
+<li>Można budować obrazy dockerowe.</li>
+<li>Można uruchomić i wykonać dowolny kod. W szczególności daje to możliwość użycia go jako schedulera, trochę jak <a href="https://www.jenkins.io/">Jenkins</a>).</li>
+</ul>
+<h3 id="przykłady-python">Przykłady Python</h3>
+<p>Dla <a href="https://black.readthedocs.io/en/stable/integrations/github_actions.html">black</a>
+tworzymy plik <code>.github/workflows/black.yml</code>.</p>
+<pre tabindex="0"><code>name: Black
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: psf/black@stable
+</code></pre><p>Dla Pylinta jest nieco trudniej. Na Githubie można znaleźć kilka wersji.</p>
+<ul>
+<li><a href="https://stackoverflow.com/questions/50741264/gitlab-use-ci-to-check-commited-python-files-with-pylint">bardzo podstawowe sprawdzenie</a>.</li>
+<li>podstawa + przechodzenie na podstawie <a href="https://www.linkedin.com/pulse/implementing-simple-python-cicd-pipeline-using-github-tom-reid/">progu</a>.</li>
+<li><a href="https://medium.com/@ryangordon210/build-a-python-ci-cd-system-code-quality-with-pylint-f6dea78461c6">bardziej zaawansowana konfiguracja</a>, również z progiem</li>
+</ul>
+<p>Te konfiguracje sprawiają, że na każdej gałęzi na gicie wykonane zostaną sprawdzenie zgodności z pylint i black. W rezultacie zmergowanie Pull Request, będzie możliwe dopiero i tylko gdy zadane standardy będą spełnione. Jest to zgodne z ideą Continuous Integration.</p>
+<h2 id="a-jak-robić-cicd-w-r">A jak robić CI/CD w R?</h2>
+<p>Co prawda jest możliwe żeby wszystko tworzyć samemu, ale <del>można</del> <strong>należy</strong> używać <a href="https://usethis.r-lib.org/">usethis</a>.</p>
+<p>Nas interesuje tylko mały wycinek jego funkcjonalności służący do ustawienia CI/CD.</p>
+<p>Komendy są intuicyjne. Wystarczy je wykonać i wszystko magicznie działa.</p>
+<pre tabindex="0"><code>usethis::use_github_action(&#34;lint&#34;) # dla pakietu
+usethis::use_github_action(&#34;lint-project&#34;) # dla projektu
+usethis::use_tidy_github_actions()
+</code></pre><p>W każdym wypadku <code>usethis</code> zadba o to, żeby odpowiednie konfiguracyjne pliki <code>.yaml</code> znalazły się w folderze <code>.github/workflows</code>.</p>
+<p><strong>Dla wytrwałych i ciekawych</strong></p>
+<p>Poniżej kilka przykładów tworzenia ręcznie Github actions</p>
+<ul>
+<li><a href="https://github.com/r-lib/lintr/blob/master/.github/workflows/lint.yaml">linter</a></li>
+<li><a href="https://github.com/r-lib/lintr/blob/master/.github/workflows/test-coverage.yaml">test coverage</a></li>
+<li><a href="https://blog.methodsconsultants.com/posts/developing-r-packages-with-usethis-and-gitlab-ci-part-iii/">całość CI/CD w tym styler</a>.</li>
+</ul>
+<h1 id="podsumowanie">Podsumowanie</h1>
+<p>Czy to starcie wygrał Python czy R? Myślę, że mamy remis. W obu językach łatwo jest używać narzędzi, które
+pomagają pisać wysokiej jakości, ładny kod. Sprawienie aby te narzędzia były częścią procesu tworzenia oprogramowania
+(CI/CD) jest również łatwo ustawić. W R mamy samograj w postaci pakietu <code>usethis</code>, w Pythonie mamy multum przykładów w sieci i
+gotowe rozwiązania np. na github actions.</p>
+
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">OTAGOWANO JAKO</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/r/">R</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/python/">python</a>
+
+  <a class="tag tag--primary tag--small" href="https://psobczyk.github.io/tags/programowanie/">programowanie</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/" data-tooltip="R vs Python. Zarządzanie zależnościami" aria-label="POPRZEDNIA: R vs Python. Zarządzanie zależnościami">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'https:\/\/psobczyk.github.io\/post\/2023-01-07-ars-bonae-scripturae\/';
+        
+          this.page.identifier = '\/post\/2023-01-07-ars-bonae-scripturae\/'
+        
+      };
+      (function() {
+        
+        
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          return;
+        }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'szychta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Szychta w danych. Wszystkie prawa zastrzeżone
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/" data-tooltip="R vs Python. Zarządzanie zależnościami" aria-label="POPRZEDNIA: R vs Python. Zarządzanie zależnościami">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2F2023-01-07-ars-bonae-scripturae%2F" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i><span>Udostępnij na Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2F2023-01-07-ars-bonae-scripturae%2F" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>Udostępnij na Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpsobczyk.github.io%2Fpost%2F2023-01-07-ars-bonae-scripturae%2F" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i><span>Udostępnij na Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+    
+    <h4 id="about-card-name">Szychta w danych</h4>
+    
+      <div id="about-card-bio">Blog o poznawaniu świata za pomocą danych</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Piotr Sobczyk
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('https://psobczyk.github.io/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="https://psobczyk.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+

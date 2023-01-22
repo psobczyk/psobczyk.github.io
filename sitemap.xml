@@ -2,31 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://psobczyk.github.io/categories/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/draft/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/post/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/programowanie/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/categories/programowanie/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/python/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/r/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <loc>https://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/</loc>
-    <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/type-checking/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/tech/</loc>
@@ -220,6 +232,36 @@
   </url><url>
     <loc>https://psobczyk.github.io/tags/dzietno%C5%9B%C4%87/</loc>
     <lastmod>2018-07-31T07:46:18+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/dplyr/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/post/quantile-summary-using-dplyr/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/quantiles/</loc>
+    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/draft/days-off-worldwide/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/vacations/</loc>
+    <lastmod>2018-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/ggplot/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/osm/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/post/shapefiles-in-r/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/whyr/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/categories/wroclaw/</loc>
+    <lastmod>2018-07-05T21:13:14-05:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/projects/</loc>
     <lastmod>2018-07-05T00:00:00+00:00</lastmod>
@@ -657,9 +699,6 @@
     <lastmod>2016-03-16T20:41:59+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</loc>
-    <lastmod>2016-03-07T15:56:15+00:00</lastmod>
-  </url><url>
-    <loc>https://psobczyk.github.io/tags/ggplot/</loc>
     <lastmod>2016-03-07T15:56:15+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/polygons/</loc>

@@ -6,7 +6,26 @@
     <description>Recent content on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ars bonae scripturae</title>
+      <link>https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</guid>
+      <description>Kontynuujemy temat tworzenia wysokiej jakości oprogramowaniu w kontekście przetwarzania danych. W tym wpisie porównamy jak R i Python radzą sobie ze wspomaganiem użytkownika w pisaniu przejrzystego, dobrego kodu. Temat jest szeroki, skupimy się na 4 zagadnieniach:
+Jak powinien wyglądać szablon projektu Data Science? Dlaczego konwencje nazewnictwa mają znaczenie i czym linter? Dlaczego ważna jest ujednolicone formatowania kodu? Czym jest CI/CD i jak wykorzystywać go do tworzenia wysokiej jakości oprogramowania? Python Zacznijmy od poezji: Zen of Python - PEP20.</description>
+    </item>
+    
+    <item>
+      <title>Statyczne sprawdzanie typów po raz drugi</title>
+      <link>https://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>R vs Python. Zarządzanie zależnościami</title>
       <link>https://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</link>
@@ -228,6 +247,39 @@ W styczniu tego roku CBOS opublikował sondaż poparcia dla partii politycznych 
       <guid>https://psobczyk.github.io/post/czy-500-przestalo-dzialac-lub-o-dzieciach-i-dzietnosci/</guid>
       <description>W Polsce w pierwszym półroczu 2018 urodziło się mniej dzieci niż w tym samym okresie rok wcześniej. Czy to porażka programu 500+ czy zwykła statystyka? Czego możemy się spodziewać w najbliższych latach?
 Na temat dzietności Szychta pisała już kilkukrotnie. Najpierw o tym czego można się spodziewać po 500+ i jak drogi jest to program. Potem na temat współczynnika dzietności kobiet i jak może się on zmienić do roku 2030-tego, a także tego jak zmieniła się w Polsce struktura urodzeń (pierwsze lub kolejne dziecko).</description>
+    </item>
+    
+    <item>
+      <title>Quantile summary using dplyr</title>
+      <link>https://psobczyk.github.io/post/quantile-summary-using-dplyr/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/quantile-summary-using-dplyr/</guid>
+      <description>Say you want to compute quantile summary for multiple variables.
+require(dplyr) require(tidyr) require(broom) As an example let us use mtcars dataset.
+glimpse(mtcars) ## Observations: 32 ## Variables: 11 ## $ mpg &amp;lt;dbl&amp;gt; 21.0, 21.0, 22.8, 21.4, 18.7, 18.1, 14.3, 24.4, 22.8, 19.... ## $ cyl &amp;lt;dbl&amp;gt; 6, 6, 4, 6, 8, 6, 8, 4, 4, 6, 6, 8, 8, 8, 8, 8, 8, 4, 4, ... ## $ disp &amp;lt;dbl&amp;gt; 160.</description>
+    </item>
+    
+    <item>
+      <title>Days off worldwide</title>
+      <link>https://psobczyk.github.io/draft/days-off-worldwide/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/draft/days-off-worldwide/</guid>
+      <description> Getting the data </description>
+    </item>
+    
+    <item>
+      <title>Shapefiles in R using sf package</title>
+      <link>https://psobczyk.github.io/post/shapefiles-in-r/</link>
+      <pubDate>Thu, 05 Jul 2018 21:13:14 -0500</pubDate>
+      
+      <guid>https://psobczyk.github.io/post/shapefiles-in-r/</guid>
+      <description>
+
+
+&lt;p&gt;The following is based on a &lt;a href=&#34;https://github.com/psobczyk/whyR_2018_workshop&#34;&gt;workshop&lt;/a&gt; I prepared for the &lt;a href=&#34;www.whyr.pl&#34;&gt;whyR conference&lt;/a&gt;. Handling shapefiles is one of the awesome things that R enables us to do. You don’t need to learn any specialized tools like ArcGIS or QGIS. All you need is R.&lt;/p&gt;
+</description>
     </item>
     
     <item>
