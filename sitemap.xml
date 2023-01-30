@@ -2,16 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://psobczyk.github.io/categories/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/ekonomia/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/categories/ekonomia/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/post/ile-mieszka-maj-gminy-lub-o-narz-dziach-wprowadzania-sprawiedliwo-ci-spo-ecznej/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/mieszkania/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/nier%C3%B3wno%C5%9Bci-spo%C5%82eczne/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/polska/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/categories/polska/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/post/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/spo%C5%82ecze%C5%84stwo/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://psobczyk.github.io/tags/</loc>
+    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</loc>
     <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://psobczyk.github.io/categories/</loc>
-    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://psobczyk.github.io/draft/</loc>
-    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://psobczyk.github.io/post/</loc>
     <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/programowanie/</loc>
@@ -27,12 +57,6 @@
     <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/</loc>
-    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://psobczyk.github.io/</loc>
-    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://psobczyk.github.io/tags/</loc>
     <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/type-checking/</loc>
@@ -62,9 +86,6 @@
     <loc>https://psobczyk.github.io/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</loc>
     <lastmod>2020-07-14T06:45:17+00:00</lastmod>
   </url><url>
-    <loc>https://psobczyk.github.io/categories/polska/</loc>
-    <lastmod>2020-07-14T06:45:17+00:00</lastmod>
-  </url><url>
     <loc>https://psobczyk.github.io/tags/popis/</loc>
     <lastmod>2020-07-14T06:45:17+00:00</lastmod>
   </url><url>
@@ -72,9 +93,6 @@
     <lastmod>2020-07-14T06:45:17+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/post/elektorat-plynnym-jest-lub-krotkie-statystyczne-podsumowanie-wyborow/</loc>
-    <lastmod>2020-07-02T06:46:35+00:00</lastmod>
-  </url><url>
-    <loc>https://psobczyk.github.io/tags/polska/</loc>
     <lastmod>2020-07-02T06:46:35+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/prezydent/</loc>
@@ -99,15 +117,6 @@
     <lastmod>2020-03-21T18:25:14+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/post/biale-jest-czarne-a-czarne-jest-biale-lub-polityka-po-polsku/</loc>
-    <lastmod>2020-03-01T08:23:29+00:00</lastmod>
-  </url><url>
-    <loc>https://psobczyk.github.io/tags/ekonomia/</loc>
-    <lastmod>2020-03-01T08:23:29+00:00</lastmod>
-  </url><url>
-    <loc>https://psobczyk.github.io/categories/ekonomia/</loc>
-    <lastmod>2020-03-01T08:23:29+00:00</lastmod>
-  </url><url>
-    <loc>https://psobczyk.github.io/tags/nier%C3%B3wno%C5%9Bci-spo%C5%82eczne/</loc>
     <lastmod>2020-03-01T08:23:29+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/szkolenia-z-analizy-danych/</loc>
@@ -509,9 +518,6 @@
     <loc>https://psobczyk.github.io/tags/przest%C4%99pczo%C5%9B%C4%87/</loc>
     <lastmod>2017-01-23T19:14:04+00:00</lastmod>
   </url><url>
-    <loc>https://psobczyk.github.io/tags/spo%C5%82ecze%C5%84stwo/</loc>
-    <lastmod>2017-01-23T19:14:04+00:00</lastmod>
-  </url><url>
     <loc>https://psobczyk.github.io/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</loc>
     <lastmod>2017-01-23T19:14:04+00:00</lastmod>
   </url><url>
@@ -597,9 +603,6 @@
     <lastmod>2016-07-11T14:41:12+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/leaflet/</loc>
-    <lastmod>2016-07-04T15:40:09+00:00</lastmod>
-  </url><url>
-    <loc>https://psobczyk.github.io/tags/mieszkania/</loc>
     <lastmod>2016-07-04T15:40:09+00:00</lastmod>
   </url><url>
     <loc>https://psobczyk.github.io/tags/suburbanizacja/</loc>

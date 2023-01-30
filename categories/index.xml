@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ekonomia</title>
+      <link>https://psobczyk.github.io/categories/ekonomia/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/ekonomia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polska</title>
+      <link>https://psobczyk.github.io/categories/polska/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://psobczyk.github.io/categories/polska/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Programowanie</title>
       <link>https://psobczyk.github.io/categories/programowanie/</link>
@@ -26,15 +44,6 @@
     </item>
     
     <item>
-      <title>Polska</title>
-      <link>https://psobczyk.github.io/categories/polska/</link>
-      <pubDate>Tue, 14 Jul 2020 06:45:17 +0000</pubDate>
-      
-      <guid>https://psobczyk.github.io/categories/polska/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Wybory</title>
       <link>https://psobczyk.github.io/categories/wybory/</link>
       <pubDate>Thu, 02 Jul 2020 06:46:35 +0000</pubDate>
@@ -49,15 +58,6 @@
       <pubDate>Sat, 21 Mar 2020 18:25:14 +0000</pubDate>
       
       <guid>https://psobczyk.github.io/categories/%C5%9Bwiat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ekonomia</title>
-      <link>https://psobczyk.github.io/categories/ekonomia/</link>
-      <pubDate>Sun, 01 Mar 2020 08:23:29 +0000</pubDate>
-      
-      <guid>https://psobczyk.github.io/categories/ekonomia/</guid>
       <description></description>
     </item>
     
