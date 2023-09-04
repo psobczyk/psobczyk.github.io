@@ -2,87 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wybory on Szychta w danych</title>
-    <link>https://psobczyk.github.io/tags/wybory/</link>
+    <link>http://psobczyk.github.io/tags/wybory/</link>
     <description>Recent content in wybory on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 14 Jul 2020 06:45:17 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/wybory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/wybory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Głos głosowi nierówny lub o podziale mandatów do Sejmu</title>
+      <link>http://psobczyk.github.io/post/g-os-g-osowi-nier-wny-lub-o-podziale-mandat-w-do-sejmu/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://psobczyk.github.io/post/g-os-g-osowi-nier-wny-lub-o-podziale-mandat-w-do-sejmu/</guid>
+      <description>
+
+
+&lt;p&gt;Wybory powinny być równe, a więc głos każdego obywatela powinien mieć taką samą wagę.
+To co możemy już powiedzieć na temat wyborów parlamentarnych w roku 2023 to to, że
+równe nie będą.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>5 mgnień wyborów lub co dane mówią o elektoratach PiS i PO</title>
-      <link>https://psobczyk.github.io/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</link>
+      <link>http://psobczyk.github.io/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</link>
       <pubDate>Tue, 14 Jul 2020 06:45:17 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</guid>
+      <guid>http://psobczyk.github.io/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</guid>
       <description>Spróbujmy poszukać w danych odpowiedzi na 5 pytań, które mogą się narzucać osobie przygladającej się polskiej scenie politycznej. Obserwujac media społecznościowe trudno nie oprzeć się wrażeniu, że inflacja dotknęła w ostatnim czasie także rynek powyborczych analiz danych :) Wobec tego tym razem podsumowanie ,,Szychty&amp;quot; będzie bez map i doszukiwania się rozbiorów&amp;hellip;
 1. Czy Polskę można podzielić na pół i odseparować zwolenników PiS od PO? Oczywiście, źe się nie da :) Spór polityczny jaki widzimy nie ma charakteru regionalnego.</description>
     </item>
     
     <item>
       <title>Elektorat płynnym jest lub krótkie statystyczne podsumowanie wyborów</title>
-      <link>https://psobczyk.github.io/post/elektorat-plynnym-jest-lub-krotkie-statystyczne-podsumowanie-wyborow/</link>
+      <link>http://psobczyk.github.io/post/elektorat-plynnym-jest-lub-krotkie-statystyczne-podsumowanie-wyborow/</link>
       <pubDate>Thu, 02 Jul 2020 06:46:35 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/elektorat-plynnym-jest-lub-krotkie-statystyczne-podsumowanie-wyborow/</guid>
+      <guid>http://psobczyk.github.io/post/elektorat-plynnym-jest-lub-krotkie-statystyczne-podsumowanie-wyborow/</guid>
       <description>Kto odniósł sukces, a kto porażkę? Które ugrupowania umocnił czas pandemii i na ile płynne są przepływy elektoratu w Polsce? Jak zmienia się geografia tego jak głosują Polacy? Jako blog o wyborczej proweniencji mamy przyjemność zaprezentować wyniki pierwszej tury wyborów prezydenckich.
 Kto jest zwycięzcą? Oprócz prostej odpowiedzi, że kandydat, który zdobył największą liczbę głosów myślę, że należy bardzo mocno podkreślić niezwykle wysoką frekwencję. Niemal 65% jest wynikiem, po raz pierwszy od 1989 roku, zbliżonym do tego co obserwujemy w europejskich demokracjach.</description>
     </item>
     
     <item>
       <title>Protesty wyborcze lub o braku wagi głosów nieważnych</title>
-      <link>https://psobczyk.github.io/post/protesty-wyborcze-lub-o-braku-wagi-glosow-niewaznych/</link>
+      <link>http://psobczyk.github.io/post/protesty-wyborcze-lub-o-braku-wagi-glosow-niewaznych/</link>
       <pubDate>Wed, 23 Oct 2019 06:18:31 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/protesty-wyborcze-lub-o-braku-wagi-glosow-niewaznych/</guid>
+      <guid>http://psobczyk.github.io/post/protesty-wyborcze-lub-o-braku-wagi-glosow-niewaznych/</guid>
       <description>Miało nie być nic o wyborach i polityce. Ale cóż zrobić jeśli politycy próbują używać liczb na swoją korzyść? PiS złożyło wniosek o ponowne przeliczenie głosów w kilku okręgach argumentując, że część głosów nieważnych była w istocie oddana na ich kandydatów. Abstrahując od tego czy ma rację, sprawdźmy czy mogłoby to rzeczywiście zmienić wynik wyborów do Senatu.
 Rozgrzewka - dane Sejmowe Dane dostępne są na stronie PKW. Stopniując napięcie - najpierw zobaczmy, czy w wyborach do Sejmu głosy nieważne poprzez podwójne skreślenie mogłyby zmienić zasadniczo wynik wyborów.</description>
     </item>
     
     <item>
       <title>,,Kupowanie głosów&#34; lub wybory do Parlamentu Europejskiego</title>
-      <link>https://psobczyk.github.io/post/kupowanie-glosow-lub-wybory-do-parlamentu-europejskiego/</link>
+      <link>http://psobczyk.github.io/post/kupowanie-glosow-lub-wybory-do-parlamentu-europejskiego/</link>
       <pubDate>Tue, 28 May 2019 06:33:06 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/kupowanie-glosow-lub-wybory-do-parlamentu-europejskiego/</guid>
+      <guid>http://psobczyk.github.io/post/kupowanie-glosow-lub-wybory-do-parlamentu-europejskiego/</guid>
       <description>Zaraz po wyborach podniosły się głosy, że PiS wygrał w nich ponieważ głosują na niego ludzie niewykształceni i ze wsi. Pojawiły się nawet opinie, że zwycięstwo PiS odniosło ,,w kręgach, które nie płacą podatków&amp;quot;. Sprawdźmy co na temat ostatnich wyborów da się wywnioskować z ogólnodostępnych danych.
 Zanim zaczniemy analizować dane na poziomie gmin, zobaczmy czego można się dowiedzieć z sondażu exit poll. Po pierwsze, mimo że PiS wygrał zdecydowanie w grupie wyborców o wykształceniu podstawowym, to nie można tak charakteryzować wyborców tej partii, którzy stanowią 8.</description>
     </item>
     
     <item>
       <title>Potrzeba czy marnotrawstwo lub o liczbie parlamentarzystów</title>
-      <link>https://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</link>
+      <link>http://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</link>
       <pubDate>Sun, 26 May 2019 06:55:02 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</guid>
+      <guid>http://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</guid>
       <description>Mamy kolejne wybory, tym razem europejskie. Czy ponad 700 parlamentarzystów których wybiorą Europejczycy to duża liczba? Jak ma się ona do krajowych parlamentów w Polsce i na świecie? Czy analizując dane dla wszystkich tego typu zgromadzeń można doszukać się jakichś prawidłowości?
 Na początek sprawdźmy rzecz oczywistą: im więcej ludności, tym więcej parlamentarzystów. Powody są co najmniej dwa: duże państwa mają więcej spraw, którymi chcą się zająć, oraz potrzebują większej liczby posłów, aby pojedynczy reprezentant nie przypadał na zbyt dużą liczbę ludności.</description>
     </item>
     
     <item>
       <title>Nowa ordynacja w wyborach do Parlamentu Europejskiego lub</title>
-      <link>https://psobczyk.github.io/post/nowa-ordynacja-w-wyborach-do-parlamentu-europejskiego-lub/</link>
+      <link>http://psobczyk.github.io/post/nowa-ordynacja-w-wyborach-do-parlamentu-europejskiego-lub/</link>
       <pubDate>Thu, 16 Aug 2018 08:54:47 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/nowa-ordynacja-w-wyborach-do-parlamentu-europejskiego-lub/</guid>
+      <guid>http://psobczyk.github.io/post/nowa-ordynacja-w-wyborach-do-parlamentu-europejskiego-lub/</guid>
       <description>Przez Parlament przeszła nowelizacja ordynacji wyborczej w wyborach do Parlamentu Europejskiego. W skrócie sprawia ona, że małym partiom trudniej zdobyć mandat, a wybory przestają być proporcjonalne. Została ona skrytykowana przez wiele środowisk, w tym rzecz jasna małe partie polityczne. Zerknijmy w dane i zobaczmy o co tyle hałasu.
 W styczniu tego roku CBOS opublikował sondaż poparcia dla partii politycznych w województwach. W oparciu o ten dane policzymy na ile mandatów mogą liczyć poszczególne partie.</description>
     </item>
     
     <item>
       <title>Zabory a sprawa Polska. 100 lat później</title>
-      <link>https://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</link>
+      <link>http://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</link>
       <pubDate>Sun, 06 Dec 2015 00:16:34 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</guid>
+      <guid>http://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</guid>
       <description>Szychta w danych wraca po przerwie na intensywną pracę naukową :) Na rozgrzewkę - analiza wyników ostatnich wyborów. Czy PO i Nowoczesna różnią się w poszczególnych regionach? Czy wyniki wyborów nadal da się wytłumaczyć granicami zaborów? Czym się różnią elektoraty partii lewicowych?
 Zaczniemy od analizy rywalizacji, która od 10 lat dominuje w polskiej polityce. PiS vs. PO. Oprócz standardowych i dobrze znanych podziałów, bardzo fajnie widać na wykresie efekt mniejszości narodowych.</description>
     </item>
     
     <item>
       <title>Wybory prezydenckie 2015 - podsumowanie wyników</title>
-      <link>https://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</link>
+      <link>http://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</link>
       <pubDate>Wed, 27 May 2015 13:32:47 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
+      <guid>http://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
       <description>Naprawdę chciałbym napisać o czymś innym, ale polityka i wybory zbyt mocno panoszą się teraz w mojej głowie, żeby móc przygotować cokolwiek innego.
 Podzielę, się kilkoma obrazkami, stworzonymi w R przy użyciu pakietu ggplot2. Są to złośliwe mapy i nie mniej złośliwe wykresy, tłumaczące poparcie jakie uzyskali obaj kandydaci w poszczególnych gminach.
 Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosów. Wydaje mi się, że często i niesprawiedliwie, podaje się jako przyczynę podział na lepiej rozwiniętą Polskę zachodnią i zacofaną ścianę wschodnią.</description>
@@ -90,40 +105,40 @@ Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosó
     
     <item>
       <title>Infografika dotycząca wyborów samorządowych i co z niej wynika</title>
-      <link>https://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</link>
+      <link>http://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</link>
       <pubDate>Tue, 31 Mar 2015 17:29:45 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</guid>
+      <guid>http://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</guid>
       <description>Dzisiaj chciałbym się podzielić czymś ładnym i ciekawym. Chodzi o infografiką dotyczącą ostatnich wyborów samorządowych. Przedstawia ona w pigułce najważniejsze informacje dotyczące poparcia dla głównych partii, frekwencji i liczby głosów nieważnych. Zgodnie z życzeniami Londyńskiej Polonii, postaram się dać więcej opisów a mniej kodów w R.
 Infografika powstała w oparciu o znaleziony na twitterze wpis z bloga. Podobieństwo jest bardzo duże, bo rzecz nie jest wcale łatwa a ja jestem dopiero na początku nauki tworzenia takich obrazów w R.</description>
     </item>
     
     <item>
       <title>O wynikach ostatnich wyborów</title>
-      <link>https://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/</link>
+      <link>http://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/</link>
       <pubDate>Thu, 08 Jan 2015 21:46:21 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/</guid>
+      <guid>http://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/</guid>
       <description>Rozkłady poparcia dla partii w komisjach obwodowych, czyli poparcie w pojedynczych lokalach wyborczych, nie mają rozkładu normalnego i mają różny kształt w zależność od partii. Przynajmniej w Polsce. Oznacza to nie tylko, że partie cieszą się różną skalą poparcia społecznego, ale też, że niektóre partie wzbudzają bardziej skrajne odczucia wyborców niż inne, tj. albo ich poparcie jest bardzo wysokie, albo bardzo niskie.
 W dzisiejszym poście postaram się odpowiedzieć na pytania: Czy jeśli pogrupujemy wyniki z komisji obwodowych względem województw to ,,odzyskamy&amp;quot; normalność?</description>
     </item>
     
     <item>
       <title>Normalność i skrajność czyli o wyborach w wydaniu mazowieckim</title>
-      <link>https://psobczyk.github.io/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</link>
+      <link>http://psobczyk.github.io/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</link>
       <pubDate>Wed, 17 Dec 2014 21:53:11 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</guid>
+      <guid>http://psobczyk.github.io/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</guid>
       <description>Powoli przycichają dyskusje polityczne na temat ostatnich wyborów samorządowych, co oznacza, że czas najwyższy aby się zabrać na wykonanie porządniejszej analizy danych.
 Niestety szczegółowe dane, to znaczy na poziomie komisji obwodowych, dotyczące ostatnich wyborów nie są póki co udostępnione na stronie PKW. Wobec tego ściągnąłem wyniki wyborów z roku 2010. Uzyskanie tychże wyników nie jest bynajmniej zadaniem trywialnym, ale odrobina wyrażeń regularnych załatwiła sprawę. Jak dotąd mam ściągnięte i analizuję jedynie dane dla Mazowsza.</description>
     </item>
     
     <item>
       <title>Wybory i sondaże a szansa na olimpijskie medale</title>
-      <link>https://psobczyk.github.io/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</link>
+      <link>http://psobczyk.github.io/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</link>
       <pubDate>Mon, 24 Nov 2014 09:36:00 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</guid>
+      <guid>http://psobczyk.github.io/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</guid>
       <description>Temperatura polityczna w Polsce w ostatnim tygodniu znacznie wzrosła. Rzucane były oskarżenia o fałszerstwo wyborów, o ,,podpalanie Polski&amp;quot; i tym podobne określenia. Spróbujemy nieco zredukować te emocje szczyptą statystycznego rozumowania.
 W ostatnich wyborach PSL zdobyło 22.68% poparcia. Według badania IPSOS przeprowadzonego dla TVP, TVN i Polsatu poparcie dla PSL wyniosło równo 17%, próba była wielkości 800. Zastanówmy się jak prawdopodobna jest taka różnica. Zakładamy, że zarówno wybory jak i sondaż zostały prawidłowo przeprowadzone.</description>
     </item>

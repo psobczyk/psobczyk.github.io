@@ -2,46 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programowanie on Szychta w danych</title>
-    <link>https://psobczyk.github.io/categories/programowanie/</link>
+    <link>http://psobczyk.github.io/categories/programowanie/</link>
     <description>Recent content in Programowanie on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/categories/programowanie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/categories/programowanie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reprodukowalność</title>
+      <link>http://psobczyk.github.io/draft/reprodukowalno/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://psobczyk.github.io/draft/reprodukowalno/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Ars bonae scripturae</title>
-      <link>https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</link>
+      <link>http://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</guid>
+      <guid>http://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</guid>
       <description>Kontynuujemy temat tworzenia wysokiej jakości oprogramowaniu w kontekście przetwarzania danych. W tym wpisie porównamy jak R i Python radzą sobie ze wspomaganiem użytkownika w pisaniu przejrzystego, dobrego kodu. Temat jest szeroki, skupimy się na 4 zagadnieniach:
 Jak powinien wyglądać szablon projektu Data Science? Dlaczego konwencje nazewnictwa mają znaczenie i czym linter? Dlaczego ważna jest ujednolicone formatowania kodu? Czym jest CI/CD i jak wykorzystywać go do tworzenia wysokiej jakości oprogramowania? Python Zacznijmy od poezji: Zen of Python - PEP20.</description>
     </item>
     
     <item>
       <title>Statyczne sprawdzanie typów po raz drugi</title>
-      <link>https://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/</link>
+      <link>http://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/</guid>
+      <guid>http://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R vs Python. Zarządzanie zależnościami</title>
-      <link>https://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</link>
+      <link>http://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</guid>
+      <guid>http://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</guid>
       <description>W ciągu najbliższych tygodni na Szychcie pojawi się seria wpisów, które mają przybliżyć tworzenie dobrej jakości kodu w kontekście przetwarzania danych. Wpisy będą techniczne, nie będzie wykresów i narracji zbudowanych na danych. Jednocześnie jest to dobra okazja do porównania dwóch języków programowania R i Pythona, z czego skorzystamy.
 Który język będzie górą? Czy filozofia, która za nimi stoi jest zbliżona? Która społeczność kładzie większy nacisk na tworzenie wysokiej jakości kodu?</description>
     </item>
     
     <item>
       <title>Type hinting lub jak dawać wskazówki Pythonowemu interpretatorowi</title>
-      <link>https://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</link>
+      <link>http://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</link>
       <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</guid>
+      <guid>http://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</guid>
       <description>Uwaga, wpis techniczny!
 Kilka miesięcy temu została wypuszczona nowa wersja Pythona 3.9. Ponieważ dwa lata temu R przestał być językiem, w którym programuję ,,na co dzień&amp;quot; nowości Pythona mnie ciekawią i postanowiłem, że oprócz wykresów i analiz danych warto dzielić się także nieco bardziej technicznymi aspektami. To pierwsza odsłona nowej, technicznej twarzy Szychty :)
 Co znajdziemy w nowej wersji Pythona? Zestawień nowości jest w internecie bardzo dużo, choćby tutaj. Chciałbym się skupić na tej, która najbardziej mnie zainteresowała czyli uproszczenie typowania funkcji.</description>

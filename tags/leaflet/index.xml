@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>leaflet on Szychta w danych</title>
-    <link>https://psobczyk.github.io/tags/leaflet/</link>
+    <link>http://psobczyk.github.io/tags/leaflet/</link>
     <description>Recent content in leaflet on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 04 Jul 2016 15:40:09 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/leaflet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jul 2016 15:40:09 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/leaflet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wrocław - wielka zmiana. Demografia w latach 1998 - 2014</title>
-      <link>https://psobczyk.github.io/post/wroclaw-zmiany-demograficzne-w-ciagu-ostatnich-15-lat/</link>
+      <link>http://psobczyk.github.io/post/wroclaw-zmiany-demograficzne-w-ciagu-ostatnich-15-lat/</link>
       <pubDate>Mon, 04 Jul 2016 15:40:09 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/wroclaw-zmiany-demograficzne-w-ciagu-ostatnich-15-lat/</guid>
+      <guid>http://psobczyk.github.io/post/wroclaw-zmiany-demograficzne-w-ciagu-ostatnich-15-lat/</guid>
       <description>Gdzie żyją Wrocławianie? Które dzielnice się rozrastają, a które wyludniają? Jak zmieniło się pod tym względem miasto od 1998 do 2014 roku? Wszystko na pięknej interaktywnej mapie, dzięki której można się przekonać, jak mało się wie o Wrocławiu :)
 Poniżej interaktywna mapa. Przybliżać można przyciskami w lewym górnym rogu lub scrollem na myszce. Po kliknięciu pokazują się informacje o danym obszarze. Mapę można przeglądać na dwóch poziomach - mikro i makro (wybór w prawym górnym rogu).</description>
     </item>
     
     <item>
       <title>Tam, gdzie strach jest codziennością - mapa globalnego terroryzmu</title>
-      <link>https://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
+      <link>http://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
       <pubDate>Tue, 05 Apr 2016 15:41:24 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
+      <guid>http://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
       <description>Czasem strach jaki odczuwamy przed terroryzmem, zwłaszcza w Polsce, może wydawać się przesadzony. Jest jednak na świecie wiele miejsc, gdzie terroryzm jest niestety codziennością. W dzisiejszym wpisie prezentuję interaktywną mapę światowego terroryzmu.
 Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwaga, docelowy plik jest dosyć duży (około 15MB), a w miarę przybliżania wybranego regionu świata, dodatkowo ściągana jest mapa z serwisu open street map. Łączny przesył danych, może więc trochę kosztować :)[</description>
     </item>

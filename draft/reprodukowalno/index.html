@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="application/ld+json">
+
+{  
+  "@context":"http://schema.org",
+  "@type":"Website",
+  "@id":"http:\/\/psobczyk.github.io\/",
+  "author": {
+    "@type": "Person",
+    "name": "Szychta w danych",
+    
+    "image": "http://psobczyk.github.io/img/icon.png"
+    
+  },
+  "name":"Szychta w danych",
+  "description":"",
+  "url":"http:\/\/psobczyk.github.io\/draft\/reprodukowalno\/",
+  "keywords":"[tech]"
+}
+
+</script>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.109.0 with theme Tranquilpeak 0.5.3-BETA">
+<meta name="author" content="Szychta w danych">
+<meta name="keywords" content="tech">
+<meta name="description" content="">
+
+
+<meta property="og:description" content="">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Reprodukowalność">
+<meta name="twitter:title" content="Reprodukowalność">
+<meta property="og:url" content="http://psobczyk.github.io/draft/reprodukowalno/">
+<meta property="twitter:url" content="http://psobczyk.github.io/draft/reprodukowalno/">
+<meta property="og:site_name" content="Szychta w danych">
+<meta property="og:description" content="">
+<meta name="twitter:description" content="">
+<meta property="og:locale" content="pl">
+
+  
+    <meta property="article:published_time" content="2023-03-01T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2023-03-01T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="Programowanie">
+    
+      <meta property="article:section" content="R">
+    
+  
+  
+    
+      <meta property="article:tag" content="python">
+    
+      <meta property="article:tag" content="programowanie">
+    
+      <meta property="article:tag" content="reprodukowalność">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="http://psobczyk.github.io/img/icon.png">
+  <meta property="twitter:image" content="http://psobczyk.github.io/img/icon.png">
+
+
+
+
+
+
+    <title>Reprodukowalność</title>
+
+    <link rel="icon" href="http://psobczyk.github.io/img/icon-32.png">
+    
+
+    
+
+    <link rel="canonical" href="http://psobczyk.github.io/draft/reprodukowalno/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <link rel="stylesheet" href="http://psobczyk.github.io/css/style-h6ccsoet3mzkbb0wngshlfbaweimexgqcxj0h5hu4h82olsdzz6wmqdkajm.min.css" />
+    
+    
+
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-90780052-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="1">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="http://psobczyk.github.io/" aria-label="Wróć do strony głównej">Szychta w danych</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="http://psobczyk.github.io/#about" aria-label="Otwórz link: /#about">
+    
+    
+    
+      
+        <img class="header-picture" src="http://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="1">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="http://psobczyk.github.io/#about" aria-label="Przeczytaj więcej o autorze">
+          <img class="sidebar-profile-picture" src="http://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+        </a>
+        <h4 class="sidebar-profile-name">Szychta w danych</h4>
+        
+          <h5 class="sidebar-profile-bio">Blog o poznawaniu świata za pomocą danych</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://psobczyk.github.io/" title="Home">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-home" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Strona domowa</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://psobczyk.github.io/categories" title="Categories">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-bookmark" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Kategorie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://psobczyk.github.io/tags" title="Tags">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-tags" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Tagi</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://psobczyk.github.io/archives" title="Archives">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-archive" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Archiwum</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://psobczyk.github.io/o-blogu" title="O blogu">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-blog" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O blogu</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://psobczyk.github.io/about" title="O mnie">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-question" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">O mnie</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://psobczyk.github.io/projects" title="Projekty">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-typewriter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Projekty</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://psobczyk.github.io/szkolenia-z-analizy-danych" title="Szkolenia">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-chalkboard-teacher" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Szkolenia</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/psobczyk" target="_blank" rel="noopener" title="GitHub">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.facebook.com/szychtawdanych" target="_blank" rel="noopener" title="Facebook">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-facebook-square" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Facebook</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://pl.linkedin.com/in/psobczyk" target="_blank" rel="noopener" title="Linkedin">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-linkedin" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Linkedin</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/szychtawdanych" target="_blank" rel="noopener" title="Twitter">
+    
+      <i class="sidebar-button-icon fab fa-lg fa-twitter" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://psobczyk.github.io/index.xml" title="RSS">
+    
+      <i class="sidebar-button-icon fas fa-lg fa-rss" aria-hidden="true"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="1"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" id="top">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title">
+      Reprodukowalność
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time datetime="2023-03-01T00:00:00Z">
+        
+  
+  
+  
+  
+    1 Marzec 2023
+  
+
+      </time>
+    
+    
+  
+  
+    <span>w</span>
+    
+      <a class="category-link" href="http://psobczyk.github.io/categories/programowanie">Programowanie</a>, 
+    
+      <a class="category-link" href="http://psobczyk.github.io/categories/r">R</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown">
+            <div class="main-content-wrap">
+              <p>Podczas tworzenia oprogramowania opartego o dane, niezależnie czy będą to tematy
+związane z analizą danych czy z ich modelowaniem (data science), jednym z
+podstawowych wymagań będzie reprodukowalność rozwiązań. Co ona oznacza?</p>
+<p>Nie ma jednej definicji, ale spróbujemy sobie ten temat nieco uporządkować
+i pokazać jak można pójść w tym kierunku korzystając z Pythona i R.</p>
+<p>Najpierw trochę klasyki czyli dowód istotności tematu przez cytat:</p>
+<blockquote>
+<p>non-reproducible single occurrences are of no significance to science</p>
+<p>Karl Popper, The Logic of Scientific Discovery</p>
+</blockquote>
+<blockquote>
+<p>“we may say that a phenomenon is experimentally demonstrable when we know how to conduct an experiment which will rarely fail to give us statistically significant results”.</p>
+<p>Ronald Fisher, The Design of Experiments</p>
+</blockquote>
+<h3 id="czym-jest-reprodukowalność-w-nauce">Czym jest reprodukowalność w nauce?</h3>
+<p>Zanim przejdziemy do danych zacznijmy od tematu reprodukowalności w badaniach naukowych. Nie wystarczy raz pokazać występowania jakiegoś zjawiska i go opisać. Wynik zostaje potwierdzony i będzie traktowany jako fakt o ile eksperyment przeprowadzony w konkretnym miejscu i czasie uda się powtórzyć gdzie indziej i kiedy indziej otrzymując ten sam wynik. Ten sam wynik oczywiście z dokładnością do losowości, co zauważył już 100 lat temu cytowany powyżej Ronald Fisher.</p>
+<p>Ta zasada stanowi absolutna podstawa dla metody naukowej, takiej jak ją obecnie rozumiemy!</p>
+<p>Okazuje się, że rozwój instytucjonalnej nauki, to znaczy ogromne liczby zawodowych naukowców, którzy muszą publikować regularnie nowe i ciekawe wyniki, stanowi zagrożenie dla
+reprodukowalności. Wynikiem oczekiwania na istotne statystycznie wyniki jest ich szukanie. A wynikiem tego szukania jest ich mniejsza istotność. Jeśli brzmi to jednocześnie zagmatwanie i ciekawie to polecam krótką, prostą i wiele tłumaczącą pracę prof. Ioannidisa z Uniwersytetu Stanforda <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1182327/">Why Most Published Research Findings Are False</a>.</p>
+<p><img src="https://media.makeameme.org/created/please-tell-me-6cca333cdf.jpg" alt=""></p>
+<h3 id="czym-jest-reprodukowalność-dla-przetwarzania-danych">Czym jest reprodukowalność dla przetwarzania danych?</h3>
+<p>Pewnie część czytelników wstrzymała lekturę na ostatnim paragrafie. Witamy w elitarnym klubie zainteresowanych. Jak się ma statystyczna istotność eksperymentów naukowych do Waszej codziennej pracy z danymi?</p>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTf_MAgoTFXoRtshKP-hqKQkcWoi7o-vKSbA&amp;usqp=CAU" alt=""></p>
+<p>Mamy dwa poziomy reprodukowalności. Jeden bezpośrednio związany, drugi nieco luźniej.</p>
+<h4 id="testy-ab">Testy AB</h4>
+<p>Testy AB są dobrym narzędziem do podejmowania decyzji. Czy lepiej jest publikować posty w poniedziałek czy wtorek? Czy lepiej żeby strona miała tło białe czy czerwone? Czy lepiej ustawić cenę produktu na poziomie 10 złotych czy 20 złotych?</p>
+<h4 id="reprodukowalność-jako-zdolność-odtworzenia-działania-programu">Reprodukowalność jako zdolność odtworzenia działania programu</h4>
+<p>W programach komputerowych, upraszczając, jest to odtworzenie w pełni środowiska, w którym działa program tak, żeby dla zadanych danych wejściowych dostać te same dane wyjściowe (system, biblioteki, zmienne środowiskowe, ziarno dla liczb losowych etc.). Robimy to żeby:</p>
+<ul>
+<li>Upewnić się, że nasz program będzie działać  środowisku, w którym zostanie uruchomiony.</li>
+<li>Zdebugować kod, który zawiódł ,,produkcyjnie&quot;.</li>
+</ul>
+<p>Tworząc analogię do eksperymentów naukowych, taka reprodukowalność oznacza zdolność spakowania laboratorium (razem z personelem), powielenia go, rozpakowania w dowolnym miejscu i czasie i możliwość przeprowadzenia dokładnie tego samego eksperymentu z gwarancją uzyskania dokładnie takich samych wyników.</p>
+<ul>
+<li>Reprodukowalność wzmacnia transparentność i zaufanie. Daje możliwość weryfikacji.</li>
+</ul>
+<h2 id="kroki-do-osiągnięcia-reprodukowalności">Kroki do osiągnięcia reprodukowalności</h2>
+<ul>
+<li>Dane</li>
+<li>Kod</li>
+<li>Środowisko</li>
+</ul>
+<h2 id="dane">Dane</h2>
+<p>Muszą być zabezpieczone (bezpieczna kopia). Koniecznie trzeba mieć dane pierwotne (raw data) i dane wejściowe do analizy (modelu). Istotne pośrednie stany, które są wynikiem czyszczenia danych również można zachować - szczególnie jeśli spodziewamy się, że będziemy do nich zaglądać w przyszłości.</p>
+<p>Warto zadbać też o metadane. Opis zmiennych, ich typy, możliwe wartości dla zmiennych kategorycznych. W praktyce może być to np arkusz w google docs.</p>
+<h2 id="kod">Kod</h2>
+<ul>
+<li>Aby mieć pewność, że możemy odtworzyć analizę na datę, kiedy została ona przeprowadzona, powinniśmy korzystać z systemu kontroli wersji (Git). Zakładam, że to jest coś, co już znacie ;)</li>
+<li>Możliwie wysokiej jakości. Powinniśmy przestrzegać dobrych zasad tworzenia oprogramowania (więcej o tym jak to zrobić na kolejnych zajęciach)</li>
+<li>Wszystko powinno być zautomatyzowane tak, aby osobie, która będzie odtwrzać analizę (a możemy to być my sami za kilka tygodni czy miesięcy) będzie łatwo dokładnie odtworzyć poszczególne kroki.</li>
+</ul>
+<h2 id="środowisko">Środowisko</h2>
+<ul>
+<li>te same wersje pakietów</li>
+<li>te same zmienne środowiskowe</li>
+<li>te same wersje oprogramowania</li>
+<li>te same biblioteki systemowe</li>
+<li>ten sam system operacyjny</li>
+</ul>
+<p>Na poprzednich zajęciach mielismy zarządzanie zależnościami, ale to jest za mało.
+<strong>Chcemy kontrolować całe środowisko.</strong> Ten problem rozwiązuje Docker i nim się dzisiaj zajmiemy.</p>
+<h1 id="docker">Docker</h1>
+<h2 id="docker-1">Docker</h2>
+<p><img src="https://logowik.com/content/uploads/images/301_docker.jpg" alt=""></p>
+<h2 id="docker-2">Docker</h2>
+<ul>
+<li>Narzędzie do uruchamianie kontenerów.</li>
+<li>Kontenery to pewna warstwa abstrakcji, która pozwala wykonywać zadania takie jak system operacyjny. * Oznacza to, że na dowolnym komputerze możemy uruchomić wiele różnych systemów.</li>
+<li>Domyślnie kontenery nie widzą siebie nawzajem (są izolowane), ale można jest ze sobą łączyć w sieci. Np. bazę danych i aplikacje z niej korzystającą.</li>
+</ul>
+<h2 id="anatomia">Anatomia</h2>
+<ul>
+<li>Dockerfile: lista akcji, które mają być wykonane aby utworzyć obraz dockerowy.</li>
+<li>Obraz dockerowy (image). System plików i zainstalowane biblioteki (zdefiniowane w Dockerfile).</li>
+<li>Docker container: instancja obrazu dockerowego zawierająca wszystkie niezbędne pliki do jego uruchomienia. Do kontenera możemy uruchomić, ale też się do niego podpiąć w trybie interkatywnym. Wszystkie kontenery stworzone na podstawie tego samego obrazu są identyczne.</li>
+<li>.dockerignore: plik zawierający ścieżki do plików, które nie mają być uwzględnione przy budowania obrazu.</li>
+</ul>
+<h4 id="jaka-jest-korzyść-z-kontenerów">Jaka jest korzyść z kontenerów?</h4>
+<ul>
+<li>Na Windowsie możecie odpalić sobie wirtualnego Linuxa, na którym możecie wykonywać obliczenia tak jak na ,,prawdziwym&quot; linuxie.</li>
+<li>Możecie mieć na nim zainstalowanego R w wersji 3.2 czy 4.0.</li>
+<li>Możecie mieć na nim dowolne wersje Pythona. Macie na nim wszystko to, czego potrzebujecie do wykonania analizy/przekształcenia/predykcji danych.</li>
+</ul>
+<p>No dobrze, to jak się za to zabrać?</p>
+<p>Najpierw tworzymy obrazy (image).</p>
+<p>Obraz definiuje to jaki system operacyjny będziemy mieli.</p>
+<p>Kontener to uruchomiony obraz.</p>
+<p>Na jednym komputerze możecie mieć ten sam obraz działający w różnych kontenerach.</p>
+<p>Warto zauważyć, że kontener to nie maszyna wirtualna. Różnica może wydawać się subtelna dla osoby, która dopiero zaczyna swoją przygodę z Dockerem. Konteneryzacja to rozwiązanie szybkie do tworzenia i łatwe do automatyzacji. Minusem jest potencjalnie mniejsze bezpieczeństwo.
+Z kolei sporą wadą (z persepktywy przetwarzania danych) przy maszynach wirtualnych (VM) jest ich interaktywny tworzenie (czyli środowisko trzeba ,,wyklikać&quot;). Zaletą jest większe w bezpieczeństwo.</p>
+<p><img src="https://wac-cdn.atlassian.com/dam/jcr:92adde69-f728-4cfc-8bab-ba391c25ae58/SWTM-2060_Diagram_Containers_VirtualMachines_v03.png" alt=""></p>
+<p><a href="https://www.atlassian.com/microservices/cloud-computing/containers-vs-vms">Źródło</a></p>
+<h3 id="instalacja">Instalacja</h3>
+<p>Zaczynamy od lokalnego zainstalowania dockera.</p>
+<p>Oprogramowanie ściągniemy z <a href="https://docs.docker.com/get-docker/">https://docs.docker.com/get-docker/</a></p>
+<p>Korzystanie z istniejących kontenerów jest darmowe.</p>
+<p>Płatne jest umieszczanie swoich kontenerów w sieci (co ma sens, są one dosyć duże, a więc i drogie w utrzymaniu).</p>
+<p>Można mieć własne rejestry obrazów (i wiele firm tak właśnie robi).</p>
+<h4 id="pierwszy-docker-w-r">Pierwszy docker w R</h4>
+<p>Żeby uruchomić dockera musimy mieć zdefiniowany obraz. Albo definiujemy go sami, albo korzystamy z gotowych obrazów dostępnych on-line. Jest kilka miejsc, gdzie można je znaleźć. Dla R możemy je dostać z <a href="https://www.rocker-project.org/">Rockera</a>.</p>
+<pre tabindex="0"><code>docker run --rm -ti rocker/r-base
+</code></pre><p>Można podobnie uruchomić dockera, który umożliwi nam korzystanie z RStudio.</p>
+<p>Pierwsze uruchomienia zajmuje sporo czasu, bo obraz trzeba ściągnąć z internetu. Kolejen uruchomienie będzie już szybkie.</p>
+<pre tabindex="0"><code>docker run -e PASSWORD=yourpassword --rm -p 8787:8787 rocker/rstudio
+</code></pre><p>Jedna linia kodu - how cool is that? <a href="https://www.rocker-project.org/images/">Opcji jest sporo</a></p>
+<p>Możemy w łatwy sposób sprawdzić jak działa nasz kod na np. najnowszej wersji Rowej konsoli lub przy jakichś konkretnych zainstalowanych bibliotekach.</p>
+<h2 id="pierwszy-docker-w-pythonie">Pierwszy docker w Pythonie</h2>
+<p>Podobnie jak dla R mamy bardzo wiele <a href="https://hub.docker.com/_/python?tab=tags">gotowych obrazów</a>, z których możemy sporzystać.</p>
+<pre tabindex="0"><code>docker run --rm -ti python:latest
+</code></pre><p>Skąd brać obrazy?</p>
+<ul>
+<li>Podstawowy python? <a href="https://pythonspeed.com/articles/base-image-python-docker-images/">Zerknij tutaj</a>.</li>
+<li><a href="https://hub.docker.com/r/jupyter/scipy-notebook">Notebook</a>.</li>
+<li><a href="https://hub.docker.com/r/pytorch/pytorch">Pytorch?</a>.</li>
+</ul>
+<h1 id="tworzenie-własnych-obrazów">Tworzenie własnych obrazów</h1>
+<h2 id="tworzenie-własnych-obrazów-1">Tworzenie własnych obrazów</h2>
+<p>Oczywiscie super jest odpalić RStudio w Dockerze, ale przecież chodziło nam o reprodukowalność. Więc pewnie musimy tworzyć własne obrazy? Definiujemy je w pliku <strong>Dockerfile</strong>.</p>
+<p>Przykład, jak wygląda dockerfile:</p>
+<ul>
+<li><a href="https://github.com/rocker-org/rocker-versioned2/blob/master/dockerfiles/r-ver_4.1.2.Dockerfile">https://github.com/rocker-org/rocker-versioned2/blob/master/dockerfiles/r-ver_4.1.2.Dockerfile</a></li>
+<li><a href="https://hub.docker.com/layers/python/library/python/3.9/images/sha256-8ccef93ff3c9e1bb9562d394526cdc6834033a0498073d41baa8b309f4fac20e?context=explore">https://hub.docker.com/layers/python/library/python/3.9/images/sha256-8ccef93ff3c9e1bb9562d394526cdc6834033a0498073d41baa8b309f4fac20e?context=explore</a></li>
+</ul>
+<h2 id="docker-składa-się-z-warstw">Docker składa się z warstw</h2>
+<p>Kolejność ma znaczenie - docker ma warstwy.</p>
+<p><img src="https://memegenerator.net/img/instances/72820582.jpg" alt=""></p>
+<h2 id="from">FROM</h2>
+<p>::: incremental</p>
+<ul>
+<li>Startoway obraz.</li>
+<li>Może być czysty system typu ubuntu czy windows.</li>
+<li>Może być już przygotowanego np. obraz z działającym jupyterem lub pytorchem</li>
+<li>Może być coś co sami przygotowaliśmy wcześniej i jest dostępne lokalnie lub w jakimś rejestrze.
+:::</li>
+</ul>
+<h2 id="run">RUN</h2>
+<ul>
+<li>Uruchom a więc każda możliwa komenda.</li>
+<li>Instalacja pakietów.</li>
+<li>Konfiguracja środowiska.</li>
+</ul>
+<h2 id="copy">COPY</h2>
+<ul>
+<li>Kopiowanie plików lokalnych do obrazu.</li>
+<li>W przeciwieństwie do &ldquo;mount volume&rdquo; to działa w jedną stronę.</li>
+<li>Na początku kopiujemy tylko niezbedne pliki typu <code>requirements.txt</code>.</li>
+<li>Cała reszta (niemal) na samym końcu.</li>
+</ul>
+<h2 id="cmd">CMD</h2>
+<ul>
+<li>Uruchomienie komendy, która ma zostać wykonana w Dockerze.</li>
+<li>Wszystkie poprzednie kroki mają sprawić, że ta komenda wykona się poprawnie.</li>
+</ul>
+<h2 id="budowanie-obrazu">Budowanie obrazu</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker build -t nameofdockerimage .
+</span></span></code></pre></div><ul>
+<li><code>-t tag</code>, tagging image</li>
+<li><code>--build-arg IMAGE_REGISTRY=http://url_here.com</code>, przekazanie argumentu do budowanego obrazu</li>
+<li><code>-f pathto/Dockerfile</code>, non-default Dockerfile</li>
+</ul>
+<h2 id="uruchomienie-kontenera">Uruchomienie kontenera</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run --rm nameofdockerimage
+</span></span></code></pre></div><ul>
+<li><code>-it</code>, interaktywne.</li>
+<li><code>-v full_path_local_data:/data/</code>, montowanie folderu.</li>
+<li><code>-p</code>, forwardowanie portów np. <code>-p 8788:8787</code>.</li>
+<li><code>-d</code>, <code>--detach</code>, kontener będzie odpalony w tle.</li>
+</ul>
+<h2 id="współdzielone-foldery">Współdzielone foldery</h2>
+<ul>
+<li>Przy uruchomieniu kontenera istnieje możliwość udostępnienia
+folderu, który będzie współdzielony między kontenerem
+a dyskiem na maszynie.</li>
+<li>Flaga <code>-v</code> lub <code>--volume</code>.</li>
+<li>Np. <code>-v /Users/bob/Documents:/home/rstudio/Documents rocker/rstudio</code>.
+Ważne, że ścieżki są absolute nie relative.</li>
+</ul>
+<pre tabindex="0"><code>docker run -d  -e PASSWORD=yourpassword -p 8787:8787
+-v /Users/bob/Documents:/home/rstudio/Documents rocker/rstudio
+</code></pre><h2 id="zmienne-środowiskowe">Zmienne środowiskowe</h2>
+<p>::: incremental</p>
+<ul>
+<li>Popularny sposób przekazania konfiguracji do kontenera.</li>
+<li><code>--env-file ./env.list</code>, przekazanie pliku zawierającego zmienne środowiskowe.</li>
+<li><code>-e PASSWORD=yourpassword</code>, przekazanie explicite jednej konkretnej zmiennej.
+:::</li>
+</ul>
+<h2 id="zarządzanie-obrazami">Zarządzanie obrazami</h2>
+<ul>
+<li><code>docker system prune</code> - usuwa wszystkie zasoby (images, containers, volumes, and networks) które nie są otagowane lub powiązane z jakimś kontenerem (dangling).</li>
+<li><code>docker system prune -a</code> usuwa dodatkowo wszystkie zatrzymane kontenery i nieużywane obrazy.</li>
+<li><code>docker images -a</code></li>
+<li><code>docker rmi IMAGE_NAME/IMAGE_ID</code></li>
+<li><code>docker images -a | grep &quot;pattern&quot; | awk '{print $3}' | xargs docker rmi</code> - usuwanie wszystkich obrazów zawierających <em>pattern</em>.</li>
+</ul>
+<h2 id="zarządzanie-kontenerami">Zarządzanie kontenerami</h2>
+<p>::: incremental</p>
+<ul>
+<li>Kontenery także nie są małe - warto zadbać o porządek!</li>
+<li><code>docker ps -a</code> - wylistuje nam chodzące i zatrzymane kontenery.</li>
+<li><code>docker run --rm</code> - usuwamy kontener po jego zastopowaniu.</li>
+<li><code>docker rm -v $(docker ps -a -q)</code>, usuwamy wszystkie zastopowane kontenery.
+:::</li>
+</ul>
+<h2 id="demo">Demo</h2>
+<!-- raw HTML omitted -->
+<h2 id="uwagi-do-demo">Uwagi do demo</h2>
+<ul>
+<li><a href="https://github.com/psobczyk/dash-demo">https://github.com/psobczyk/dash-demo</a></li>
+<li>Proszę zwrócić uwagę, że na Windowsie adres 0.0.0.0 nie jest automatycznie przekierowany na localhosta. Trzeba więc zmodyfikować adres jaki podaje gunicorn.</li>
+<li>Nasze <code>requirements.in</code> powiększyło się o pakiety <code>gunicorn</code> i <code>redis</code>.</li>
+</ul>
+<h2 id="gdzie-przechowujemy-obrazy">Gdzie przechowujemy obrazy?</h2>
+<ul>
+<li>Przechowywanie obrazów jest płatne, bo obrazy są duże.</li>
+<li>Dockerhub, Github <a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry">container registry</a>, Gitlab registry, AWS ECR etc. etc.</li>
+<li><a href="https://docs.docker.com/registry/deploying/">Własny rejestr</a>.</li>
+</ul>
+<h1 id="docker-compose">Docker compose</h1>
+<h2 id="imago-solus-nunquam-solus">Imago solus, nunquam solus</h2>
+<p>Sam obraz nie wystarcza - ważne jest całe środowisko.</p>
+<p>Nasza aplikacja może potrzebować innych usług np. bazy danych, redis-a etc.</p>
+<p>Docker compose tworzy całe środowisko. Kilka usług będzie odpalonych w tej samej sieci i będą one w stanie się między sobą komunikować.</p>
+<h2 id="przykład-z-internetuhttpsgithubcomthedirtyfewdash-redis-mwe"><a href="https://github.com/thedirtyfew/dash-redis-mwe">Przykład z internetu</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>version: <span style="color:#e6db74">&#39;3&#39;</span>
+</span></span><span style="display:flex;"><span>services:
+</span></span><span style="display:flex;"><span>  myapp:
+</span></span><span style="display:flex;"><span>    build:
+</span></span><span style="display:flex;"><span>      .
+</span></span><span style="display:flex;"><span>    depends_on:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;myapp-redis&#34;</span>
+</span></span><span style="display:flex;"><span>    ports:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;8000:8000&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># redis cache for storing data</span>
+</span></span><span style="display:flex;"><span>  myapp-redis:
+</span></span><span style="display:flex;"><span>    image: redis
+</span></span><span style="display:flex;"><span>    expose:
+</span></span><span style="display:flex;"><span>      - <span style="color:#e6db74">&#34;6379&#34;</span>
+</span></span></code></pre></div><h2 id="demo-1">Demo</h2>
+<p><a href="https://github.com/psobczyk/dash-demo/blob/master/docker-compose.yml">https://github.com/psobczyk/dash-demo/blob/master/docker-compose.yml</a></p>
+<h2 id="żródła">Żródła</h2>
+<ul>
+<li><a href="https://towardsdatascience.com/docker-for-data-scientists-part-1-41b0725d4a50">https://towardsdatascience.com/docker-for-data-scientists-part-1-41b0725d4a50</a></li>
+<li><a href="https://towardsdatascience.com/dockerize-your-dash-app-1e155dd1cea3">https://towardsdatascience.com/dockerize-your-dash-app-1e155dd1cea3</a></li>
+<li><a href="https://dagshub.com/blog/setting-up-data-science-workspace-with-docker/">https://dagshub.com/blog/setting-up-data-science-workspace-with-docker/</a></li>
+<li><a href="https://towardsdatascience.com/deploy-your-ai-engine-in-any-other-machine-using-docker-docker-compose-1691e57cb866">https://towardsdatascience.com/deploy-your-ai-engine-in-any-other-machine-using-docker-docker-compose-1691e57cb866</a></li>
+<li><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1801">https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1801</a></li>
+</ul>
+<h2 id="żródła-1">Żródła</h2>
+<ul>
+<li><a href="https://drivendata.github.io/cookiecutter-data-science/">https://drivendata.github.io/cookiecutter-data-science/</a></li>
+<li><a href="https://www.docker.com/">https://www.docker.com/</a></li>
+<li><a href="https://www.rocker-project.org/">https://www.rocker-project.org/</a></li>
+<li><a href="https://colinfay.me/docker-r-reproducibility/">https://colinfay.me/docker-r-reproducibility/</a></li>
+<li><a href="https://realpython.com/python-versions-docker/">https://realpython.com/python-versions-docker/</a></li>
+</ul>
+              
+
+
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">OTAGOWANO JAKO</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="http://psobczyk.github.io/tags/python/">python</a>
+
+  <a class="tag tag--primary tag--small" href="http://psobczyk.github.io/tags/programowanie/">programowanie</a>
+
+  <a class="tag tag--primary tag--small" href="http://psobczyk.github.io/tags/reprodukowalno%C5%9B%C4%87/">reprodukowalność</a>
+
+                  </div>
+                
+              
+            
+            
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="http://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/" data-tooltip="Statyczne sprawdzanie typów po raz drugi" aria-label="POPRZEDNIA: Statyczne sprawdzanie typów po raz drugi">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://psobczyk.github.io/draft/reprodukowalno/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://psobczyk.github.io/draft/reprodukowalno/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=http://psobczyk.github.io/draft/reprodukowalno/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+            
+  
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    <script type="text/javascript">
+      var disqus_config = function() {
+        this.page.url = 'http:\/\/psobczyk.github.io\/draft\/reprodukowalno\/';
+        
+          this.page.identifier = '\/draft\/reprodukowalno\/'
+        
+      };
+      (function() {
+        
+        
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+          document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+          return;
+        }
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'szychta';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+  
+
+
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2023 Szychta w danych. Wszystkie prawa zastrzeżone
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+        
+<div class="post-actions-wrap">
+  <nav >
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+              <i class="fa fa-angle-left"></i>
+              <span class="hide-xs hide-sm text-small icon-ml">NASTĘPNA</span>
+            </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="http://psobczyk.github.io/draft/statyczne-sprawdzanie-typ-w-po-raz-drugi/" data-tooltip="Statyczne sprawdzanie typów po raz drugi" aria-label="POPRZEDNIA: Statyczne sprawdzanie typów po raz drugi">
+          
+              <span class="hide-xs hide-sm text-small icon-mr">POPRZEDNIA</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+        </li>
+      
+    </ul>
+  </nav>
+<ul class="post-actions post-action-share" >
+  
+    <li class="post-action hide-lg hide-md hide-sm">
+      <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions" aria-label="Podziel się tym postem">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </a>
+    </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://psobczyk.github.io/draft/reprodukowalno/" title="Udostępnij na Facebook" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://psobczyk.github.io/draft/reprodukowalno/" title="Udostępnij na Twitter" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=http://psobczyk.github.io/draft/reprodukowalno/" title="Udostępnij na Linkedin" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+    
+  
+  
+    <li class="post-action">
+      <a class="post-action-btn btn btn--default" href="#disqus_thread" aria-label="Zostaw komentarz">
+        <i class="far fa-comment"></i>
+      </a>
+    </li>
+  
+  <li class="post-action">
+    
+      <a class="post-action-btn btn btn--default" href="#top" aria-label="Powrót do góry">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    
+    </a>
+  </li>
+</ul>
+</div>
+
+
+      </div>
+      
+<div id="share-options-bar" class="share-options-bar" data-behavior="1">
+  <i id="btn-close-shareoptions" class="fa fa-times"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpsobczyk.github.io%2Fdraft%2Freprodukowalno%2F" aria-label="Udostępnij na Facebook">
+          <i class="fab fa-facebook-square" aria-hidden="true"></i><span>Udostępnij na Facebook</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http%3A%2F%2Fpsobczyk.github.io%2Fdraft%2Freprodukowalno%2F" aria-label="Udostępnij na Twitter">
+          <i class="fab fa-twitter" aria-hidden="true"></i><span>Udostępnij na Twitter</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Fpsobczyk.github.io%2Fdraft%2Freprodukowalno%2F" aria-label="Udostępnij na Linkedin">
+          <i class="fab fa-linkedin" aria-hidden="true"></i><span>Udostępnij na Linkedin</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+
+
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-times"></i>
+    </div>
+    
+      <img id="about-card-picture" src="http://psobczyk.github.io/img/icon.png" alt="Zdjęcie autora" />
+    
+    <h4 id="about-card-name">Szychta w danych</h4>
+    
+      <div id="about-card-bio">Blog o poznawaniu świata za pomocą danych</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Piotr Sobczyk
+      </div>
+    
+    
+  </div>
+</div>
+
+    
+
+    
+  
+    
+      <div id="cover" style="background-image:url('http://psobczyk.github.io/images/cover.jpg');"></div>
+    
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js" integrity="sha512-z+/WWfyD5tccCukM4VvONpEtLmbAm5LDu7eKiyMQJ9m7OfPEDL7gENyDRL3Yfe8XAuGsS2fS4xSMnl6d30kqGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="http://psobczyk.github.io/js/script-yqzy9wdlzix4lbbwdnzvwx3egsne77earqmn73v9uno8aupuph8wfguccut.min.js"></script>
+
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-gE8KAQyFIzV1C9+GZ8TKJHZS2s+n7EjNtC+IMRn1l5+WYJTHOODUM6JSjZhFhqXmc7bG8Av6XXpckA4tYhflnw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/apache.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-EWROca+bote+7Oaaar1F6y74iZj1r1F9rm/ly7o+/FwJopbBaWtsFDmaKoZDd3QiGU2pGacBirHJNivmGLYrow==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/go.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-GDVzAn0wpx1yVtQsRWmFc6PhJiLBPdUic+h4GWgljBh904O3JU10fk9EKNpVyIoPqkFn54rgL2QBG4BmUTMpiQ==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/http.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-UgZlma8NzkrDb/NWgmLIcTrH7i/CSnLLDRFqCSNF5NGPpjKmzyM25qcoXGOup8+cDakKyaiTDd7N4dyH4YT+IA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/less.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-lot9koe73sfXIrUvIPM/UEhuMciN56RPyBdOyZgfO53P2lkWyyXN7J+njcxIIBRV+nVDQeiWtiXg+bLAJZDTfg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/nginx.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-Zd3e7XxHP00TD0Imr0PIfeM0fl0v95kMWuhyAS3Wn1UTSXTkz0OhtRgBAr4JlmADRgiXr4x7lpeUdqaGN8xIog==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/puppet.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-qtqDO052iXMSP+5d/aE/jMtL9vIIGvONgTJziC2K/ZIB1yEGa55WVxGE9/08rSQ62EoDifS9SWVGZ7ihSLhzMA==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/scss.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-1NmkjnEDnwwwcu28KoQF8vs3oaPFokQHbmbtwGhFfeDsQZtVFI8zW2aE9O8yMYdpdyKV/5blE4pSWw4Z/Sv97w==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/stylus.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-B2wSfruPjr8EJL6IIzQr1eAuDwrsfIfccNf/LCEdxELCgC/S/ZMt/Uvk80aD79m7IqOqW+Sw8nbkvha20yZpzg==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/swift.min.js"></script>
+  
+
+  
+    <script async crossorigin="anonymous" defer integrity="sha512-28oDiQZGKUVN6wQ7PSLPNipOcmkCALXKwOi7bnkyFf8QiMZQxG9EQoy/iiNx6Zxj2cG2SbVa4dXKigQhu7GiFw==" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/yaml.min.js"></script>
+  
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+
+
+    
+  </body>
+</html>
+

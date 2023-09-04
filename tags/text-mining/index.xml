@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>text mining on Szychta w danych</title>
-    <link>https://psobczyk.github.io/tags/text-mining/</link>
+    <link>http://psobczyk.github.io/tags/text-mining/</link>
     <description>Recent content in text mining on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Fri, 04 Nov 2016 19:37:34 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/text-mining/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Nov 2016 19:37:34 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/text-mining/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kto się boi, a kto czuje odrazę - analiza tweetów polskich partii politycznych</title>
-      <link>https://psobczyk.github.io/post/kto-sie-boi-a-kto-czuje-odraze-analiza-tweetow-polskich-partii-politycznych/</link>
+      <link>http://psobczyk.github.io/post/kto-sie-boi-a-kto-czuje-odraze-analiza-tweetow-polskich-partii-politycznych/</link>
       <pubDate>Fri, 04 Nov 2016 19:37:34 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/kto-sie-boi-a-kto-czuje-odraze-analiza-tweetow-polskich-partii-politycznych/</guid>
+      <guid>http://psobczyk.github.io/post/kto-sie-boi-a-kto-czuje-odraze-analiza-tweetow-polskich-partii-politycznych/</guid>
       <description>Czy język polskiej polityki ocieka (negatywnymi) emocjami? A może to tylko złudzenie, któremu ulegamy? Dzisiaj szychta analizuje tweety 5 partii politycznych i sprawdza jak mocny ładunek emocjonalny w sobie zawierają.
 Poniższy wykres należy rozumieć w następujący sposób. Każda z 5 osi opisuje jedną emocję. Punkty na osi odpowiadają poszczególnym partiom politycznym. Kolejne emocje połączone są liniami, aby łatwiej było śledzić różnice między ugrupowaniami. Linie poprzeczne odpowiadają skali emocji. Im bliżej środka tym emocje są mniejsze.</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>epidemiologia on Szychta w danych</title>
-    <link>https://psobczyk.github.io/tags/epidemiologia/</link>
+    <link>http://psobczyk.github.io/tags/epidemiologia/</link>
     <description>Recent content in epidemiologia on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Sat, 21 Mar 2020 18:25:14 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/epidemiologia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Mar 2020 18:25:14 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/epidemiologia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Koronawirus lub o tym, że mowa to tylko srebro</title>
-      <link>https://psobczyk.github.io/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</link>
+      <link>http://psobczyk.github.io/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</link>
       <pubDate>Sat, 21 Mar 2020 18:25:14 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</guid>
+      <guid>http://psobczyk.github.io/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</guid>
       <description>Cóż innego mogłoby być tematem bloga dotyczącego analizy danych jak nie oczywiście koronawirus? Odpowiadając na prośby najwierniejszych czytelników Szychty (czyli żony i taty), dzisiaj krótko o tym czemu nie pisałem nic na ten temat i o przewadze milczenia nad słowem pisanym.
 Powód pierwszy Banalny - nie znam się na epidemiologii :) Kilka kursów z równań różniczkowych (w tym modelowania deterministycznego), znajomość procesów gałązkowych czy ogólne obycie w analizie danych nie oznacza, że ktoś zna się na pandemiach.</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>animacja on Szychta w danych</title>
-    <link>https://psobczyk.github.io/tags/animacja/</link>
+    <link>http://psobczyk.github.io/tags/animacja/</link>
     <description>Recent content in animacja on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Sun, 22 Feb 2015 19:13:41 +0000</lastBuildDate><atom:link href="https://psobczyk.github.io/tags/animacja/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Feb 2015 19:13:41 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/animacja/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie</title>
-      <link>https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
+      <link>http://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
       <pubDate>Sun, 22 Feb 2015 19:13:41 +0000</pubDate>
       
-      <guid>https://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
+      <guid>http://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
       <description>Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&amp;hellip; nie ma na nie miejsca.</description>
     </item>
     
