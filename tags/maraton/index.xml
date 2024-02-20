@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>maraton on Szychta w danych</title>
-    <link>http://psobczyk.github.io/tags/maraton/</link>
+    <link>https://www.szychtawdanych.pl/tags/maraton/</link>
     <description>Recent content in maraton on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Sun, 18 Jun 2017 10:38:39 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/maraton/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jun 2017 10:38:39 +0000</lastBuildDate><atom:link href="https://www.szychtawdanych.pl/tags/maraton/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wyniki 5. PKO Nocnego Wrocław Półmaratonu</title>
-      <link>http://psobczyk.github.io/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</link>
+      <link>https://www.szychtawdanych.pl/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</link>
       <pubDate>Sun, 18 Jun 2017 10:38:39 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</guid>
       <description>Wczoraj odbył się we Wrocławiu 5 nocny półmaraton. Dostarczył on wszystkim uczestnikom, jak to zwykle bywa, mnóstwo cierpień i radości :) Podobnie jak dwa lata temu przeanalizujmy wyniki jakie uzyskali zawodnicy.
 Na początku kilka faktów. Dwa lata temu w biegu udział wzięło 7 tysięcy osób, w tym już niemal 10 tysięcy!!! Ten wzrost nie pozostał bez wpływu na przeciętne tempo, jakie uzyskali zawodnicy, które było w tym roku nieco niższe.</description>
     </item>
     
     <item>
       <title>Wyniki wrocławskiego półmaratonu 2015</title>
-      <link>http://psobczyk.github.io/post/wyniki-polmaratonu/</link>
+      <link>https://www.szychtawdanych.pl/post/wyniki-polmaratonu/</link>
       <pubDate>Sun, 21 Jun 2015 19:57:31 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wyniki-polmaratonu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wyniki-polmaratonu/</guid>
       <description>W ostatnią sobotę odbył się we Wrocławiu nocny półmaraton. Dostarczył on, oprócz dobrej zabawy, niemałego zbioru danych zawierającego międzyczasy blisko 7000 uczestników.
 Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi.</description>
     </item>

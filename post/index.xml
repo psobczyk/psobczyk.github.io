@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Szychta w danych</title>
-    <link>http://psobczyk.github.io/post/</link>
+    <link>https://www.szychtawdanych.pl/post/</link>
     <description>Recent content in Posts on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.szychtawdanych.pl/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Głos głosowi nierówny lub o podziale mandatów do Sejmu</title>
-      <link>http://psobczyk.github.io/post/g-os-g-osowi-nier-wny-lub-o-podziale-mandat-w-do-sejmu/</link>
+      <link>https://www.szychtawdanych.pl/post/g-os-g-osowi-nier-wny-lub-o-podziale-mandat-w-do-sejmu/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/g-os-g-osowi-nier-wny-lub-o-podziale-mandat-w-do-sejmu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/g-os-g-osowi-nier-wny-lub-o-podziale-mandat-w-do-sejmu/</guid>
       <description>
 
 
@@ -24,40 +24,40 @@ równe nie będą.&lt;/p&gt;
     
     <item>
       <title>Ile mieszkań mają gminy lub o narzędziach wprowadzania sprawiedliwości społecznej</title>
-      <link>http://psobczyk.github.io/post/ile-mieszka-maj-gminy-lub-o-narz-dziach-wprowadzania-sprawiedliwo-ci-spo-ecznej/</link>
+      <link>https://www.szychtawdanych.pl/post/ile-mieszka-maj-gminy-lub-o-narz-dziach-wprowadzania-sprawiedliwo-ci-spo-ecznej/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/ile-mieszka-maj-gminy-lub-o-narz-dziach-wprowadzania-sprawiedliwo-ci-spo-ecznej/</guid>
+      <guid>https://www.szychtawdanych.pl/post/ile-mieszka-maj-gminy-lub-o-narz-dziach-wprowadzania-sprawiedliwo-ci-spo-ecznej/</guid>
       <description>&lt;p&gt;Jak zmienia się liczba mieszkań należących do gmin? Czy są regiony gdzie budownictwo społeczne cieszy się większym zainteresowaniem?
 I jak te fakty mają się do konstytucyjnej zasady sprawiedliwości społecznej?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Ars bonae scripturae</title>
-      <link>http://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</link>
+      <link>https://www.szychtawdanych.pl/post/2023-01-07-ars-bonae-scripturae/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/2023-01-07-ars-bonae-scripturae/</guid>
+      <guid>https://www.szychtawdanych.pl/post/2023-01-07-ars-bonae-scripturae/</guid>
       <description>Kontynuujemy temat tworzenia wysokiej jakości oprogramowaniu w kontekście przetwarzania danych. W tym wpisie porównamy jak R i Python radzą sobie ze wspomaganiem użytkownika w pisaniu przejrzystego, dobrego kodu. Temat jest szeroki, skupimy się na 4 zagadnieniach:
 Jak powinien wyglądać szablon projektu Data Science? Dlaczego konwencje nazewnictwa mają znaczenie i czym linter? Dlaczego ważna jest ujednolicone formatowania kodu? Czym jest CI/CD i jak wykorzystywać go do tworzenia wysokiej jakości oprogramowania? Python Zacznijmy od poezji: Zen of Python - PEP20.</description>
     </item>
     
     <item>
       <title>R vs Python. Zarządzanie zależnościami</title>
-      <link>http://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</link>
+      <link>https://www.szychtawdanych.pl/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</guid>
+      <guid>https://www.szychtawdanych.pl/post/2023-01-03-r-vs-python-zarz-dzanie-zale-no-ciami/</guid>
       <description>W ciągu najbliższych tygodni na Szychcie pojawi się seria wpisów, które mają przybliżyć tworzenie dobrej jakości kodu w kontekście przetwarzania danych. Wpisy będą techniczne, nie będzie wykresów i narracji zbudowanych na danych. Jednocześnie jest to dobra okazja do porównania dwóch języków programowania R i Pythona, z czego skorzystamy.
 Który język będzie górą? Czy filozofia, która za nimi stoi jest zbliżona? Która społeczność kładzie większy nacisk na tworzenie wysokiej jakości kodu?</description>
     </item>
     
     <item>
       <title>Type hinting lub jak dawać wskazówki Pythonowemu interpretatorowi</title>
-      <link>http://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</link>
+      <link>https://www.szychtawdanych.pl/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</link>
       <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</guid>
+      <guid>https://www.szychtawdanych.pl/post/2021-02-13-type-hinting-lub-jak-dawa%C4%87-wskaz%C3%B3wki-pythonowemu-interpretatorowi/</guid>
       <description>Uwaga, wpis techniczny!
 Kilka miesięcy temu została wypuszczona nowa wersja Pythona 3.9. Ponieważ dwa lata temu R przestał być językiem, w którym programuję ,,na co dzień&amp;quot; nowości Pythona mnie ciekawią i postanowiłem, że oprócz wykresów i analiz danych warto dzielić się także nieco bardziej technicznymi aspektami. To pierwsza odsłona nowej, technicznej twarzy Szychty :)
 Co znajdziemy w nowej wersji Pythona? Zestawień nowości jest w internecie bardzo dużo, choćby tutaj. Chciałbym się skupić na tej, która najbardziej mnie zainteresowała czyli uproszczenie typowania funkcji.</description>
@@ -65,149 +65,149 @@ Co znajdziemy w nowej wersji Pythona? Zestawień nowości jest w internecie bard
     
     <item>
       <title>Przenoszenie bloga z Wordpressa do Hugo</title>
-      <link>http://psobczyk.github.io/post/przenoszenie-bloga-do-hugo/</link>
+      <link>https://www.szychtawdanych.pl/post/przenoszenie-bloga-do-hugo/</link>
       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/przenoszenie-bloga-do-hugo/</guid>
+      <guid>https://www.szychtawdanych.pl/post/przenoszenie-bloga-do-hugo/</guid>
       <description>Dlaczego warto przenieść blog a z Wordpressa do Hugo, statycznego generatora stron internetowych? Szybsza strona, mocniej zintegrowana z eRowym kodem, a do tego darmowy hosting na Githubie. A jak to zrobić? W internecie znajduje się trochę tutoriali na ten temat, ale jak to zwykle bywa diabeł tkwi w szczegółach.
 Z pokaźnej liczby tutoriali dotyczących przenoszenia blogów z Wordpressa do Hugo z czystym sumienieniem mogę polecić ten. Niestety jest w nim kilka rzeczy, które mi się nie podobają i które rozwiązałem inaczej.</description>
     </item>
     
     <item>
       <title>5 mgnień wyborów lub co dane mówią o elektoratach PiS i PO</title>
-      <link>http://psobczyk.github.io/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</link>
+      <link>https://www.szychtawdanych.pl/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</link>
       <pubDate>Tue, 14 Jul 2020 06:45:17 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</guid>
+      <guid>https://www.szychtawdanych.pl/post/5-mgnien-wyborow-lub-co-dane-mowia-o-elektoratach-pis-i-po/</guid>
       <description>Spróbujmy poszukać w danych odpowiedzi na 5 pytań, które mogą się narzucać osobie przygladającej się polskiej scenie politycznej. Obserwujac media społecznościowe trudno nie oprzeć się wrażeniu, że inflacja dotknęła w ostatnim czasie także rynek powyborczych analiz danych :) Wobec tego tym razem podsumowanie ,,Szychty&amp;quot; będzie bez map i doszukiwania się rozbiorów&amp;hellip;
 1. Czy Polskę można podzielić na pół i odseparować zwolenników PiS od PO? Oczywiście, źe się nie da :) Spór polityczny jaki widzimy nie ma charakteru regionalnego.</description>
     </item>
     
     <item>
       <title>Elektorat płynnym jest lub krótkie statystyczne podsumowanie wyborów</title>
-      <link>http://psobczyk.github.io/post/elektorat-plynnym-jest-lub-krotkie-statystyczne-podsumowanie-wyborow/</link>
+      <link>https://www.szychtawdanych.pl/post/elektorat-plynnym-jest-lub-krotkie-statystyczne-podsumowanie-wyborow/</link>
       <pubDate>Thu, 02 Jul 2020 06:46:35 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/elektorat-plynnym-jest-lub-krotkie-statystyczne-podsumowanie-wyborow/</guid>
+      <guid>https://www.szychtawdanych.pl/post/elektorat-plynnym-jest-lub-krotkie-statystyczne-podsumowanie-wyborow/</guid>
       <description>Kto odniósł sukces, a kto porażkę? Które ugrupowania umocnił czas pandemii i na ile płynne są przepływy elektoratu w Polsce? Jak zmienia się geografia tego jak głosują Polacy? Jako blog o wyborczej proweniencji mamy przyjemność zaprezentować wyniki pierwszej tury wyborów prezydenckich.
 Kto jest zwycięzcą? Oprócz prostej odpowiedzi, że kandydat, który zdobył największą liczbę głosów myślę, że należy bardzo mocno podkreślić niezwykle wysoką frekwencję. Niemal 65% jest wynikiem, po raz pierwszy od 1989 roku, zbliżonym do tego co obserwujemy w europejskich demokracjach.</description>
     </item>
     
     <item>
       <title>Koronawirus lub o tym, że mowa to tylko srebro</title>
-      <link>http://psobczyk.github.io/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</link>
+      <link>https://www.szychtawdanych.pl/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</link>
       <pubDate>Sat, 21 Mar 2020 18:25:14 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</guid>
+      <guid>https://www.szychtawdanych.pl/post/koronawirus-lub-o-tym-ze-mowa-to-tylko-srebro/</guid>
       <description>Cóż innego mogłoby być tematem bloga dotyczącego analizy danych jak nie oczywiście koronawirus? Odpowiadając na prośby najwierniejszych czytelników Szychty (czyli żony i taty), dzisiaj krótko o tym czemu nie pisałem nic na ten temat i o przewadze milczenia nad słowem pisanym.
 Powód pierwszy Banalny - nie znam się na epidemiologii :) Kilka kursów z równań różniczkowych (w tym modelowania deterministycznego), znajomość procesów gałązkowych czy ogólne obycie w analizie danych nie oznacza, że ktoś zna się na pandemiach.</description>
     </item>
     
     <item>
       <title>Białe jest czarne, a czarne jest białe lub polityka po polsku</title>
-      <link>http://psobczyk.github.io/post/biale-jest-czarne-a-czarne-jest-biale-lub-polityka-po-polsku/</link>
+      <link>https://www.szychtawdanych.pl/post/biale-jest-czarne-a-czarne-jest-biale-lub-polityka-po-polsku/</link>
       <pubDate>Sun, 01 Mar 2020 08:23:29 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/biale-jest-czarne-a-czarne-jest-biale-lub-polityka-po-polsku/</guid>
+      <guid>https://www.szychtawdanych.pl/post/biale-jest-czarne-a-czarne-jest-biale-lub-polityka-po-polsku/</guid>
       <description>Rządy lewicowe zwykle charakteryzuje dążenie do zrównywania dochodów, podczas gdy prawica, a już na pewno liberalne partie, prowadzą politykę, która powoduje wzrost nierówności. Ale nie w Polsce&amp;hellip;
 Być może czytelnicy Szychty mieli okazję czytać książkę ,,To nie jest kraj dla pracowników&amp;quot; Rafała Wosia. Jeśli nie to gorąco polecam! Wyłania się z niej smutny obraz rynku pracy w Polsce. Dla mnie zwłaszcza w kontekście istnienia osób, całych regionów i grup społecznych, spychanych na margines, wyłączonych z podziału wzrostu gospodarczego.</description>
     </item>
     
     <item>
       <title>Zielona wyspa czy optyczne złudzenie? O rynku pracy w Polsce</title>
-      <link>http://psobczyk.github.io/post/zielona-wyspa-czy-optyczne-zludzenie-o-rynku-pracy-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/zielona-wyspa-czy-optyczne-zludzenie-o-rynku-pracy-w-polsce/</link>
       <pubDate>Sat, 14 Dec 2019 19:29:46 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/zielona-wyspa-czy-optyczne-zludzenie-o-rynku-pracy-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/zielona-wyspa-czy-optyczne-zludzenie-o-rynku-pracy-w-polsce/</guid>
       <description>W Polsce zaczyna brakować rąk do pracy. Powodem jest szybki rozwój gospodarczy połączony z niekorzystnymi zmianami demograficznymi. Od wielu lat zmniejsza się dopływ nowych, mało doświadczonych pracowników - absolwentów szkół i uniwersytetów. Wiele osób wyjechało zagranicę. Mamy więc rekordowo niskie bezrobocie, jedno z najniższych w Europie. Pomijając potencjalnie negatywne aspekty tego zjawiska, czy rzeczywiście sytuacja na rynku pracy jest u nas lepsza niż w większości krajów europejskich? Czy może jest to jedynie optyczne złudzenie z powodu przyłożenia niewłaściwej soczewki?</description>
     </item>
     
     <item>
       <title>Protesty wyborcze lub o braku wagi głosów nieważnych</title>
-      <link>http://psobczyk.github.io/post/protesty-wyborcze-lub-o-braku-wagi-glosow-niewaznych/</link>
+      <link>https://www.szychtawdanych.pl/post/protesty-wyborcze-lub-o-braku-wagi-glosow-niewaznych/</link>
       <pubDate>Wed, 23 Oct 2019 06:18:31 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/protesty-wyborcze-lub-o-braku-wagi-glosow-niewaznych/</guid>
+      <guid>https://www.szychtawdanych.pl/post/protesty-wyborcze-lub-o-braku-wagi-glosow-niewaznych/</guid>
       <description>Miało nie być nic o wyborach i polityce. Ale cóż zrobić jeśli politycy próbują używać liczb na swoją korzyść? PiS złożyło wniosek o ponowne przeliczenie głosów w kilku okręgach argumentując, że część głosów nieważnych była w istocie oddana na ich kandydatów. Abstrahując od tego czy ma rację, sprawdźmy czy mogłoby to rzeczywiście zmienić wynik wyborów do Senatu.
 Rozgrzewka - dane Sejmowe Dane dostępne są na stronie PKW. Stopniując napięcie - najpierw zobaczmy, czy w wyborach do Sejmu głosy nieważne poprzez podwójne skreślenie mogłyby zmienić zasadniczo wynik wyborów.</description>
     </item>
     
     <item>
       <title>Automatyzacja winietek lub czemu na Szychcie nic się nie dzieje</title>
-      <link>http://psobczyk.github.io/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</link>
+      <link>https://www.szychtawdanych.pl/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</link>
       <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</guid>
+      <guid>https://www.szychtawdanych.pl/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</guid>
       <description>Dzisiaj problem nieduży, ale bardzo praktyczny. Jak stworzyć vignette. eRowi fanatycy będą nieco zawiedzeni, bo chodzi mi nie o dokumentację pakietu, ale o &amp;ldquo;wedding vignette&amp;rdquo;, a więc winietki ślubne. Jak nie przeklejać 100 imion i uzyskać zgodę narzeczonej na zabawę przy komputerze?
 Pierwszym punktem jest znalezienie narzeczonej (continuum już zajęte, ale można szukać alef zero). Drugim zdecydowanie się na zorganizowanie imprezy na 100 osób, bo przecież ,,to proste i nie będzie na pewno aż tak drogie jak wszyscy mówią&amp;quot;.</description>
     </item>
     
     <item>
       <title>,,Płakał jak sprzedawał&#34; lub o wieku samochodów w Polsce</title>
-      <link>http://psobczyk.github.io/post/plakal-jak-sprzedawal-lub-o-wieku-samochodow-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/plakal-jak-sprzedawal-lub-o-wieku-samochodow-w-polsce/</link>
       <pubDate>Tue, 18 Jun 2019 07:03:04 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/plakal-jak-sprzedawal-lub-o-wieku-samochodow-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/plakal-jak-sprzedawal-lub-o-wieku-samochodow-w-polsce/</guid>
       <description>Czy Polska jest krajem starych samochodów? O ile częściej nowe auto spotkać można w Niemczech lub w Czechach? Czy Polacy są wyjątkowo mocno zmotoryzowani? Porównajmy dane udostępnione przez eurostat.
 Próbujemy z różnych stron uchwycić temat rozwoju Polski. Patrzymy na PKB per capita, długość życia i wiele innych czynników. Jednym z nich jest bez wątpienia to jak wielu Polaków posiada samochody i jaka jest ich jakość. Ten wskaźnik mówi nam, w pewnej mierze o zamożności, a także o bezpieczeństwie jazdy (zakładając, że im nowsze auto tym bezpieczniejsze).</description>
     </item>
     
     <item>
       <title>,,Kupowanie głosów&#34; lub wybory do Parlamentu Europejskiego</title>
-      <link>http://psobczyk.github.io/post/kupowanie-glosow-lub-wybory-do-parlamentu-europejskiego/</link>
+      <link>https://www.szychtawdanych.pl/post/kupowanie-glosow-lub-wybory-do-parlamentu-europejskiego/</link>
       <pubDate>Tue, 28 May 2019 06:33:06 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/kupowanie-glosow-lub-wybory-do-parlamentu-europejskiego/</guid>
+      <guid>https://www.szychtawdanych.pl/post/kupowanie-glosow-lub-wybory-do-parlamentu-europejskiego/</guid>
       <description>Zaraz po wyborach podniosły się głosy, że PiS wygrał w nich ponieważ głosują na niego ludzie niewykształceni i ze wsi. Pojawiły się nawet opinie, że zwycięstwo PiS odniosło ,,w kręgach, które nie płacą podatków&amp;quot;. Sprawdźmy co na temat ostatnich wyborów da się wywnioskować z ogólnodostępnych danych.
 Zanim zaczniemy analizować dane na poziomie gmin, zobaczmy czego można się dowiedzieć z sondażu exit poll. Po pierwsze, mimo że PiS wygrał zdecydowanie w grupie wyborców o wykształceniu podstawowym, to nie można tak charakteryzować wyborców tej partii, którzy stanowią 8.</description>
     </item>
     
     <item>
       <title>Potrzeba czy marnotrawstwo lub o liczbie parlamentarzystów</title>
-      <link>http://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</link>
+      <link>https://www.szychtawdanych.pl/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</link>
       <pubDate>Sun, 26 May 2019 06:55:02 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</guid>
+      <guid>https://www.szychtawdanych.pl/post/potrzeba-czy-marnotrawstwo-lub-o-liczbie-parlamentarzystow/</guid>
       <description>Mamy kolejne wybory, tym razem europejskie. Czy ponad 700 parlamentarzystów których wybiorą Europejczycy to duża liczba? Jak ma się ona do krajowych parlamentów w Polsce i na świecie? Czy analizując dane dla wszystkich tego typu zgromadzeń można doszukać się jakichś prawidłowości?
 Na początek sprawdźmy rzecz oczywistą: im więcej ludności, tym więcej parlamentarzystów. Powody są co najmniej dwa: duże państwa mają więcej spraw, którymi chcą się zająć, oraz potrzebują większej liczby posłów, aby pojedynczy reprezentant nie przypadał na zbyt dużą liczbę ludności.</description>
     </item>
     
     <item>
       <title>Bogaty Polak jak biedny Niemiec. O różnicach w zarobkach</title>
-      <link>http://psobczyk.github.io/post/bogaty-polak-jak-biedny-niemiec-o-roznicach-w-zarobkach/</link>
+      <link>https://www.szychtawdanych.pl/post/bogaty-polak-jak-biedny-niemiec-o-roznicach-w-zarobkach/</link>
       <pubDate>Thu, 14 Mar 2019 07:13:03 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/bogaty-polak-jak-biedny-niemiec-o-roznicach-w-zarobkach/</guid>
+      <guid>https://www.szychtawdanych.pl/post/bogaty-polak-jak-biedny-niemiec-o-roznicach-w-zarobkach/</guid>
       <description>W ostatnich latach mamy w Polsce bardzo niskie bezrobocie i szybki wzrost płac. Przyjrzyjmy się temu, na ile struktura wynagrodzeń jest u nas podobna do pozostałych krajów europejskich. Czy Polsce udaje się zmniejszyć dystans do najbardziej rozwiniętych i porównywalnych z nami krajów UE.
 Bardzo często porównując dobrobyt w poszczególnych krajach patrzymy na PKB na mieszkańca. Okazuje się jednak, że przez wiele lat nasza produktywność (rozumiana jako PKB na mieszkańca) rosła szybciej niż wynagrodzenia, o czym już kiedyś Szychta pisała.</description>
     </item>
     
     <item>
       <title>Czy Wielka Brytania jest uzależniona od Europy lub Brexit (cz. 1)</title>
-      <link>http://psobczyk.github.io/post/czy-wielka-brytania-jest-uzalezniona-od-europy-lub-brexit-cz-1/</link>
+      <link>https://www.szychtawdanych.pl/post/czy-wielka-brytania-jest-uzalezniona-od-europy-lub-brexit-cz-1/</link>
       <pubDate>Tue, 19 Feb 2019 07:16:11 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czy-wielka-brytania-jest-uzalezniona-od-europy-lub-brexit-cz-1/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czy-wielka-brytania-jest-uzalezniona-od-europy-lub-brexit-cz-1/</guid>
       <description>Brexit zbliża się wielkimi krokami. Niektórzy wieszczą katastrofę podczas gdy inni się cieszą. Wydaje się, że w Polsce trudno znaleźć powody do zadowolenia z tego wydarzenia. Jednak zamiast szermować ideologicznymi frazesami sprawdźmy czego na temat relacji Wielkiej Brytanii i Unii Europejskiej da się dowiedzieć patrząc na dane.
 Wyjście Wielkiej Brytanii z Unii będzie miało oczywiście wiele konsekwencji i nie próbujemy nawet sugerować, że weźmiemy je wszystkie pod uwagę. Ale przez najbliższe tygodnie spróbujemy nieco przybliżyć sytuację gospodarczą, demograficzną i polityczną u progu tego wydarzenia.</description>
     </item>
     
     <item>
       <title>Koszty obsługi długu lub o tym kto bogatemu zabroni</title>
-      <link>http://psobczyk.github.io/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</link>
+      <link>https://www.szychtawdanych.pl/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</link>
       <pubDate>Tue, 29 Jan 2019 18:35:42 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</guid>
+      <guid>https://www.szychtawdanych.pl/post/koszty-obslugi-dlugu-lub-o-tym-kto-bogatemu-zabroni/</guid>
       <description>Dług długowi nierówny. Kredyt jest innym obciążeniem dla osoby majętnej niż dla ubogiej. Także na inny procent pożycza się bogaczowi, a na inny osobie biednej. Kusi aby powiedzieć, że ta sama zasada odnosi się do krajów, ale okazuje się, że stosowanie tej analogii do pożyczek zaciąganych przez państwa jest sporym nadużyciem.
 Zacznijmy od tego, że koszty obsługi długu wcale nie są największe dla krajów najbardziej zadłużonych. Wynika to oczywiście z dużego zróżnicowania oprocentowania pożyczek jakie są zaciągane.</description>
     </item>
     
     <item>
       <title>Wykresy Unplugged</title>
-      <link>http://psobczyk.github.io/post/wykresy-unplugged/</link>
+      <link>https://www.szychtawdanych.pl/post/wykresy-unplugged/</link>
       <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wykresy-unplugged/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wykresy-unplugged/</guid>
       <description>Już jest! Jakiś czas temu czytelnicy Szychty tłumnie zgłosili się do czytania wersji roboczej, a teraz książeczka jest wydana, dostępna i czeka na chętnych ;) Zawiera ćwiczenia i szczyptę teorii dotyczącej wizualizacji danych. Kto nie boi się wyzwań, kredek i miłego wieczoru (lub kilku) niech się długo nie zastanawia.
 Statystyczna odpowiedź na styczniowy splin
 Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyrysowania. Przedstawiamy 8 typów wykresów wraz z elementami teorii dotyczącej technik wizualizacji.</description>
@@ -215,90 +215,90 @@ Czym są Wykresy unplugged? Jest to zeszyt składający się z ćwiczeń do wyry
     
     <item>
       <title>Powtarzalna unikalność lub o nazwiskach w Polsce</title>
-      <link>http://psobczyk.github.io/post/powtarzalna-unikalnosc-lub-o-nazwiskach-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/powtarzalna-unikalnosc-lub-o-nazwiskach-w-polsce/</link>
       <pubDate>Mon, 17 Sep 2018 10:47:08 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/powtarzalna-unikalnosc-lub-o-nazwiskach-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/powtarzalna-unikalnosc-lub-o-nazwiskach-w-polsce/</guid>
       <description>Każdy z nas myśli o sobie jako o kimś unikalnym. Jednym z przejawów tej naszej ,,unikalnej&amp;quot; tożsamości są nasze imię i nazwisko. Pod wieloma względami jesteśmy jednak do siebie bardzo podobni. Między innymi dzięki temu statystycy mają pracę ;) Sprawdźmy, które nazwiska są w Polsce najbardziej popularne, a które występują bardzo rzadko, jedynie na małym obszarze Polski?
 Na początku kilka faktów o naszym zbiorze danych. Nazwiska są znacznie bardziej ,,rozproszone&amp;quot; niż imiona, o czym każdy mógł się przekonać w szkole.</description>
     </item>
     
     <item>
       <title>Dług publiczny lub o tym jak przedstawiać skalowanie powierzchni</title>
-      <link>http://psobczyk.github.io/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</link>
+      <link>https://www.szychtawdanych.pl/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</link>
       <pubDate>Mon, 10 Sep 2018 08:10:19 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
+      <guid>https://www.szychtawdanych.pl/post/dlug-publiczny-lub-o-tym-jak-przedstawiac-skalowanie-powierzchni/</guid>
       <description>Przerażający, niebezpieczny, konieczny? Opinie co do tego, co powinniśmy sądzić o długu publicznym są bardzo podzielone. Od licznika Balcerowicza do opinii, że jest on w gruncie rzeczy pozytywny, a pomiędzy nimi brak głębszej refleksji. Jak wygląda dług publiczny na świecie i jak można go zwizualizować?
 Naszym głównym celem jest stworzenie wykresu zwanego anamorfozą, który przedstawia obszary ,,w krzywym zwierciadle&amp;quot;. Zakrzywienie zwierciadła zależy od wielkości pewnej zmiennej, takiej jak PKB lub liczba ludności.</description>
     </item>
     
     <item>
       <title>Nowa ordynacja w wyborach do Parlamentu Europejskiego lub</title>
-      <link>http://psobczyk.github.io/post/nowa-ordynacja-w-wyborach-do-parlamentu-europejskiego-lub/</link>
+      <link>https://www.szychtawdanych.pl/post/nowa-ordynacja-w-wyborach-do-parlamentu-europejskiego-lub/</link>
       <pubDate>Thu, 16 Aug 2018 08:54:47 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/nowa-ordynacja-w-wyborach-do-parlamentu-europejskiego-lub/</guid>
+      <guid>https://www.szychtawdanych.pl/post/nowa-ordynacja-w-wyborach-do-parlamentu-europejskiego-lub/</guid>
       <description>Przez Parlament przeszła nowelizacja ordynacji wyborczej w wyborach do Parlamentu Europejskiego. W skrócie sprawia ona, że małym partiom trudniej zdobyć mandat, a wybory przestają być proporcjonalne. Została ona skrytykowana przez wiele środowisk, w tym rzecz jasna małe partie polityczne. Zerknijmy w dane i zobaczmy o co tyle hałasu.
 W styczniu tego roku CBOS opublikował sondaż poparcia dla partii politycznych w województwach. W oparciu o ten dane policzymy na ile mandatów mogą liczyć poszczególne partie.</description>
     </item>
     
     <item>
       <title>Czy 500&#43; przestało działać lub o dzieciach i dzietności</title>
-      <link>http://psobczyk.github.io/post/czy-500-przestalo-dzialac-lub-o-dzieciach-i-dzietnosci/</link>
+      <link>https://www.szychtawdanych.pl/post/czy-500-przestalo-dzialac-lub-o-dzieciach-i-dzietnosci/</link>
       <pubDate>Tue, 31 Jul 2018 07:46:18 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czy-500-przestalo-dzialac-lub-o-dzieciach-i-dzietnosci/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czy-500-przestalo-dzialac-lub-o-dzieciach-i-dzietnosci/</guid>
       <description>W Polsce w pierwszym półroczu 2018 urodziło się mniej dzieci niż w tym samym okresie rok wcześniej. Czy to porażka programu 500+ czy zwykła statystyka? Czego możemy się spodziewać w najbliższych latach?
 Na temat dzietności Szychta pisała już kilkukrotnie. Najpierw o tym czego można się spodziewać po 500+ i jak drogi jest to program. Potem na temat współczynnika dzietności kobiet i jak może się on zmienić do roku 2030-tego, a także tego jak zmieniła się w Polsce struktura urodzeń (pierwsze lub kolejne dziecko).</description>
     </item>
     
     <item>
       <title>Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu</title>
-      <link>http://psobczyk.github.io/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</link>
+      <link>https://www.szychtawdanych.pl/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</link>
       <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</guid>
       <description>Jaka jest szansa, że Polska zostanie mistrzem świata? A może, że chociaż wyjdziemy z grupy? Ile razy bardziej prawdopodobne jest zwycięstwo Brazylii? Z okazji trwających mistrzostw świata mamy wysyp wszelkiej maści artykułów dotyczących przewidywania wyników za pomocą metod statystycznych. Szychta dołoży swoją małą cegiełkę dokonując przewidywań wyników mundialu.
 Wyniki przewidujemy metodą Monte Carlo, a więc ,,rozgrywamy&amp;quot; kilka tysięcy razy mistrzostwa na komputerze i patrzymy ile razy poszczególne drużyny wyszły z grupy, trafiły do ćwierćfinału i tak dalej.</description>
     </item>
     
     <item>
       <title>Dni wolne od pracy lub świąteczna geografia</title>
-      <link>http://psobczyk.github.io/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</link>
+      <link>https://www.szychtawdanych.pl/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</link>
       <pubDate>Thu, 07 Jun 2018 07:50:48 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</guid>
+      <guid>https://www.szychtawdanych.pl/post/dni-wolne-od-pracy-lub-swiateczna-geografia/</guid>
       <description>Jakie Święta są najczęściej obchodzone na świecie? Ile dni wolnych mają mieszkańcy poszczególnych państw? Które kraje obchodzą Boże Narodzenie, a które 1 Maja? W dzisiejszej Szychcie zajmiemy się geografią odpoczynku od pracy :)
 Święta, które zostały uznane za godne bycia wolnymi od pracy mówią sporo o kraju. Wyrażają to, co mieszkańcy uważają (lub uważali) za istotne, i jest elementem tradycji danego kraju. Najpierw sprawdźmy 10 najczęściej obchodzonych świąt. Ponieważ pochodzą one z anglojęzycznej strony timeanddata.</description>
     </item>
     
     <item>
       <title>Siła regionów w Polsce lub o wałkowaniu ciasta młotkiem</title>
-      <link>http://psobczyk.github.io/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</link>
+      <link>https://www.szychtawdanych.pl/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</link>
       <pubDate>Thu, 17 May 2018 06:25:22 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</guid>
+      <guid>https://www.szychtawdanych.pl/post/sila-regionow-w-polsce-lub-o-walkowaniu-ciasta-mlotkiem/</guid>
       <description>Które regiony Polski są najsilniejsze? Zależy pod jakim względem. Może jeśli chodzi o wkład w PKB? A może przez liczbę ludności? Dzisiaj nie tylko o tym, kto jest najważniejszy, ale także o tym jak tego typu dane można przedstawić.
 próbujemy odpowiedź na nasz problem tym, co znamy, a mianowicie mapami anamorficznymi, w których powierzchnia obszaru jest proporcjonalna do zmiennej jaką chcemy zwizualizować. Ostatnio zrobiliśmy taką transformację dla województw w Polsce. Czas włączyć zoom i sprawdzić jak wygląda taka mapa na poziomie podregionów.</description>
     </item>
     
     <item>
       <title>Anamorfoza Polski lub sen szalonego geografa</title>
-      <link>http://psobczyk.github.io/post/kartogramy-polski-lub-sen-szalonego-geografa/</link>
+      <link>https://www.szychtawdanych.pl/post/kartogramy-polski-lub-sen-szalonego-geografa/</link>
       <pubDate>Fri, 23 Mar 2018 07:24:09 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/kartogramy-polski-lub-sen-szalonego-geografa/</guid>
+      <guid>https://www.szychtawdanych.pl/post/kartogramy-polski-lub-sen-szalonego-geografa/</guid>
       <description>Dzisiaj na Szychcie dzień szalonej geografii. Polska jaka jest każdy widzi. A jak mogłaby wyglądać gdyby wielkość województw zależała od PKB lub liczby mieszkańców?
 Często na szychcie prezentujemy wykresy, na których kolor obszaru zależy od wartości zmiennej. Może to być na przykład PKB na jednego mieszkańca w każdym województwie. Ale zamiast używać rzeczywistej geografii, można przekształcić kontury tak, aby powierzchnia obszaru odpowiadała wielkości zmiennej. Dzięki temu nie będziemy zmyleni wielkością obszaru, który może być mylący.</description>
     </item>
     
     <item>
       <title>Jakie imiona nadaje się w Polsce?</title>
-      <link>http://psobczyk.github.io/post/jakie-imiona-nadaje-sie-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/jakie-imiona-nadaje-sie-w-polsce/</link>
       <pubDate>Wed, 07 Mar 2018 08:47:51 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jakie-imiona-nadaje-sie-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jakie-imiona-nadaje-sie-w-polsce/</guid>
       <description>Jakie imiona są najczęściej nadawane dzieciom? Które tracą na popularności, a dominacji których możemy się spodziewać w perspektywie kilku lat? Rok temu analizowaliśmy dane dotyczące imion nadawanych dzieciom w Polsce w roku 2016. Czas na rok 2017. Zacznijmy od zestawienie najpopularniejszych imion w poszczególnych województwach.
 Jak ma się to do roku 2016?
 Zmiany wśród najczęściej nadawanych imion są nieduże, ale zestawienie zmian popularności najczęściej nadawanych imion pokazuje, że mamy małą ,,demokratyzację&amp;quot; - dominacja najczęściej nadawanych imion nieco się zmniejszyła.</description>
@@ -306,20 +306,20 @@ Zmiany wśród najczęściej nadawanych imion są nieduże, ale zestawienie zmia
     
     <item>
       <title>Siła paszportu lub o tym ile może zobaczyć Polak</title>
-      <link>http://psobczyk.github.io/post/sila-paszportu-lub-o-tym-ile-moze-zobaczyc-polak/</link>
+      <link>https://www.szychtawdanych.pl/post/sila-paszportu-lub-o-tym-ile-moze-zobaczyc-polak/</link>
       <pubDate>Thu, 01 Mar 2018 08:19:27 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/sila-paszportu-lub-o-tym-ile-moze-zobaczyc-polak/</guid>
+      <guid>https://www.szychtawdanych.pl/post/sila-paszportu-lub-o-tym-ile-moze-zobaczyc-polak/</guid>
       <description>Który kraj daje swoim obywatelom największe możliwości? Odpowiedzi jest bardzo dużo i zależą od tego jak takie możliwości się zdefiniuje. Jednym z możliwych doprecyzowań tego pytania jest ,,siła paszportu&amp;quot;. Najbardziej znanym rankingiem z tym związanym jest passport index, który siłę paszportu utożsamia z liczbą krajów, które można odwiedzić bez potrzeby wyrabiania wizy. Zaproponujemy kilka alternatywnych, i wydaje się, że bardziej adekwatnych i ciekawych, sposobów na porównanie siły paszportów.
 Na początku spojrzyjmy na oryginalny ranking, czyli to, do ilu krajów można wjechać bez posiadania wizy.</description>
     </item>
     
     <item>
       <title>Zabawy w śniegu lub o tym na ile medali możemy liczyć w Pyeongchang?</title>
-      <link>http://psobczyk.github.io/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</link>
+      <link>https://www.szychtawdanych.pl/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</link>
       <pubDate>Fri, 16 Feb 2018 08:51:40 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</guid>
+      <guid>https://www.szychtawdanych.pl/post/zabawy-w-sniegu-lub-o-tym-na-ile-medali-mozemy-liczyc-w-pyeongchang/</guid>
       <description>Igrzyska, Igrzyska i (za chwilę) po Igrzyskach. Który kraj jest rekordzistą wszech czasów w liczbie zdobytych medali? Które narody należą do potęg w zimowych sportach? Jak zmieniało się to w czasie? I oczywiście, jak wypadają reprezentanci Polski?
 Zacznijmy od zestawienia łącznej liczby medali zdobytych przez poszczególne kraje na przestrzeni lat. Ze względu na przejrzystość wykresu bierzemy pod uwagę jedynie kraje, które zdobyły łącznie powyżej 100 medali.
 Niemcy dominują, ale warto zauważyć, że do 1988 najsilniejszą reprezentacją był Związek Radziecki.</description>
@@ -327,40 +327,40 @@ Niemcy dominują, ale warto zauważyć, że do 1988 najsilniejszą reprezentacj�
     
     <item>
       <title>Czyje były obozy koncentracyjne lub o mądrości płynącej z Google</title>
-      <link>http://psobczyk.github.io/post/czyje-byly-obozy-koncentracyjne-lub-o-madrosci-plynacej-z-google/</link>
+      <link>https://www.szychtawdanych.pl/post/czyje-byly-obozy-koncentracyjne-lub-o-madrosci-plynacej-z-google/</link>
       <pubDate>Tue, 06 Feb 2018 07:33:25 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czyje-byly-obozy-koncentracyjne-lub-o-madrosci-plynacej-z-google/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czyje-byly-obozy-koncentracyjne-lub-o-madrosci-plynacej-z-google/</guid>
       <description>Czy historii można nauczyć się z internetowych trendów? Sprawdźmy jak ma się rzecz z gorącym tematem ostatnich tygodni, czyli obozami koncentracyjnymi z II Wojny Światowej? Czyje były? Nazistowskie, niemieckie, polskie a może żydowskie? Jakich fraz wyszukują internauci na całym świecie korzystający z wyszukiwarki Google?
 Informacja o tym co jest wyszukiwane w google jest zapamiętywana, a następnie udostępniana w formie statystyk i właśnie te dane przeanalizujemy. No dobrze, nie potrzeba google żeby wiedzieć, że obozy budowała Trzecia Rzesza, a więc naziści będący u władzy w Niemczech.</description>
     </item>
     
     <item>
       <title>Miasta partnerskie lub mała rzecz o związku geografii z polityką</title>
-      <link>http://psobczyk.github.io/post/miasta-partnerskie-lub-mala-rzecz-o-zwiazku-geografii-z-polityke/</link>
+      <link>https://www.szychtawdanych.pl/post/miasta-partnerskie-lub-mala-rzecz-o-zwiazku-geografii-z-polityke/</link>
       <pubDate>Wed, 17 Jan 2018 07:29:01 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/miasta-partnerskie-lub-mala-rzecz-o-zwiazku-geografii-z-polityke/</guid>
+      <guid>https://www.szychtawdanych.pl/post/miasta-partnerskie-lub-mala-rzecz-o-zwiazku-geografii-z-polityke/</guid>
       <description>Wiele mówi się na temat kontrastu między Polską wschodnią i zachodnią. Ich mieszkańcy różnią się od siebie choćby poziomem zarobków czy preferencjami politycznymi. Czy mają także odmienne spojrzenie geopolityczne? Czy Polskę zachodnią istotnie silniej przyciągają Niemcy, a wschodnią Rosja? Spróbujemy odpowiedzieć na to pytanie patrząc na skalę kontaktów oficjalnych między miastami, a konkretnie podpisane umowy partnerskie.
 Zacznijmy od definicji. Według wikipedii termin miasta partnerskie lub bliźniacze oznacza formę partnerstwa w celu wymiany kulturalnej i gospodarczej.</description>
     </item>
     
     <item>
       <title>Ceny mieszkań we Wrocławiu lub hipsteria i peryferia</title>
-      <link>http://psobczyk.github.io/post/ceny-mieszkan-we-wroclawiu-lub-hipsteria-i-peryferia/</link>
+      <link>https://www.szychtawdanych.pl/post/ceny-mieszkan-we-wroclawiu-lub-hipsteria-i-peryferia/</link>
       <pubDate>Fri, 13 Oct 2017 15:22:30 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/ceny-mieszkan-we-wroclawiu-lub-hipsteria-i-peryferia/</guid>
+      <guid>https://www.szychtawdanych.pl/post/ceny-mieszkan-we-wroclawiu-lub-hipsteria-i-peryferia/</guid>
       <description>Cena metra kwadratowego mieszkania we Wrocławiu w stosunku do przeciętnej pensji należy do najwyższych w Polsce. Jest ona jednak rzecz jasna zależna od dzielnicy i da się znaleźć we Wrocławiu mieszkania (względnie) tanie. Jak duże są te różnice? Które osiedla są najdroższe? Na których osiedlach jest największy obrót nieruchomościami? Gdzie mieszkania są największe?l
 Dane zostały ściągnięte z serwisu otodom, co oznacza, że nie są to dane transakcyjne, tylko oferty przedstawione przez właścicieli mieszkań.</description>
     </item>
     
     <item>
       <title>Czy Polska dogoni Zachód lub ułuda konwergencji</title>
-      <link>http://psobczyk.github.io/post/czy-polska-dogoni-zachod-lub-uluda-konwergencji/</link>
+      <link>https://www.szychtawdanych.pl/post/czy-polska-dogoni-zachod-lub-uluda-konwergencji/</link>
       <pubDate>Fri, 06 Oct 2017 10:57:17 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czy-polska-dogoni-zachod-lub-uluda-konwergencji/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czy-polska-dogoni-zachod-lub-uluda-konwergencji/</guid>
       <description>Tym czy Polska zbliża się do krajów zachodnich zajmowaliśmy się już na blogu wcześniej. W tym wpisie sprawdzimy, na podstawie nowych danych, ile lat zajmie Polsce dogonienie krajów zachodnich. Dodatkowo przyjrzymy się sensowności przyjętej metodyki oraz będziemy cieszyć oko ładnymi mapami i wykresami.
 Jak widać na powyższej mapie te różnice się nieco zmniejszyły. Sprawdźmy jak wyglądał tak mierzony dystans w poszczególnych latach.
 Widać pewną zbieżność, ale jest ona bardzo powolna. Linie są właściwie poziome.</description>
@@ -368,20 +368,20 @@ Widać pewną zbieżność, ale jest ona bardzo powolna. Linie są właściwie p
     
     <item>
       <title>Miłość nie jest ślepa. Kto z kim się żeni?</title>
-      <link>http://psobczyk.github.io/post/milosc-nie-jest-slepa-kto-z-kim-sie-zeni/</link>
+      <link>https://www.szychtawdanych.pl/post/milosc-nie-jest-slepa-kto-z-kim-sie-zeni/</link>
       <pubDate>Fri, 22 Sep 2017 11:56:41 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/milosc-nie-jest-slepa-kto-z-kim-sie-zeni/</guid>
+      <guid>https://www.szychtawdanych.pl/post/milosc-nie-jest-slepa-kto-z-kim-sie-zeni/</guid>
       <description>Mówi się czasem, że miłość jest ślepa, czyli że o naszych wyborach decydują impuls i zauroczenie, a nie chłodne, racjonalne (matematyczne?) myślenie. Czy rzeczywiście takie stwierdzenie jest uzasadnione? Zweryfikujemy to na podstawie danych.
 Jeśli o łączeniu się ludzi w związki miałoby decydować coś więcej niż przypadek, to powinniśmy być w stanie znaleźć jakieś nietrywialne zależności pomiędzy cechami społecznymi kobiety i mężczyzny. Zacznijmy zatem od oczywistego pomysłu: czy występuje różnica w poziomie wykształcenia stron zawierających małżeństwa w Polsce?</description>
     </item>
     
     <item>
       <title>Taki mamy klimat - czy rozwój państw jest determinowany przez pogodę?</title>
-      <link>http://psobczyk.github.io/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</link>
+      <link>https://www.szychtawdanych.pl/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</link>
       <pubDate>Thu, 24 Aug 2017 16:21:07 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</guid>
+      <guid>https://www.szychtawdanych.pl/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</guid>
       <description>Czy jest tak, że niektórym krajom trudniej jest stać się bogatym? Oczywiście. O tego typu ograniczeniach mówi nauka nazywana geopolityką. Przy okazji polecam lekką książkę na ten temat. Czy może jednak być tak, że oprócz spławnych rzek i łańcuchów górskich, możliwości rozwoju są podyktowane przez temperaturę?
 ](http://szychtawdanych.pl/wp-content/uploads/2017/08/temperatura_hdi.png)
 Wszystkie dane pochodzą z wikipedii. Widzimy zależność (niekoniecznie wynikanie!) pomiędzy rozwojem kraju, mierzony przez Human Development Index (HDI), a przeciętną roczną temperaturą. Im cieplej, tym niższy jest rozwój kraju.</description>
@@ -389,127 +389,127 @@ Wszystkie dane pochodzą z wikipedii. Widzimy zależność (niekoniecznie wynika
     
     <item>
       <title>Grubsza sprawa. Nadwaga i otyłość w Polsce</title>
-      <link>http://psobczyk.github.io/post/grubsza-sprawa-nadwaga-i-otylosc-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/grubsza-sprawa-nadwaga-i-otylosc-w-polsce/</link>
       <pubDate>Tue, 15 Aug 2017 13:46:26 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/grubsza-sprawa-nadwaga-i-otylosc-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/grubsza-sprawa-nadwaga-i-otylosc-w-polsce/</guid>
       <description>O otyłości w Polsce mówi się wręcz jako o epidemii. Czy rzeczywiście jest to uzasadnione? Jak sprawy się mają w innych krajach? Jak bardzo nadwaga związana jest z wiekiem? I wreszcie, czy kobiety tyją tak samo jak mężczyźni?
 Na wstępnie uwspólnijmy dwa pojęcia. Pierwsze to nadwaga, którą definiuje się przez wartość wskaźnika BMI większą niż 25. Drugie to otyłość, która jest skrajnym przypadkiem nadwagi, i która zdefiniowana jest przez wskaźnik BMI większy niż 30.</description>
     </item>
     
     <item>
       <title>,,Potop&#34; - jak zwizualizować szkolną lekturę?</title>
-      <link>http://psobczyk.github.io/post/potop-jak-zwizualizowac-szkolna-lekture/</link>
+      <link>https://www.szychtawdanych.pl/post/potop-jak-zwizualizowac-szkolna-lekture/</link>
       <pubDate>Wed, 09 Aug 2017 06:10:53 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/potop-jak-zwizualizowac-szkolna-lekture/</guid>
+      <guid>https://www.szychtawdanych.pl/post/potop-jak-zwizualizowac-szkolna-lekture/</guid>
       <description>Zdrada, wojna, miłość, męstwo - to cechy wielu dobrych telewizyjnych seriali. Nie inne zdarzenia zawiera w sobie ich 19. wieczny odpowiednik - ,,Potop&amp;quot; Henryka Sienkiewicza. Sprawdźmy jak można przełożyć polską literaturę na język wizualizacji.
 ,,Potop&amp;quot; to zupełna klasyka polskiej literatury i to już od ponad stu lat! Kilka lat temu miał nawet miejsce narodowy dzień czytania ,,Potopu&amp;quot;. Są tacy, którzy zżymają się na brak w nim głębszej myśli, ale chyba mało kto zaprzeczy, że potrafi wywołać wiele emocji.</description>
     </item>
     
     <item>
       <title>Lokalne ocieplenie lub czy przedwiośnie może przyjść w maju?</title>
-      <link>http://psobczyk.github.io/post/lokalne-ocieplenie-lub-czy-przedwiosnie-moze-przyjsc-w-maju/</link>
+      <link>https://www.szychtawdanych.pl/post/lokalne-ocieplenie-lub-czy-przedwiosnie-moze-przyjsc-w-maju/</link>
       <pubDate>Thu, 20 Jul 2017 06:00:26 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/lokalne-ocieplenie-lub-czy-przedwiosnie-moze-przyjsc-w-maju/</guid>
+      <guid>https://www.szychtawdanych.pl/post/lokalne-ocieplenie-lub-czy-przedwiosnie-moze-przyjsc-w-maju/</guid>
       <description>Dzisiaj Szychta weryfikuje hipotezę przesunięcia w czasie pór roku. Od paru lat wrzesień wydaje się być cieplejszy, na Wszystkich Świętych nie trzeba mieć już grubego kożucha, sezon narciarski nawet w Alpach na dobre startuje dopiero w styczniu, a na lato też się dłużej czeka. Czy to możliwe, że pory roku się &amp;ldquo;przesunęły&amp;rdquo;? Dzięki danym z Instytutu Meteorologii i Gospodarki Wodnej przekonamy się, jak jest naprawdę.
 Poniższy wykres przedstawia medianę temperatur zanotowanych w południe w Warszawie w ostatnich pięciu dekadach.</description>
     </item>
     
     <item>
       <title>Systemy metra lub o tym gdzie leży Afryka</title>
-      <link>http://psobczyk.github.io/post/systemy-metra-lub-o-tym-gdzie-lezy-afryka/</link>
+      <link>https://www.szychtawdanych.pl/post/systemy-metra-lub-o-tym-gdzie-lezy-afryka/</link>
       <pubDate>Tue, 18 Jul 2017 06:44:48 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/systemy-metra-lub-o-tym-gdzie-lezy-afryka/</guid>
+      <guid>https://www.szychtawdanych.pl/post/systemy-metra-lub-o-tym-gdzie-lezy-afryka/</guid>
       <description>Metro jest bodajże najbardziej kosztownym środkiem transportu i jego posiadanie świadczy o wadze i zamożności miasta. W mniejszych miejscowościach nie ma po prostu potrzeby, żeby jednocześnie wiele osób przemieszczało się szybko na duże odległości. Z tego powodu występowanie metra jest pewnego rodzaju miernikiem rozwoju gospodarczego, a informacja o tym gdzie leżą te miasta może nam powiedzieć sporo o światowej gospodarce.
 Zacznijmy od pewnego eksperymentu. Na mapie poniżej zaznaczono systemy metra, ale bez konturów krajów czy kontynentów.</description>
     </item>
     
     <item>
       <title>Czy bogaci są coraz bogatsi? Które regiony Polski najszybciej się rozwijają?</title>
-      <link>http://psobczyk.github.io/post/czy-bogaci-sa-coraz-bogatsi-ktore-regiony-polski-najszybciej-sie-rozwijaja/</link>
+      <link>https://www.szychtawdanych.pl/post/czy-bogaci-sa-coraz-bogatsi-ktore-regiony-polski-najszybciej-sie-rozwijaja/</link>
       <pubDate>Mon, 10 Jul 2017 17:02:03 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czy-bogaci-sa-coraz-bogatsi-ktore-regiony-polski-najszybciej-sie-rozwijaja/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czy-bogaci-sa-coraz-bogatsi-ktore-regiony-polski-najszybciej-sie-rozwijaja/</guid>
       <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze, czy też dystans między nimi się zwiększa? Aktualizujemy wpis sprzed półtora roku o dane z roku 2015. W dodatku dokładamy ładniejsze wizualizacje, żywszy język i głębsze wnioski.
 Naszym punktem startowym są wynagrodzenia w poszczególnych powiatach w roku 2002. Nawet w najbogatszych powiatach jest to mniej niż 3500 złotych brutto. Bogate są Górny Śląsk, okolice Warszawy i kilka powiatów, w których znajdowały się kopalnie (Zgorzelec, Łęczna, Bełchatów).</description>
     </item>
     
     <item>
       <title>{litwa, ojczyzna, mój, ...} - informatyk czyta literaturę polską</title>
-      <link>http://psobczyk.github.io/post/litwa-ojczyzna-moj-informatyk-czyta-literature-polska/</link>
+      <link>https://www.szychtawdanych.pl/post/litwa-ojczyzna-moj-informatyk-czyta-literature-polska/</link>
       <pubDate>Fri, 07 Jul 2017 21:18:48 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/litwa-ojczyzna-moj-informatyk-czyta-literature-polska/</guid>
+      <guid>https://www.szychtawdanych.pl/post/litwa-ojczyzna-moj-informatyk-czyta-literature-polska/</guid>
       <description>,,Pan Tadeusz&amp;quot; to coś więcej niż sprawdzian, na którym trzeba wiedzieć, gdzie stał zegar w dworku w Soplicowie. To także mistrzostwo języka, wartka fabuła, która na przemian podnosi na duchu, zasmuca i wzbudza niepokój. To wszystko da się ,,wyczytać&amp;quot; nie otwierając książki. Wystarczy komputer i kilka wizualizacji.
 Jak wiadomo, jednym z wątków jest historia miłosna Tadeusza i Zosi, która przeplata się z romansem Tadeusza i Telimeny. Zobaczmy, w których fragmentach poszczególnych ksiąg występują poszczególne postaci.</description>
     </item>
     
     <item>
       <title>Co może Macron lub o przewagach Francji nad Grupą Wyszehradzką</title>
-      <link>http://psobczyk.github.io/post/co-moze-macron-lub-o-przewagach-francji-nad-grupa-wyszehradzka/</link>
+      <link>https://www.szychtawdanych.pl/post/co-moze-macron-lub-o-przewagach-francji-nad-grupa-wyszehradzka/</link>
       <pubDate>Thu, 29 Jun 2017 11:07:32 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/co-moze-macron-lub-o-przewagach-francji-nad-grupa-wyszehradzka/</guid>
+      <guid>https://www.szychtawdanych.pl/post/co-moze-macron-lub-o-przewagach-francji-nad-grupa-wyszehradzka/</guid>
       <description>15 lat temu prezydent Francji pouczał za pośrednictwem prasy kraje Europy Wschodniej. Obecnie, również za pomocą prasy, Emmanuel Macron próbuje robić coś podobnego, ale jednocześnie wchodzi w dialog z państwami naszego regionu. Dzisiaj na Szychcie kilka wykresów pokazujących dlaczego ,,twarda polityka&amp;quot; ze strony Francji może być nieskuteczna.
 Możliwość wywarcia wpływu na arenie międzynarodowej zależy oczywiście od stosunku sił obu stron. Spróbujemy na podstawie kilku wskaźników sprawdzić jak duża jest przewaga Francji na krajami z Grupy Wyszehradzkiej i jak zmieniła się ona od 2002 roku.</description>
     </item>
     
     <item>
       <title>Dzietność nastolatek lub różnice kulturowe w Polsce raz jeszcze</title>
-      <link>http://psobczyk.github.io/post/dzietnosc-nastolatek-lub-roznice-kulturowe-w-polsce-raz-jeszcze/</link>
+      <link>https://www.szychtawdanych.pl/post/dzietnosc-nastolatek-lub-roznice-kulturowe-w-polsce-raz-jeszcze/</link>
       <pubDate>Sat, 24 Jun 2017 14:36:27 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/dzietnosc-nastolatek-lub-roznice-kulturowe-w-polsce-raz-jeszcze/</guid>
+      <guid>https://www.szychtawdanych.pl/post/dzietnosc-nastolatek-lub-roznice-kulturowe-w-polsce-raz-jeszcze/</guid>
       <description>W których regionach Polski dzietność jest największa? A gdzie w Polsce najczęściej ,,dzieci rodzą dzieci&amp;quot;? Na podstawie danych GUS przekonamy się jak powszechne jest to zjawisko i czy obecnie nastolatki rzadziej rodzą dzieci niż 15 lat temu. Ten wpis jest kontynuacją dwóch wcześniejszych dotyczących zmian w wieku, w którym kobiety w Polsce rodzą dzieci i struktury urodzeń. Na początku zróbmy zestawienie liczby dzieci urodzonych przez kobiety w wieku 20 - 49 lat, która zwiększyła się nieco od roku 2002.</description>
     </item>
     
     <item>
       <title>Wyniki 5. PKO Nocnego Wrocław Półmaratonu</title>
-      <link>http://psobczyk.github.io/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</link>
+      <link>https://www.szychtawdanych.pl/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</link>
       <pubDate>Sun, 18 Jun 2017 10:38:39 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wyniki-5-pko-nocnego-wroclaw-polmaratonu/</guid>
       <description>Wczoraj odbył się we Wrocławiu 5 nocny półmaraton. Dostarczył on wszystkim uczestnikom, jak to zwykle bywa, mnóstwo cierpień i radości :) Podobnie jak dwa lata temu przeanalizujmy wyniki jakie uzyskali zawodnicy.
 Na początku kilka faktów. Dwa lata temu w biegu udział wzięło 7 tysięcy osób, w tym już niemal 10 tysięcy!!! Ten wzrost nie pozostał bez wpływu na przeciętne tempo, jakie uzyskali zawodnicy, które było w tym roku nieco niższe.</description>
     </item>
     
     <item>
       <title>Wsiąść do samolotu byle jakiego - połączenia lotnicze w Polsce</title>
-      <link>http://psobczyk.github.io/post/wsiasc-do-samolotu-byle-jakiego-polaczenia-lotnicze-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/wsiasc-do-samolotu-byle-jakiego-polaczenia-lotnicze-w-polsce/</link>
       <pubDate>Thu, 01 Jun 2017 07:25:15 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wsiasc-do-samolotu-byle-jakiego-polaczenia-lotnicze-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wsiasc-do-samolotu-byle-jakiego-polaczenia-lotnicze-w-polsce/</guid>
       <description>Jakiś czas temu analizowaliśmy jak duży procent połączeń lotniczych w Polsce koncentruje się na Warszawie i jak zmieniało się to od początku lat 90-tych. Dzisiaj przyglądniemy się temu, jak wyglądają siatki połączeń największych lotnisk. Jakie kraje i miasta są najbardziej popularne? Czemu Wrocław ma mało połączeń ze Skandynawią, a idea budowy Centralnego Portu Lotniczego jest wątpliwa? Dane pochodzą z eurostatu, który, o dziwo, prowadzi rejestr liczby pasażerów i lotów dla wszystkich krajów członkowskich UE.</description>
     </item>
     
     <item>
       <title>Granty NCN lub o koncentracji badań naukowych</title>
-      <link>http://psobczyk.github.io/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</link>
+      <link>https://www.szychtawdanych.pl/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</link>
       <pubDate>Thu, 25 May 2017 10:04:18 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</guid>
+      <guid>https://www.szychtawdanych.pl/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</guid>
       <description>Jedną z miar aktywności i jakości pracy naukowej jest zdobywanie grantów. Przyjrzyjmy się, które polskie jednostki naukowe są pod tym względem najlepsze oraz czy w czasie następuje rozproszenie, czy raczej koncentracja pieniędzy na badania naukowe.
 W Polsce mamy dwie główne instytucje publiczne, które zajmują się finansowaniem nauki. Pierwszym jest Narodowe Centrum Nauki (NCN), które daje pieniądze na badania podstawowe. Drugim Narodowe Centrum Badań i Rozwoju (NCBR), które daje granty na badania rozwojowe i innowacyjne z nastawieniem na ich komercjalizację.</description>
     </item>
     
     <item>
       <title>Skąd wyjeżdżamy, dokąd jedziemy - migracje wewnątrz Polski</title>
-      <link>http://psobczyk.github.io/post/skad-wyjezdzamy-dokad-jedziemy-migracje-wewnatrz-polski/</link>
+      <link>https://www.szychtawdanych.pl/post/skad-wyjezdzamy-dokad-jedziemy-migracje-wewnatrz-polski/</link>
       <pubDate>Mon, 01 May 2017 16:36:57 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/skad-wyjezdzamy-dokad-jedziemy-migracje-wewnatrz-polski/</guid>
+      <guid>https://www.szychtawdanych.pl/post/skad-wyjezdzamy-dokad-jedziemy-migracje-wewnatrz-polski/</guid>
       <description>Kontynuując temat migracji, przyjrzymy się bliżej samej Polsce, a konkretnie przepływami ludzi pomiędzy województwami. Czy skala migracji zwiększyła się czy zmniejszyła od roku 1995? Które województwa szczególnie przyciągają nowych mieszkańców? Na początek - migracje z lotu ptaka. Zaznaczone są jedynie dodatnie przepływy ludności netto, czyli strzałka łączy dwa województwa jeśli z województwa A do województwa B przeprowadziło się więcej osób niż z B do A. Kierunek strzałki opisany jest przez kolor.</description>
     </item>
     
     <item>
       <title>Tożsamość czy statystyka - o imionach nadawanych w Polsce</title>
-      <link>http://psobczyk.github.io/post/tozsamosc-czy-statystyka-o-imionach-nadawanych-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/tozsamosc-czy-statystyka-o-imionach-nadawanych-w-polsce/</link>
       <pubDate>Mon, 24 Apr 2017 12:21:13 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/tozsamosc-czy-statystyka-o-imionach-nadawanych-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/tozsamosc-czy-statystyka-o-imionach-nadawanych-w-polsce/</guid>
       <description>Jakie imiona dla dzieci wybierają rodzice w Polsce? Czy widać różnice pomiędzy poszczególnymi województwami? Jak bardzo imiona są powtarzalne? Czy ta ,,powtarzalność&amp;quot; dotyczy bardziej imion chłopców czy dziewczynek? Zbadajmy imiona nadane dzieciom w roku 2016. Zacznijmy od ogółu, czyli chmury słów. Im większe jest dane imię, tym częściej jest ono nadawane.
 Podobne zestawienie dla imion żeńskich:
 Zastanowiło mnie czy jest jakaś różnica pomiędzy tym jak często (nie)standardowe imiona dawane są chłopcom i dziewczynkom.</description>
@@ -517,10 +517,10 @@ Zastanowiło mnie czy jest jakaś różnica pomiędzy tym jak często (nie)stand
     
     <item>
       <title>Dwa słowa i trzy wykresy o globalnych migracjach</title>
-      <link>http://psobczyk.github.io/post/dwa-slowa-i-trzy-wykresy-o-globalnych-migracjach/</link>
+      <link>https://www.szychtawdanych.pl/post/dwa-slowa-i-trzy-wykresy-o-globalnych-migracjach/</link>
       <pubDate>Mon, 17 Apr 2017 10:49:55 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/dwa-slowa-i-trzy-wykresy-o-globalnych-migracjach/</guid>
+      <guid>https://www.szychtawdanych.pl/post/dwa-slowa-i-trzy-wykresy-o-globalnych-migracjach/</guid>
       <description>Które kraje przyciągają najwięcej imigrantów? Z jakich państw najwięcej mieszkańców wyjeżdża? Z polskiej perspektywy migracje to praca zarobkowa na zachodzie, imigranci z Ukrainy i uchodźcy z Syrii. Zjawisko jest jednak rzecz jasna znacznie szersze i spróbujemy przybliżyć je za pomocą danych.
 Zacznijmy od mapy, która daje nam informację o skali zjawiska i głównych kierunkach migracji.
 Przede wszystkim, według ONZ, migrantów jest prawie 250 milionów. czyli mniej więcej 3% populacji ziemi. Największe ruchy ludności mają miejsce wewnątrz Azji.</description>
@@ -528,10 +528,10 @@ Przede wszystkim, według ONZ, migrantów jest prawie 250 milionów. czyli mniej
     
     <item>
       <title>Czy Polska jest eko? Gdzie w Europie zużywa się najwięcej paliw kopalnych?</title>
-      <link>http://psobczyk.github.io/post/czy-polska-jest-eko-gdzie-w-europie-zuzywa-sie-najwiecej-paliw-kopalnych/</link>
+      <link>https://www.szychtawdanych.pl/post/czy-polska-jest-eko-gdzie-w-europie-zuzywa-sie-najwiecej-paliw-kopalnych/</link>
       <pubDate>Thu, 06 Apr 2017 17:58:41 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czy-polska-jest-eko-gdzie-w-europie-zuzywa-sie-najwiecej-paliw-kopalnych/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czy-polska-jest-eko-gdzie-w-europie-zuzywa-sie-najwiecej-paliw-kopalnych/</guid>
       <description>Jaki procent zużywanej energii elektrycznej czerpią poszczególne kraje z paliw kopalnych? Czy więcej energii zużywają kraje biedne czy bogate? I wreszcie czy, ze względów ekologicznych, Islandia powinna być zakazana? :)
 Na całym świecie próbuje się odchodzić od zużywania paliw kopalnych na rzecz odnawialnych źródeł energii. Mówiąc eufemistycznie, Polska nie jest liderem tych zmian. Wszystkie poniższe wykresy zawierają dane z roku 2013.
 Okazuje się jednak, że sprawa ta nie jest tak jednoznaczna.</description>
@@ -539,39 +539,39 @@ Okazuje się jednak, że sprawa ta nie jest tak jednoznaczna.</description>
     
     <item>
       <title>O różnicach między kobietami a mężczyznami według Korwina-Mikke</title>
-      <link>http://psobczyk.github.io/post/o-roznicach-miedzy-kobietami-a-mezczyznami-wedlug-korwina-mikke/</link>
+      <link>https://www.szychtawdanych.pl/post/o-roznicach-miedzy-kobietami-a-mezczyznami-wedlug-korwina-mikke/</link>
       <pubDate>Wed, 08 Mar 2017 22:16:47 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/o-roznicach-miedzy-kobietami-a-mezczyznami-wedlug-korwina-mikke/</guid>
+      <guid>https://www.szychtawdanych.pl/post/o-roznicach-miedzy-kobietami-a-mezczyznami-wedlug-korwina-mikke/</guid>
       <description>Z okazji dnia kobiet i internetowej wojny płci chciałbym odnieść się do słów Janusza Korwin-Mikke odnośnie tego, że kobiety zarabiają mniej od mężczyzn dlatego, że są słabsze fizycznie, mniejsze i mniej inteligentne. Różnicom w zarobkach przyjrzeliśmy się w poprzednim wpisie. Nie odnosząc się do tego czy te fakty tłumaczą to zjawisko czy nie, zobaczmy co na temat ich prawdziwości mówią dane.
 Jeśli chodzi o siłę fizyczną to nie będę wchodzić w dłuższe rozważania i pozwolę sobie przytoczyć dwa linki.</description>
     </item>
     
     <item>
       <title>Gender pay gap lub w jakich gałęziach gospodarki kobiety zarabiają mniej?</title>
-      <link>http://psobczyk.github.io/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</link>
+      <link>https://www.szychtawdanych.pl/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</link>
       <pubDate>Sun, 05 Mar 2017 16:27:19 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</guid>
+      <guid>https://www.szychtawdanych.pl/post/gender-gap-lub-w-jakich-galeziach-gospodarki-kobiety-zarabiaja-mniej/</guid>
       <description>Kilka dni temu pojawił się w Polsce temat nierówności zarobków ze względu na płeć, a właściwie nieco egzotycznego wytłumaczenia tego faktu. Pozostaje oczywiście pytanie o to, czy i jak państwa powinny aktywnie działać na rzecz zmniejszenia tychże nierówności. Dzisiaj w Szychcie prześledzimy jak duże jest to zjawisko, jak różnią się pod tym względem kraje europejskie i czy dysproporcje maleją czy stają się coraz większe.
 Dane pochodzą z eurostatu (tabela earn_gr_gpgr2). Zawierają one procentową różnicę w przeciętnych zarobkach za godzinę pracy mężczyzn i kobiet.</description>
     </item>
     
     <item>
       <title>W co inwestują polskie miasta? Wykorzystanie środków unijnych</title>
-      <link>http://psobczyk.github.io/post/w-co-inwestuja-polskie-miasta-wykorzystanie-srodkow-unijnych/</link>
+      <link>https://www.szychtawdanych.pl/post/w-co-inwestuja-polskie-miasta-wykorzystanie-srodkow-unijnych/</link>
       <pubDate>Tue, 21 Feb 2017 13:21:26 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/w-co-inwestuja-polskie-miasta-wykorzystanie-srodkow-unijnych/</guid>
+      <guid>https://www.szychtawdanych.pl/post/w-co-inwestuja-polskie-miasta-wykorzystanie-srodkow-unijnych/</guid>
       <description>Zastanawia mnie czasem jak to możliwe, że miasto Wrocław nie jest w stanie wybudować nawet kilku kilometrów linii tramwajowej, twierdząc, że nie dostanie unijnego dofinansowania. Zwłaszcza kiedy słychać o gigantycznych inwestycjach w innych miastach, a zwłaszcza w Warszawie, która nie tylko dostała 3 mld na metro, ale też miliard złotych na tramwaje. Stąd wątpliwości mieszkańca prowincji, czy środki unijne są równo rozdysponowywane między miastami? Czy można zauważyć różnice w tym, w co się inwestuje?</description>
     </item>
     
     <item>
       <title>Srogo nie znaczy skutecznie. O więźniach i morderstwach</title>
-      <link>http://psobczyk.github.io/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</link>
+      <link>https://www.szychtawdanych.pl/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</link>
       <pubDate>Mon, 23 Jan 2017 19:14:04 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</guid>
+      <guid>https://www.szychtawdanych.pl/post/srogo-nie-znaczy-skutecznie-o-wiezniach-i-morderstwach/</guid>
       <description>Raz na jakiś czas słychać w Polsce (i nie tylko) hasła o zaostrzeniu prawa, zero tolerancji dla przestępców itp. Czy rzeczywiście karanie więzieniem jest skuteczne? Czy wpływa pozytywnie na bezpieczeństwo?
 Trzy wnioski:
 W Polsce mamy bardzo mało morderstw, ale liczba osadzonych w więzieniach jest zdecydowanie powyżej średniej. Inne warte uwagi obserwacje odstające to USA, Japonia - bardzo mało morderstw i mało więźniów, Singapur - bardzo bezpieczny kraj z dużą liczbą więźniów, Honduras - aż 85 morderstw i tylko 200 osadzonych na 100 tys.</description>
@@ -579,98 +579,98 @@ W Polsce mamy bardzo mało morderstw, ale liczba osadzonych w więzieniach jest 
     
     <item>
       <title>Gdzie się lata czyli o lotniskach w Polsce</title>
-      <link>http://psobczyk.github.io/post/gdzie-sie-lata-czyli-o-lotniskach-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/gdzie-sie-lata-czyli-o-lotniskach-w-polsce/</link>
       <pubDate>Wed, 04 Jan 2017 19:50:21 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/gdzie-sie-lata-czyli-o-lotniskach-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/gdzie-sie-lata-czyli-o-lotniskach-w-polsce/</guid>
       <description>W ostatnim czasie głośno o zagranicznych podróżach samolotami, ale ten wpis nie będzie bynajmniej dotyczyć panu Petru. W Polsce od początku lat 90-tych dynamicznie zwiększa się liczba osób korzystających z samolotów. Które porty lotnicze są największe? Jakie miasta konkurują ze sobą pod względem liczby pasażerów? Jak duży procent podróży przypada na Warszawę?
 Towarzystwo Upiększania Miasta Wrocławia napisało na fb o tym jak bardzo Wrocław jest do tyłu, w porównaniu do Krakowa i Gdańska, co do wielkości ruchu lotniczego .</description>
     </item>
     
     <item>
       <title>Jak daleko jest od bogacza do biedaka? O dysproporcji zarobków w Europie</title>
-      <link>http://psobczyk.github.io/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</link>
       <pubDate>Thu, 22 Dec 2016 15:39:30 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-daleko-jest-od-bogacza-do-biedaka-o-dysproporcji-zarobkow-w-europie/</guid>
       <description>W Polsce występuje największa w Europie dysproporcja zarobków biednych i bogatych. Czy można to tłumaczyć dziedzictwem komunizmu i szybkiej transformacji systemowej? Jak radzą sobie pozostałe kraje w Europie Wschodniej? Jak zmieniła się dysproporcja od roku 2006?
 Jakie problemy generuje dysproporcja zarobków, dlaczego jest to ważne zagadnienie? Z pewnością prowadzi ona do wzrastania nierówności i napięć społecznych. Bardziej widoczny jest podział na tych co mają, i na tych co nie mają. To z kolei daje szansę dojścia do władzy populistom, którzy winą za trudności obarczą jakąś konkretną grupę społeczną, etniczną itp.</description>
     </item>
     
     <item>
       <title>Czy czeka nas ideologiczna wojna? O różnicach w poglądach Polaków</title>
-      <link>http://psobczyk.github.io/post/czy-czeka-nas-ideologiczna-wojna-o-roznicach-w-pogladach-polakow/</link>
+      <link>https://www.szychtawdanych.pl/post/czy-czeka-nas-ideologiczna-wojna-o-roznicach-w-pogladach-polakow/</link>
       <pubDate>Fri, 16 Dec 2016 11:15:34 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czy-czeka-nas-ideologiczna-wojna-o-roznicach-w-pogladach-polakow/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czy-czeka-nas-ideologiczna-wojna-o-roznicach-w-pogladach-polakow/</guid>
       <description>Zbliżają się święta, a wraz z nimi rodzinne rozmowy na wszelkie tematy. Nie zabraknie też pewnie i czytelnikom Szychty politycznych kłótni i podniesionego w związku z tym ciśnienia. Czy różnice w poglądach między Polakami są coraz większe czy coraz mniejsze? Spróbujemy odpowiedzieć na to pytanie, badając to jak bardzo różnią się między sobą wyborcy poszczególnych partii politycznych.
 Naszą analizę oprzemy o dane Diagnozy Społecznej. W tym celu wykorzystamy pakiet Diagnoza Przemysława Biecka.</description>
     </item>
     
     <item>
       <title>Gdzie żyje się dobrze, czyli o sile nabywczej w poszczególnych województwach</title>
-      <link>http://psobczyk.github.io/post/gdzie-zyje-sie-dobrze-czyli-o-sile-nabywczej-w-poszczegolnych-wojewodztwach/</link>
+      <link>https://www.szychtawdanych.pl/post/gdzie-zyje-sie-dobrze-czyli-o-sile-nabywczej-w-poszczegolnych-wojewodztwach/</link>
       <pubDate>Fri, 09 Dec 2016 11:17:08 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/gdzie-zyje-sie-dobrze-czyli-o-sile-nabywczej-w-poszczegolnych-wojewodztwach/</guid>
+      <guid>https://www.szychtawdanych.pl/post/gdzie-zyje-sie-dobrze-czyli-o-sile-nabywczej-w-poszczegolnych-wojewodztwach/</guid>
       <description>Jak zmieniła się zamożność Polaków w ostatnich 10 latach? Które województwa najszybciej się rozwijają, a które zostają w tyle? Czy siła nabywcza ujednolica się, czy też ulega rozwarstwieniu?
 Często porównuje się zamożność przez PKB na jednego mieszkańca lub przeciętne wynagrodzenie, ale w tym wpisie interesują nas nie tyle pensje, ale to ile można za nie kupić. Innymi słowy chcemy zbadać jaka jest siła nabywcza w poszczególnych województwach. Punktem odniesienia będzie uśredniona siła nabywcza dla całej Polski z roku 2006.</description>
     </item>
     
     <item>
       <title>Kto się boi, a kto czuje odrazę - analiza tweetów polskich partii politycznych</title>
-      <link>http://psobczyk.github.io/post/kto-sie-boi-a-kto-czuje-odraze-analiza-tweetow-polskich-partii-politycznych/</link>
+      <link>https://www.szychtawdanych.pl/post/kto-sie-boi-a-kto-czuje-odraze-analiza-tweetow-polskich-partii-politycznych/</link>
       <pubDate>Fri, 04 Nov 2016 19:37:34 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/kto-sie-boi-a-kto-czuje-odraze-analiza-tweetow-polskich-partii-politycznych/</guid>
+      <guid>https://www.szychtawdanych.pl/post/kto-sie-boi-a-kto-czuje-odraze-analiza-tweetow-polskich-partii-politycznych/</guid>
       <description>Czy język polskiej polityki ocieka (negatywnymi) emocjami? A może to tylko złudzenie, któremu ulegamy? Dzisiaj szychta analizuje tweety 5 partii politycznych i sprawdza jak mocny ładunek emocjonalny w sobie zawierają.
 Poniższy wykres należy rozumieć w następujący sposób. Każda z 5 osi opisuje jedną emocję. Punkty na osi odpowiadają poszczególnym partiom politycznym. Kolejne emocje połączone są liniami, aby łatwiej było śledzić różnice między ugrupowaniami. Linie poprzeczne odpowiadają skali emocji. Im bliżej środka tym emocje są mniejsze.</description>
     </item>
     
     <item>
       <title>Silne kobiety, słabi mężczyźni? O liczbie samobójstw w Europie</title>
-      <link>http://psobczyk.github.io/post/silne-kobiety-slabi-mezczyzni-o-liczbie-samobojstw-w-europie/</link>
+      <link>https://www.szychtawdanych.pl/post/silne-kobiety-slabi-mezczyzni-o-liczbie-samobojstw-w-europie/</link>
       <pubDate>Wed, 19 Oct 2016 05:38:46 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/silne-kobiety-slabi-mezczyzni-o-liczbie-samobojstw-w-europie/</guid>
+      <guid>https://www.szychtawdanych.pl/post/silne-kobiety-slabi-mezczyzni-o-liczbie-samobojstw-w-europie/</guid>
       <description>Ci, którym wydaje się, że mężczyźni z Polski mają ,,twardą psychikę&amp;quot;, czeka niemiłe zaskoczenie. Dzisiaj analizujemy to, jak często Europejczycy decydują się odebrać sobie życie, oraz o ile częściej robią to mężczyźni niż kobiety.
 Zacznijmy od liczby samobójstw, którą rzecz jasna należy odnieść do liczby mieszkańców. Niechlubnym liderem w tym rankingu jest Litwa, gdzie co roku jedna na 3000 osób odbiera sobie życie. Polska wypada w tym zestawieniu przeciętnie. Najrzadziej samobójstwa zdarzają się w krajach południowych (kultura, klimat?</description>
     </item>
     
     <item>
       <title>Współczynnik dzietności lub rewolucja kulturowa na jednym wykresie</title>
-      <link>http://psobczyk.github.io/post/wspolczynnik-dzietnosci-lub-rewolucja-kulturowa-na-jednym-wykresie/</link>
+      <link>https://www.szychtawdanych.pl/post/wspolczynnik-dzietnosci-lub-rewolucja-kulturowa-na-jednym-wykresie/</link>
       <pubDate>Mon, 03 Oct 2016 15:01:31 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wspolczynnik-dzietnosci-lub-rewolucja-kulturowa-na-jednym-wykresie/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wspolczynnik-dzietnosci-lub-rewolucja-kulturowa-na-jednym-wykresie/</guid>
       <description>W Polsce, w ciągu kilkudziesięciu lat, nie tylko znacznie spadła liczba urodzeń, ale także zwiększa się wiek kobiet, które rodzą dzieci. Zmienia się także dzietność rodzin - więcej na ten temat w we wpisie o strukturze urodzeń. Dzisiaj zobaczymy ogromną kulturową zmianę, która objawia się w zmianie wieku, w którym kobiety decydują się na posiadanie dzieci. Co ciekawe, zmianę tę widać na przestrzeni zaledwie kilkunastu lat, od 2002 do 2015 roku.</description>
     </item>
     
     <item>
       <title>Świat rosnącej równości, czyli o tym jak Azja goni świat zachodni</title>
-      <link>http://psobczyk.github.io/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</link>
+      <link>https://www.szychtawdanych.pl/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</link>
       <pubDate>Tue, 27 Sep 2016 11:04:26 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</guid>
+      <guid>https://www.szychtawdanych.pl/post/swiat-rosnacej-rownosci-czyli-o-tym-jak-azja-goni-swiat-zachodni/</guid>
       <description>Świat jest pełen nierówności - to stwierdzenie to banał, choć niestety prawdziwy. Zawsze tak było i zawsze będzie, ale skala nierówności jest zmienna. I choć najważniejszy pozostaje wymiar ludzki, czyli cierpienie jednostki, to warto też zobaczyć jak zmienia się świat w skali makro. Jak wyglądał pod tym względem 100 lat temu? Czy nierówności się pogłębiają, czy też są coraz mniejsze? Na początku zobaczmy wykres bogactwa w roku 2013. Na osi X mamy ludność.</description>
     </item>
     
     <item>
       <title>Kto nas będzie leczyć czyli o tym, ilu lekarzy brakuje w Polsce</title>
-      <link>http://psobczyk.github.io/post/kto-nas-bedzie-leczyc-czyli-o-tym-ilu-lekarzy-brakuje-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/kto-nas-bedzie-leczyc-czyli-o-tym-ilu-lekarzy-brakuje-w-polsce/</link>
       <pubDate>Mon, 19 Sep 2016 15:14:51 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/kto-nas-bedzie-leczyc-czyli-o-tym-ilu-lekarzy-brakuje-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/kto-nas-bedzie-leczyc-czyli-o-tym-ilu-lekarzy-brakuje-w-polsce/</guid>
       <description>W Polsce brakuje lekarzy. Tego problemu nie da się szybko rozwiązać, choćby dlatego, że same studia zabierają wiele lat, nie wspominając nawet o specjalizacjach. Do tego dochodzi emigracja lekarzy zagranicę, która pogarsza sytuację. Czy w pozostałych krajach europejskich jest więcej czy mniej lekarzy niż w Polsce? Czy kształcimy wystarczająco dużo studentów medycyny? Czy, nawet gdyby lekarze nie emigrowali, mamy szansę dobić do europejskiej normy?
 Skoro już wiemy, że lekarzy jest sporo mniej niż w pozostałych krajach (i bynajmniej nie jest to jedynie wynikiem zamożności) to zobaczmy czy kształcimy wystarczająco dużo nowych lekarzy.</description>
     </item>
     
     <item>
       <title>Gdzie mieszkają Polacy? Zmiany w rozmieszczeniu ludności</title>
-      <link>http://psobczyk.github.io/post/gdzie-mieszkaja-polacy-zmiany-w-rozmieszczeniu-ludnosci/</link>
+      <link>https://www.szychtawdanych.pl/post/gdzie-mieszkaja-polacy-zmiany-w-rozmieszczeniu-ludnosci/</link>
       <pubDate>Tue, 13 Sep 2016 05:59:57 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/gdzie-mieszkaja-polacy-zmiany-w-rozmieszczeniu-ludnosci/</guid>
+      <guid>https://www.szychtawdanych.pl/post/gdzie-mieszkaja-polacy-zmiany-w-rozmieszczeniu-ludnosci/</guid>
       <description>Jak zmieniło się zaludnienie Polski od roku 1995? Na ile zaludnienie jest równomierne na obszarze całego kraju? Czy w miastach koncentruje się ludność młoda czy starsza? I jak to wszystko wiąże się z rozwojem i ,,rozlewniem się&amp;quot; miast.
 Na początek zobaczmy mapę, która pokazuje na jak małym obszarze mieszka 20% mieszkańców Polski z najwiekszych gmin
 Nie jest łatwo wyciągać z powyższej mapy wniosków, ponieważ ludzki mózg nie radzi sobie zbyt dobrze z zadaniem szacowania proporcji pól.</description>
@@ -678,10 +678,10 @@ Nie jest łatwo wyciągać z powyższej mapy wniosków, ponieważ ludzki mózg n
     
     <item>
       <title>Równi i równiejsi. Kobiety na rynku pracy</title>
-      <link>http://psobczyk.github.io/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</link>
+      <link>https://www.szychtawdanych.pl/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</link>
       <pubDate>Tue, 06 Sep 2016 17:16:05 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</guid>
+      <guid>https://www.szychtawdanych.pl/post/rowni-i-rowniejsi-kobiety-na-rynku-pracy/</guid>
       <description>Jakie są różnice w aktywności, zarobkach i perspektywach zawodowych kobiet i mężczyzn? Czy Polska jest krajem, który zapewnia równe szanse bez względu na płeć? W których krajach kobietom najtrudniej jest się przebić?
 Sprawdźmy najpierw jak duża jest różnica pomiędzy procentem mężczyzn aktywnych zawodowo a procentem kobiet, które są aktywne zawodowo
 Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła. Zajmijmy się teraz znanym zjawiskiem gender gap, czyli różnicy w zarobkach.</description>
@@ -689,88 +689,88 @@ Tendencja jest lekko spadkowa, choć na przykład w Polsce różnica ta wzrosła
     
     <item>
       <title>Skąd uciekają studenci lub o jakości uczelni</title>
-      <link>http://psobczyk.github.io/post/skad-uciekaja-studenci-lub-o-jakosci-uczelni/</link>
+      <link>https://www.szychtawdanych.pl/post/skad-uciekaja-studenci-lub-o-jakosci-uczelni/</link>
       <pubDate>Mon, 29 Aug 2016 13:19:38 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/skad-uciekaja-studenci-lub-o-jakosci-uczelni/</guid>
+      <guid>https://www.szychtawdanych.pl/post/skad-uciekaja-studenci-lub-o-jakosci-uczelni/</guid>
       <description>W Polsce dość szybko spada liczba osób w wieku 20-24 lat, a co za tym idzie maleje liczba studentów. Jak zwykle zmiana ta nie jest równomierna w całej Polsce. Czy da się ją powiązać z jakością uczelni? Jak mobilni są młodzi Polacy, jeśli chodzi o szukanie dobrej edukacji?
 Widoczna na mapie zależność świadczy pozytywnie o mobilności studentów. Nie wybierają jakichkolwiek studiów ,,byle blisko&amp;quot;, ale wyruszają po lepszą edukację. Widać to także po rosnącej liczbie wyjazdów na studia zagranicę.</description>
     </item>
     
     <item>
       <title>Olimpijskie sukcesy - jak wypadliśmy na igrzyskach w Rio?</title>
-      <link>http://psobczyk.github.io/post/olimpijskie-sukcesy-jak-wypadlismy-na-igrzyskach-w-rio/</link>
+      <link>https://www.szychtawdanych.pl/post/olimpijskie-sukcesy-jak-wypadlismy-na-igrzyskach-w-rio/</link>
       <pubDate>Mon, 22 Aug 2016 15:14:36 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/olimpijskie-sukcesy-jak-wypadlismy-na-igrzyskach-w-rio/</guid>
+      <guid>https://www.szychtawdanych.pl/post/olimpijskie-sukcesy-jak-wypadlismy-na-igrzyskach-w-rio/</guid>
       <description>Zakończyły się właśnie Igrzyska Olimpijskie w Rio de Janeiro. Warto się cieszyć się z każdego sukcesu polskich, i nie tylko, sportowców, ale spróbujmy ocenić występ polskich olimpijczyków i porównać uzyskane przez nich wyniki do tych z poprzednich olimpiad.
 Jak porównać poziom występów Polaków na przestrzeni lat? Nie jest to łatwe. Z jednej strony liczba konkurencji się zwiększyła, czyli jest więcej medali do zdobycia. Z drugiej liczba ekip i sportowców również rośnie.</description>
     </item>
     
     <item>
       <title>Żelazna kurtyna 26 lat później. O różnicach w oczekiwanej długości życia</title>
-      <link>http://psobczyk.github.io/post/zelazna-kurtyna-26-lat-pozniej-o-roznicach-w-oczekiwanej-dlugosci-zycia/</link>
+      <link>https://www.szychtawdanych.pl/post/zelazna-kurtyna-26-lat-pozniej-o-roznicach-w-oczekiwanej-dlugosci-zycia/</link>
       <pubDate>Tue, 16 Aug 2016 16:22:39 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/zelazna-kurtyna-26-lat-pozniej-o-roznicach-w-oczekiwanej-dlugosci-zycia/</guid>
+      <guid>https://www.szychtawdanych.pl/post/zelazna-kurtyna-26-lat-pozniej-o-roznicach-w-oczekiwanej-dlugosci-zycia/</guid>
       <description>W poprzednim wpisie rozważaliśmy to, ile lat w rozwoju gospodarczym dzieli Polskę od pozostałych krajów europejskich. Jak słusznie zauważyła część czytelników, nie jest to jedyny wskaźnik, który świadczy o rozwoju gospodarczym. W dzisiejszym wpisie sprawdzimy, czy pod względem oczekiwanej długości życia Polsce udaje się skuteczniej gonić najbardziej rozwinięte kraje Europy. Oczekiwana długość życia w Polsce w roku 2015 wyniosła 76 lat i 8 miesięcy. W roku 1989 było to 71 lat i 1 miesiąc.</description>
     </item>
     
     <item>
       <title>Kiedy Polska będzie bogata? O dystansie w rozwoju gospodarczym jaki dzieli nas od zachodniej Europy</title>
-      <link>http://psobczyk.github.io/post/kiedy-polska-bedzie-bogata-o-dystansie-w-rozwoju-gospodarczym-jaki-dzieli-nas-od-zachodniej-europy/</link>
+      <link>https://www.szychtawdanych.pl/post/kiedy-polska-bedzie-bogata-o-dystansie-w-rozwoju-gospodarczym-jaki-dzieli-nas-od-zachodniej-europy/</link>
       <pubDate>Wed, 10 Aug 2016 12:34:03 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/kiedy-polska-bedzie-bogata-o-dystansie-w-rozwoju-gospodarczym-jaki-dzieli-nas-od-zachodniej-europy/</guid>
+      <guid>https://www.szychtawdanych.pl/post/kiedy-polska-bedzie-bogata-o-dystansie-w-rozwoju-gospodarczym-jaki-dzieli-nas-od-zachodniej-europy/</guid>
       <description>Czy Polska kiedykolwiek dogoni w rozwoju gospodarczym Niemcy? A może chociaż Czechy? Ile lat dzieli nasze gospodarki? Czy po roku 1989 udało się nadgonić nieco dystans do krajów zachodnich?
 Jednym z podstawowych tematów sporu pomiędzy ekonomicznymi liberałami, a tymi którzy mówią o potrzebie sterowania gospodarką jest to, czy różnice w rozwoju gospodarczym maleją czy narastają. Dotyczy to zarówno nierówności w rozwoju regionów czy państw, jak i rozwarstwienia społecznego. W wielkim skrócie, według liberałów nierówności powinny z czasem maleć, ponieważ osoby najbardziej przedsiębiorcze wydają zarobione pieniądze, dzięki czemu napędzają gospodarkę i bogactwo ,,spływa&amp;quot; w ten sposób na resztę społeczeństwa.</description>
     </item>
     
     <item>
       <title>Polska dwóch prędkości - perspektywy demograficzne aglomeracji do roku 2050</title>
-      <link>http://psobczyk.github.io/post/polska-dwoch-predkosci-perspektywy-demograficzne-aglomeracji-do-roku-2050/</link>
+      <link>https://www.szychtawdanych.pl/post/polska-dwoch-predkosci-perspektywy-demograficzne-aglomeracji-do-roku-2050/</link>
       <pubDate>Tue, 02 Aug 2016 16:13:10 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/polska-dwoch-predkosci-perspektywy-demograficzne-aglomeracji-do-roku-2050/</guid>
+      <guid>https://www.szychtawdanych.pl/post/polska-dwoch-predkosci-perspektywy-demograficzne-aglomeracji-do-roku-2050/</guid>
       <description>Jednym z elementów świadczących o sile miasta jest jego rozwój demograficzny. Miejsca prężne gospodarczo i przyjazne do życia przyciągają nowych mieszkańców. Z kolei brak perspektyw jest jedną z przyczyn emigracji. Ogólny spadek ludności Polski w ciągu następnych 35 lat odbije się także na największych miastach. Ale nie wszystkie regiony dotknie on w równym stopniu. Które aglomeracje wyjdą z tego starcia zwycięsko? Nie ma wątpliwości, że do roku 2050 liczba mieszkańców Polski znacznie zmaleje (szacunkowo do 32-34 milionów).</description>
     </item>
     
     <item>
       <title>W poszukiwaniu świeżego powietrza - pyły PM w Europie</title>
-      <link>http://psobczyk.github.io/post/w-poszukiwaniu-swiezego-powietrza-pyly-pm-w-europie/</link>
+      <link>https://www.szychtawdanych.pl/post/w-poszukiwaniu-swiezego-powietrza-pyly-pm-w-europie/</link>
       <pubDate>Mon, 18 Jul 2016 13:36:47 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/w-poszukiwaniu-swiezego-powietrza-pyly-pm-w-europie/</guid>
+      <guid>https://www.szychtawdanych.pl/post/w-poszukiwaniu-swiezego-powietrza-pyly-pm-w-europie/</guid>
       <description>W Szychcie można często przeczytać o porównaniach krajów pod względem rozwoju ekonomicznego. Ale jakość życia to nie tylko PKB per capita. Dzisiaj zbadamy to, jak dobrym powietrzem mogą się cieszyć Polacy w porównaniu do mieszkańców innych krajów europejskich.
 Na mapie można przeglądać średnioroczne stężenie pyłów PM (od ang. Particulate Matter) o średnicy do 2.5 μm lub do 10 μm. Oba typy pyłów są na tyle małe, że przechodzą przez nasze nosy.</description>
     </item>
     
     <item>
       <title>System emerytalny w Polsce lub po równo nie oznacza sprawiedliwie</title>
-      <link>http://psobczyk.github.io/post/system-emerytalny-w-polsce-czyli-to-nie-jest-panstwo-dla-ludzi-bez-wyzszego-wyksztalcenia/</link>
+      <link>https://www.szychtawdanych.pl/post/system-emerytalny-w-polsce-czyli-to-nie-jest-panstwo-dla-ludzi-bez-wyzszego-wyksztalcenia/</link>
       <pubDate>Mon, 11 Jul 2016 14:41:12 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/system-emerytalny-w-polsce-czyli-to-nie-jest-panstwo-dla-ludzi-bez-wyzszego-wyksztalcenia/</guid>
+      <guid>https://www.szychtawdanych.pl/post/system-emerytalny-w-polsce-czyli-to-nie-jest-panstwo-dla-ludzi-bez-wyzszego-wyksztalcenia/</guid>
       <description>Wiek emerytalny jest tematem, który wzbudza duże emocje i na temat którego toczy się ostatnio sporo dyskusji. Z jednej strony mówi się o konieczności jego utrzymania (67 lat zarówno dla kobiet, jak i dla mężczyzn) z powodu tego, że oczekiwana długość życia znacznie się zwiększyła. Z drugiej strony słychać argumenty o tym, że obywateli zmusza się ,,pracy aż do śmierci&amp;quot;. A co na ten temat mają do powiedzenia dane?
 Chociaż trudno jest przewidzieć długość życia konkretnego człowieka, to można w miarę precyzyjnie określić przeciętny wiek, jakiego uda się dożyć polakom.</description>
     </item>
     
     <item>
       <title>Wrocław - wielka zmiana. Demografia w latach 1998 - 2014</title>
-      <link>http://psobczyk.github.io/post/wroclaw-zmiany-demograficzne-w-ciagu-ostatnich-15-lat/</link>
+      <link>https://www.szychtawdanych.pl/post/wroclaw-zmiany-demograficzne-w-ciagu-ostatnich-15-lat/</link>
       <pubDate>Mon, 04 Jul 2016 15:40:09 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wroclaw-zmiany-demograficzne-w-ciagu-ostatnich-15-lat/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wroclaw-zmiany-demograficzne-w-ciagu-ostatnich-15-lat/</guid>
       <description>Gdzie żyją Wrocławianie? Które dzielnice się rozrastają, a które wyludniają? Jak zmieniło się pod tym względem miasto od 1998 do 2014 roku? Wszystko na pięknej interaktywnej mapie, dzięki której można się przekonać, jak mało się wie o Wrocławiu :)
 Poniżej interaktywna mapa. Przybliżać można przyciskami w lewym górnym rogu lub scrollem na myszce. Po kliknięciu pokazują się informacje o danym obszarze. Mapę można przeglądać na dwóch poziomach - mikro i makro (wybór w prawym górnym rogu).</description>
     </item>
     
     <item>
       <title>Interaktywna mapa szkół we Wrocławiu</title>
-      <link>http://psobczyk.github.io/post/interaktywna-mapa-szkol-we-wroclawiu/</link>
+      <link>https://www.szychtawdanych.pl/post/interaktywna-mapa-szkol-we-wroclawiu/</link>
       <pubDate>Mon, 27 Jun 2016 15:01:36 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/interaktywna-mapa-szkol-we-wroclawiu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/interaktywna-mapa-szkol-we-wroclawiu/</guid>
       <description>Jak są rozmieszczone we Wrocławiu szkoły podstawowe? Jakie wyniki na sprawdzianie osiągają ich uczniowie? Jak mają się one do przeciętnych wyników dla Wrocławia? Słowem, must-have przed decyzjami o przeprowadzkach i kupowaniu mieszkania :)
 Aby uruchomić interaktywną mapę wystarczy kliknąć na poniższy obrazek.
 Co na tej mapie widać? Po pierwsze podział na lepsze i gorsze dzielnice. Wśród tych pierwszych mamy Biskupin i Krzyki, zaś w drugiej grupie mamy Nadodrze i Przedmieście Oławskie (Trójkąt).</description>
@@ -778,185 +778,185 @@ Co na tej mapie widać? Po pierwsze podział na lepsze i gorsze dzielnice. Wśr�
     
     <item>
       <title>Zmiany demograficzne - pierwsze skutki</title>
-      <link>http://psobczyk.github.io/post/zmiany-demograficzne-pierwsze-skutki/</link>
+      <link>https://www.szychtawdanych.pl/post/zmiany-demograficzne-pierwsze-skutki/</link>
       <pubDate>Mon, 20 Jun 2016 18:34:13 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/zmiany-demograficzne-pierwsze-skutki/</guid>
+      <guid>https://www.szychtawdanych.pl/post/zmiany-demograficzne-pierwsze-skutki/</guid>
       <description>Kilka wpisów temu napisałem, że już za kilka lat będziemy mogli odczuć skutki zmian demograficznych w postaci presji płacowej i imigracji. Okazało się, że z powodu kryzysu na Ukrainie te zmiany już widać, a program 500+ ma szansę je jeszcze przyspieszyć. Dzisiaj sprawdzimy ile osób ze wschodu przyjeżdża do Polski w celach zarobkowych. Jak wielu z nich przyjeżdża do Polski na prace sezonowe? A ile osób osiedla się na dłużej i stara się o pozwolenie o pracę?</description>
     </item>
     
     <item>
       <title>Czy ktoś jeszcze czyta gazety?</title>
-      <link>http://psobczyk.github.io/post/czytelnictwo-gazet/</link>
+      <link>https://www.szychtawdanych.pl/post/czytelnictwo-gazet/</link>
       <pubDate>Mon, 13 Jun 2016 12:56:33 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czytelnictwo-gazet/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czytelnictwo-gazet/</guid>
       <description>Słychać nieraz głosy na temat dramatycznie spadającego czytelnictwa gazet w Polsce. Szychta sprawdza jak zmieniała się sprzedaż ogólnopolskich gazet codziennych na przestrzeni ostatnich 20 lat. Czy możemy mówić o kryzysie? Jeśli tak to które gazety dotyka on najmocniej?
 Na początku lat 90-tych najczęściej kupowaną gazetą była Gazeta Wyborcza. Jej nakład był mniej więcej stały aż do roku 2007. W międzyczasie na rynek wszedł Fakt, który od czasu kiedy zaczął być wydawany w 2003 roku jest najchętniej czytaną gazetą.</description>
     </item>
     
     <item>
       <title>Praca szuka człowieka czyli o bezrobociu i migracjach</title>
-      <link>http://psobczyk.github.io/post/praca-szuka-czlowieka-czyli-o-bezrobociu-i-migracjach/</link>
+      <link>https://www.szychtawdanych.pl/post/praca-szuka-czlowieka-czyli-o-bezrobociu-i-migracjach/</link>
       <pubDate>Mon, 06 Jun 2016 14:19:37 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/praca-szuka-czlowieka-czyli-o-bezrobociu-i-migracjach/</guid>
+      <guid>https://www.szychtawdanych.pl/post/praca-szuka-czlowieka-czyli-o-bezrobociu-i-migracjach/</guid>
       <description>Czy praca jest towarem? Zobaczmy co na ten temat da się powiedzieć na podstawie danych. W szczególności czy w skali makro działa prawo popytu i podaży? Innymi słowy, czy można zaobserwować w Polsce zależność pomiędzy bezrobociem (popytem na pracę) a migracjami (podażą pracy)?
 Dane musimy analizować na poziomie województw. Kiedy bierzemy pod uwagę powiaty, to zaczynają odgrywać rolę dodatkowe czynniki, typu rozlewania się dużych miast na sąsiednie tereny. W tego typu powiatach duża migracja wielkomiejskich ,,kolonizatorów&amp;quot; może się łączyć z biedą i bezrobociem.</description>
     </item>
     
     <item>
       <title>Pusto jak we wschodnich Niemczech czyli prognoza demograficzna dla Europy</title>
-      <link>http://psobczyk.github.io/post/pusto-jak-we-wschodnich-niemczech-czyli-prognoza-demograficzna-dla-europy/</link>
+      <link>https://www.szychtawdanych.pl/post/pusto-jak-we-wschodnich-niemczech-czyli-prognoza-demograficzna-dla-europy/</link>
       <pubDate>Tue, 31 May 2016 14:05:14 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/pusto-jak-we-wschodnich-niemczech-czyli-prognoza-demograficzna-dla-europy/</guid>
+      <guid>https://www.szychtawdanych.pl/post/pusto-jak-we-wschodnich-niemczech-czyli-prognoza-demograficzna-dla-europy/</guid>
       <description>W poprzednich wpisach było trochę o ekonomii, między innymi o tym jak w różnych regionach w Polsce wzrasta PKB, jak ma się wzrost płac w Polsce do innych krajów. Moja intuicja jest taka, że długofalowego rozwoju gospodarczego nie sposób połączyć z zapaścią demograficzną. To znaczy regiony, które odniosą sukces nie będą sie szybko wyludniać. I w drugą stronę, bieda napędza emigrację i wyludnianie. Jak będzie wyglądać Europa za 35 lat? Gdzie przybędzie mieszkańców?</description>
     </item>
     
     <item>
       <title>Demograficzna bomba czyli jak będzie wyglądać Polska za 35 lat</title>
-      <link>http://psobczyk.github.io/post/demograficzna-bomba-czyli-jak-bedzie-wygladac-polska-za-35-lat/</link>
+      <link>https://www.szychtawdanych.pl/post/demograficzna-bomba-czyli-jak-bedzie-wygladac-polska-za-35-lat/</link>
       <pubDate>Wed, 25 May 2016 09:11:52 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/demograficzna-bomba-czyli-jak-bedzie-wygladac-polska-za-35-lat/</guid>
+      <guid>https://www.szychtawdanych.pl/post/demograficzna-bomba-czyli-jak-bedzie-wygladac-polska-za-35-lat/</guid>
       <description>Słychać czasem w mediach, że polskie społeczeństwo szybko się starzeje i czeka nas demograficzna apokalipsa. Czy rzeczywiście jest tak źle? Kiedy odczujemy pierwsze efekty tych zmian? Na wstępie zaznaczę, że będę się trochę mądrzyć. Próbuję używać common sense, ale rzecz jasna można, szczególnie będąc ekspertem, wysnuć z tych danych inne wnioski.
 Już za kilka lat zacznie się szybko kurczyć ludność wieku produkcyjnym. Wynika to z tego, że na emerytury przejdą liczne roczniki z lat 50-tych.</description>
     </item>
     
     <item>
       <title>Polegli pod Monte Cassino lub polak-niekatolik</title>
-      <link>http://psobczyk.github.io/post/polegli-pod-monte-cassino-lub-polak-niekatolik/</link>
+      <link>https://www.szychtawdanych.pl/post/polegli-pod-monte-cassino-lub-polak-niekatolik/</link>
       <pubDate>Tue, 17 May 2016 17:33:32 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/polegli-pod-monte-cassino-lub-polak-niekatolik/</guid>
+      <guid>https://www.szychtawdanych.pl/post/polegli-pod-monte-cassino-lub-polak-niekatolik/</guid>
       <description>Dzisiaj rocznica bitwy o Monte Cassino, więc wpis będzie mały ,,charakter rocznicowy&amp;quot; :) Poniższa analiza oparta jest o stronę z informacjami o grobach polskich żołnierzy z II Wojny Światowej we Włoszczech. Jak wiadomo II Korpus złożony był z Polaków wywiezionych na Syberię przez bolszewików. Jakich wyznań byli Polacy, którzy zginęli pod Monte Cassino? Czy broni się w tych danych stereotyp polaka-katolika?
 Monte Cassino to jedna z najważniejszych bitew w jakich uczestniczyli Polacy po roku 1939.</description>
     </item>
     
     <item>
       <title>Podwójny lie factor - nakłady na szkolnictwo wyższe według posła Szczerby</title>
-      <link>http://psobczyk.github.io/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</link>
+      <link>https://www.szychtawdanych.pl/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</link>
       <pubDate>Wed, 11 May 2016 18:42:07 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</guid>
+      <guid>https://www.szychtawdanych.pl/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</guid>
       <description>Lie factor, czyli współczynnika kłamstwa, jest miarą zaproponowana przez Edwarda Tuftego do opisu niezgodności wielkości przedstawionej na grafice, do rzeczywistej liczby wynikającej z danych. Udało mi się upolować bardzo ciekawy przykład pochodzący z twitta Michała Szczerby, posła na Sejm, któremu udało się na jednej grafice umieścić dwa rysunki o różnych współczynnikach kłamstwa.
 Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idealnie 1.5:1. A jak to wygląda na rysunku? Wysokość zmierzyłem za pomocą GIMPa.</description>
     </item>
     
     <item>
       <title>Tanio kupić, drogo sprzedać czyli dwa słowa o polskim handlu zagranicznym</title>
-      <link>http://psobczyk.github.io/post/tanio-kupic-drogo-sprzedac-czyli-dwa-slowa-o-polskim-handlu-zagranicznym/</link>
+      <link>https://www.szychtawdanych.pl/post/tanio-kupic-drogo-sprzedac-czyli-dwa-slowa-o-polskim-handlu-zagranicznym/</link>
       <pubDate>Wed, 11 May 2016 14:41:16 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/tanio-kupic-drogo-sprzedac-czyli-dwa-slowa-o-polskim-handlu-zagranicznym/</guid>
+      <guid>https://www.szychtawdanych.pl/post/tanio-kupic-drogo-sprzedac-czyli-dwa-slowa-o-polskim-handlu-zagranicznym/</guid>
       <description>W ostatnim wpisie zastanawiałem się nad możliwą przyczyną tego, że płace w Polsce rosną wolniej niż PKB (oba liczone w dolarach bez parytetu siły nabywczej). Przy okazji zainteresowało mnie, że dużo od Polski mniejsze Czechy mają niemal taką samą wymianę handlową. Czy można jednak powiedzieć, że handel zagraniczny rośnie w Polsce zbyt, cokolwiek by to nie miało znaczyć, wolno? Wzrost polskiej wymiany handlowej po roku 1989 jest znacznie wyższy niż dynamika światowego handlu.</description>
     </item>
     
     <item>
       <title>Więcej! O wzroście płac i produktu krajowego brutto</title>
-      <link>http://psobczyk.github.io/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</link>
+      <link>https://www.szychtawdanych.pl/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</link>
       <pubDate>Thu, 05 May 2016 14:36:36 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wiecej-o-wzroscie-plac-i-produktu-krajowego-brutto/</guid>
       <description>Czy moglibyśmy w Polsce zarabiać o 50% więcej? W dzisiejszym wpisie zbadamy jak są ze sobą powiązane wzrost PKB na mieszkańca i wzrost wynagrodzeń. W szczególności zobaczymy czy płace w Polsce rosły równie szybko, jak wartość wytwarzanych towarów, oraz jak wyglądamy pod tym względem na tle innych krajów europejskich i świata.
 Nie mam pełnych danych na temat wynagrodzenia, ale porównamy wynagrodzenie za godzinę pracy w przemyśle (manufacturing) ze wzrostem PKB na mieszkańca.</description>
     </item>
     
     <item>
       <title>Dane prawie dostępne</title>
-      <link>http://psobczyk.github.io/post/dane-prawie-dostepne/</link>
+      <link>https://www.szychtawdanych.pl/post/dane-prawie-dostepne/</link>
       <pubDate>Thu, 28 Apr 2016 17:42:31 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/dane-prawie-dostepne/</guid>
+      <guid>https://www.szychtawdanych.pl/post/dane-prawie-dostepne/</guid>
       <description>Szychta w Danych działa dzięki dostępności bezpłatnych danych w internecie, w dużej mierze pochodzących od różnego typu urzędów. Dlatego bardzo interesują mnie konsultacje, jakie przeprowadza Ministerstwo Cyfryzacji, w formie ankiety, dotyczące tego, jak powinny być udostępniane dane publiczne. Zachęcając do jej wypełnienia, podzielę się kilkoma wrażeniami z korzystanie z serwisu Dane Publiczne.
 Zacznijmy od rzeczy pozytywnych. Strona jest porządnie zrobiona, łatwo się po niej poruszać. Dane pochodzą z wielu różnych ministerstw i agencji rządowych.</description>
     </item>
     
     <item>
       <title>Granica możliwości lub o rozwoju polskich metropolii</title>
-      <link>http://psobczyk.github.io/post/granica-mozliwosci-lub-o-rozwoju-polskich-metropolii/</link>
+      <link>https://www.szychtawdanych.pl/post/granica-mozliwosci-lub-o-rozwoju-polskich-metropolii/</link>
       <pubDate>Tue, 26 Apr 2016 14:03:23 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/granica-mozliwosci-lub-o-rozwoju-polskich-metropolii/</guid>
+      <guid>https://www.szychtawdanych.pl/post/granica-mozliwosci-lub-o-rozwoju-polskich-metropolii/</guid>
       <description>W Polsce ma miejsce proces szybkiego rozwoju największych miast i miejscowości leżących w ich bezpośrednim sąsiedztwie. Duży sukces potrafi niestety generować duże problemy, i nie każde z miast potrafi sobie z nimi równie dobrze poradzić. W dzisiejszym wpisie skupimy się na tym, czy przyrost liczby mieszkańców i rozbudowa osiedli mieszkaniowych jest bilansowana zwiększonymi nakładami na transport publiczny.Zacznijmy od analizy infografiki, która wprowadzi nas w ten problem. W których powiatach liczba mieszkańców najszybciej wzrasta, a które najszybciej zwiększają swoje wydatki na transport publiczny?</description>
     </item>
     
     <item>
       <title>Ile dzieci mogłoby się rodzić w Polsce lub o braku rodzin wielodzietnych</title>
-      <link>http://psobczyk.github.io/post/ile-dzieci-mogloby-sie-rodzic-w-polsce-lub-o-braku-rodzin-wielodzietnych/</link>
+      <link>https://www.szychtawdanych.pl/post/ile-dzieci-mogloby-sie-rodzic-w-polsce-lub-o-braku-rodzin-wielodzietnych/</link>
       <pubDate>Thu, 21 Apr 2016 14:47:22 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/ile-dzieci-mogloby-sie-rodzic-w-polsce-lub-o-braku-rodzin-wielodzietnych/</guid>
+      <guid>https://www.szychtawdanych.pl/post/ile-dzieci-mogloby-sie-rodzic-w-polsce-lub-o-braku-rodzin-wielodzietnych/</guid>
       <description>Sporo mówi się o tym, że w Polsce mamy problem demograficzny. Rodzi się za mało dzieci, a za kilkadziesiąt lat czekają nas bardzo duże problemy finansowe, związane z koniecznością wypłaty dużej liczby emerytur przez małą liczbę pracujących. Zobaczmy jak bardzo zmieniła się struktura polskich rodzin w przeciągu 35 lat i czy gdyby rodzin wielodzietnych było więcej to problem demograficzny zostałby zażegnany?
 Jednym z problemów na jaki się wskazuje jest to, że kobiety nie decydują się na drugie i kolejne dzieci.</description>
     </item>
     
     <item>
       <title>O nieomylności papieża i Bernim Sandersie</title>
-      <link>http://psobczyk.github.io/post/o-nieomylnosci-papieza-i-bernim-sandersie/</link>
+      <link>https://www.szychtawdanych.pl/post/o-nieomylnosci-papieza-i-bernim-sandersie/</link>
       <pubDate>Mon, 18 Apr 2016 13:33:15 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/o-nieomylnosci-papieza-i-bernim-sandersie/</guid>
+      <guid>https://www.szychtawdanych.pl/post/o-nieomylnosci-papieza-i-bernim-sandersie/</guid>
       <description>Wbrew tytułowi, dzisiejszy wpis nie będzie dotyczył teologii, tylko ekonomii, a konkretnie (nie)równej dystrybucji dóbr. Pretekstem jest artykuł w Washington Post na temat wizyty Berniego Sandersa, kandydata w prawyborach prezydenckich Partii Demokratycznej, u papieża Franciszka. To co łączy tych dwóch panów, to krytyka liberalnego kapitalizmu, za to, że nie udało mu się doprowadzić do zniwelowania nierówności społecznych i gospodarczych na świecie. Czy rzeczywiście tak jest?
 Co ma na swoją obronę kapitalizm?</description>
     </item>
     
     <item>
       <title>Gdzie się wozi(ć) na Górnym Śląsku?</title>
-      <link>http://psobczyk.github.io/post/gdzie-sie-wozic-na-gornym-slasku/</link>
+      <link>https://www.szychtawdanych.pl/post/gdzie-sie-wozic-na-gornym-slasku/</link>
       <pubDate>Wed, 13 Apr 2016 18:18:28 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/gdzie-sie-wozic-na-gornym-slasku/</guid>
+      <guid>https://www.szychtawdanych.pl/post/gdzie-sie-wozic-na-gornym-slasku/</guid>
       <description>Dzisiaj kolejna odsłona analizy danych komunikacyjnych na Górnym Śląsku. Gdzie tramwaje i autobusy kursują za rzadko? Mieszkańcy których miast nie wykorzystują skierowanej do nich oferty? W oparciu o dane z serwisu jakdojade.pl, zbadamy na ile liczba pasażerów zdeterminowana jest przez liczbę kursów KZK GOP oraz przez czynniki demograficzne.
 Pierwsze pytanie jest następujące: czy liczba kursów jakie wykonuje komunikacja miejska jest dostosowana do liczby mieszkańców? Dla każdego przystanku zliczona została łączna liczba kursów jakie dziennie wykonuje na nich KZK GOP.</description>
     </item>
     
     <item>
       <title>Tam, gdzie strach jest codziennością - mapa globalnego terroryzmu</title>
-      <link>http://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
+      <link>https://www.szychtawdanych.pl/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</link>
       <pubDate>Tue, 05 Apr 2016 15:41:24 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/tam-gdzie-strach-jest-codziennoscia-mapa-globalnego-terroryzmu/</guid>
       <description>Czasem strach jaki odczuwamy przed terroryzmem, zwłaszcza w Polsce, może wydawać się przesadzony. Jest jednak na świecie wiele miejsc, gdzie terroryzm jest niestety codziennością. W dzisiejszym wpisie prezentuję interaktywną mapę światowego terroryzmu.
 Aby uruchomić interaktywną mapę wystarczy kliknąć na obrazek poniżej. Uwaga, docelowy plik jest dosyć duży (około 15MB), a w miarę przybliżania wybranego regionu świata, dodatkowo ściągana jest mapa z serwisu open street map. Łączny przesył danych, może więc trochę kosztować :)[</description>
     </item>
     
     <item>
       <title>Kaj baną na Śląsku czy o komunikacji w GOP</title>
-      <link>http://psobczyk.github.io/post/kaj-bana-na-slasku-czy-o-komunikacji-w-gop/</link>
+      <link>https://www.szychtawdanych.pl/post/kaj-bana-na-slasku-czy-o-komunikacji-w-gop/</link>
       <pubDate>Wed, 30 Mar 2016 13:22:47 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/kaj-bana-na-slasku-czy-o-komunikacji-w-gop/</guid>
+      <guid>https://www.szychtawdanych.pl/post/kaj-bana-na-slasku-czy-o-komunikacji-w-gop/</guid>
       <description>Wszystko co chcielibyście wiedzieć o GOP, ale nie mieliście danych :) W dzisiejszym wpisie przybliżę temat funkcjonowania, unikalnego w skali Polski, systemu komunikacji zbiorowej na Górnym Śląsku. Nigdzie indziej nie mamy tak wielu miast leżących tak blisko siebie i mających wspólny transport publiczny. Ile centrów, popularnych wśród mieszkańców, znajduje się na Górnym Śląsku? Do których miast/dzielnic nikt nie chce jeździć i dlaczego?
 Na jakich trasach przemieszczają się mieszkańcy GOP? Poniższy wykres to zestawienie wszystkich wyszukiwanych połączeń.</description>
     </item>
     
     <item>
       <title>Najbardziej niebezpieczne miejsca na ziemi - terroryzm</title>
-      <link>http://psobczyk.github.io/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</link>
+      <link>https://www.szychtawdanych.pl/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</link>
       <pubDate>Tue, 22 Mar 2016 15:30:21 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</guid>
+      <guid>https://www.szychtawdanych.pl/post/najbardziej-niebezpieczne-miejsca-na-ziemi-terroryzm/</guid>
       <description>W jakich krajach i regionach przeprowadzanych jest najwięcej zamachów terrorystycznych? Czy jest uzasadnionym, żeby mówić o tym, że Europa Zachodnia jest szczególnie atakowana, czy też mamy do czynienia z globalną eskalacją terroryzmu? Mam wrażenie, że czasem zapominamy iż terroryzm nie jest zjawiskiem nowym. Od dawna wywiera on znaczący wpływ na kształtowanie rzeczywistości politycznej. Wystarczy przypomnieć, że jedna z największych humanitarnych tragedii w historii Europy, I Wojna Światowa, rozpoczęła się od zamachu terrorystycznego w Sarajewie.</description>
     </item>
     
     <item>
       <title>Drogi rowerowe</title>
-      <link>http://psobczyk.github.io/post/drogi-rowerowe/</link>
+      <link>https://www.szychtawdanych.pl/post/drogi-rowerowe/</link>
       <pubDate>Wed, 16 Mar 2016 20:41:59 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/drogi-rowerowe/</guid>
+      <guid>https://www.szychtawdanych.pl/post/drogi-rowerowe/</guid>
       <description>Na stronie fejsbukowej MojaPolis pojawiło się zestawienie miast w Polsce pod względem długości tras rowerowych. Zestawienie dotyczy wartości bezwzględnych, a my spojrzymy na te dane w odniesieniu do powierzchni gmin.
 W więcej niż połowie gmin w Polsce nie ma żadnych dróg rowerowych. Dotyczy to zwłaszcza Polski wschodniej. Duża gęstość ścieżek rowerowych związana jest nie tylko z dużymi miastami. Część z nich można zidentyfikować jako regiony turstyczne, np. Góry Sowie na Dolnym Śląsku.</description>
     </item>
     
     <item>
       <title>[Jak to zrobić w R] - ,,Czy bogatsi są coraz bogatsi?&#34;</title>
-      <link>http://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</link>
       <pubDate>Mon, 07 Mar 2016 15:56:15 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</guid>
       <description>Dzisiaj krótko na temat tego, jak stworzyć rysunki z wpisu o wzroście wynagrodzeń.
 Dane pochodzą z Banku Danych Lokalnych GUS. Kontury województw pochodzą ze strony Centralnego Ośrodka Dokumentacji Geodezyjnej i Kartograficznej.
 Na początku wczytujemy kontury województw za pomocą pakietu rgdal. [github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/wynagrodzenia/analiza_wynagrodzenia.R&amp;rdquo; start_line = &amp;ldquo;10&amp;rdquo; end_line = &amp;ldquo;12&amp;rdquo;]
@@ -965,10 +965,10 @@ _Data.frame _ nazwy, to brzydki hak, służący do łączenia danych. Jego przyd
     
     <item>
       <title>Czy bogaci są coraz bogatsi? Czyli o różnicach w rozwoju regionów w Polsce</title>
-      <link>http://psobczyk.github.io/post/czy-bogaci-sa-coraz-bogatsi-czyli-o-roznicach-w-rozwoju-regionow-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/czy-bogaci-sa-coraz-bogatsi-czyli-o-roznicach-w-rozwoju-regionow-w-polsce/</link>
       <pubDate>Mon, 29 Feb 2016 17:38:59 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czy-bogaci-sa-coraz-bogatsi-czyli-o-roznicach-w-rozwoju-regionow-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czy-bogaci-sa-coraz-bogatsi-czyli-o-roznicach-w-rozwoju-regionow-w-polsce/</guid>
       <description>Czy Polska bogaci się równomiernie? Czy regiony historycznie biedniejsze gonią te bogatsze czy też dystans między nimi się zwiększa?
 Na początek zobaczmy jak wygląda średnie wynagrodzenie brutto w podziale na województwa. Gołym okiem widać ogromne dysproporcje pomiędzy Warszawą, a resztą Polski. Różnica w wynagrodzeniach pomiędzy Mazowszem a Górnym Śląskiem jest większa niż między Górnym Śląskiem a najbiedniejszymi Warmią i Mazurami.
 Ale może Warszawa jest goniona przez resztę Polski? Jak zmieniły się zarobki w ciągu ostatnich 12 lat?</description>
@@ -976,10 +976,10 @@ Ale może Warszawa jest goniona przez resztę Polski? Jak zmieniły się zarobki
     
     <item>
       <title>[Jak to zrobić w R] - ,,W pogoni za seksizmem w popkulturze&#34;</title>
-      <link>http://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
       <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
       <description>Kolejny wpis z serii jak to zrobić w R. Dzisiaj krótkie wprowadzenie do tego jak ściągać bezpośrednio do R tabele zawarte na stronach internetowych, jak kierować zapytania do API, jak przetwarzać otrzymane od serwera odpowiedzi i jak to wszystko połączyć w niebanalną analizę.
 Ściąganie tabel do R
 Wykorzystamy w tym celu pakiet XML. Ściągniemy listę najbardziej kasowych filmów wszechczasów.
@@ -989,48 +989,48 @@ Bardziej ogólne rozwiązania opiera się na wczytaniu całego pliku i ręcznego
     
     <item>
       <title>Jak (drogo) kupić 44 tysiące dzieci czyli o programie 500&#43;</title>
-      <link>http://psobczyk.github.io/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</link>
       <pubDate>Wed, 10 Feb 2016 09:00:18 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-drogo-kupic-44-tysiace-dzieci-czyli-o-programie-500/</guid>
       <description>W najbliższym czasie uchwalony zostanie rządowy program świadczeń na dzieci w wysokości 500 złotych miesięcznie. Do procesu obiecywania dołączyła cześć opozycji. Pytanie czy taki program w ogóle ma sens? Czy dokonano dogłębnej diagnozy obecnej sytuacji demograficznej Polski? Czy pomysł na wydawania pieniędzy w formie zasiłku jest efektywny? Ile będzie kosztować budżet narodzenie jednego dodatkowego dziecka w wyniku działania programu 500+?
 Zaczynamy od porównania. Głównym moim źródłem jest wpis na blogu BIQdata oraz raport firmy PwC, na którym tenże wpis się opiera.</description>
     </item>
     
     <item>
       <title>,,Kino to najważniejsza ze sztuk&#34; - w pogoni za seksizmem w popkulturze</title>
-      <link>http://psobczyk.github.io/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <link>https://www.szychtawdanych.pl/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</link>
       <pubDate>Mon, 08 Feb 2016 17:31:54 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <guid>https://www.szychtawdanych.pl/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</guid>
       <description>Czy w przemyśle filmowym kryje się seksizm i przewaga mężczyzn nad kobietami? Nawet pobieżne przejrzenie internetu przyniesie odpowiedź że zapewne tak właśnie jest. Na przykład pierwszy wynik w google daje infografikę na ten temat. W dzisiejszym wpisie przyjrzymy się najbardziej kasowym filmom w historii. Sprawdzimy którzy aktorzy i reżyserzy stoją za ich sukcesem, a także jaki jest wśród nich udział kobiet.Na stronie boxofficemojo można znaleźć dane dotyczące 630 najbardziej kasowych filmów wszechczasów.</description>
     </item>
     
     <item>
       <title>,,Ekonomia dobra i zła&#34; Tomasa Sedlacka [Szychta czyta]</title>
-      <link>http://psobczyk.github.io/post/ekonomia-dobra-i-zla-tomasa-sedlacka-szychta-czyta/</link>
+      <link>https://www.szychtawdanych.pl/post/ekonomia-dobra-i-zla-tomasa-sedlacka-szychta-czyta/</link>
       <pubDate>Mon, 01 Feb 2016 18:25:24 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/ekonomia-dobra-i-zla-tomasa-sedlacka-szychta-czyta/</guid>
+      <guid>https://www.szychtawdanych.pl/post/ekonomia-dobra-i-zla-tomasa-sedlacka-szychta-czyta/</guid>
       <description>Nowa seria wpisów na Szychcie - książki przeczytane i warte napisania krótkiej recenzji. Zaczynam od ,,Ekonomii dobra i zła&amp;quot; Tomasa Sedlacka.
 Od pierwszych stron ogromne wrażenie robi głębokie zakorzenienie autora w kulturze. Widzi on ekonomię jako jeden z wciąż powtarzających się tematów. Podstawowe pytania, na jakie szukają odpowiedzi ekonomiści, odnajduje w najstarszych pismach ludzkości (epos o Gilgameszu, Biblia, dzieła greckich filozofów). Sedlacek nie używa matematycznych wzorów i bardziej od ,,jak&amp;quot; interesuje go ,,dlaczego&amp;quot;.</description>
     </item>
     
     <item>
       <title>14 piętro</title>
-      <link>http://psobczyk.github.io/post/14-pietro/</link>
+      <link>https://www.szychtawdanych.pl/post/14-pietro/</link>
       <pubDate>Mon, 25 Jan 2016 16:21:35 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/14-pietro/</guid>
+      <guid>https://www.szychtawdanych.pl/post/14-pietro/</guid>
       <description>Ten wpis ma wiele źródeł. Pierwszym jest książka 13 pięter Filipa Springera, która celnie opisuje problemy mieszkaniowe w 3 RP (a przy okazji także w 2 RP). Innym jest to, że ponieważ czeka mnie wkrótce wyprowadzka z najlepszego miasta w Polsce to śledzę rynek mieszkań na wynajem w kilku miastach. Ostatnie źródło to chęć zainicjowania większej serii wpisów dotyczącej tematu mieszkań i demografii w oparciu o dane. Stąd też nazwa, przyznaję, że nieco buńczuczna, ,,14 piętro&amp;quot; czyli spojrzenie na rynek mieszkań od strony danych.</description>
     </item>
     
     <item>
       <title>Dentysta w każdej szkole - jak to zrobić w R</title>
-      <link>http://psobczyk.github.io/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</link>
+      <link>https://www.szychtawdanych.pl/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</link>
       <pubDate>Mon, 18 Jan 2016 16:30:11 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</guid>
+      <guid>https://www.szychtawdanych.pl/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</guid>
       <description>Dzisiaj w Szychcie zamiast górniczego urobku prezentacja maszyn i technik. Jak wykonać zeszłotygodniową analizę w R? Jakich pakietów należy użyć?
 Kody i dane znajdują się na moim koncie na githubie. Dane nie należą do mnie.
 Na rozgrzewkę małe wyjaśnienie jak małym kosztem uszeregować województwa do boxplotu. Trik polega na ustawieniu kolejności poziomów (level) dla zmiennej typu factor.
@@ -1040,68 +1040,68 @@ Następnie już łatwo wygenerować jest wykres w ggplot [github file = &amp;ldq
     
     <item>
       <title>Dentysta w każdej szkole</title>
-      <link>http://psobczyk.github.io/post/dentysta-w-kazdej-szkole/</link>
+      <link>https://www.szychtawdanych.pl/post/dentysta-w-kazdej-szkole/</link>
       <pubDate>Mon, 11 Jan 2016 16:30:21 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/dentysta-w-kazdej-szkole/</guid>
+      <guid>https://www.szychtawdanych.pl/post/dentysta-w-kazdej-szkole/</guid>
       <description>Potrzeba przywrócenia gabinetów dentystycznych w szkołach została podniesiona w expose przez Ewę Kopacz. Ten sam pomysł pojawił się potem w w kampanii prezydenckiej Andrzeja Dudy. Następnie, z właściwą sobie gracją, podchwycił ten temat Janusz Palikot z hasłem ,,dentysta zamiast księdza&amp;quot;. Na koniec z aprobatą wypowiedziała się o tym pomyśle Beata Szydło. Czy Polskę stać na dentystę w każdej szkole? W dzisiejszym wpisie pokusimy się o ocenę sensowność tego pomysłu w oparciu o szacunkowe zapotrzebowanie w szkołach podstawowych.</description>
     </item>
     
     <item>
       <title>Polska w ruinie</title>
-      <link>http://psobczyk.github.io/post/polska-w-ruinie/</link>
+      <link>https://www.szychtawdanych.pl/post/polska-w-ruinie/</link>
       <pubDate>Mon, 04 Jan 2016 17:00:23 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/polska-w-ruinie/</guid>
+      <guid>https://www.szychtawdanych.pl/post/polska-w-ruinie/</guid>
       <description>Na dobry początek roku w Szychcie historia wielkich nieszczęść. Z czego wynika ogromna dysproporcja zniszczeń miast na terenie Polski podczas II wojny światowej? Co uratowało Małopolskę, a co pogrążyło Dolny Śląsk? I jako ciekawostka krótka opowieść o kilku niedoszłych miastach twierdzach na Śląsku.
 Na początek trochę (taniej) filozofii. Żywa i pełna emocji pamięć o wojnach zanika, ponieważ umierają ich uczestnicy. Za 10-20 lat jedynymi świadkami tego co się wydarzyło pozostaną miasta.</description>
     </item>
     
     <item>
       <title>Systemy tramwajowe w Polsce</title>
-      <link>http://psobczyk.github.io/post/systemy-tramwajowe-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/systemy-tramwajowe-w-polsce/</link>
       <pubDate>Wed, 30 Dec 2015 16:59:32 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/systemy-tramwajowe-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/systemy-tramwajowe-w-polsce/</guid>
       <description>Dzisiejszy wpis szczególnie przypadnie do gustu wszystkim miłośnikom tramwajów i niestandardowych wykresów w R. Nietrudno zatem odgadnąć, że autor należy do obu tych grup. Odpowiemy sobie na pytania gdzie w Polsce są a gdzie zostały zlikwidowane sieci tramwajowe? Jakie miasto może się pochwalić najdłuższą długość torowisk? Jak mocno obecność tramwajów determinowana jest przebiegiem granicy zaboru pruskiego oraz jak zrobić w R efektowne wykresy gdzie zamiast punktu mamy obrazek.
 Na początek punkt wyjścia czyli zwykły wykres.</description>
     </item>
     
     <item>
       <title>O (nie)równych szansach w polskim systemie edukacji</title>
-      <link>http://psobczyk.github.io/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
+      <link>https://www.szychtawdanych.pl/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
       <pubDate>Mon, 14 Dec 2015 15:30:33 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
+      <guid>https://www.szychtawdanych.pl/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
       <description>W Polsce każdy ma prawo do bezpłatnej edukacji, ale jej jakość jest bardzo nierówna. I nie chodzi jedynie o podział miasto - wieś, ale też o regiony geograficzne. W dzisiejszym wpisie zobaczymy jak kształtują się wyniki sprawdzianu po szkole podstawowej, egzaminu gimnazjalnego i matury w podziale na powiaty. Sprawdzimy też czy z czasem różnice pomiędzy nimi zacierają się czy też stają się bardziej widoczne.
 W dzisiejszym wpisie korzystam z pakietu ZPD stworzony przez Instytut Badań Edukacyjnych.</description>
     </item>
     
     <item>
       <title>Rozkład państwa czy rozkład prawdopodobieństwa? O ogłaszaniu i wykonywaniu wyroków Trybunału Konstytucyjnego</title>
-      <link>http://psobczyk.github.io/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</link>
+      <link>https://www.szychtawdanych.pl/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</link>
       <pubDate>Wed, 09 Dec 2015 16:00:42 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</guid>
+      <guid>https://www.szychtawdanych.pl/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</guid>
       <description>Dzisiaj wpis, za który oberwie mi się z prawej i lewej strony. I w dodatku nie za to, że i jednych i drugich pojadę, ale za to, że jednym i drugim oddam troszkę honoru! Oczekiwania podkręcone, postaram się je spełnić. Wpis dotyczy orzeczeń Trybunału Konstytucyjnego. Konkretnie dwóch zagadnień. Pierwsze to czas od wydania wyroku do jego publikacji w Dzienniku Ustaw. Drugi dotyczy czasu wykonania wyroków, czyli ile zajęło poprawienie prawa od momentu stwierdzenie jego niezgodności z konstytucją.</description>
     </item>
     
     <item>
       <title>Zabory a sprawa Polska. 100 lat później</title>
-      <link>http://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</link>
+      <link>https://www.szychtawdanych.pl/post/zabory-a-sprawa-polska-100-lat-pozniej/</link>
       <pubDate>Sun, 06 Dec 2015 00:16:34 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</guid>
+      <guid>https://www.szychtawdanych.pl/post/zabory-a-sprawa-polska-100-lat-pozniej/</guid>
       <description>Szychta w danych wraca po przerwie na intensywną pracę naukową :) Na rozgrzewkę - analiza wyników ostatnich wyborów. Czy PO i Nowoczesna różnią się w poszczególnych regionach? Czy wyniki wyborów nadal da się wytłumaczyć granicami zaborów? Czym się różnią elektoraty partii lewicowych?
 Zaczniemy od analizy rywalizacji, która od 10 lat dominuje w polskiej polityce. PiS vs. PO. Oprócz standardowych i dobrze znanych podziałów, bardzo fajnie widać na wykresie efekt mniejszości narodowych.</description>
     </item>
     
     <item>
       <title>Elektrownie w Polsce</title>
-      <link>http://psobczyk.github.io/post/elektrownie-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/elektrownie-w-polsce/</link>
       <pubDate>Wed, 14 Oct 2015 05:16:39 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/elektrownie-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/elektrownie-w-polsce/</guid>
       <description>Zupełnie nie wiem jak sprzedać tę historię. Nie będzie więc błyskotliwego wstępu. Zainteresowało mnie po prostu gdzie znajdują się w Polsce elektrownie i na jak duże odległości trzeba przesyłać prąd. I to będzie tematem dzisiejszego wpisu.
 Na wstępie zobaczmy mapę z zaznaczonymi elektrowniami w podziale na istniejące i planowane. Wielkość okręgów jest proporcjonalna do mocy elektrowni.
 Istniejące elektrownie są zlokalizowane głównie w południowej części Polski. Na Górnym Śląsku występuje bardzo duże zagęszczenie elektrowni, co jest zapewne związane z przemysłem ciężkim, który był w przeszłości (jest nadal?</description>
@@ -1109,48 +1109,48 @@ Istniejące elektrownie są zlokalizowane głównie w południowej części Pols
     
     <item>
       <title>Zawsze dobrze, ale za Gierka najlepiej</title>
-      <link>http://psobczyk.github.io/post/zawsze-dobrze-ale-za-gierka-najlepiej/</link>
+      <link>https://www.szychtawdanych.pl/post/zawsze-dobrze-ale-za-gierka-najlepiej/</link>
       <pubDate>Mon, 28 Sep 2015 16:00:27 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/zawsze-dobrze-ale-za-gierka-najlepiej/</guid>
+      <guid>https://www.szychtawdanych.pl/post/zawsze-dobrze-ale-za-gierka-najlepiej/</guid>
       <description>W krajach postkomunistycznych, przynajmniej w Europie wschodniej, istnieje pewnego rodzaju nostalgia za minionymi czasami. Na zwyczajną przyczynę, którą jest fakt, że każde czasy mniej realne, niż te w których żyjemy, wydają się być lepszym miejscem do życia, nakłada się druga - zmiana systemu gospodarczego. W Polsce w ciągu ostatnich 25 lat zaszły gigantyczne pozytywne zmiany, jednak nie wszyscy czują się w takim samym stopniu ich beneficjentami (klik). Wydaje mi się, że istotnym pytanie jest to czy z czasem liczba osób widzących korzyści z transformacji roku 1989 rośnie czy maleje.</description>
     </item>
     
     <item>
       <title>Dokąd uciekają syryjscy uchodżcy?</title>
-      <link>http://psobczyk.github.io/post/gdzie-uciekaja-syryjscy-uchodzcy/</link>
+      <link>https://www.szychtawdanych.pl/post/gdzie-uciekaja-syryjscy-uchodzcy/</link>
       <pubDate>Mon, 21 Sep 2015 16:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/gdzie-uciekaja-syryjscy-uchodzcy/</guid>
+      <guid>https://www.szychtawdanych.pl/post/gdzie-uciekaja-syryjscy-uchodzcy/</guid>
       <description>Są granice tego ile można słuchać i czytać kasandrycznych wizji końca Europy zalanej hordami muzułmańskich barbarzyńców, inwokacji o nowego Jana Sobieskiego czy ujawnionych spisków krajów arabskich. W dzisiejszym wpisie zbadamy gdzie jest największa liczba syryjskich uchodźców oraz, które kraje mogą się rzeczywiście czuć ich liczbą zagrożone.
 Dane, z których korzystam, pochodzą ze strony agendy ONZ zajmującej się uchodźcami oraz z wikipedii. Są one mniej więcej aktualne - dotyczą sierpnia 2015. Liczba uchodźców, podawana przez UNHCR, to liczba osób, które wystąpiły w danym kraju o azyl.</description>
     </item>
     
     <item>
       <title>Wyniki referendum 6 września 2015</title>
-      <link>http://psobczyk.github.io/post/wyniki-referendum-6-wrzesnia-2015/</link>
+      <link>https://www.szychtawdanych.pl/post/wyniki-referendum-6-wrzesnia-2015/</link>
       <pubDate>Mon, 14 Sep 2015 16:15:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wyniki-referendum-6-wrzesnia-2015/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wyniki-referendum-6-wrzesnia-2015/</guid>
       <description>Z powodu niskiej frekwencji, ciężko sobie wyobrazić, żeby referendum z 6 września wpłynęło na jakiekolwiek zmiany w Polsce. Mimo wszystko moja ciekawość każe mi zerknąć na mapy obrazujące rozkład poparcia dla poszczególnych pytań w zależności od gminy. Zwłaszcza dlatego, że źle zadane pytania i niska frekwencja dają nadzieję na powstanie anomalii, a dla statystyka nic nie jest bardziej ciekawe niż rzeczy, które odchodzą od normy. Na początku słowa uznania dla PKW, która, podobnie jak w poprzednich wyborach, umieściła wyniki do pobrania w internecie.</description>
     </item>
     
     <item>
       <title>Wilkommen, bienvenido czy добре дошъл? O uchodźcach w Europie</title>
-      <link>http://psobczyk.github.io/post/uchodzcy/</link>
+      <link>https://www.szychtawdanych.pl/post/uchodzcy/</link>
       <pubDate>Mon, 07 Sep 2015 16:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/uchodzcy/</guid>
+      <guid>https://www.szychtawdanych.pl/post/uchodzcy/</guid>
       <description>W ostatnim czasie tematem numer jeden w mediach są uchodźcy i imigranci z Afryki i Bliskiego Wschodu. Facebook zapełnił się różnymi grupami typu ,,Polacy przeciwko&amp;hellip;&amp;quot;, &amp;ldquo;Polacy przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;, &amp;ldquo;Polacy przeciwko Polakom przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;. Zobaczmy jak wygląda przyjmowanie uchodźców w Europie. Który kraj udziela najwięcej azylów uchodźcom? Jaki kraj prawie nigdy nie odmawia azylu? No i oczywiście jak na tle innych krajów wypada Polska.
 W roku 2014 cała Unia Europejska udzieliła azylu 160,000 osób.</description>
     </item>
     
     <item>
       <title>Dużo czy mało? Ile kosztuje polityk?</title>
-      <link>http://psobczyk.github.io/post/duzo-czy-malo-ile-kosztuje-polityk/</link>
+      <link>https://www.szychtawdanych.pl/post/duzo-czy-malo-ile-kosztuje-polityk/</link>
       <pubDate>Mon, 31 Aug 2015 16:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/duzo-czy-malo-ile-kosztuje-polityk/</guid>
+      <guid>https://www.szychtawdanych.pl/post/duzo-czy-malo-ile-kosztuje-polityk/</guid>
       <description>Polacy mają niskie mniemanie o politykach. Nie ufamy im, uważamy, że dbają tylko o swój interes i nie chcemy opłacać ich z budżetu państwa. Jednak zmiana obecnego systemu nie jest neutralna - realną groźbą jest to, że politycy staną się zakładnikami grupy najbogatszych polaków. Oczywiście jest to kwestią opinii. Porozmawiajmy o faktach.
 Partie w Polsce są finansowane na trzy sposoby:
 Z wykorzystania majątku jaki posiadają - odsetki od kapitału lub sprzedaż majątku</description>
@@ -1158,39 +1158,39 @@ Z wykorzystania majątku jaki posiadają - odsetki od kapitału lub sprzedaż ma
     
     <item>
       <title>Suburbanizacja po wrocławsku I - Przedszkola</title>
-      <link>http://psobczyk.github.io/post/suburbanizacja-po-wroclawsku-i-przedszkola/</link>
+      <link>https://www.szychtawdanych.pl/post/suburbanizacja-po-wroclawsku-i-przedszkola/</link>
       <pubDate>Thu, 27 Aug 2015 16:11:22 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/suburbanizacja-po-wroclawsku-i-przedszkola/</guid>
+      <guid>https://www.szychtawdanych.pl/post/suburbanizacja-po-wroclawsku-i-przedszkola/</guid>
       <description>We Wrocławiu ma miejsce proces suburbanizacji, opuszczania przez mieszkańców centrum miasta, lub w ogóle jego granic, na rzecz nowych osiedli budowanych na obrzeżach. Zjawisko ponoć niekorzystne, a na pewno nieuniknione. Czy nadążamy za tym procesem? Czy zapewniamy nowo zamieszkałym terenom transport, edukację, możliwość rozrywki, tereny zielone? W kilku najbliższych wpisach będę się zajmował tym zagadnieniem, oczywiście w oparciu o dane. Zaczniemy od potrzeb najmłodszych Wrocławian czyli dostępności przedszkoli. Informację o przedszkolach pobrałem ze strony miasta Wrocławia, mapę Wrocławia z serwisu geostatystycznego GUS, a dane demograficzne z serwisu Systemu Informacji Przestrzennej.</description>
     </item>
     
     <item>
       <title>Wydatki na obronność</title>
-      <link>http://psobczyk.github.io/post/wydatki-na-obronnosc/</link>
+      <link>https://www.szychtawdanych.pl/post/wydatki-na-obronnosc/</link>
       <pubDate>Tue, 25 Aug 2015 20:45:47 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wydatki-na-obronnosc/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wydatki-na-obronnosc/</guid>
       <description>Winston Churchill
 W czasach gdy Churchill spisywał swoje aryciekawe wspomnienia, wojskami zarządzały Ministerstwa Wojny. Kosmetyczną zmianę w nazewnictwie zawdzięczamy Zimnej Wojnie, podczas której wydatki wojenne przeobraziły się w wydatki obronne. To one są tematem dzisiejszego, pierwszego po wakacjach, wpisu. Kiedy konflikt na Ukrainie był w fazie eskalacji, sporo czasu poświęcono w Polsce dyskusjom na temat siły armii, jakości jej wyposażenia i możliwości obronnych. Nie będąc ekspertem nie mogę się wypowiadać na te tematy, ale proponuję porównanie jak wyglądają wydatki i liczebność sił zbrojnych różnych krajów.</description>
     </item>
     
     <item>
       <title>Wyniki wrocławskiego półmaratonu 2015</title>
-      <link>http://psobczyk.github.io/post/wyniki-polmaratonu/</link>
+      <link>https://www.szychtawdanych.pl/post/wyniki-polmaratonu/</link>
       <pubDate>Sun, 21 Jun 2015 19:57:31 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wyniki-polmaratonu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wyniki-polmaratonu/</guid>
       <description>W ostatnią sobotę odbył się we Wrocławiu nocny półmaraton. Dostarczył on, oprócz dobrej zabawy, niemałego zbioru danych zawierającego międzyczasy blisko 7000 uczestników.
 Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi.</description>
     </item>
     
     <item>
       <title>Wybory prezydenckie 2015 - podsumowanie wyników</title>
-      <link>http://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</link>
+      <link>https://www.szychtawdanych.pl/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</link>
       <pubDate>Wed, 27 May 2015 13:32:47 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
       <description>Naprawdę chciałbym napisać o czymś innym, ale polityka i wybory zbyt mocno panoszą się teraz w mojej głowie, żeby móc przygotować cokolwiek innego.
 Podzielę, się kilkoma obrazkami, stworzonymi w R przy użyciu pakietu ggplot2. Są to złośliwe mapy i nie mniej złośliwe wykresy, tłumaczące poparcie jakie uzyskali obaj kandydaci w poszczególnych gminach.
 Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosów. Wydaje mi się, że często i niesprawiedliwie, podaje się jako przyczynę podział na lepiej rozwiniętą Polskę zachodnią i zacofaną ścianę wschodnią.</description>
@@ -1198,89 +1198,89 @@ Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosó
     
     <item>
       <title>Infografika dotycząca wyborów samorządowych i co z niej wynika</title>
-      <link>http://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</link>
+      <link>https://www.szychtawdanych.pl/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</link>
       <pubDate>Tue, 31 Mar 2015 17:29:45 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</guid>
+      <guid>https://www.szychtawdanych.pl/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</guid>
       <description>Dzisiaj chciałbym się podzielić czymś ładnym i ciekawym. Chodzi o infografiką dotyczącą ostatnich wyborów samorządowych. Przedstawia ona w pigułce najważniejsze informacje dotyczące poparcia dla głównych partii, frekwencji i liczby głosów nieważnych. Zgodnie z życzeniami Londyńskiej Polonii, postaram się dać więcej opisów a mniej kodów w R.
 Infografika powstała w oparciu o znaleziony na twitterze wpis z bloga. Podobieństwo jest bardzo duże, bo rzecz nie jest wcale łatwa a ja jestem dopiero na początku nauki tworzenia takich obrazów w R.</description>
     </item>
     
     <item>
       <title>Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie</title>
-      <link>http://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
+      <link>https://www.szychtawdanych.pl/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
       <pubDate>Sun, 22 Feb 2015 19:13:41 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
       <description>Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&amp;hellip; nie ma na nie miejsca.</description>
     </item>
     
     <item>
       <title>Jak wygląda komunikacja miejska we Wrocławiu?</title>
-      <link>http://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</link>
       <pubDate>Thu, 19 Feb 2015 20:06:42 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</guid>
       <description>Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.
 Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.</description>
     </item>
     
     <item>
       <title>O wynikach ostatnich wyborów</title>
-      <link>http://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/</link>
+      <link>https://www.szychtawdanych.pl/post/o-wynikach-ostatnich-wyborow/</link>
       <pubDate>Thu, 08 Jan 2015 21:46:21 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/</guid>
+      <guid>https://www.szychtawdanych.pl/post/o-wynikach-ostatnich-wyborow/</guid>
       <description>Rozkłady poparcia dla partii w komisjach obwodowych, czyli poparcie w pojedynczych lokalach wyborczych, nie mają rozkładu normalnego i mają różny kształt w zależność od partii. Przynajmniej w Polsce. Oznacza to nie tylko, że partie cieszą się różną skalą poparcia społecznego, ale też, że niektóre partie wzbudzają bardziej skrajne odczucia wyborców niż inne, tj. albo ich poparcie jest bardzo wysokie, albo bardzo niskie.
 W dzisiejszym poście postaram się odpowiedzieć na pytania: Czy jeśli pogrupujemy wyniki z komisji obwodowych względem województw to ,,odzyskamy&amp;quot; normalność?</description>
     </item>
     
     <item>
       <title>Normalność i skrajność czyli o wyborach w wydaniu mazowieckim</title>
-      <link>http://psobczyk.github.io/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</link>
+      <link>https://www.szychtawdanych.pl/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</link>
       <pubDate>Wed, 17 Dec 2014 21:53:11 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</guid>
+      <guid>https://www.szychtawdanych.pl/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</guid>
       <description>Powoli przycichają dyskusje polityczne na temat ostatnich wyborów samorządowych, co oznacza, że czas najwyższy aby się zabrać na wykonanie porządniejszej analizy danych.
 Niestety szczegółowe dane, to znaczy na poziomie komisji obwodowych, dotyczące ostatnich wyborów nie są póki co udostępnione na stronie PKW. Wobec tego ściągnąłem wyniki wyborów z roku 2010. Uzyskanie tychże wyników nie jest bynajmniej zadaniem trywialnym, ale odrobina wyrażeń regularnych załatwiła sprawę. Jak dotąd mam ściągnięte i analizuję jedynie dane dla Mazowsza.</description>
     </item>
     
     <item>
       <title>Programowanie w R z wykorzystaniem emacsa cz.2</title>
-      <link>http://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</link>
+      <link>https://www.szychtawdanych.pl/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</link>
       <pubDate>Tue, 25 Nov 2014 21:31:40 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</guid>
+      <guid>https://www.szychtawdanych.pl/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</guid>
       <description>Teraz kilka szczegółów technicznych. W Ubuntu plik konfiguracyjny nazywa się .emacs i znajduje się w katalogu domowym. Biblioteki dobrze jest umieszczać w jakimś ustalonym miejscu np. folderze .emacs.d/. Niestety nie potrafię dać żadnych wskazówek użytkownikom Windowsa oprócz tego linku.
 Poniżej zamieszczam swój plik .emacs. W kolejnych postach postaram się wyjaśnić te części, które lepiej zrozumiałem podczas swoich przygód z emacsem. Podstawą dla mojego pliku są informacje zmieszczone na blogu Jessici Hamrick.</description>
     </item>
     
     <item>
       <title>Wybory i sondaże a szansa na olimpijskie medale</title>
-      <link>http://psobczyk.github.io/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</link>
+      <link>https://www.szychtawdanych.pl/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</link>
       <pubDate>Mon, 24 Nov 2014 09:36:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wybory-i-sondaze-a-szansa-na-olimpijskie-medale/</guid>
       <description>Temperatura polityczna w Polsce w ostatnim tygodniu znacznie wzrosła. Rzucane były oskarżenia o fałszerstwo wyborów, o ,,podpalanie Polski&amp;quot; i tym podobne określenia. Spróbujemy nieco zredukować te emocje szczyptą statystycznego rozumowania.
 W ostatnich wyborach PSL zdobyło 22.68% poparcia. Według badania IPSOS przeprowadzonego dla TVP, TVN i Polsatu poparcie dla PSL wyniosło równo 17%, próba była wielkości 800. Zastanówmy się jak prawdopodobna jest taka różnica. Zakładamy, że zarówno wybory jak i sondaż zostały prawidłowo przeprowadzone.</description>
     </item>
     
     <item>
       <title>Programowanie w R z wykorzystaniem emacsa</title>
-      <link>http://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa/</link>
+      <link>https://www.szychtawdanych.pl/post/programowanie-w-r-z-wykorzystaniem-emacsa/</link>
       <pubDate>Mon, 06 Oct 2014 19:13:16 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa/</guid>
+      <guid>https://www.szychtawdanych.pl/post/programowanie-w-r-z-wykorzystaniem-emacsa/</guid>
       <description>Widząc ogromną liczbę artykułów na blogach dotyczących RStudio, mam wrażenie, że dominuje ono w dziedzinie IDE dla R. Z tego co wiem, to konkurencji w środowiskach ,,do wyklikania&amp;quot; nie ma bardzo dużej. Sam zresztą uwielbiam z niego korzystać. Szybko i wygodnie można wykonać większość prac, z jakimi można się spotkać w analizie danych. Nie oznacza to, że nie da się pracować inaczej. Jedną z takich możliwości daje emacs.
 Emacs jest uniwersalny.</description>
     </item>
     
     <item>
       <title>Wykresy typu bubble-chart</title>
-      <link>http://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</link>
+      <link>https://www.szychtawdanych.pl/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</link>
       <pubDate>Wed, 01 Oct 2014 19:50:13 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</guid>
       <description>Ten post jest oparty w znacznej mierze na blogu flowingdata.
 Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje Hansa Roslinga, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.
 Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu car dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.</description>
@@ -1288,20 +1288,20 @@ Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladując
     
     <item>
       <title>Pan Samochodzik i... matematyka kwadratów magicznych</title>
-      <link>http://psobczyk.github.io/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</link>
+      <link>https://www.szychtawdanych.pl/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</link>
       <pubDate>Wed, 03 Sep 2014 16:56:09 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</guid>
+      <guid>https://www.szychtawdanych.pl/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</guid>
       <description>Podczas wakacji miałem okazję odświeżyć sobie przygody Pana Samochodzika. W tomie ,,Tajemnica Tajemnic&amp;quot; Pan Samochodzik trafia na połówkę blaszki, na której jednej stronie znajduje się połówka kwadratu magicznego.
 14 4 7 9 11 5 2 16 Przez kwadrat magiczny rozumiem, w przypadku kwadratu 4x4, kwadrat podzielony na 16 małych kwadratów, w które wpisane są liczby od 1 do 16, w taki sposób aby suma każdego wiersza i każdej kolumny była taka sama.</description>
     </item>
     
     <item>
       <title>Pierwszy post czyli o czym pisać nie będę</title>
-      <link>http://psobczyk.github.io/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
+      <link>https://www.szychtawdanych.pl/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
       <pubDate>Tue, 26 Aug 2014 16:43:33 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
+      <guid>https://www.szychtawdanych.pl/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
       <description>I wbrew tytułowi napiszę o tym co będzie. Będą dane i będzie matematyka. W różnych proporcjach. Będą odpadki z mojego doktoratu i rzeczy, które mnie zafascynują. Będą dobre książki i artykuły. Będzie sporo ciekawych analiz rzeczy codziennych szczególnie dotyczących gospodarki. Może się też zdarzyć poważniejsza matematyka.
 Wpisy będą się pojawiać regularnie, choć stopień ich bycia interesującymi będzie bardzo zróżnicowany, za co każdego potencjalnego, innego niż ja sam, czytelnika serdecznie przepraszam.</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>polygons on Szychta w danych</title>
-    <link>http://psobczyk.github.io/tags/polygons/</link>
+    <link>https://www.szychtawdanych.pl/tags/polygons/</link>
     <description>Recent content in polygons on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 07 Mar 2016 15:56:15 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/polygons/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Mar 2016 15:56:15 +0000</lastBuildDate><atom:link href="https://www.szychtawdanych.pl/tags/polygons/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Jak to zrobić w R] - ,,Czy bogatsi są coraz bogatsi?&#34;</title>
-      <link>http://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</link>
       <pubDate>Mon, 07 Mar 2016 15:56:15 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</guid>
       <description>Dzisiaj krótko na temat tego, jak stworzyć rysunki z wpisu o wzroście wynagrodzeń.
 Dane pochodzą z Banku Danych Lokalnych GUS. Kontury województw pochodzą ze strony Centralnego Ośrodka Dokumentacji Geodezyjnej i Kartograficznej.
 Na początku wczytujemy kontury województw za pomocą pakietu rgdal. [github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/wynagrodzenia/analiza_wynagrodzenia.R&amp;rdquo; start_line = &amp;ldquo;10&amp;rdquo; end_line = &amp;ldquo;12&amp;rdquo;]

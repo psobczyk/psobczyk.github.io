@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lie factor on Szychta w danych</title>
-    <link>http://psobczyk.github.io/tags/lie-factor/</link>
+    <link>https://www.szychtawdanych.pl/tags/lie-factor/</link>
     <description>Recent content in lie factor on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Wed, 11 May 2016 18:42:07 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/lie-factor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2016 18:42:07 +0000</lastBuildDate><atom:link href="https://www.szychtawdanych.pl/tags/lie-factor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Podwójny lie factor - nakłady na szkolnictwo wyższe według posła Szczerby</title>
-      <link>http://psobczyk.github.io/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</link>
+      <link>https://www.szychtawdanych.pl/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</link>
       <pubDate>Wed, 11 May 2016 18:42:07 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</guid>
+      <guid>https://www.szychtawdanych.pl/post/podwojny-lie-factor-naklady-na-szkolnictwo-wyzsze-wedlug-posla-szczerby/</guid>
       <description>Lie factor, czyli współczynnika kłamstwa, jest miarą zaproponowana przez Edwarda Tuftego do opisu niezgodności wielkości przedstawionej na grafice, do rzeczywistej liczby wynikającej z danych. Udało mi się upolować bardzo ciekawy przykład pochodzący z twitta Michała Szczerby, posła na Sejm, któremu udało się na jednej grafice umieścić dwa rysunki o różnych współczynnikach kłamstwa.
 Rzeczywisty stosunek nakładów na szkolnictwo to 16.02:10.71, czyli niemal idealnie 1.5:1. A jak to wygląda na rysunku? Wysokość zmierzyłem za pomocą GIMPa.</description>
     </item>

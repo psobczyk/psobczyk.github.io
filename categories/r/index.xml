@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Szychta w danych</title>
-    <link>http://psobczyk.github.io/categories/r/</link>
+    <link>https://www.szychtawdanych.pl/categories/r/</link>
     <description>Recent content in R on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.szychtawdanych.pl/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reprodukowalność</title>
-      <link>http://psobczyk.github.io/draft/reprodukowalno/</link>
+      <link>https://www.szychtawdanych.pl/draft/reprodukowalno/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/draft/reprodukowalno/</guid>
+      <guid>https://www.szychtawdanych.pl/draft/reprodukowalno/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Przenoszenie bloga z Wordpressa do Hugo</title>
-      <link>http://psobczyk.github.io/post/przenoszenie-bloga-do-hugo/</link>
+      <link>https://www.szychtawdanych.pl/post/przenoszenie-bloga-do-hugo/</link>
       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/przenoszenie-bloga-do-hugo/</guid>
+      <guid>https://www.szychtawdanych.pl/post/przenoszenie-bloga-do-hugo/</guid>
       <description>Dlaczego warto przenieść blog a z Wordpressa do Hugo, statycznego generatora stron internetowych? Szybsza strona, mocniej zintegrowana z eRowym kodem, a do tego darmowy hosting na Githubie. A jak to zrobić? W internecie znajduje się trochę tutoriali na ten temat, ale jak to zwykle bywa diabeł tkwi w szczegółach.
 Z pokaźnej liczby tutoriali dotyczących przenoszenia blogów z Wordpressa do Hugo z czystym sumienieniem mogę polecić ten. Niestety jest w nim kilka rzeczy, które mi się nie podobają i które rozwiązałem inaczej.</description>
     </item>
     
     <item>
       <title>Automatyzacja winietek lub czemu na Szychcie nic się nie dzieje</title>
-      <link>http://psobczyk.github.io/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</link>
+      <link>https://www.szychtawdanych.pl/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</link>
       <pubDate>Sat, 14 Sep 2019 15:25:35 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</guid>
+      <guid>https://www.szychtawdanych.pl/post/automatyzacja-winietek-lub-czemu-na-szychcie-nic-sie-nie-dzieje/</guid>
       <description>Dzisiaj problem nieduży, ale bardzo praktyczny. Jak stworzyć vignette. eRowi fanatycy będą nieco zawiedzeni, bo chodzi mi nie o dokumentację pakietu, ale o &amp;ldquo;wedding vignette&amp;rdquo;, a więc winietki ślubne. Jak nie przeklejać 100 imion i uzyskać zgodę narzeczonej na zabawę przy komputerze?
 Pierwszym punktem jest znalezienie narzeczonej (continuum już zajęte, ale można szukać alef zero). Drugim zdecydowanie się na zorganizowanie imprezy na 100 osób, bo przecież ,,to proste i nie będzie na pewno aż tak drogie jak wszyscy mówią&amp;quot;.</description>
     </item>
     
     <item>
       <title>Czy Polska będzie mistrzem świata lub statystyka w oparach futbolu</title>
-      <link>http://psobczyk.github.io/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</link>
+      <link>https://www.szychtawdanych.pl/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</link>
       <pubDate>Tue, 19 Jun 2018 06:48:38 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czy-polska-bedzie-mistrzem-swiata-lub-statystyka-w-oparach-futbolu/</guid>
       <description>Jaka jest szansa, że Polska zostanie mistrzem świata? A może, że chociaż wyjdziemy z grupy? Ile razy bardziej prawdopodobne jest zwycięstwo Brazylii? Z okazji trwających mistrzostw świata mamy wysyp wszelkiej maści artykułów dotyczących przewidywania wyników za pomocą metod statystycznych. Szychta dołoży swoją małą cegiełkę dokonując przewidywań wyników mundialu.
 Wyniki przewidujemy metodą Monte Carlo, a więc ,,rozgrywamy&amp;quot; kilka tysięcy razy mistrzostwa na komputerze i patrzymy ile razy poszczególne drużyny wyszły z grupy, trafiły do ćwierćfinału i tak dalej.</description>
     </item>
     
     <item>
       <title>Taki mamy klimat - czy rozwój państw jest determinowany przez pogodę?</title>
-      <link>http://psobczyk.github.io/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</link>
+      <link>https://www.szychtawdanych.pl/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</link>
       <pubDate>Thu, 24 Aug 2017 16:21:07 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</guid>
+      <guid>https://www.szychtawdanych.pl/post/taki-mamy-klimat-czy-rozwoj-panstw-jest-determinowany-przez-pogode/</guid>
       <description>Czy jest tak, że niektórym krajom trudniej jest stać się bogatym? Oczywiście. O tego typu ograniczeniach mówi nauka nazywana geopolityką. Przy okazji polecam lekką książkę na ten temat. Czy może jednak być tak, że oprócz spławnych rzek i łańcuchów górskich, możliwości rozwoju są podyktowane przez temperaturę?
 ](http://szychtawdanych.pl/wp-content/uploads/2017/08/temperatura_hdi.png)
 Wszystkie dane pochodzą z wikipedii. Widzimy zależność (niekoniecznie wynikanie!) pomiędzy rozwojem kraju, mierzony przez Human Development Index (HDI), a przeciętną roczną temperaturą. Im cieplej, tym niższy jest rozwój kraju.</description>
@@ -59,20 +59,20 @@ Wszystkie dane pochodzą z wikipedii. Widzimy zależność (niekoniecznie wynika
     
     <item>
       <title>Granty NCN lub o koncentracji badań naukowych</title>
-      <link>http://psobczyk.github.io/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</link>
+      <link>https://www.szychtawdanych.pl/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</link>
       <pubDate>Thu, 25 May 2017 10:04:18 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</guid>
+      <guid>https://www.szychtawdanych.pl/post/granty-ncn-lub-o-koncentracji-badan-naukowych/</guid>
       <description>Jedną z miar aktywności i jakości pracy naukowej jest zdobywanie grantów. Przyjrzyjmy się, które polskie jednostki naukowe są pod tym względem najlepsze oraz czy w czasie następuje rozproszenie, czy raczej koncentracja pieniędzy na badania naukowe.
 W Polsce mamy dwie główne instytucje publiczne, które zajmują się finansowaniem nauki. Pierwszym jest Narodowe Centrum Nauki (NCN), które daje pieniądze na badania podstawowe. Drugim Narodowe Centrum Badań i Rozwoju (NCBR), które daje granty na badania rozwojowe i innowacyjne z nastawieniem na ich komercjalizację.</description>
     </item>
     
     <item>
       <title>[Jak to zrobić w R] - ,,Czy bogatsi są coraz bogatsi?&#34;</title>
-      <link>http://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</link>
       <pubDate>Mon, 07 Mar 2016 15:56:15 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-czy-bogatsi-sa-coraz-bogatsi/</guid>
       <description>Dzisiaj krótko na temat tego, jak stworzyć rysunki z wpisu o wzroście wynagrodzeń.
 Dane pochodzą z Banku Danych Lokalnych GUS. Kontury województw pochodzą ze strony Centralnego Ośrodka Dokumentacji Geodezyjnej i Kartograficznej.
 Na początku wczytujemy kontury województw za pomocą pakietu rgdal. [github file = &amp;ldquo;/psobczyk/szychtawdanych/blob/master/wynagrodzenia/analiza_wynagrodzenia.R&amp;rdquo; start_line = &amp;ldquo;10&amp;rdquo; end_line = &amp;ldquo;12&amp;rdquo;]
@@ -81,10 +81,10 @@ _Data.frame _ nazwy, to brzydki hak, służący do łączenia danych. Jego przyd
     
     <item>
       <title>[Jak to zrobić w R] - ,,W pogoni za seksizmem w popkulturze&#34;</title>
-      <link>http://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
       <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
       <description>Kolejny wpis z serii jak to zrobić w R. Dzisiaj krótkie wprowadzenie do tego jak ściągać bezpośrednio do R tabele zawarte na stronach internetowych, jak kierować zapytania do API, jak przetwarzać otrzymane od serwera odpowiedzi i jak to wszystko połączyć w niebanalną analizę.
 Ściąganie tabel do R
 Wykorzystamy w tym celu pakiet XML. Ściągniemy listę najbardziej kasowych filmów wszechczasów.
@@ -94,10 +94,10 @@ Bardziej ogólne rozwiązania opiera się na wczytaniu całego pliku i ręcznego
     
     <item>
       <title>Dentysta w każdej szkole - jak to zrobić w R</title>
-      <link>http://psobczyk.github.io/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</link>
+      <link>https://www.szychtawdanych.pl/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</link>
       <pubDate>Mon, 18 Jan 2016 16:30:11 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</guid>
+      <guid>https://www.szychtawdanych.pl/post/dentysta-w-kazdej-szkole-jak-to-zrobic-w-r/</guid>
       <description>Dzisiaj w Szychcie zamiast górniczego urobku prezentacja maszyn i technik. Jak wykonać zeszłotygodniową analizę w R? Jakich pakietów należy użyć?
 Kody i dane znajdują się na moim koncie na githubie. Dane nie należą do mnie.
 Na rozgrzewkę małe wyjaśnienie jak małym kosztem uszeregować województwa do boxplotu. Trik polega na ustawieniu kolejności poziomów (level) dla zmiennej typu factor.
@@ -107,69 +107,69 @@ Następnie już łatwo wygenerować jest wykres w ggplot [github file = &amp;ldq
     
     <item>
       <title>Systemy tramwajowe w Polsce</title>
-      <link>http://psobczyk.github.io/post/systemy-tramwajowe-w-polsce/</link>
+      <link>https://www.szychtawdanych.pl/post/systemy-tramwajowe-w-polsce/</link>
       <pubDate>Wed, 30 Dec 2015 16:59:32 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/systemy-tramwajowe-w-polsce/</guid>
+      <guid>https://www.szychtawdanych.pl/post/systemy-tramwajowe-w-polsce/</guid>
       <description>Dzisiejszy wpis szczególnie przypadnie do gustu wszystkim miłośnikom tramwajów i niestandardowych wykresów w R. Nietrudno zatem odgadnąć, że autor należy do obu tych grup. Odpowiemy sobie na pytania gdzie w Polsce są a gdzie zostały zlikwidowane sieci tramwajowe? Jakie miasto może się pochwalić najdłuższą długość torowisk? Jak mocno obecność tramwajów determinowana jest przebiegiem granicy zaboru pruskiego oraz jak zrobić w R efektowne wykresy gdzie zamiast punktu mamy obrazek.
 Na początek punkt wyjścia czyli zwykły wykres.</description>
     </item>
     
     <item>
       <title>Wyniki wrocławskiego półmaratonu 2015</title>
-      <link>http://psobczyk.github.io/post/wyniki-polmaratonu/</link>
+      <link>https://www.szychtawdanych.pl/post/wyniki-polmaratonu/</link>
       <pubDate>Sun, 21 Jun 2015 19:57:31 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wyniki-polmaratonu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wyniki-polmaratonu/</guid>
       <description>W ostatnią sobotę odbył się we Wrocławiu nocny półmaraton. Dostarczył on, oprócz dobrej zabawy, niemałego zbioru danych zawierającego międzyczasy blisko 7000 uczestników.
 Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi.</description>
     </item>
     
     <item>
       <title>Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie</title>
-      <link>http://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
+      <link>https://www.szychtawdanych.pl/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
       <pubDate>Sun, 22 Feb 2015 19:13:41 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
       <description>Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&amp;hellip; nie ma na nie miejsca.</description>
     </item>
     
     <item>
       <title>Jak wygląda komunikacja miejska we Wrocławiu?</title>
-      <link>http://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</link>
       <pubDate>Thu, 19 Feb 2015 20:06:42 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</guid>
       <description>Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.
 Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.</description>
     </item>
     
     <item>
       <title>Programowanie w R z wykorzystaniem emacsa cz.2</title>
-      <link>http://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</link>
+      <link>https://www.szychtawdanych.pl/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</link>
       <pubDate>Tue, 25 Nov 2014 21:31:40 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</guid>
+      <guid>https://www.szychtawdanych.pl/post/programowanie-w-r-z-wykorzystaniem-emacsa-cz-2/</guid>
       <description>Teraz kilka szczegółów technicznych. W Ubuntu plik konfiguracyjny nazywa się .emacs i znajduje się w katalogu domowym. Biblioteki dobrze jest umieszczać w jakimś ustalonym miejscu np. folderze .emacs.d/. Niestety nie potrafię dać żadnych wskazówek użytkownikom Windowsa oprócz tego linku.
 Poniżej zamieszczam swój plik .emacs. W kolejnych postach postaram się wyjaśnić te części, które lepiej zrozumiałem podczas swoich przygód z emacsem. Podstawą dla mojego pliku są informacje zmieszczone na blogu Jessici Hamrick.</description>
     </item>
     
     <item>
       <title>Programowanie w R z wykorzystaniem emacsa</title>
-      <link>http://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa/</link>
+      <link>https://www.szychtawdanych.pl/post/programowanie-w-r-z-wykorzystaniem-emacsa/</link>
       <pubDate>Mon, 06 Oct 2014 19:13:16 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/programowanie-w-r-z-wykorzystaniem-emacsa/</guid>
+      <guid>https://www.szychtawdanych.pl/post/programowanie-w-r-z-wykorzystaniem-emacsa/</guid>
       <description>Widząc ogromną liczbę artykułów na blogach dotyczących RStudio, mam wrażenie, że dominuje ono w dziedzinie IDE dla R. Z tego co wiem, to konkurencji w środowiskach ,,do wyklikania&amp;quot; nie ma bardzo dużej. Sam zresztą uwielbiam z niego korzystać. Szybko i wygodnie można wykonać większość prac, z jakimi można się spotkać w analizie danych. Nie oznacza to, że nie da się pracować inaczej. Jedną z takich możliwości daje emacs.
 Emacs jest uniwersalny.</description>
     </item>
     
     <item>
       <title>Wykresy typu bubble-chart</title>
-      <link>http://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</link>
+      <link>https://www.szychtawdanych.pl/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</link>
       <pubDate>Wed, 01 Oct 2014 19:50:13 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wykresy-typu-bubble-chartten-post-jest-oparty-w-znacznej-mierze-na-blogu-flowingdata-nie-jestem-w-stanie-uwierzyc-zeby-statystyk-ktory-mial-okazje-widziec-prezentacje-hansa-roslinga-nie-byl-pod-je/</guid>
       <description>Ten post jest oparty w znacznej mierze na blogu flowingdata.
 Nie jestem w stanie uwierzyć żeby statystyk, który miał okazję widzieć prezentacje Hansa Roslinga, nie był pod jej wielkim wrażeniem. Przedstawienie czterowymiarowych danych to wszak niełatwa sprawa. W ogóle komunikowanie wyników jest najtrudniejszą częścią analizy danych.
 Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladującego wykresy pokazywane przez Hansa Roslinga. Z eRa wziąłem standardowe dane z pakietu car dotyczące PKB per capita i śmiertelności niemowląt w roku 1998.</description>
@@ -177,10 +177,10 @@ Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladując
     
     <item>
       <title>Pierwszy post czyli o czym pisać nie będę</title>
-      <link>http://psobczyk.github.io/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
+      <link>https://www.szychtawdanych.pl/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
       <pubDate>Tue, 26 Aug 2014 16:43:33 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
+      <guid>https://www.szychtawdanych.pl/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
       <description>I wbrew tytułowi napiszę o tym co będzie. Będą dane i będzie matematyka. W różnych proporcjach. Będą odpadki z mojego doktoratu i rzeczy, które mnie zafascynują. Będą dobre książki i artykuły. Będzie sporo ciekawych analiz rzeczy codziennych szczególnie dotyczących gospodarki. Może się też zdarzyć poważniejsza matematyka.
 Wpisy będą się pojawiać regularnie, choć stopień ich bycia interesującymi będzie bardzo zróżnicowany, za co każdego potencjalnego, innego niż ja sam, czytelnika serdecznie przepraszam.</description>
     </item>

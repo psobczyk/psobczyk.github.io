@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Szychta w danych</title>
-    <link>http://psobczyk.github.io/categories/</link>
+    <link>https://www.szychtawdanych.pl/categories/</link>
     <description>Recent content in Categories on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.szychtawdanych.pl/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Polska</title>
-      <link>http://psobczyk.github.io/categories/polska/</link>
+      <link>https://www.szychtawdanych.pl/categories/polska/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/polska/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/polska/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programowanie</title>
-      <link>http://psobczyk.github.io/categories/programowanie/</link>
+      <link>https://www.szychtawdanych.pl/categories/programowanie/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/programowanie/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/programowanie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>http://psobczyk.github.io/categories/r/</link>
+      <link>https://www.szychtawdanych.pl/categories/r/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/r/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ekonomia</title>
-      <link>http://psobczyk.github.io/categories/ekonomia/</link>
+      <link>https://www.szychtawdanych.pl/categories/ekonomia/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/ekonomia/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/ekonomia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wybory</title>
-      <link>http://psobczyk.github.io/categories/wybory/</link>
+      <link>https://www.szychtawdanych.pl/categories/wybory/</link>
       <pubDate>Thu, 02 Jul 2020 06:46:35 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/wybory/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/wybory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Świat</title>
-      <link>http://psobczyk.github.io/categories/%C5%9Bwiat/</link>
+      <link>https://www.szychtawdanych.pl/categories/%C5%9Bwiat/</link>
       <pubDate>Sat, 21 Mar 2020 18:25:14 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/%C5%9Bwiat/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/%C5%9Bwiat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Książka</title>
-      <link>http://psobczyk.github.io/categories/ksi%C4%85%C5%BCka/</link>
+      <link>https://www.szychtawdanych.pl/categories/ksi%C4%85%C5%BCka/</link>
       <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/ksi%C4%85%C5%BCka/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/ksi%C4%85%C5%BCka/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statystyka</title>
-      <link>http://psobczyk.github.io/categories/statystyka/</link>
+      <link>https://www.szychtawdanych.pl/categories/statystyka/</link>
       <pubDate>Wed, 23 Jan 2019 18:35:50 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/statystyka/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/statystyka/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wrocław</title>
-      <link>http://psobczyk.github.io/categories/wroc%C5%82aw/</link>
+      <link>https://www.szychtawdanych.pl/categories/wroc%C5%82aw/</link>
       <pubDate>Fri, 13 Oct 2017 15:22:30 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/wroc%C5%82aw/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/wroc%C5%82aw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Matematyka</title>
-      <link>http://psobczyk.github.io/categories/matematyka/</link>
+      <link>https://www.szychtawdanych.pl/categories/matematyka/</link>
       <pubDate>Wed, 03 Sep 2014 16:56:09 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/categories/matematyka/</guid>
+      <guid>https://www.szychtawdanych.pl/categories/matematyka/</guid>
       <description></description>
     </item>
     

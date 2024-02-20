@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>matematyka on Szychta w danych</title>
-    <link>http://psobczyk.github.io/tags/matematyka/</link>
+    <link>https://www.szychtawdanych.pl/tags/matematyka/</link>
     <description>Recent content in matematyka on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Wed, 03 Sep 2014 16:56:09 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/matematyka/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Sep 2014 16:56:09 +0000</lastBuildDate><atom:link href="https://www.szychtawdanych.pl/tags/matematyka/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pan Samochodzik i... matematyka kwadratów magicznych</title>
-      <link>http://psobczyk.github.io/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</link>
+      <link>https://www.szychtawdanych.pl/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</link>
       <pubDate>Wed, 03 Sep 2014 16:56:09 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</guid>
+      <guid>https://www.szychtawdanych.pl/post/pan-samochodzik-i-matematyka-kwadratow-magicznych/</guid>
       <description>Podczas wakacji miałem okazję odświeżyć sobie przygody Pana Samochodzika. W tomie ,,Tajemnica Tajemnic&amp;quot; Pan Samochodzik trafia na połówkę blaszki, na której jednej stronie znajduje się połówka kwadratu magicznego.
 14 4 7 9 11 5 2 16 Przez kwadrat magiczny rozumiem, w przypadku kwadratu 4x4, kwadrat podzielony na 16 małych kwadratów, w które wpisane są liczby od 1 do 16, w taki sposób aby suma każdego wiersza i każdej kolumny była taka sama.</description>
     </item>
     
     <item>
       <title>Pierwszy post czyli o czym pisać nie będę</title>
-      <link>http://psobczyk.github.io/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
+      <link>https://www.szychtawdanych.pl/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
       <pubDate>Tue, 26 Aug 2014 16:43:33 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
+      <guid>https://www.szychtawdanych.pl/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
       <description>I wbrew tytułowi napiszę o tym co będzie. Będą dane i będzie matematyka. W różnych proporcjach. Będą odpadki z mojego doktoratu i rzeczy, które mnie zafascynują. Będą dobre książki i artykuły. Będzie sporo ciekawych analiz rzeczy codziennych szczególnie dotyczących gospodarki. Może się też zdarzyć poważniejsza matematyka.
 Wpisy będą się pojawiać regularnie, choć stopień ich bycia interesującymi będzie bardzo zróżnicowany, za co każdego potencjalnego, innego niż ja sam, czytelnika serdecznie przepraszam.</description>
     </item>

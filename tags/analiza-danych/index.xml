@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>analiza danych on Szychta w danych</title>
-    <link>http://psobczyk.github.io/tags/analiza-danych/</link>
+    <link>https://www.szychtawdanych.pl/tags/analiza-danych/</link>
     <description>Recent content in analiza danych on Szychta w danych</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl</language>
-    <lastBuildDate>Tue, 16 Feb 2016 08:21:04 +0000</lastBuildDate><atom:link href="http://psobczyk.github.io/tags/analiza-danych/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2016 08:21:04 +0000</lastBuildDate><atom:link href="https://www.szychtawdanych.pl/tags/analiza-danych/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Jak to zrobić w R] - ,,W pogoni za seksizmem w popkulturze&#34;</title>
-      <link>http://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</link>
       <pubDate>Tue, 16 Feb 2016 08:21:04 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-to-zrobic-w-r-w-pogoni-za-seksizmem-w-popkulturze/</guid>
       <description>Kolejny wpis z serii jak to zrobić w R. Dzisiaj krótkie wprowadzenie do tego jak ściągać bezpośrednio do R tabele zawarte na stronach internetowych, jak kierować zapytania do API, jak przetwarzać otrzymane od serwera odpowiedzi i jak to wszystko połączyć w niebanalną analizę.
 Ściąganie tabel do R
 Wykorzystamy w tym celu pakiet XML. Ściągniemy listę najbardziej kasowych filmów wszechczasów.
@@ -22,124 +22,124 @@ Bardziej ogólne rozwiązania opiera się na wczytaniu całego pliku i ręcznego
     
     <item>
       <title>,,Kino to najważniejsza ze sztuk&#34; - w pogoni za seksizmem w popkulturze</title>
-      <link>http://psobczyk.github.io/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</link>
+      <link>https://www.szychtawdanych.pl/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</link>
       <pubDate>Mon, 08 Feb 2016 17:31:54 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</guid>
+      <guid>https://www.szychtawdanych.pl/post/kino-to-najwazniejsza-ze-sztuk-w-pogoni-za-seksizmem-w-popkulturze/</guid>
       <description>Czy w przemyśle filmowym kryje się seksizm i przewaga mężczyzn nad kobietami? Nawet pobieżne przejrzenie internetu przyniesie odpowiedź że zapewne tak właśnie jest. Na przykład pierwszy wynik w google daje infografikę na ten temat. W dzisiejszym wpisie przyjrzymy się najbardziej kasowym filmom w historii. Sprawdzimy którzy aktorzy i reżyserzy stoją za ich sukcesem, a także jaki jest wśród nich udział kobiet.Na stronie boxofficemojo można znaleźć dane dotyczące 630 najbardziej kasowych filmów wszechczasów.</description>
     </item>
     
     <item>
       <title>14 piętro</title>
-      <link>http://psobczyk.github.io/post/14-pietro/</link>
+      <link>https://www.szychtawdanych.pl/post/14-pietro/</link>
       <pubDate>Mon, 25 Jan 2016 16:21:35 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/14-pietro/</guid>
+      <guid>https://www.szychtawdanych.pl/post/14-pietro/</guid>
       <description>Ten wpis ma wiele źródeł. Pierwszym jest książka 13 pięter Filipa Springera, która celnie opisuje problemy mieszkaniowe w 3 RP (a przy okazji także w 2 RP). Innym jest to, że ponieważ czeka mnie wkrótce wyprowadzka z najlepszego miasta w Polsce to śledzę rynek mieszkań na wynajem w kilku miastach. Ostatnie źródło to chęć zainicjowania większej serii wpisów dotyczącej tematu mieszkań i demografii w oparciu o dane. Stąd też nazwa, przyznaję, że nieco buńczuczna, ,,14 piętro&amp;quot; czyli spojrzenie na rynek mieszkań od strony danych.</description>
     </item>
     
     <item>
       <title>Dentysta w każdej szkole</title>
-      <link>http://psobczyk.github.io/post/dentysta-w-kazdej-szkole/</link>
+      <link>https://www.szychtawdanych.pl/post/dentysta-w-kazdej-szkole/</link>
       <pubDate>Mon, 11 Jan 2016 16:30:21 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/dentysta-w-kazdej-szkole/</guid>
+      <guid>https://www.szychtawdanych.pl/post/dentysta-w-kazdej-szkole/</guid>
       <description>Potrzeba przywrócenia gabinetów dentystycznych w szkołach została podniesiona w expose przez Ewę Kopacz. Ten sam pomysł pojawił się potem w w kampanii prezydenckiej Andrzeja Dudy. Następnie, z właściwą sobie gracją, podchwycił ten temat Janusz Palikot z hasłem ,,dentysta zamiast księdza&amp;quot;. Na koniec z aprobatą wypowiedziała się o tym pomyśle Beata Szydło. Czy Polskę stać na dentystę w każdej szkole? W dzisiejszym wpisie pokusimy się o ocenę sensowność tego pomysłu w oparciu o szacunkowe zapotrzebowanie w szkołach podstawowych.</description>
     </item>
     
     <item>
       <title>O (nie)równych szansach w polskim systemie edukacji</title>
-      <link>http://psobczyk.github.io/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
+      <link>https://www.szychtawdanych.pl/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</link>
       <pubDate>Mon, 14 Dec 2015 15:30:33 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
+      <guid>https://www.szychtawdanych.pl/post/o-nierownych-szansach-w-polskim-systemie-edukacji/</guid>
       <description>W Polsce każdy ma prawo do bezpłatnej edukacji, ale jej jakość jest bardzo nierówna. I nie chodzi jedynie o podział miasto - wieś, ale też o regiony geograficzne. W dzisiejszym wpisie zobaczymy jak kształtują się wyniki sprawdzianu po szkole podstawowej, egzaminu gimnazjalnego i matury w podziale na powiaty. Sprawdzimy też czy z czasem różnice pomiędzy nimi zacierają się czy też stają się bardziej widoczne.
 W dzisiejszym wpisie korzystam z pakietu ZPD stworzony przez Instytut Badań Edukacyjnych.</description>
     </item>
     
     <item>
       <title>Rozkład państwa czy rozkład prawdopodobieństwa? O ogłaszaniu i wykonywaniu wyroków Trybunału Konstytucyjnego</title>
-      <link>http://psobczyk.github.io/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</link>
+      <link>https://www.szychtawdanych.pl/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</link>
       <pubDate>Wed, 09 Dec 2015 16:00:42 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</guid>
+      <guid>https://www.szychtawdanych.pl/post/rozklad-panstwa-czy-rozklad-prawdopodobienstwa-o-oglaszaniu-i-wykonywaniu-wyrokow-trybunalu-konstytucyjnego/</guid>
       <description>Dzisiaj wpis, za który oberwie mi się z prawej i lewej strony. I w dodatku nie za to, że i jednych i drugich pojadę, ale za to, że jednym i drugim oddam troszkę honoru! Oczekiwania podkręcone, postaram się je spełnić. Wpis dotyczy orzeczeń Trybunału Konstytucyjnego. Konkretnie dwóch zagadnień. Pierwsze to czas od wydania wyroku do jego publikacji w Dzienniku Ustaw. Drugi dotyczy czasu wykonania wyroków, czyli ile zajęło poprawienie prawa od momentu stwierdzenie jego niezgodności z konstytucją.</description>
     </item>
     
     <item>
       <title>Zabory a sprawa Polska. 100 lat później</title>
-      <link>http://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</link>
+      <link>https://www.szychtawdanych.pl/post/zabory-a-sprawa-polska-100-lat-pozniej/</link>
       <pubDate>Sun, 06 Dec 2015 00:16:34 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/zabory-a-sprawa-polska-100-lat-pozniej/</guid>
+      <guid>https://www.szychtawdanych.pl/post/zabory-a-sprawa-polska-100-lat-pozniej/</guid>
       <description>Szychta w danych wraca po przerwie na intensywną pracę naukową :) Na rozgrzewkę - analiza wyników ostatnich wyborów. Czy PO i Nowoczesna różnią się w poszczególnych regionach? Czy wyniki wyborów nadal da się wytłumaczyć granicami zaborów? Czym się różnią elektoraty partii lewicowych?
 Zaczniemy od analizy rywalizacji, która od 10 lat dominuje w polskiej polityce. PiS vs. PO. Oprócz standardowych i dobrze znanych podziałów, bardzo fajnie widać na wykresie efekt mniejszości narodowych.</description>
     </item>
     
     <item>
       <title>Dokąd uciekają syryjscy uchodżcy?</title>
-      <link>http://psobczyk.github.io/post/gdzie-uciekaja-syryjscy-uchodzcy/</link>
+      <link>https://www.szychtawdanych.pl/post/gdzie-uciekaja-syryjscy-uchodzcy/</link>
       <pubDate>Mon, 21 Sep 2015 16:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/gdzie-uciekaja-syryjscy-uchodzcy/</guid>
+      <guid>https://www.szychtawdanych.pl/post/gdzie-uciekaja-syryjscy-uchodzcy/</guid>
       <description>Są granice tego ile można słuchać i czytać kasandrycznych wizji końca Europy zalanej hordami muzułmańskich barbarzyńców, inwokacji o nowego Jana Sobieskiego czy ujawnionych spisków krajów arabskich. W dzisiejszym wpisie zbadamy gdzie jest największa liczba syryjskich uchodźców oraz, które kraje mogą się rzeczywiście czuć ich liczbą zagrożone.
 Dane, z których korzystam, pochodzą ze strony agendy ONZ zajmującej się uchodźcami oraz z wikipedii. Są one mniej więcej aktualne - dotyczą sierpnia 2015. Liczba uchodźców, podawana przez UNHCR, to liczba osób, które wystąpiły w danym kraju o azyl.</description>
     </item>
     
     <item>
       <title>Wyniki referendum 6 września 2015</title>
-      <link>http://psobczyk.github.io/post/wyniki-referendum-6-wrzesnia-2015/</link>
+      <link>https://www.szychtawdanych.pl/post/wyniki-referendum-6-wrzesnia-2015/</link>
       <pubDate>Mon, 14 Sep 2015 16:15:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wyniki-referendum-6-wrzesnia-2015/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wyniki-referendum-6-wrzesnia-2015/</guid>
       <description>Z powodu niskiej frekwencji, ciężko sobie wyobrazić, żeby referendum z 6 września wpłynęło na jakiekolwiek zmiany w Polsce. Mimo wszystko moja ciekawość każe mi zerknąć na mapy obrazujące rozkład poparcia dla poszczególnych pytań w zależności od gminy. Zwłaszcza dlatego, że źle zadane pytania i niska frekwencja dają nadzieję na powstanie anomalii, a dla statystyka nic nie jest bardziej ciekawe niż rzeczy, które odchodzą od normy. Na początku słowa uznania dla PKW, która, podobnie jak w poprzednich wyborach, umieściła wyniki do pobrania w internecie.</description>
     </item>
     
     <item>
       <title>Wilkommen, bienvenido czy добре дошъл? O uchodźcach w Europie</title>
-      <link>http://psobczyk.github.io/post/uchodzcy/</link>
+      <link>https://www.szychtawdanych.pl/post/uchodzcy/</link>
       <pubDate>Mon, 07 Sep 2015 16:00:00 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/uchodzcy/</guid>
+      <guid>https://www.szychtawdanych.pl/post/uchodzcy/</guid>
       <description>W ostatnim czasie tematem numer jeden w mediach są uchodźcy i imigranci z Afryki i Bliskiego Wschodu. Facebook zapełnił się różnymi grupami typu ,,Polacy przeciwko&amp;hellip;&amp;quot;, &amp;ldquo;Polacy przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;, &amp;ldquo;Polacy przeciwko Polakom przeciwko Polakom przeciwko&amp;hellip;&amp;rdquo;. Zobaczmy jak wygląda przyjmowanie uchodźców w Europie. Który kraj udziela najwięcej azylów uchodźcom? Jaki kraj prawie nigdy nie odmawia azylu? No i oczywiście jak na tle innych krajów wypada Polska.
 W roku 2014 cała Unia Europejska udzieliła azylu 160,000 osób.</description>
     </item>
     
     <item>
       <title>Suburbanizacja po wrocławsku I - Przedszkola</title>
-      <link>http://psobczyk.github.io/post/suburbanizacja-po-wroclawsku-i-przedszkola/</link>
+      <link>https://www.szychtawdanych.pl/post/suburbanizacja-po-wroclawsku-i-przedszkola/</link>
       <pubDate>Thu, 27 Aug 2015 16:11:22 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/suburbanizacja-po-wroclawsku-i-przedszkola/</guid>
+      <guid>https://www.szychtawdanych.pl/post/suburbanizacja-po-wroclawsku-i-przedszkola/</guid>
       <description>We Wrocławiu ma miejsce proces suburbanizacji, opuszczania przez mieszkańców centrum miasta, lub w ogóle jego granic, na rzecz nowych osiedli budowanych na obrzeżach. Zjawisko ponoć niekorzystne, a na pewno nieuniknione. Czy nadążamy za tym procesem? Czy zapewniamy nowo zamieszkałym terenom transport, edukację, możliwość rozrywki, tereny zielone? W kilku najbliższych wpisach będę się zajmował tym zagadnieniem, oczywiście w oparciu o dane. Zaczniemy od potrzeb najmłodszych Wrocławian czyli dostępności przedszkoli. Informację o przedszkolach pobrałem ze strony miasta Wrocławia, mapę Wrocławia z serwisu geostatystycznego GUS, a dane demograficzne z serwisu Systemu Informacji Przestrzennej.</description>
     </item>
     
     <item>
       <title>Wydatki na obronność</title>
-      <link>http://psobczyk.github.io/post/wydatki-na-obronnosc/</link>
+      <link>https://www.szychtawdanych.pl/post/wydatki-na-obronnosc/</link>
       <pubDate>Tue, 25 Aug 2015 20:45:47 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wydatki-na-obronnosc/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wydatki-na-obronnosc/</guid>
       <description>Winston Churchill
 W czasach gdy Churchill spisywał swoje aryciekawe wspomnienia, wojskami zarządzały Ministerstwa Wojny. Kosmetyczną zmianę w nazewnictwie zawdzięczamy Zimnej Wojnie, podczas której wydatki wojenne przeobraziły się w wydatki obronne. To one są tematem dzisiejszego, pierwszego po wakacjach, wpisu. Kiedy konflikt na Ukrainie był w fazie eskalacji, sporo czasu poświęcono w Polsce dyskusjom na temat siły armii, jakości jej wyposażenia i możliwości obronnych. Nie będąc ekspertem nie mogę się wypowiadać na te tematy, ale proponuję porównanie jak wyglądają wydatki i liczebność sił zbrojnych różnych krajów.</description>
     </item>
     
     <item>
       <title>Wyniki wrocławskiego półmaratonu 2015</title>
-      <link>http://psobczyk.github.io/post/wyniki-polmaratonu/</link>
+      <link>https://www.szychtawdanych.pl/post/wyniki-polmaratonu/</link>
       <pubDate>Sun, 21 Jun 2015 19:57:31 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wyniki-polmaratonu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wyniki-polmaratonu/</guid>
       <description>W ostatnią sobotę odbył się we Wrocławiu nocny półmaraton. Dostarczył on, oprócz dobrej zabawy, niemałego zbioru danych zawierającego międzyczasy blisko 7000 uczestników.
 Moja propozycja na ciekawą wizualizację tych danych następująca. Dla każdych kolejnych punktów pomiarowych, i dla każdego biegacza osobno, liczę średnie tempo. To znaczy, że dla każdego startującego w półmaratonie znam jego tempo na pierwszych 5 km, pomiędzy 5-tym a 10-tym kilometrem i tak dalej. Na wykresie poniżej jedna linia odpowiada jednemu biegaczowi.</description>
     </item>
     
     <item>
       <title>Wybory prezydenckie 2015 - podsumowanie wyników</title>
-      <link>http://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</link>
+      <link>https://www.szychtawdanych.pl/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</link>
       <pubDate>Wed, 27 May 2015 13:32:47 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
+      <guid>https://www.szychtawdanych.pl/post/wybory-prezydenckie-2015-podsumowanie-wynikow/</guid>
       <description>Naprawdę chciałbym napisać o czymś innym, ale polityka i wybory zbyt mocno panoszą się teraz w mojej głowie, żeby móc przygotować cokolwiek innego.
 Podzielę, się kilkoma obrazkami, stworzonymi w R przy użyciu pakietu ggplot2. Są to złośliwe mapy i nie mniej złośliwe wykresy, tłumaczące poparcie jakie uzyskali obaj kandydaci w poszczególnych gminach.
 Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosów. Wydaje mi się, że często i niesprawiedliwie, podaje się jako przyczynę podział na lepiej rozwiniętą Polskę zachodnią i zacofaną ścianę wschodnią.</description>
@@ -147,59 +147,59 @@ Narzuca sie naturalne pytanie jakie czynniki wpływają na taki rozkład głosó
     
     <item>
       <title>Infografika dotycząca wyborów samorządowych i co z niej wynika</title>
-      <link>http://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</link>
+      <link>https://www.szychtawdanych.pl/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</link>
       <pubDate>Tue, 31 Mar 2015 17:29:45 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</guid>
+      <guid>https://www.szychtawdanych.pl/post/infografika-dotyczaca-wyborow-samorzadowych-i-co-z-niej-wynika/</guid>
       <description>Dzisiaj chciałbym się podzielić czymś ładnym i ciekawym. Chodzi o infografiką dotyczącą ostatnich wyborów samorządowych. Przedstawia ona w pigułce najważniejsze informacje dotyczące poparcia dla głównych partii, frekwencji i liczby głosów nieważnych. Zgodnie z życzeniami Londyńskiej Polonii, postaram się dać więcej opisów a mniej kodów w R.
 Infografika powstała w oparciu o znaleziony na twitterze wpis z bloga. Podobieństwo jest bardzo duże, bo rzecz nie jest wcale łatwa a ja jestem dopiero na początku nauki tworzenia takich obrazów w R.</description>
     </item>
     
     <item>
       <title>Czemu zawsze tak długo czekamy na tramwaj czyli o częstotliwości kursowania komunikacji miejskiej we Wrocławiu godzina po godzinie</title>
-      <link>http://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
+      <link>https://www.szychtawdanych.pl/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</link>
       <pubDate>Sun, 22 Feb 2015 19:13:41 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
+      <guid>https://www.szychtawdanych.pl/post/czemu-zawsze-tak-dlugo-czekamy-na-tramwaj-czyli-o-czestotliwosci-kursowania-komunikacji-miejskiej-we-wroclawiu-godzina-po-godzinie/</guid>
       <description>Dzisiaj pokażę jak, za pomocą R oraz pakietów ggmap, dplyr i animation, zwizualizować zmiany natężenia kursów tramwajów i autobusów w ciągu dnia. Co ciekawego, oprócz wrażeń estetycznych, można z tych rysunków wyciągnąć? Choćby to, że uwidaczniają one niezwykle duże natężenie kursowania tramwajów w ścisłym centrum, nawet poza godzinami szczytu. Ten fakt odpowiada, przynajmniej częściowo, na pytanie postawione w tytule dzisiejszego wpisu. Tramwaje częściej kursować nie mogą bo&amp;hellip; nie ma na nie miejsca.</description>
     </item>
     
     <item>
       <title>Jak wygląda komunikacja miejska we Wrocławiu?</title>
-      <link>http://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</link>
+      <link>https://www.szychtawdanych.pl/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</link>
       <pubDate>Thu, 19 Feb 2015 20:06:42 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</guid>
+      <guid>https://www.szychtawdanych.pl/post/jak-wyglada-komunikacja-miejska-we-wroclawiu/</guid>
       <description>Czy da się za pomocą jednego wykresu pokazać funkcjonowanie komunikacji zbiorowej we Wrocławiu? Jak najbardziej. W dzisiejszym wpisie pokażę, w kilku krótkich krokach, jak można zwizualizować działanie komunikacji miejskiej.
 Teraz czas na spełnienie tej, nieco buńczucznej, zapowiedzi. Nie napiszę o wielu istotnych kwestiach jak szybkość jazdy, klimatyzacja pojazdów czy metrobus. Pokażę za to, gdzie i jak często kursują tramwaje i autobusy. Wszystkie dane zostały pobrane ze strony Wrocławia. Część z BIP, cześć ze strony o rozkładach jazdy.</description>
     </item>
     
     <item>
       <title>O wynikach ostatnich wyborów</title>
-      <link>http://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/</link>
+      <link>https://www.szychtawdanych.pl/post/o-wynikach-ostatnich-wyborow/</link>
       <pubDate>Thu, 08 Jan 2015 21:46:21 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/o-wynikach-ostatnich-wyborow/</guid>
+      <guid>https://www.szychtawdanych.pl/post/o-wynikach-ostatnich-wyborow/</guid>
       <description>Rozkłady poparcia dla partii w komisjach obwodowych, czyli poparcie w pojedynczych lokalach wyborczych, nie mają rozkładu normalnego i mają różny kształt w zależność od partii. Przynajmniej w Polsce. Oznacza to nie tylko, że partie cieszą się różną skalą poparcia społecznego, ale też, że niektóre partie wzbudzają bardziej skrajne odczucia wyborców niż inne, tj. albo ich poparcie jest bardzo wysokie, albo bardzo niskie.
 W dzisiejszym poście postaram się odpowiedzieć na pytania: Czy jeśli pogrupujemy wyniki z komisji obwodowych względem województw to ,,odzyskamy&amp;quot; normalność?</description>
     </item>
     
     <item>
       <title>Normalność i skrajność czyli o wyborach w wydaniu mazowieckim</title>
-      <link>http://psobczyk.github.io/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</link>
+      <link>https://www.szychtawdanych.pl/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</link>
       <pubDate>Wed, 17 Dec 2014 21:53:11 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</guid>
+      <guid>https://www.szychtawdanych.pl/post/normalnosc-i-skrajnosc-czyli-o-wyborach-w-wydaniu-mazowieckim/</guid>
       <description>Powoli przycichają dyskusje polityczne na temat ostatnich wyborów samorządowych, co oznacza, że czas najwyższy aby się zabrać na wykonanie porządniejszej analizy danych.
 Niestety szczegółowe dane, to znaczy na poziomie komisji obwodowych, dotyczące ostatnich wyborów nie są póki co udostępnione na stronie PKW. Wobec tego ściągnąłem wyniki wyborów z roku 2010. Uzyskanie tychże wyników nie jest bynajmniej zadaniem trywialnym, ale odrobina wyrażeń regularnych załatwiła sprawę. Jak dotąd mam ściągnięte i analizuję jedynie dane dla Mazowsza.</description>
     </item>
     
     <item>
       <title>Pierwszy post czyli o czym pisać nie będę</title>
-      <link>http://psobczyk.github.io/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
+      <link>https://www.szychtawdanych.pl/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</link>
       <pubDate>Tue, 26 Aug 2014 16:43:33 +0000</pubDate>
       
-      <guid>http://psobczyk.github.io/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
+      <guid>https://www.szychtawdanych.pl/post/pierwszy-post-czyli-o-czym-pisac-nie-bede/</guid>
       <description>I wbrew tytułowi napiszę o tym co będzie. Będą dane i będzie matematyka. W różnych proporcjach. Będą odpadki z mojego doktoratu i rzeczy, które mnie zafascynują. Będą dobre książki i artykuły. Będzie sporo ciekawych analiz rzeczy codziennych szczególnie dotyczących gospodarki. Może się też zdarzyć poważniejsza matematyka.
 Wpisy będą się pojawiać regularnie, choć stopień ich bycia interesującymi będzie bardzo zróżnicowany, za co każdego potencjalnego, innego niż ja sam, czytelnika serdecznie przepraszam.</description>
     </item>
