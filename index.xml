@@ -8,6 +8,29 @@
     <language>pl</language>
     <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.szychtawdanych.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI</title>
+      <link>https://www.szychtawdanych.pl/ai/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.szychtawdanych.pl/ai/</guid>
+      <description>Ta część bloga zbiera teksty o statystyce, AI, uczeniu maszynowym a także o dużych modelach językowych.
+Interesują mnie zwłaszcza pytania takie jak:
+co właściwie znaczy, że LLM &amp;ldquo;rozumuje&amp;rdquo;? na jakie paradoksy mogą się natrafić używający statystyki częstościowej w analizie danych i testowaniu statystycznym? jakie workflow z użyciem agentów AI sprawdzają się w (mojej) praktyce pracy z danymi? jak skutecznie używać LL-ów do rozwiązywania konkretnych problemów użytkowników? Kiedy LL-y jedynie komplikują sytuację, a kiedy naprawdę pomagają?</description>
+    </item>
+    
+    <item>
+      <title>Pisanie</title>
+      <link>https://www.szychtawdanych.pl/pisanie/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.szychtawdanych.pl/pisanie/</guid>
+      <description>Tutaj trafiają teksty, które nie są analizą ani esejem technicznym: opowiadania, krótkie formy, wiersze, przekłady i rzeczy pomiędzy.
+To nie jest dodatek do bloga &amp;ldquo;o czymś innym&amp;rdquo;. Raczej druga połowa tego samego projektu: inny sposób patrzenia, inny rytm, inny materiał.
+Można się tu spodziewać między innymi:
+krótkich opowiadań wierszy przekładów piosenek i innych tłumaczeń literackich tekstów pogranicznych, które są trochę esejem, a trochę formą literacką </description>
+    </item>
+    
+    <item>
       <title>Głos głosowi nierówny lub o podziale mandatów do Sejmu</title>
       <link>https://www.szychtawdanych.pl/post/g-os-g-osowi-nier-wny-lub-o-podziale-mandat-w-do-sejmu/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
@@ -299,11 +322,9 @@ Rozprawa doktorska, Identifying low-dimensional structures through model selecti
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.szychtawdanych.pl/o-blogu/</guid>
-      <description>Szychta w danych to blog o świecie poznawanym przez dane. Autor stara się zrozumieć choćby mały wycinek otaczającej go rzeczywistości, a następnie podzielić się nim z każdym, kto szuka rzetelnej i nietrywialnej informacji.
-Chociaż świat jest dużo ciekawszy niż wypełnione liczbami tabelki, to jednak w jego zrozumieniu pomocne okazują się analiza i wizualizacja danych.
-Bloga można wspierać finansowo na platformie Patronie.
-ZBIOR RZECZY CIEKAWYCH
-rożne Sekreta w sobie zawieraiący tudzież Informacye o przypadkach dziwnych, niezrozumiałych, z trudem pod zmysły podpadających.</description>
+      <description>Szychta w danych zaczęła się jako blog o świecie poznawanym przez dane. To wciąż jego ważny rdzeń, ale dziś zakres jest szerszy.
+To miejsce dla trzech rodzajów pisania:
+analiz i esejów opartych na danych tekstów o statystyce i AI, zwłaszcza o ograniczeniach LLM-ów i sensownych sposobach ich używania prób literackich: krótkich form, wierszy, przekładów i innych tekstów literackich Łączy je wspólna ambicja: zrozumieć świat trochę lepiej i opisać to możliwie uczciwie.</description>
     </item>
     
     <item>
@@ -1355,9 +1376,9 @@ Zdecydowałem się na próbę stworzenia naprawdę ładnego wykresu naśladując
       <pubDate>Tue, 26 Aug 2014 18:07:06 +0000</pubDate>
       
       <guid>https://www.szychtawdanych.pl/about/</guid>
-      <description>Nazywam się Piotr Sobczyk. Jestem entuzjastą analizy i wizualizacji danych. Założycielem Wrocławskiej Grupy Użytkowników R - STWUR. Doktorem nauk matematycznych. Autorem książ(ecz)ki dotyczącej wizualizacji danych.
-Od kilku lat pracuję jako Data Scientist. Obecnie dla OLX Group w Poznaniu, gdzie zajmuję się tematami związanymi z monetyzacją, a zwłaszcza optymalizacją przychodów i dopasowania reklam (3rd party ads) wyświetlanych użytkownikom serwisu.
-W ramach pracy badawczej zajmuję się statystyką wielowymiarową, kryteriami wyboru modelu, optymalizacją wypukłą, a także bioinformatyką.</description>
+      <description>Nazywam się Piotr Sobczyk. Zawodowo zajmuję się data science, a z wykształcenia jestem doktorem nauk matematycznych. Przez lata pisałem głównie o analizie i wizualizacji danych, ale interesuje mnie szerzej to, jak próbujemy rozumieć świat: przez liczby, modele, język i opowieści.
+Dawniej byłem aktywny w społeczności użytkowników R we Wrocławiu, współzakładając grupę STWUR, która później przekształciła się w WAIT. Jestem też autorem książ(ecz)ki o wizualizacji danych.
+Od kilku lat pracuję jako Data Scientist.</description>
     </item>
     
     <item>
